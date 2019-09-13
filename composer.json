@@ -1,0 +1,11 @@
+{
+  "name": "vil11/bhv",
+  "description": "Music library unifier.",
+  "type": "project",
+  "require": {
+    "james-heinrich/getid3": "^1.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.5.14"
+  }
+}
