@@ -175,3 +175,22 @@ function changeEncoding($string, $inputEncoding, $outputEncoding)
 
     return $string;
 }
+
+/**
+ * Get path (file, url, ...) section by its position counting backwards.
+ *  - returns the last section by default.
+ *
+ * @param string $path
+ * @param int $sectionBackwardPosition
+ * @return string
+ */
+function getPathSectionFromBackwards($path, int $sectionBackwardPosition = 1)
+{
+    if ($path{strlen($path) - 1} === '/') {
+        $path = substr($path, 0, -1);
+    }
+    $path = explode('/', $path);
+    $section = $path[count($path) - $sectionBackwardPosition];
+
+    return $section;
+}

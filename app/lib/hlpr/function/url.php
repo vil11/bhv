@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Check if URL exists or not.
+ * [IN PROGRESS] Check if URL exists or not.
  *
  * @param string $url
  * @return bool
@@ -20,10 +20,10 @@ function urlExists($url)
 }
 
 /**
- * Get protocol by URL.
+ * [IN PROGRESS] Get protocol by URL.
  *
- * @param $url
- * @return string
+ * @param string $url
+ * @return string array
  */
 function getProtocol($url)
 {
@@ -31,7 +31,7 @@ function getProtocol($url)
 }
 
 /**
- * Get site name from URL.
+ * [IN PROGRESS] Get site name from URL.
  *
  * @param string $url
  * @return string
@@ -46,7 +46,7 @@ function getSiteName($url)
 }
 
 /**
- * Get domain name from URL.
+ * [IN PROGRESS] Get domain name from URL.
  *
  * @param string $url
  * @return string
@@ -59,23 +59,4 @@ function getDomain($url)
     $domain = $protocol . $domain;
 
     return $domain;
-}
-
-/**
- * Get URL section by its position counting from the end.
- * Returns the last section by default.
- *
- * @param string $url
- * @param int $sectionBackwardPosition
- * @return string
- */
-function getUrlSectionBackwards($url, $sectionBackwardPosition = 1)
-{
-    if ($url{strlen($url) - 1} === '/') {
-        $url = substr($url, 0, -1);
-    }
-    $url = explode('/', $url);
-    $section = $url[count($url) - $sectionBackwardPosition];
-
-    return $section;
 }

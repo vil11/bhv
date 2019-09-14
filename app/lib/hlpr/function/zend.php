@@ -1,21 +1,36 @@
 <?php
 
 /**
- * Get page dom by its URL.
- * The dom is built by Zend lib.
+ * [IN PROGRESS] Get page Dom by its URL.
+ * The Dom is built by Zend lib.
  *
  * @param string $url
  * @return Zend_Dom_Query
  */
-function getPageDom($url)
+function getPageDom1(string $url): Zend_Dom_Query
+{
+    $pageHtml = file_get_contents($url);
+    $pageDom = new Zend_Dom_Query($pageHtml);
+
+    return $pageDom;
+}
+
+/**
+ * [IN PROGRESS] Get page Dom by its URL.
+ * The Dom is built by Zend lib.
+ *
+ * @param string $url
+ * @return Zend_Dom_Query
+ */
+function getPageDom2(string $url): Zend_Dom_Query
 {
     $handle = curl_init();
     $options = [
-        CURLOPT_URL             => $url,
-        CURLOPT_HEADER          => false,
-        CURLOPT_CONNECTTIMEOUT  => 4,
-        CURLOPT_RETURNTRANSFER  => true,
-        CURLOPT_USERAGENT       => 'PROJECT_TITLE',
+        CURLOPT_URL => $url,
+        CURLOPT_HEADER => false,
+        CURLOPT_CONNECTTIMEOUT => 4,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_USERAGENT => 'PROJECT_TITLE',
     ];
     curl_setopt_array($handle, $options);
 
@@ -26,15 +41,14 @@ function getPageDom($url)
 }
 
 /**
- * [IN PROGRESS]
- * Validate if page exists & if its dom contains a list element
+ * [IN PROGRESS] Validate if page exists & if its Dom contains a list element.
  *
  * @param string $url
  * @param string $listDivXpath
  * @param array $skipDivXpaths
  * @return bool
  */
-function isDivReady($url, $listDivXpath, array $skipDivXpaths)
+function isDivReady(string $url, string $listDivXpath, array $skipDivXpaths): bool
 {
     if (!urlExists($url)) {
         return false;
@@ -62,14 +76,14 @@ function isDivReady($url, $listDivXpath, array $skipDivXpaths)
 }
 
 /**
- * Get text content by dom element xpath.
+ * [IN PROGRESS]  Get text content by Dom element xpath.
  *
  * @param Zend_Dom_Query $dom
  * @param string $divXpath
- * @return string
  * @throws Exception
+ * @return string|null
  */
-function getTextByXpath($dom, $divXpath)
+function getTextByXpath(Zend_Dom_Query $dom, string $divXpath): ?string
 {
     $div = $dom->queryXpath($divXpath);
     if (!$div->valid()) {
@@ -80,15 +94,15 @@ function getTextByXpath($dom, $divXpath)
 }
 
 /**
- * Get attribute by its name & correspondent dom element xpath.
+ * [IN PROGRESS] Get attribute by its name & correspondent Dom element xpath.
  *
  * @param Zend_Dom_Query $dom
  * @param string $divXpath
  * @param string $attribute
- * @return string|null
  * @throws Exception
+ * @return string|null
  */
-function getAttributeByXpath($dom, $divXpath, $attribute)
+function getAttributeByXpath(Zend_Dom_Query $dom, string $divXpath, string $attribute): ?string
 {
     $div = $dom->queryXpath($divXpath);
     if (!$div->valid()) {
