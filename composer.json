@@ -1,5 +1,7 @@
 {
   "name": "vil11/bhv",
+  "version": "1.2.0",
+  "minimum-stability": "dev",
   "description": "Music library unifier.",
   "type": "project",
   "require": {

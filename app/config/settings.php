@@ -9,7 +9,7 @@ class settings
 
     private function __construct()
     {
-        $this->path = PROJECT_PATH . '/../settings.ini';
+        $this->path = APP_PATH . '/config/settings.ini';
     }
 
     private function init()
