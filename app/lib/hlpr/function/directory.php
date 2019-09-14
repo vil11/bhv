@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Get list of all files & directories inside specified directory.
+ * [IN PROGRESS] Get list of all files & directories inside specified directory.
  * Function returns empty array if specified directory is empty.
  *
  * @param string $dirPath
@@ -16,7 +16,7 @@ function getDirContentList($dirPath)
 }
 
 /**
- * Get list of all files inside specified directory.
+ * [IN PROGRESS] Get list of all files inside specified directory.
  * Function returns empty array if specified directory contains no files.
  *
  * @param string $dirPath
@@ -42,7 +42,7 @@ function getDirFilesList($dirPath)
 }
 
 /**
- * Get list of all files' paths inside specified directory.
+ * [IN PROGRESS] Get list of all files' paths inside specified directory.
  * Function returns empty array if specified directory contains no files.
  *
  * @param string $dirPath
@@ -59,7 +59,7 @@ function getDirFilesPathsList($dirPath)
 }
 
 /**
- * Get list of all directories inside specified directory.
+ * [IN PROGRESS] Get list of all directories inside specified directory.
  * Function returns empty array if specified directory contains no directories.
  *
  * @param string $dirPath
@@ -85,7 +85,7 @@ function getDirDirsList($dirPath)
 }
 
 /**
- * Get list of all files (of specified extension only) inside specified directory.
+ * [IN PROGRESS] Get list of all files (of specified extension only) inside specified directory.
  * Function returns empty array if specified directory contains no files of specified extension.
  *
  * @param string $dirPath
@@ -106,7 +106,7 @@ function getDirFilesListByExt($dirPath, $ext)
 }
 
 /**
- * Get list of all files' paths (of specified extension only) inside specified directory.
+ * [IN PROGRESS] Get list of all files' paths (of specified extension only) inside specified directory.
  * Function returns empty array if specified directory contains no files of specified extension.
  *
  * @param string $dirPath
@@ -126,7 +126,7 @@ function getDirFilesPathsListByExt($dirPath, $ext)
 }
 
 /**
- * Create directory on Hard Disk Drive by specified path.
+ * [IN PROGRESS] Create directory on Hard Disk Drive by specified path.
  *
  * @param string $dirPath
  * @throws Exception if directory is not created
@@ -141,7 +141,7 @@ function createDir($dirPath)
 }
 
 /**
- * Remove empty directory on Hard Disk Drive by specified path.
+ * [IN PROGRESS] Remove empty directory on Hard Disk Drive by specified path.
  *
  * @param string $dirPath
  */

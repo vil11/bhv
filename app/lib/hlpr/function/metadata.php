@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * [IN PROGRESS]
+ *
+ * @param $rec
+ * @param $data
+ * @param $value
+ * @return string[IN PROGRESS]
+ */
 function iptcMakeTag($rec, $data, $value)
 {
     $length = strlen($value);
@@ -19,6 +27,11 @@ function iptcMakeTag($rec, $data, $value)
     return $retVal . $value;
 }
 
+/**
+ * [IN PROGRESS]
+ *
+ * @param $filepath
+ */
 function setJpgMetaData($filepath)
 {
     $iptc = [

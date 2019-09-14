@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Get duplicated array elements:
+ * [IN PROGRESS] Get duplicated array elements:
  *  - works with array elements of the highest level only
  *  - returns empty array if all input array elements are unique
  *
@@ -14,7 +14,7 @@ function getNotUniqueArrayValues(array $array)
 }
 
 /**
- * Convert single-level array into format of phpunit data provider
+ * [IN PROGRESS] Convert single-level array into format of phpunit data provider
  *
  * @param array $array
  * @return array

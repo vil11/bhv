@@ -3,7 +3,7 @@
 // ISO encoding = 'ISO-8859-1';
 
 /**
- * Prepare file name for saving:
+ * [IN PROGRESS] Prepare file name for saving:
  *  # replace foreign alphabet characters by english (latin) analogue;
  *  # remove tabs;
  *  # remove restricted in Windows OS symbols;
@@ -90,7 +90,7 @@ function smartPrepareFileName($fileName)
 }
 
 /**
- * Check if string contains no upper case characters.
+ * [IN PROGRESS] Check if string contains no upper case characters.
  *
  * @param string $string
  * @return bool
@@ -101,7 +101,7 @@ function containsNoUpperCase($string)
 }
 
 /**
- * Replace backslash with slash in specified path.
+ * [IN PROGRESS] Replace backslash with slash in specified path.
  *
  * @param string $path
  * @return string
@@ -112,7 +112,7 @@ function fixDirSeparatorsToTheRight($path)
 }
 
 /**
- * Replace slash with backslash in specified path.
+ * [IN PROGRESS] Replace slash with backslash in specified path.
  *
  * @param string $path
  * @return string
@@ -123,7 +123,7 @@ function fixDirSeparatorsToTheLeft($path)
 }
 
 /**
- * Fix encoding while reading.
+ * [IN PROGRESS] Fix encoding while reading.
  * TODO: specify type of reading.
  * TODO: remove encodings names to config.
  * Is relevant for Cyrillic & Latin characters.
@@ -137,7 +137,7 @@ function fixEncodingWhileReading($string)
 }
 
 /**
- * Fix encoding while writing.
+ * [IN PROGRESS] Fix encoding while writing.
  * TODO: specify type of writing.
  * TODO: remove encodings names to config.
  * Is relevant for Cyrillic & Latin characters.
@@ -151,7 +151,7 @@ function fixEncodingWhileWriting($string)
 }
 
 /**
- * Change string encoding.
+ * [IN PROGRESS] Change string encoding.
  * TODO: investigate "$currentEncoding == $_utfEncoding" case.
  * TODO: remove encodings names to config.
  * 'UTF-8'
@@ -177,7 +177,7 @@ function changeEncoding($string, $inputEncoding, $outputEncoding)
 }
 
 /**
- * Get path (file, url, ...) section by its position counting backwards.
+ * [IN PROGRESS] Get path (file, url, ...) section by its position counting backwards.
  *  - returns the last section by default.
  *
  * @param string $path

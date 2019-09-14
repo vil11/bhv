@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Check if file is valid for further using.
+ * [IN PROGRESS] Check if file is valid for further using.
  *
  * @param string $filePath
  * @return bool
@@ -12,7 +12,7 @@ function isFileValid($filePath)
 }
 
 /**
- * Get file extension in ".ext" format.
+ * [IN PROGRESS] Get file extension in ".ext" format.
  *
  * @param string $filePath
  * @return string
@@ -23,7 +23,7 @@ function getExt($filePath)
 }
 
 /**
- * Check if 2 not broken files are the same or not.
+ * [IN PROGRESS] Check if 2 not broken files are the same or not.
  *
  * @param string $firstFilePath
  * @param string $secondFilePath
@@ -46,7 +46,7 @@ function filesAreEqual($firstFilePath, $secondFilePath)
 }
 
 /**
- * Check if file is image or not.
+ * [IN PROGRESS] Check if file is image or not.
  *
  * @param string $filePath
  * @return bool
@@ -57,7 +57,7 @@ function fileIsImage($filePath)
 }
 
 /**
- * Check if 2 images are the same or not.
+ * [IN PROGRESS] Check if 2 images are the same or not.
  * Images can be called by path on Hard Disk Drive or by URL.
  * At least 1 of files must be called by path on Hard Disk Drive.
  *
@@ -88,7 +88,7 @@ function imgsAreEqual($firstImgPath, $secondImgPath)
 }
 
 /**
- * Download file by URL.
+ * [IN PROGRESS] Download file by URL.
  * TODO: specify supported file formats.
  *
  * @param string $fileUrl
@@ -100,7 +100,7 @@ function downloadFile($fileUrl, $saveFilePath)
 }
 
 /**
- * Download file by URL.
+ * [IN PROGRESS] Download file by URL.
  * TODO: specify supported file formats.
  *
  * @param string $fileUrl
@@ -118,7 +118,7 @@ function downloadFile2($fileUrl, $saveFilePath)
 }
 
 /**
- * Wait while file is loading.
+ * [IN PROGRESS] Wait while file is loading.
  *
  * @param string $fileUrl
  */
@@ -130,7 +130,7 @@ function waitForLoading($fileUrl)
 }
 
 /**
- * Check if file is ready to be downloaded:
+ * [IN PROGRESS] Check if file is ready to be downloaded:
  *  - file size < correspondent limit (default file size limit is 1gb);
  *  - Hard Disk Drive free space > correspondent limit (default available space limit is 10gb).
  *
@@ -151,7 +151,7 @@ function isFileReadyToDownload($fileUrl, $saveFilePath)
 }
 
 /**
- * Get file size by its path on Hard Disk Drive or per URL.
+ * [IN PROGRESS] Get file size by its path on Hard Disk Drive or per URL.
  *
  * @param string $filePath
  * @return int
@@ -173,7 +173,7 @@ function getFileSize($filePath)
 }
 
 /**
- * Parse list from txt file.
+ * [IN PROGRESS] Parse list from txt file.
  * Function returns empty array if specified file is empty.
  * TODO: investigate possibility not to return mix variables types.
  *
@@ -193,7 +193,7 @@ function parseList($filePath)
 }
 
 /**
- * Parse CSV file & convert pulled data to array of arrays.
+ * [IN PROGRESS] Parse CSV file & convert pulled data to array of arrays.
  * Function returns empty array if input file is empty.
  *
  * @param string $filePath
@@ -223,7 +223,7 @@ function parseCsvTable($filePath, $cellDelimiter = ',')
 }
 
 /**
- * Get full record by 1 of its values.
+ * [IN PROGRESS] Get full record by 1 of its values.
  *
  * @param string $filePath
  * @param string $value
@@ -239,7 +239,7 @@ function getCsvRecord($filePath, $value)
 }
 
 /**
- * Check if log record is already present in appropriate log file or not.
+ * [IN PROGRESS] Check if log record is already present in appropriate log file or not.
  *
  * @param string $logRecord
  * @param string $logFilePath
@@ -251,7 +251,7 @@ function isLogged($logRecord, $logFilePath)
 }
 
 /**
- * Add log record to appropriate log file.
+ * [IN PROGRESS] Add log record to appropriate log file.
  *
  * @param string $logRecord
  * @param string $logFilePath
@@ -264,7 +264,7 @@ function addLog($logRecord, $logFilePath)
 }
 
 /**
- * Clear logs file from duplications.
+ * [IN PROGRESS] Clear logs file from duplications.
  *
  * @param string $logFilePath
  */
