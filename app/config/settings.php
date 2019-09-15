@@ -12,12 +12,17 @@ class settings
         $this->path = APP_PATH . '/config/settings.ini';
     }
 
+
     private function init()
     {
         $this->settings = parse_ini_file($this->path, true);
     }
 
-    public function get($key)
+    /**
+     * @param string $key
+     * @return string|array|null
+     */
+    public function get(string $key)
     {
         if (is_null($this->settings)) {
             $this->init();
@@ -35,7 +40,10 @@ class settings
         return $settings;
     }
 
-    public static function getInstance()
+    /**
+     * @return settings
+     */
+    public static function getInstance(): settings
     {
         if (is_null(self::$instance)) {
             self::$instance = new self();

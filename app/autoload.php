@@ -17,13 +17,11 @@ class bhvAutoloader
 //            require_once $inTest;
 //        }
 
-        $id3LibPath = APP_PATH . '../vendor/james-heinrich/getid3';
-//        require_once $id3LibPath . '/getid3.php';
-//        require_once $id3LibPath . '/write.php';
-
         $hlprLibPath = APP_PATH . '/lib/hlpr/autoload.php';
-        if (file_exists($hlprLibPath)) {
-             require_once $hlprLibPath;
-        }
+        require_once $hlprLibPath;
+
+        $id3VendorPath = APP_PATH . '/../vendor/james-heinrich/getid3/getid3';
+        require_once $id3VendorPath . '/getid3.php';
+        require_once $id3VendorPath . '/write.php';
     }
 }

@@ -6,6 +6,7 @@ class artist extends unit
     protected $_type = 'dir';
 
     // predefined
+    /** @var array */
     protected $albumsListing = [];
 
     // lazy
@@ -18,7 +19,7 @@ class artist extends unit
      * @param string $title
      * @throws Exception
      */
-    public function __construct($title)
+    public function __construct(string $title)
     {
         parent::__construct($title);
         $this->setAlbumsListing();
@@ -26,7 +27,7 @@ class artist extends unit
 
 
     /**
-     * @throws Exception
+     * @throws Exception if dir is absent by specified path
      */
     protected function setPath()
     {
@@ -37,7 +38,7 @@ class artist extends unit
     /**
      * @throws Exception
      */
-    protected function setAlbumsListing()
+    private function setAlbumsListing()
     {
         $this->albumsListing = getDirDirsList($this->path);
     }
@@ -53,7 +54,7 @@ class artist extends unit
     /**
      * @throws Exception
      */
-    protected function setAlbums()
+    private function setAlbums()
     {
         foreach (getDirDirsList($this->path) as $albumFolderName) {
             $this->albums[$albumFolderName] = new album($this->title, $albumFolderName);
@@ -74,9 +75,10 @@ class artist extends unit
     /**
      * @throws Exception
      */
-    protected function setFreeSongs()
+    private function setFreeSongs()
     {
-        foreach (getDirFilesListByExt($this->path, settings::getInstance()->get('extensions/music')) as $songFileName) {
+        $select = getDirFilesListByExt($this->path, settings::getInstance()->get('extensions/music'));
+        foreach ($select as $songFileName) {
             $this->freeSongs[] = new song($this->title, null, $songFileName);
         }
     }
@@ -95,7 +97,7 @@ class artist extends unit
     /**
      * @throws Exception
      */
-    protected function setSongs()
+    private function setSongs()
     {
         if (!$this->albums) $this->setAlbums();
         $songs = [];
@@ -113,7 +115,7 @@ class artist extends unit
      * @throws Exception
      * @return song[]
      */
-    public function getSongs()
+    public function getSongs(): array
     {
         if (!$this->songs) $this->setSongs();
 
@@ -125,7 +127,7 @@ class artist extends unit
      * @throws Exception
      * @return bool
      */
-    public function updateMetadata($autoRenamingIfSuccess)
+    public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
         $ifAnyAlbumsTagged = false;
         foreach ($this->albumsListing as $albumFolderName) {

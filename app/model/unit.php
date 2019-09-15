@@ -6,7 +6,9 @@ class unit
     protected $_type;
 
     // predefined
+    /** @var string */
     protected $title;
+    /** @var string */
     protected $path;
     protected $data;
 
@@ -15,7 +17,7 @@ class unit
      * @param string $title
      * @throws Exception
      */
-    public function __construct($title)
+    public function __construct(string $title)
     {
         $this->setTitle($title);
         $this->setPath();
@@ -25,7 +27,7 @@ class unit
     /**
      * @param string $title
      */
-    protected function setTitle($title)
+    private function setTitle(string $title)
     {
         $this->title = $title;
     }
@@ -33,20 +35,21 @@ class unit
     /**
      * @return string
      */
-    public function getTitle()
+    public function getTitle(): string
     {
         return $this->title;
     }
 
     /**
-     * @throws Exception
+     * @throws Exception if unit (dir||file) is absent by specified path
      */
     protected function setPath()
     {
-        $path = fixDirSeparatorsToTheRight($this->path);
+        $path = bendSeparatorsRight($this->path);
         if ((($this->_type === 'dir') && !is_dir($path)) || ($this->_type === 'file' && !is_file($path))) {
             throw new Exception(prepareIssueCard($this->_type . ' is absent.', $path));
         }
+
         $this->path = $path;
     }
 
@@ -147,7 +150,7 @@ class unit
      * @param string $string
      * @return bool
      */
-    protected function isMarkedToBeUpdated($string)
+    protected function isMarkedToBeUpdated(string $string): bool
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         return (substr($string, 0, strlen($updatePrefixMark)) === $updatePrefixMark);
@@ -170,7 +173,7 @@ class unit
     /**
      * @return bool
      */
-    protected function renameUpdated()
+    protected function renameUpdated(): bool
     {
         return rename(
             $this->getPath(),

@@ -6,7 +6,9 @@ class song extends unit
     protected $_type = 'file';
 
     // predefined
+    /** @var string */
     protected $artistTitle;
+    /** @var array */
     protected $albumData;
     protected $data;
 
@@ -18,20 +20,21 @@ class song extends unit
 
 
     /**
+     * TODO: investigate case when $albumData === null
+     *
      * @param string $artistTitle
      * @param array $albumData
      * @param string $title
      * @throws Exception
      */
-    public function __construct($artistTitle, $albumData, $title)
+    public function __construct(string $artistTitle, array $albumData, string $title)
     {
         $this->artistTitle = $artistTitle;
         $this->albumData = $albumData;
-
         parent::__construct($title);
-
         $this->setData();
     }
+
 
     /**
      * @return string
@@ -47,7 +50,7 @@ class song extends unit
     }
 
     /**
-     * @throws Exception
+     * Exception if file is absent by specified path
      */
     protected function setPath()
     {
@@ -62,11 +65,11 @@ class song extends unit
     /**
      * @throws Exception
      */
-    protected function setData()
+    private function setData()
     {
         $delimiters = settings::getInstance()->get('delimiters');
 
-        $fileName = basename($this->title, settings::getInstance()->get('extensions/music'));
+        $fileName = basename($this->title, '.' . settings::getInstance()->get('extensions/music'));
         if ($this->albumData) {
             $this->verifyFileName("|^\d{2}\.(\ \S+)*|");
 
@@ -98,7 +101,7 @@ class song extends unit
     /**
      * @throws Exception
      */
-    protected function setActualMetadataAndThumbnail()
+    private function setActualMetadataAndThumbnail()
     {
         $tagObj = new getID3();
         $tagObj->openfile($this->path);
@@ -143,7 +146,7 @@ class song extends unit
         }
     }
 
-    protected function setExpectedMetadata()
+    private function setExpectedMetadata()
     {
         $this->expectedMetadata['publisher'][] = settings::getInstance()->get('tags/publisher');
 
@@ -173,9 +176,9 @@ class song extends unit
         return $this->expectedMetadata;
     }
 
-    public function setExpectedThumbnail()
+    private function setExpectedThumbnail()
     {
-        $thumbnailPath = $this->albumData['path'] . DS . 'cover' . settings::getInstance()->get('extensions/thumbnail');
+        $thumbnailPath = $this->albumData['path'] . DS . 'cover.' . settings::getInstance()->get('extensions/thumbnail');
         $fd = fopen($thumbnailPath, 'rb');
         $this->expectedThumbnail = fread($fd, filesize($thumbnailPath));
         fclose($fd);

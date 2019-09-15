@@ -6,7 +6,9 @@ class bhv extends unit
     protected $_type = 'dir';
 
     // predefined
+    /** @var array */
     protected $artistsListing = [];
+    /** @var string */
     protected $catalogPath;
 
     // lazy
@@ -17,17 +19,16 @@ class bhv extends unit
      * @param string $title
      * @throws Exception
      */
-    public function __construct($title = 'bhv')
+    public function __construct(string $title = 'bhv')
     {
         parent::__construct($title);
-
         $this->setArtistsListing();
         $this->setCatalogPath();
     }
 
 
     /**
-     * @throws Exception
+     * @throws Exception if dir is absent by specified path
      */
     protected function setPath()
     {
@@ -46,7 +47,7 @@ class bhv extends unit
     /**
      * @return string[]
      */
-    public function getArtistsListing()
+    public function getArtistsListing(): array
     {
         return $this->artistsListing;
     }
@@ -54,7 +55,7 @@ class bhv extends unit
     private function setCatalogPath()
     {
         $path = settings::getInstance()->get('paths/bhv_catalog');
-        $path = fixDirSeparatorsToTheRight($path);
+        $path = bendSeparatorsRight($path);
 
         $this->catalogPath = $path;
     }
@@ -115,7 +116,7 @@ class bhv extends unit
      * @throws Exception
      * @return bool
      */
-    public function updateMetadata($autoRenamingIfSuccess)
+    public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
         echo "\nMetadata updating:\n";
 

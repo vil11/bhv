@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1291573b1f4899897bca437f982041bf",
+    "content-hash": "087f33af4879d7521abc7abbae8fec7a",
     "packages": [
         {
             "name": "james-heinrich/getid3",
@@ -1596,6 +1596,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-iconv": "*"
+    },
     "platform-dev": []
 }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * as a Bee, I want to update Metadata of all Artist Songs or for concrete Artist Albums only
+ * Update Metadata of all Artist Songs or for concrete Artist Albums only:
  *  - run manually by calling the function directly from "index.php"
  *  - start Artist folder name & Album folder name with an underscore* in order to tag it for updating
  *  - if no Albums are tagged for updating, all Artist Songs will be updated

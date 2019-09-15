@@ -6,6 +6,7 @@ class album extends unit
     protected $_type = 'dir';
 
     // predefined
+    /** @var string */
     protected $artistTitle;
     protected $data;
 
@@ -18,18 +19,16 @@ class album extends unit
      * @param string $title
      * @throws Exception
      */
-    public function __construct($artistTitle, $title)
+    public function __construct(string $artistTitle, string $title)
     {
         $this->artistTitle = $artistTitle;
-
         parent::__construct($title);
-
         $this->setData();
     }
 
 
     /**
-     * @throws Exception
+     * @throws Exception if dir is absent by specified path
      */
     protected function setPath()
     {
@@ -48,7 +47,7 @@ class album extends unit
     /**
      * @throws Exception
      */
-    protected function setData()
+    private function setData()
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         $this->verifyFileName("|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
