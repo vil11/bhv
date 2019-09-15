@@ -8,10 +8,10 @@
  * @param array $array
  * @return array
  */
-function getNotUniqueArrayValues(array $array)
-{
-    return array_unique(array_diff_assoc($array, array_unique($array)));
-}
+//function getNotUniqueArrayValues(array $array)
+//{
+//    return array_unique(array_diff_assoc($array, array_unique($array)));
+//}
 
 /**
  * [IN PROGRESS] Convert single-level array into format of phpunit data provider
@@ -19,12 +19,12 @@ function getNotUniqueArrayValues(array $array)
  * @param array $array
  * @return array
  */
-function prepareDataProvider(array $array)
-{
-    $dataProvider = [];
-    foreach ($array as $value) {
-        $dataProvider[] = [$value];
-    }
-
-    return $dataProvider;
-}
+//function prepareDataProvider(array $array)
+//{
+//    $dataProvider = [];
+//    foreach ($array as $value) {
+//        $dataProvider[] = [$value];
+//    }
+//
+//    return $dataProvider;
+//}

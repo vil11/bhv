@@ -1,11 +1,13 @@
 <?php
 
 /**
- * [IN PROGRESS] Generates formatted error (for exception, for reporting, ...).
+ * Generate formatted error (for issues reporting, exception messages, ...).
  *
  * @param string $issue
  * @param string $path
  * @return string
+ *
+ * @tested 1.2.3
  */
 function prepareIssueCard(string $issue, string $path = ''): string
 {
@@ -18,5 +20,5 @@ function prepareIssueCard(string $issue, string $path = ''): string
     }
     $e .= "| ISSUE  : $issue\n" . $delimiter . $padding;
 
-    return fixEncodingWhileReading($e);
+    return fixEncodingWhileRead($e);
 }

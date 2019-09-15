@@ -1,6 +1,15 @@
 <?php
 
-// ISO encoding = 'ISO-8859-1';
+const ENCODING = [
+    'utf' => 'UTF-8',
+    'win' => 'Windows-1251',
+
+    'iso-1' => 'ISO-8859-1',
+    'iso-2' => 'ISO-8859-2',
+    'koi-u' => 'KOI8-U',
+    'koi-r' => 'KOI8-R'
+];
+
 
 /**
  * [IN PROGRESS] Prepare file name for saving:
@@ -15,79 +24,79 @@
  * @param string $fileName
  * @return string
  */
-function smartPrepareFileName($fileName)
-{
-    $restrictedCharacters = [
-        "Á" => 'A',
-        "á" => 'a',
-        "à" => 'a',
-        "ã" => 'a',
-        "Ć" => 'C',
-        "ć" => 'c',
-        "č" => 'c',
-        "ð" => 'd',
-        "É" => 'E',
-        "é" => 'e',
-        "ë" => 'e',
-        "ï" => 'i',
-        "î" => 'i',
-        "í" => 'i',
-        "ñ" => 'n',
-        "Ö" => 'O',
-        "ö" => 'o',
-        "ô" => 'o',
-        "Ō" => 'O',
-        "ō" => 'o',
-        "Ó" => 'o',
-        "ó" => 'o',
-        "ş" => 's',
-        "Š" => 'S',
-        "š" => 's',
-        "ß" => 'ss',
-        "ü" => 'u',
-        "ū" => 'u',
-        "ú" => 'u',
-        "ž" => 'z',
-        "\n" => ' ',
-        "\r" => ' ',
-        "\t" => ' ',
-        "/" => ' ',
-        "|" => ' ',
-        "\\" => ' ',
-        "+" => ' ',
-        "?" => ' ',
-        "*" => ' ',
-        ":" => ' ',
-        ">" => ' ',
-        "<" => ' ',
-        "[ " => '[',
-        " ]" => ']',
-        "( " => '(',
-        " )" => ')',
-        " !" => '!',
-        '"' => "'",
-    ];
-    foreach ($restrictedCharacters as $restricted => $replacing) {
-        $fileName = str_replace($restricted, $replacing, $fileName);
-    }
-
-    $wrappers = [
-        '[',
-        ']',
-        '(',
-        ')',
-        ' ',
-    ];
-    foreach ($wrappers as $wrapper) {
-        while (strpos($fileName, $wrapper . $wrapper)) {
-            $fileName = str_replace($wrapper . $wrapper, $wrapper, $fileName);
-        }
-    }
-
-    $fileName = trim(fixDirSeparatorsToTheRight($fileName));
-
-    return $fileName;
-}
+//function smartPrepareFileName($fileName)
+//{
+//    $restrictedCharacters = [
+//        "Á" => 'A',
+//        "á" => 'a',
+//        "à" => 'a',
+//        "ã" => 'a',
+//        "Ć" => 'C',
+//        "ć" => 'c',
+//        "č" => 'c',
+//        "ð" => 'd',
+//        "É" => 'E',
+//        "é" => 'e',
+//        "ë" => 'e',
+//        "ï" => 'i',
+//        "î" => 'i',
+//        "í" => 'i',
+//        "ñ" => 'n',
+//        "Ö" => 'O',
+//        "ö" => 'o',
+//        "ô" => 'o',
+//        "Ō" => 'O',
+//        "ō" => 'o',
+//        "Ó" => 'o',
+//        "ó" => 'o',
+//        "ş" => 's',
+//        "Š" => 'S',
+//        "š" => 's',
+//        "ß" => 'ss',
+//        "ü" => 'u',
+//        "ū" => 'u',
+//        "ú" => 'u',
+//        "ž" => 'z',
+//        "\n" => ' ',
+//        "\r" => ' ',
+//        "\t" => ' ',
+//        "/" => ' ',
+//        "|" => ' ',
+//        "\\" => ' ',
+//        "+" => ' ',
+//        "?" => ' ',
+//        "*" => ' ',
+//        ":" => ' ',
+//        ">" => ' ',
+//        "<" => ' ',
+//        "[ " => '[',
+//        " ]" => ']',
+//        "( " => '(',
+//        " )" => ')',
+//        " !" => '!',
+//        '"' => "'",
+//    ];
+//    foreach ($restrictedCharacters as $restricted => $replacing) {
+//        $fileName = str_replace($restricted, $replacing, $fileName);
+//    }
+//
+//    $wrappers = [
+//        '[',
+//        ']',
+//        '(',
+//        ')',
+//        ' ',
+//    ];
+//    foreach ($wrappers as $wrapper) {
+//        while (strpos($fileName, $wrapper . $wrapper)) {
+//            $fileName = str_replace($wrapper . $wrapper, $wrapper, $fileName);
+//        }
+//    }
+//
+//    $fileName = trim(fixDirSeparatorsToTheRight($fileName));
+//
+//    return $fileName;
+//}
 
 /**
  * [IN PROGRESS] Check if string contains no upper case characters.
@@ -95,20 +104,22 @@ function smartPrepareFileName($fileName)
  * @param string $string
  * @return bool
  */
-function containsNoUpperCase($string)
-{
-    return strtolower($string) == $string;
-}
+//function containsNoUpperCase($string)
+//{
+//    return strtolower($string) == $string;
+//}
 
 /**
- * [IN PROGRESS] Replace backslash with slash in specified path.
+ * Replace backslash with slash in specified path (file, URL, ...).
  *
  * @param string $path
  * @return string
+ *
+ * @tested 1.2.3
  */
-function fixDirSeparatorsToTheRight($path)
+function bendSeparatorsRight($path): string
 {
-    return str_replace("\\", "/", $path);
+    return str_replace("\\", '/', $path);
 }
 
 /**
@@ -117,59 +128,52 @@ function fixDirSeparatorsToTheRight($path)
  * @param string $path
  * @return string
  */
-function fixDirSeparatorsToTheLeft($path)
+//function fixDirSeparatorsToTheLeft($path)
+//{
+//    return str_replace("/", "\\", $path);
+//}
+
+/**
+ * Switch encoding from Windows-1251 to UTF-8:
+ *  - is relevant for Cyrillic & Latin characters
+ *
+ * @param string $string
+ * @return string
+ *
+ * @tested 1.2.3
+ */
+function fixEncodingWhileRead(string $string): string
 {
-    return str_replace("/", "\\", $path);
+    return switchEncoding($string, ENCODING['win'], ENCODING['utf']);
 }
 
 /**
- * [IN PROGRESS] Fix encoding while reading.
- * TODO: specify type of reading.
- * TODO: remove encodings names to config.
- * Is relevant for Cyrillic & Latin characters.
+ * [IN PROGRESS] Switch encoding from Windows-1251 to UTF-8:
+ *   - is relevant for Cyrillic & Latin characters
  *
  * @param string $string
  * @return string
  */
-function fixEncodingWhileReading($string)
-{
-    return changeEncoding($string, 'Windows-1251', 'UTF-8');
-}
+//function fixEncodingWhileWrite(string $string): string
+//{
+//    return switchEncoding($string, ENCODING['utf'], ENCODING['win']);
+//}
 
 /**
- * [IN PROGRESS] Fix encoding while writing.
- * TODO: specify type of writing.
- * TODO: remove encodings names to config.
- * Is relevant for Cyrillic & Latin characters.
- *
- * @param string $string
- * @return string
- */
-function fixEncodingWhileWriting($string)
-{
-    return changeEncoding($string, 'UTF-8', 'Windows-1251');
-}
-
-/**
- * [IN PROGRESS] Change string encoding.
- * TODO: investigate "$currentEncoding == $_utfEncoding" case.
- * TODO: remove encodings names to config.
- * 'UTF-8'
- * 'Windows-1251'
- * 'ISO-8859-1'
- * 'ISO-8859-2'
- * 'KOI8-U'
- * 'KOI8-R'
+ * Switch string encoding.
  *
  * @param string $string
  * @param string $inputEncoding
  * @param string $outputEncoding
  * @return string
+ *
+ * @tested 1.2.3
  */
-function changeEncoding($string, $inputEncoding, $outputEncoding)
+function switchEncoding(string $string, string $inputEncoding, string $outputEncoding): string
 {
     $currentEncoding = iconv_get_encoding('input_encoding');
-    if ($currentEncoding != 'UTF-8') {
+    // TODO: investigate "$currentEncoding !== ENCODING['utf']" case
+    if ($currentEncoding !== ENCODING['utf']) {
         $string = iconv($inputEncoding, $outputEncoding, $string);
     }
 
@@ -184,13 +188,13 @@ function changeEncoding($string, $inputEncoding, $outputEncoding)
  * @param int $sectionBackwardPosition
  * @return string
  */
-function getPathSectionFromBackwards($path, int $sectionBackwardPosition = 1)
-{
-    if ($path{strlen($path) - 1} === '/') {
-        $path = substr($path, 0, -1);
-    }
-    $path = explode('/', $path);
-    $section = $path[count($path) - $sectionBackwardPosition];
-
-    return $section;
-}
+//function getPathSectionFromBackwards($path, int $sectionBackwardPosition = 1)
+//{
+//    if ($path{strlen($path) - 1} === '/') {
+//        $path = substr($path, 0, -1);
+//    }
+//    $path = explode('/', $path);
+//    $section = $path[count($path) - $sectionBackwardPosition];
+//
+//    return $section;
+//}

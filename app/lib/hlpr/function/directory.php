@@ -1,37 +1,39 @@
 <?php
 
 /**
- * [IN PROGRESS] Get list of all files & directories inside specified directory.
- * Function returns empty array if specified directory is empty.
+ * [IN PROGRESS] Get list of all files & directories inside specified directory:
+ *  - returns empty array if specified directory is empty.
  *
  * @param string $dirPath
  * @return array
  */
-function getDirContentList($dirPath)
-{
-    $dirs = getDirDirsList($dirPath);
-    $files = getDirFilesList($dirPath);
-
-    return array_merge($dirs, $files);
-}
+//function getDirContentList($dirPath)
+//{
+//    $dirs = getDirDirsList($dirPath);
+//    $files = getDirFilesList($dirPath);
+//
+//    return array_merge($dirs, $files);
+//}
 
 /**
- * [IN PROGRESS] Get list of all files inside specified directory.
+ * Get list of all files inside specified directory.
  * Function returns empty array if specified directory contains no files.
  *
  * @param string $dirPath
- * @return array
- * @throws Exception if input path is invalid
+ * @throws Exception if dir is absent by specified path
+ * @return string[]
+ *
+ * @tested 1.2.3
  */
-function getDirFilesList($dirPath)
+function getDirFilesList(string $dirPath)
 {
     if (!is_dir($dirPath)) {
-        throw new Exception("Path to [$dirPath] is invalid.");
+        throw new Exception(prepareIssueCard("Dir is absent.", $dirPath));
     }
 
     $files = [];
     foreach (scandir($dirPath) as $contentElement) {
-        if ($contentElement != '.' && $contentElement != '..') {
+        if ($contentElement !== '.' && $contentElement !== '..') {
             if (is_file($dirPath . DS . $contentElement)) {
                 $files[] = $contentElement;
             }
@@ -48,28 +50,30 @@ function getDirFilesList($dirPath)
  * @param string $dirPath
  * @return array
  */
-function getDirFilesPathsList($dirPath)
-{
-    $filesPaths = [];
-    foreach (getDirFilesList($dirPath) as $fileName) {
-        $filesPaths[] = $dirPath . DS . $fileName;
-    }
-
-    return $filesPaths;
-}
+//function getDirFilesPathsList($dirPath)
+//{
+//    $filesPaths = [];
+//    foreach (getDirFilesList($dirPath) as $fileName) {
+//        $filesPaths[] = $dirPath . DS . $fileName;
+//    }
+//
+//    return $filesPaths;
+//}
 
 /**
- * [IN PROGRESS] Get list of all directories inside specified directory.
- * Function returns empty array if specified directory contains no directories.
+ * Get list of all directories inside specified directory:
+ *  - return empty array if specified directory contains no child directories
  *
  * @param string $dirPath
- * @return array
- * @throws Exception if input path is invalid
+ * @throws Exception if dir is absent by specified path
+ * @return string[]
+ *
+ * @tested 1.2.3
  */
-function getDirDirsList($dirPath)
+function getDirDirsList(string $dirPath): array
 {
     if (!is_dir($dirPath)) {
-        throw new Exception("Path to [$dirPath] is invalid.");
+        throw new Exception(prepareIssueCard("Dir is absent.", $dirPath));
     }
 
     $dirs = [];
@@ -85,14 +89,18 @@ function getDirDirsList($dirPath)
 }
 
 /**
- * [IN PROGRESS] Get list of all files (of specified extension only) inside specified directory.
- * Function returns empty array if specified directory contains no files of specified extension.
+ * Get list of all files (of specified extension only) inside specified directory:
+ *  - use "ext" format (without "." prefix)
+ *  - return empty array if specified directory contains no files of specified extension
  *
  * @param string $dirPath
  * @param string $ext
- * @return array
+ * @throws Exception
+ * @return string[]
+ *
+ * @tested 1.2.3
  */
-function getDirFilesListByExt($dirPath, $ext)
+function getDirFilesListByExt(string $dirPath, string $ext): array
 {
     $files = [];
     foreach (getDirFilesList($dirPath) as $fileName) {
@@ -113,17 +121,17 @@ function getDirFilesListByExt($dirPath, $ext)
  * @param string $ext
  * @return array
  */
-function getDirFilesPathsListByExt($dirPath, $ext)
-{
-    $filesPaths = [];
-    foreach (getDirFilesPathsList($dirPath) as $filePath) {
-        if (getExt($filePath) === $ext) {
-            $filesPaths[] = $filePath;
-        }
-    }
-
-    return $filesPaths;
-}
+//function getDirFilesPathsListByExt($dirPath, $ext)
+//{
+//    $filesPaths = [];
+//    foreach (getDirFilesPathsList($dirPath) as $filePath) {
+//        if (getExt($filePath) === $ext) {
+//            $filesPaths[] = $filePath;
+//        }
+//    }
+//
+//    return $filesPaths;
+//}
 
 /**
  * [IN PROGRESS] Create directory on Hard Disk Drive by specified path.
@@ -131,23 +139,23 @@ function getDirFilesPathsListByExt($dirPath, $ext)
  * @param string $dirPath
  * @throws Exception if directory is not created
  */
-function createDir($dirPath)
-{
-    if (!is_dir($dirPath)) {
-        if (!mkdir($dirPath, 0777)) {
-            throw new Exception("Directory [$dirPath] is not created.");
-        }
-    }
-}
+//function createDir($dirPath)
+//{
+//    if (!is_dir($dirPath)) {
+//        if (!mkdir($dirPath, 0777)) {
+//            throw new Exception("Directory [$dirPath] is not created.");
+//        }
+//    }
+//}
 
 /**
  * [IN PROGRESS] Remove empty directory on Hard Disk Drive by specified path.
  *
  * @param string $dirPath
  */
-function removeEmptyDir($dirPath)
-{
-    if (count(getDirContentList($dirPath)) === 0) {
-        rmdir($dirPath);
-    }
-}
+//function removeEmptyDir($dirPath)
+//{
+//    if (count(getDirContentList($dirPath)) === 0) {
+//        rmdir($dirPath);
+//    }
+//}
