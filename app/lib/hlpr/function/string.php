@@ -148,34 +148,34 @@ function fixEncodingWhileRead(string $string): string
 }
 
 /**
- * Switch encoding from UTF-8 to Windows-1251:
+ * [IN PROGRESS] Switch encoding from UTF-8 to Windows-1251:
  *   - is relevant for Cyrillic & Latin characters
  *
  * @param string $string
  * @return string
- *
- * @ tested 1.2.4
  */
-function fixEncodingWhileWrite(string $string): string
-{
-    return mb_convert_encoding($string, ENCODING['utf'], ENCODING['win']);
-}
+//function fixEncodingWhileWrite(string $string): string
+//{
+//    return mb_convert_encoding($string, ENCODING['utf'], ENCODING['win']);
+//}
 
 /**
- * [IN PROGRESS] Get path (file, url, ...) section by its position counting backwards.
+ * Get path (file, URL, ...) section by its position counting backwards.
  *  - returns the last section by default.
  *
  * @param string $path
- * @param int $sectionBackwardPosition
+ * @param int $sectionPositionBackwards
  * @return string
+ *
+ * @tested 1.2.5
  */
-//function getPathSectionFromBackwards($path, int $sectionBackwardPosition = 1)
-//{
-//    if ($path{strlen($path) - 1} === '/') {
-//        $path = substr($path, 0, -1);
-//    }
-//    $path = explode('/', $path);
-//    $section = $path[count($path) - $sectionBackwardPosition];
-//
-//    return $section;
-//}
+function getPathSectionBackwards($path, int $sectionPositionBackwards = 1): string
+{
+    $path = bendSeparatorsRight($path);
+    if ($path{strlen($path) - 1} === '/') {
+        $path = substr($path, 0, -1);
+    }
+    $path = explode('/', $path);
+
+    return $path[count($path) - $sectionPositionBackwards];
+}
