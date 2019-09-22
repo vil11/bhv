@@ -1,15 +1,17 @@
 <?php
 
 /**
- * [IN PROGRESS] Check if file is valid for further using.
+ * Check if file is valid for further using.
  *
  * @param string $filePath
  * @return bool
+ *
+ * @tested 1.2.4
  */
-//function isFileValid($filePath)
-//{
-//    return (file_exists($filePath) && is_file($filePath) && is_readable($filePath) && filesize($filePath) > 0);
-//}
+function isFileValid(string $filePath): bool
+{
+    return (file_exists($filePath) && is_file($filePath) && is_readable($filePath) && filesize($filePath) > 0);
+}
 
 /**
  * Get file extension in "ext" format (without "." prefix).
@@ -175,26 +177,6 @@ function getExt(string $filePath): string
 //}
 
 /**
- * [IN PROGRESS] Parse list from txt file.
- * Function returns empty array if specified file is empty.
- * TODO: investigate possibility not to return mix variables types.
- *
- * @param string $filePath
- * @return array
- */
-//function parseList($filePath)
-//{
-//    $content = explode("\r\n", file_get_contents($filePath));
-//    foreach ($content as $key => $record) {
-//        if (trim($record) == '') {
-//            unset($content[$key]);
-//        }
-//    }
-//
-//    return array_values($content);
-//}
-
-/**
  * [IN PROGRESS] Parse CSV file & convert pulled data to array of arrays.
  * Function returns empty array if input file is empty.
  *
@@ -239,6 +221,28 @@ function getExt(string $filePath): string
 //        }
 //    }
 //}
+
+/**
+ * Parse list from txt file:
+ *  - returns empty array if specified file is empty
+ *
+ * @param string $filePath
+ * @param string $delimiter
+ * @return array
+ *
+ * @tested 1.2.4
+ */
+function parseList(string $filePath, string $delimiter = "\r\n"): array
+{
+    $content = explode($delimiter, file_get_contents($filePath));
+    foreach ($content as $key => $record) {
+        if (trim($record) === '') {
+            unset($content[$key]);
+        }
+    }
+
+    return array_values($content);
+}
 
 /**
  * [IN PROGRESS] Check if log record is already present in appropriate log file or not.

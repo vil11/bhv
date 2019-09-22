@@ -106,7 +106,7 @@ const ENCODING = [
  */
 //function containsNoUpperCase($string)
 //{
-//    return strtolower($string) == $string;
+//    return strtolower($string) === $string;
 //}
 
 /**
@@ -123,12 +123,12 @@ function bendSeparatorsRight($path): string
 }
 
 /**
- * [IN PROGRESS] Replace slash with backslash in specified path.
+ * [IN PROGRESS] Replace slash with backslash in specified path (file, URL, ...).
  *
  * @param string $path
  * @return string
  */
-//function fixDirSeparatorsToTheLeft($path)
+//function bendSeparatorsLeft($path)
 //{
 //    return str_replace("/", "\\", $path);
 //}
@@ -144,40 +144,21 @@ function bendSeparatorsRight($path): string
  */
 function fixEncodingWhileRead(string $string): string
 {
-    return switchEncoding($string, ENCODING['win'], ENCODING['utf']);
+    return mb_convert_encoding($string, ENCODING['win'], ENCODING['utf']);
 }
 
 /**
- * [IN PROGRESS] Switch encoding from Windows-1251 to UTF-8:
+ * Switch encoding from UTF-8 to Windows-1251:
  *   - is relevant for Cyrillic & Latin characters
  *
  * @param string $string
  * @return string
- */
-//function fixEncodingWhileWrite(string $string): string
-//{
-//    return switchEncoding($string, ENCODING['utf'], ENCODING['win']);
-//}
-
-/**
- * Switch string encoding.
  *
- * @param string $string
- * @param string $inputEncoding
- * @param string $outputEncoding
- * @return string
- *
- * @tested 1.2.3
+ * @ tested 1.2.4
  */
-function switchEncoding(string $string, string $inputEncoding, string $outputEncoding): string
+function fixEncodingWhileWrite(string $string): string
 {
-    $currentEncoding = iconv_get_encoding('input_encoding');
-    // TODO: investigate "$currentEncoding !== ENCODING['utf']" case
-    if ($currentEncoding !== ENCODING['utf']) {
-        $string = iconv($inputEncoding, $outputEncoding, $string);
-    }
-
-    return $string;
+    return mb_convert_encoding($string, ENCODING['utf'], ENCODING['win']);
 }
 
 /**
