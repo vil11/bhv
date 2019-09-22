@@ -113,15 +113,6 @@ class unit
      * @param string $tag
      * @return string
      */
-    protected static function encode($tag)
-    {
-        return mb_convert_encoding($tag, 'UTF-8', 'Windows-1251');
-    }
-
-    /**
-     * @param string $tag
-     * @return string
-     */
     protected static function decode($tag)
     {
         return mb_convert_encoding($tag, 'Windows-1251', 'UTF-8');

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "087f33af4879d7521abc7abbae8fec7a",
+    "content-hash": "1c9951690b81fb875e75f5df88a7a99f",
     "packages": [
         {
             "name": "james-heinrich/getid3",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JamesHeinrich/getID3.git",
-                "reference": "00f3fbfd77e583099ca70a3cf0bc092e113d2b20"
+                "reference": "0723b77cafe9278618cfb6bc91b75e73705d3de8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/00f3fbfd77e583099ca70a3cf0bc092e113d2b20",
-                "reference": "00f3fbfd77e583099ca70a3cf0bc092e113d2b20",
+                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/0723b77cafe9278618cfb6bc91b75e73705d3de8",
+                "reference": "0723b77cafe9278618cfb6bc91b75e73705d3de8",
                 "shasum": ""
             },
             "require": {
@@ -67,7 +67,7 @@
                 "php",
                 "tags"
             ],
-            "time": "2019-07-24T13:10:43+00:00"
+            "time": "2019-09-16T19:08:47+00:00"
         }
     ],
     "packages-dev": [
@@ -1597,7 +1597,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-iconv": "*"
+        "ext-iconv": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": []
 }

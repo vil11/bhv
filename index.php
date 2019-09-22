@@ -2,4 +2,5 @@
 
 require_once 'app/bootstrap.php';
 
-updateMetadata(true);
+//updateCatalog();
+//updateMetadata();

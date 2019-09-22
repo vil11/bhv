@@ -12,6 +12,7 @@ class bhv extends unit
     protected $catalogPath;
 
     // lazy
+    /** @var array */
     protected $catalog;
 
 
@@ -45,7 +46,7 @@ class bhv extends unit
     }
 
     /**
-     * @return string[]
+     * @return array
      */
     public function getArtistsListing(): array
     {
@@ -68,47 +69,71 @@ class bhv extends unit
         return $this->catalogPath;
     }
 
+    /**
+     * @throws Exception
+     */
     private function setCatalog()
     {
         if (!isFileValid($this->catalogPath)) {
             $this->updateCatalog();
         }
 
-        $content = parseList($this->catalogPath);
-        array_pop($content);
-
-        $this->catalog = $content;
+        $this->catalog = parseList($this->catalogPath);
     }
 
-    public function getCatalog()
+    /**
+     * @throws Exception
+     * @return array
+     */
+    public function getCatalog(): array
     {
         if (!$this->catalog) $this->setCatalog();
 
         return $this->catalog;
     }
 
-    public function updateCatalog()
+    /**
+     * @return bool
+     */
+    public function copyCatalogUnderProject(): bool
+    {
+        $name = getPathSectionBackwards($this->catalogPath);
+        $name = bendSeparatorsRight(APP_PATH . DS . 'data' . DS . $name);
+
+        return copy($this->catalogPath, $name);
+    }
+
+    /**
+     * @throws Exception
+     * @return bool
+     */
+    public function updateCatalog(): bool
     {
         $f = fopen($this->catalogPath, 'wt');
+        if ($f === false || !is_resource($f)) {
+            throw new Exception(prepareIssueCard("File open failed!", $this->catalogPath));
+        }
 
         $i = new RecursiveDirectoryIterator($this->path);
         foreach (new RecursiveIteratorIterator($i) as $path => $file) {
             if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
-            if (substr($file->getFileName(), 0, 1) === '_') continue;
 
-            $record = str_replace($this->path, '', $path);
-            $record = mb_convert_encoding($record, 'UTF-8', 'Windows-1251');
-            if (strlen($record) > 240) {
-                $strlen = strlen($record);
-
-
-                $a = 1;
+            $record = str_replace($this->path . DS, '', $path);
+            if (strlen($record) > 333) {
+                throw new Exception(prepareIssueCard("Too long file name.", $path));
             }
 
-            fwrite($f, $record . "\n");
+            if (fwrite($f, $record . "\n") === false) {
+                throw new Exception(prepareIssueCard("Writing failed!", $path));
+            }
         }
 
-        fclose($f);
+        $f = fclose($f);
+        if ($f === false) {
+            throw new Exception(prepareIssueCard("File close failed!", $this->catalogPath));
+        }
+
+        return $this->copyCatalogUnderProject();
     }
 
     /**
@@ -118,8 +143,6 @@ class bhv extends unit
      */
     public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
-        echo "\nMetadata updating:\n";
-
         foreach ($this->getArtistsListing() as $artistTitle) {
             if (!$this->isMarkedToBeUpdated($artistTitle)) continue;
 
@@ -130,6 +153,6 @@ class bhv extends unit
             }
         }
 
-        return true;
+        return $this->updateCatalog();
     }
 }
