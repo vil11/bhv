@@ -10,7 +10,6 @@ const ENCODING = [
     'koi-r' => 'KOI8-R'
 ];
 
-
 /**
  * [IN PROGRESS] Prepare file name for saving:
  *  # replace foreign alphabet characters by english (latin) analogue;
@@ -23,8 +22,9 @@ const ENCODING = [
  *
  * @param string $fileName
  * @return string
+ *
  */
-//function smartPrepareFileName($fileName)
+//function smartPrepareFileName(string $fileName): string
 //{
 //    $restrictedCharacters = [
 //        "Á" => 'A',
@@ -93,20 +93,9 @@ const ENCODING = [
 //        }
 //    }
 //
-//    $fileName = trim(fixDirSeparatorsToTheRight($fileName));
+//    $fileName = trim(bendSeparatorsRight($fileName));
 //
 //    return $fileName;
-//}
-
-/**
- * [IN PROGRESS] Check if string contains no upper case characters.
- *
- * @param string $string
- * @return bool
- */
-//function containsNoUpperCase($string)
-//{
-//    return strtolower($string) === $string;
 //}
 
 /**

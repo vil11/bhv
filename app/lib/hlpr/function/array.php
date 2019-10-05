@@ -14,17 +14,19 @@
 //}
 
 /**
- * [IN PROGRESS] Convert single-level array into format of phpunit data provider
+ * Put every array element into an array (format of data provider).
  *
  * @param array $array
  * @return array
+ *
+ * @tested 1.2.6
  */
-//function prepareDataProvider(array $array)
-//{
-//    $dataProvider = [];
-//    foreach ($array as $value) {
-//        $dataProvider[] = [$value];
-//    }
-//
-//    return $dataProvider;
-//}
+function wrap(array $array): array
+{
+    $wrapped = [];
+    foreach ($array as $value) {
+        $wrapped[] = [$value];
+    }
+
+    return $wrapped;
+}
