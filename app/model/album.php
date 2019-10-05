@@ -74,7 +74,7 @@ class album extends unit
             if (!$this->data) $this->setData();
             $albumData = array_merge(['path' => $this->path], $this->data);
 
-            $this->songs[] = new song($this->artistTitle, $albumData, $songFileName);
+            $this->songs[] = new song($songFileName, $this->artistTitle, $albumData);
         }
     }
 

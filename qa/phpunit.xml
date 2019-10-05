@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="../app/bootstrap.php">
+    <testsuites>
+        <testsuite name="tests">
+<!--            <file>tests/nameFormatTest.php</file>-->
+            <file>tests/contentTest.php</file>
+        </testsuite>
+    </testsuites>
+<!--    <listeners>-->
+<!--    </listeners>-->
+</phpunit>

@@ -95,7 +95,7 @@ class bhv extends unit
     /**
      * @return bool
      */
-    public function copyCatalogUnderProject(): bool
+    private function copyCatalogUnderProject(): bool
     {
         $name = getPathSectionBackwards($this->catalogPath);
         $name = bendSeparatorsRight(APP_PATH . DS . 'data' . DS . $name);

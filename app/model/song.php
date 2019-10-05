@@ -20,14 +20,12 @@ class song extends unit
 
 
     /**
-     * TODO: investigate case when $albumData === null
-     *
-     * @param string $artistTitle
-     * @param array $albumData
      * @param string $title
+     * @param string $artistTitle
+     * @param array|null $albumData
      * @throws Exception
      */
-    public function __construct(string $artistTitle, array $albumData, string $title)
+    public function __construct(string $title, string $artistTitle, array $albumData = null)
     {
         $this->artistTitle = $artistTitle;
         $this->albumData = $albumData;

@@ -12,10 +12,10 @@ class bhvAutoloader
             require_once $inApp;
         }
 
-//        $inTest = APP_PATH . '/../qa/' . str_replace('_', '/', $className) . '.php';
-//        if (file_exists($inTest)) {
-//            require_once $inTest;
-//        }
+        $inTest = APP_PATH . '/../qa/' . str_replace('_', '/', $className) . '.php';
+        if (file_exists($inTest)) {
+            require_once $inTest;
+        }
 
         $hlprLibPath = APP_PATH . '/lib/hlpr/autoload.php';
         require_once $hlprLibPath;

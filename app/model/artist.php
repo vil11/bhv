@@ -79,7 +79,7 @@ class artist extends unit
     {
         $select = getDirFilesListByExt($this->path, settings::getInstance()->get('extensions/music'));
         foreach ($select as $songFileName) {
-            $this->freeSongs[] = new song($this->title, null, $songFileName);
+            $this->freeSongs[] = new song($songFileName, $this->title, null);
         }
     }
 
