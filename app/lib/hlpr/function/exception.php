@@ -28,7 +28,7 @@ function err(string $phrase, string $object, string $subject = null): string
  * @param string $path
  * @return string
  *
- * @tested 1.2.3
+ * @tested 1.2.7
  */
 function prepareIssueCard(string $issue, string $path = ''): string
 {
@@ -37,6 +37,7 @@ function prepareIssueCard(string $issue, string $path = ''): string
 
     $err = $padding . $delimiter;
     if ($path !== '') {
+        $path = bendSeparatorsRight($path);
         $err .= "| PATH   : $path\n" . $delimiter;
     }
     $err .= "| ISSUE  : $issue\n" . $delimiter . $padding;
