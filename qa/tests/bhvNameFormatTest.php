@@ -1,6 +1,6 @@
 <?php
 
-class nameFormatTest extends tests_abstract
+class bhvNameFormatTest extends tests_abstract
 {
     /**
      * @return array
@@ -21,8 +21,8 @@ class nameFormatTest extends tests_abstract
      *
      * Artist name contains no:
      *  - uppercase
-     *  - restricted in settings symbols
-     *  - additional info tags
+     *  - restricted symbols (see settings to edit)
+     *  - additional info tags (may present for Albums & Songs only)
      *
      * @dataProvider dataArtistsNames
      * @param string $artistName
@@ -44,7 +44,7 @@ class nameFormatTest extends tests_abstract
      *
      * Album name contains no:
      *  - uppercase
-     *  - restricted in settings symbols
+     *  - restricted symbols (see settings to edit)
      *
      * Album name follows the format:
      *  - year of release (required)
@@ -82,7 +82,7 @@ class nameFormatTest extends tests_abstract
      *
      * Song name contains no:
      *  - uppercase
-     *  - restricted in settings symbols
+     *  - restricted symbols (see settings to edit)
      *
      * Song name follows the format:
      *  - inside the Album:

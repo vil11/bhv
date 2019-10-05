@@ -3,7 +3,8 @@
 <phpunit bootstrap="../app/bootstrap.php">
     <testsuites>
         <testsuite name="tests">
-<!--            <file>tests/nameFormatTest.php</file>-->
+<!--            <file>tests/queueNameFormatTest.php</file>-->
+<!--            <file>tests/bhvNameFormatTest.php</file>-->
             <file>tests/contentTest.php</file>
         </testsuite>
     </testsuites>

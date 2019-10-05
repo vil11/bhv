@@ -1,0 +1,43 @@
+<?php
+
+class queueNameFormatTest extends tests_abstract
+{
+    /**
+     * @return array
+     * @throws Exception
+     */
+    public function dataArtistsNames(): array
+    {
+        $queue = new queue();
+        $data = wrap($queue->getArtistsListing());
+        unset($queue);
+
+        return $data;
+    }
+
+
+    /**
+     * @test
+     *
+     * Artist name contains no:
+     *  - uppercase
+     *  - restricted symbols (see settings to edit)
+     *  - additional info tags (may present for Albums & Songs only)
+     *
+     * @dataProvider dataArtistsNames
+     * @param string $queueName
+     * @param array $artistNames
+     * @throws Exception
+     */
+    public function artistNameConsistent(string $queueName, array $artistNames)
+    {
+        foreach ($artistNames as $artistName) {
+            $this->unit = 'Queue Artist';
+            $this->path = settings::getInstance()->get('libraries/queue') . DS . $queueName . DS . $artistName;
+
+            $this->verifyUppercaseAbsent($artistName);
+            $this->verifyRestrictedSymbolAbsent($artistName, settings::getInstance()->get('restricted_marks'));
+            $this->verifyRestrictedSymbolAbsent($artistName, $this->prepareTagsDelimiters());
+        }
+    }
+}
