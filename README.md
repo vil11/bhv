@@ -8,4 +8,4 @@
 
 
 ##
-![bee](https://github.com/vil11/bhv/blob/master/beehive.jpg)
+![bee](https://github.com/vil11/bhv/blob/master/docs/beehive.jpg)
