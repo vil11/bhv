@@ -450,7 +450,7 @@ accept\2010 [studio] blood of the nations\cover.jpg
 accept\2012 [studio] stalingrad\01. twist of fate.mp3
 accept\2012 [studio] stalingrad\02. galley.mp3
 accept\2012 [studio] stalingrad\cover.jpg
-accept\index.txt
+accept\x.txt
 ace of base\1992 [single] all that she wants\01. all that she wants [12'' version].mp3
 ace of base\1992 [single] all that she wants\cover.jpg
 ace of base\1992 [studio] happy nation\01. voulez-vous danser.mp3
@@ -553,7 +553,7 @@ alice in chains\2013 [studio] the devil put dinosaurs here\07. breath on a windo
 alice in chains\2013 [studio] the devil put dinosaurs here\08. phantom limb.mp3
 alice in chains\2013 [studio] the devil put dinosaurs here\09. hung on a hook.mp3
 alice in chains\2013 [studio] the devil put dinosaurs here\cover.jpg
-alice in chains\index.txt
+alice in chains\x.txt
 amatory\2003 [studio] вечно прячется судьба\01. восковый дождь.mp3
 amatory\2003 [studio] вечно прячется судьба\02. страница 6.mp3
 amatory\2003 [studio] вечно прячется судьба\03. мимикрия.mp3
@@ -679,7 +679,7 @@ amorphis\2011 [studio] the beginning of times\01. three words.mp3
 amorphis\2011 [studio] the beginning of times\cover.jpg
 amorphis\2013 [studio] circle\01. enchanted by the moon.mp3
 amorphis\2013 [studio] circle\cover.jpg
-amorphis\index.txt
+amorphis\x.txt
 aphrodite\1999 [rmx] urban jungle\01. gangsta gangsta [aphrodite mix][ft=n.w.a.].mp3
 aphrodite\1999 [rmx] urban jungle\02. underworld [ruffed up].mp3
 aphrodite\1999 [rmx] urban jungle\03. dub moods [super dub mix].mp3
@@ -1578,7 +1578,6 @@ black strobe\getting closer [c=nitzer ebb ebm homage].mp3
 black strobe\getting closer [nitzer ebb moderne remix].mp3
 black strobe\hold me, touch me [c=larry tee pres wit].mp3
 black strobe\i die.mp3
-black strobe\index.txt
 black strobe\last dub on earth.mp3
 black strobe\live at springfestival [graz].mp3
 black strobe\live in da mix [p=1].mp3
@@ -1597,6 +1596,7 @@ black strobe\the dresden codex [c=majeure].mp3
 black strobe\the punisher [c=zen-kei].mp3
 black strobe\what was her name [c=clarke].mp3
 black strobe\won't let go [ft=hot toddy+danielle moore].mp3
+black strobe\x.txt
 blues company\1988 [studio] so what\01. stay with me.mp3
 blues company\1988 [studio] so what\02. pension blues.mp3
 blues company\1988 [studio] so what\03. look here baby.mp3
@@ -1937,8 +1937,8 @@ chris cornell\2015 [studio] higher truth\01. nearly forgot my broken heart.mp3
 chris cornell\2015 [studio] higher truth\02. our time in the universe.mp3
 chris cornell\2015 [studio] higher truth\03. wrong side.mp3
 chris cornell\2015 [studio] higher truth\cover.jpg
-chris cornell\index.txt
-chris cornell\mission 2000.mp3
+chris cornell\mission 2000 [ost].mp3
+chris cornell\_i.txt
 chris nemmo\2004 [studio] forbidden paths\01. snowdrops.mp3
 chris nemmo\2004 [studio] forbidden paths\02. city 'a' bongos.mp3
 chris nemmo\2004 [studio] forbidden paths\03. forbidden paths.mp3
@@ -2639,6 +2639,25 @@ dredg\2009 [studio] the pariah, the parrot, the delusion\03. lightswitch.mp3
 dredg\2009 [studio] the pariah, the parrot, the delusion\04. ruok.mp3
 dredg\2009 [studio] the pariah, the parrot, the delusion\05. i don't know.mp3
 dredg\2009 [studio] the pariah, the parrot, the delusion\cover.jpg
+e-type\1994 [studio] made in sweden\01. set the world on fire.mp3
+e-type\1994 [studio] made in sweden\02. do you always.mp3
+e-type\1994 [studio] made in sweden\03. russian lullaby.mp3
+e-type\1994 [studio] made in sweden\04. me no want miseria.mp3
+e-type\1994 [studio] made in sweden\cover.jpg
+e-type\1996 [studio] the explorer\01. calling your name.mp3
+e-type\1996 [studio] the explorer\cover.jpg
+e-type\1998 [studio] last man standing\01. angels crying.mp3
+e-type\1998 [studio] last man standing\02. here i go again.mp3
+e-type\1998 [studio] last man standing\03. princess of egypt.mp3
+e-type\1998 [studio] last man standing\04. so far away.mp3
+e-type\1998 [studio] last man standing\cover.jpg
+e-type\1999 [rmx] greatest remixes\01. princess of egypt [pinocchio rmx].mp3
+e-type\1999 [rmx] greatest remixes\02. set the world on fire [uk biff & memphis rmx].mp3
+e-type\1999 [rmx] greatest remixes\cover.jpg
+e-type\2004 [studio] loud pipes save lives\01. the predator.mp3
+e-type\2004 [studio] loud pipes save lives\02. forever more [ft=nana].mp3
+e-type\2004 [studio] loud pipes save lives\cover.jpg
+e-type\x.txt.txt
 eminem\1999 [studio] the slim shady lp\01. my name is.mp3
 eminem\1999 [studio] the slim shady lp\cover.jpg
 eminem\2000 [studio] the marshall mathers lp\01. the real slim shady.mp3
@@ -2656,11 +2675,11 @@ eminem\2005 [single] when i'm gone\cover.jpg
 eminem\2010 [studio] recovery\01. so bad.mp3
 eminem\2010 [studio] recovery\02. session one [ft=slaughterhouse].mp3
 eminem\2010 [studio] recovery\cover.jpg
-enigma\1990 [studio] mcmxc a.d\01. principles of lust.mp3
-enigma\1990 [studio] mcmxc a.d\02. mea culpa.mp3
-enigma\1990 [studio] mcmxc a.d\03. knocking on forbidden doors.mp3
-enigma\1990 [studio] mcmxc a.d\04. back to the rivers of belief.mp3
-enigma\1990 [studio] mcmxc a.d\cover.jpg
+enigma\1990 [studio] mcmxc ad\01. principles of lust.mp3
+enigma\1990 [studio] mcmxc ad\02. mea culpa.mp3
+enigma\1990 [studio] mcmxc ad\03. knocking on forbidden doors.mp3
+enigma\1990 [studio] mcmxc ad\04. back to the rivers of belief.mp3
+enigma\1990 [studio] mcmxc ad\cover.jpg
 enigma\1993 [studio] the cross of changes\01. the eyes of truth.mp3
 enigma\1993 [studio] the cross of changes\02. return to innocence.mp3
 enigma\1993 [studio] the cross of changes\03. i love you ... i'll kill you.mp3
@@ -3460,13 +3479,16 @@ john kay\1978 [studio] all in good time\cover.jpg
 john kay\1987 [compil] lone steppenwolf\01. easy evil.mp3
 john kay\1987 [compil] lone steppenwolf\02. walkin' blues.mp3
 john kay\1987 [compil] lone steppenwolf\cover.jpg
+john kay\1987 [studio] rock & roll rebels [ft=steppenwolf]\01. replace the face.mp3
+john kay\1987 [studio] rock & roll rebels [ft=steppenwolf]\cover.jpg
+john kay\1996 [studio] feed the fire [ft=steppenwolf]\01. news i can use.mp3
+john kay\1996 [studio] feed the fire [ft=steppenwolf]\cover.jpg
 john kay\1997 [studio] the lost heritage tapes\01. hurricane maryann.mp3
 john kay\1997 [studio] the lost heritage tapes\cover.jpg
 john kay\2001 [studio] heretics and privateers\01. she's got the goods.mp3
 john kay\2001 [studio] heretics and privateers\02. the ice age.mp3
 john kay\2001 [studio] heretics and privateers\03. the back page.mp3
 john kay\2001 [studio] heretics and privateers\cover.jpg
-john kay\i.txt
 jukin' bone\1972 [studio] way down east\01. cara lynn.mp3
 jukin' bone\1972 [studio] way down east\02. nightcrawler.mp3
 jukin' bone\1972 [studio] way down east\03. come on home.mp3
@@ -6365,11 +6387,6 @@ steppenwolf\1976 [studio] skullduggery\02. train of thought.mp3
 steppenwolf\1976 [studio] skullduggery\03. lip service.mp3
 steppenwolf\1976 [studio] skullduggery\cover.jpg
 steppenwolf\i.txt
-steppenwolf [ft=john kay]\1987 [studio] rock & roll rebels\01. replace the face.mp3
-steppenwolf [ft=john kay]\1987 [studio] rock & roll rebels\cover.jpg
-steppenwolf [ft=john kay]\1996 [studio] feed the fire\01. news i can use.mp3
-steppenwolf [ft=john kay]\1996 [studio] feed the fire\cover.jpg
-steppenwolf [ft=john kay]\i.txt
 strangers on a train\1990 [studio] the key\01. occam's tears.mp3
 strangers on a train\1990 [studio] the key\cover.jpg
 strangers on a train\1993 [studio] the labyrinth\01. the labyrinth.mp3
@@ -8613,7 +8630,7 @@ zzebra\2001 [live] lost world\cover.jpg
 дельфин\2014 [studio] андрей\11. искра.mp3
 дельфин\2014 [studio] андрей\12. земля.mp3
 дельфин\2014 [studio] андрей\cover.jpg
-дельфин\или я.mp3
+дельфин\или я [ost].mp3
 егор и опизденевшие\1990 [studio] прыг-скок\01. отряд не заметил потери бойца.mp3
 егор и опизденевшие\1990 [studio] прыг-скок\02. про окурок и курок.mp3
 егор и опизденевшие\1990 [studio] прыг-скок\cover.jpg
@@ -8670,7 +8687,6 @@ zzebra\2001 [live] lost world\cover.jpg
 земфира\2005 [studio] вендетта\10. красота.mp3
 земфира\2005 [studio] вендетта\11. jim beam.mp3
 земфира\2005 [studio] вендетта\cover.jpg
-земфира\2007 [live] не стреляйте [радио серебрянный дождь].mp3
 земфира\2007 [studio] спасибо\01. в метро.mp3
 земфира\2007 [studio] спасибо\02. воскресенье.mp3
 земфира\2007 [studio] спасибо\03. мы разбиваемся.mp3
@@ -8689,6 +8705,7 @@ zzebra\2001 [live] lost world\cover.jpg
 земфира\2013 [studio] жить в твоей голове\04. кувырок.mp3
 земфира\2013 [studio] жить в твоей голове\05. гора.mp3
 земфира\2013 [studio] жить в твоей голове\cover.jpg
+земфира\не стреляйте [радио серебрянный дождь, 2007].mp3
 игорь растеряев\2010 [live] первый официальный концерт\01. грустная песня.mp3
 игорь растеряев\2010 [live] первый официальный концерт\02. метель в раковке.mp3
 игорь растеряев\2010 [live] первый официальный концерт\03. про хутор глинище.mp3
