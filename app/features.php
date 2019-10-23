@@ -87,3 +87,18 @@ function updateMetadata(bool $autoRenamingIfSuccess = false)
 //
 //    echo "\n\nfinished.\n\n";
 //}
+
+//function autoCreateArtistIndex()
+//{
+//    $bhv = new bhv();
+//    foreach ($bhv->getArtistsListing() as $artistName) {
+//        $artist = new artist($artistName);
+//
+//        $index = $artist->getPath() . '/x.txt';
+//        $xPresent = (file_exists($index) && is_file($index) && is_readable($index));
+//        if ($xPresent === false) {
+//            $x = fopen($index, "w");
+//            fclose($x);
+//        }
+//    }
+//}

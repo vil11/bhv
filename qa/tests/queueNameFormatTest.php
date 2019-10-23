@@ -6,7 +6,7 @@ class queueNameFormatTest extends tests_abstract
      * @return array
      * @throws Exception
      */
-    public function dataArtistsNames(): array
+    public function dataArtists(): array
     {
         $queue = new queue();
         $data = wrap($queue->getArtistsListing());
@@ -24,7 +24,7 @@ class queueNameFormatTest extends tests_abstract
      *  - restricted symbols (see settings to edit)
      *  - additional info tags (may present for Albums & Songs only)
      *
-     * @dataProvider dataArtistsNames
+     * @dataProvider dataArtists
      * @param string $queueName
      * @param array $artistNames
      * @throws Exception

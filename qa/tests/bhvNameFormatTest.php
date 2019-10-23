@@ -6,7 +6,7 @@ class bhvNameFormatTest extends tests_abstract
      * @return array
      * @throws Exception
      */
-    public function dataArtistsNames(): array
+    public function dataArtists(): array
     {
         $bhv = new bhv();
         $data = wrap($bhv->getArtistsListing());
@@ -24,7 +24,7 @@ class bhvNameFormatTest extends tests_abstract
      *  - restricted symbols (see settings to edit)
      *  - additional info tags (may present for Albums & Songs only)
      *
-     * @dataProvider dataArtistsNames
+     * @dataProvider dataArtists
      * @param string $artistName
      * @throws Exception
      */
@@ -52,7 +52,7 @@ class bhvNameFormatTest extends tests_abstract
      *  - title (required)
      *  - allowed additional info tags (optional)
      *
-     * @dataProvider dataArtistsNames
+     * @dataProvider dataArtists
      * @param string $artistName
      * @throws Exception
      */
@@ -93,7 +93,7 @@ class bhvNameFormatTest extends tests_abstract
      *      - title (required)
      *      - allowed additional info tags (optional)
      *
-     * @dataProvider dataArtistsNames
+     * @dataProvider dataArtists
      * @param string $artistName
      * @throws Exception
      */
@@ -106,7 +106,7 @@ class bhvNameFormatTest extends tests_abstract
             $this->path = $song->getPath();
 
             $this->verifyUppercaseAbsent($song->getTitle());
-            $this->verifyRestrictedSymbolAbsent($song->getTitle(), settings::getInstance()->get('restricted_marks'));
+            $this->verifyRestrictedSymbolAbsent(pathinfo($this->path)['filename'], settings::getInstance()->get('restricted_marks'));
 
             $data = $song->getData();
             if ($song->getAlbumData()) {

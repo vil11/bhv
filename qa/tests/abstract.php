@@ -6,35 +6,18 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
     protected $path;
 
 
-    protected function findOvercontent(string $dirPath, array $dataAllowed)
+    protected function findOvercontent(array $allowed)
     {
-        foreach ($dataAllowed as $fileExt => $limit) {
-            if (count(getDirFilesListByExt($dirPath, $fileExt)) > $limit) return $fileExt;
+        foreach ($allowed as $fileExt => $limit) {
+            if (count(getDirFilesListByExt($this->path, $fileExt)) > $limit) return $fileExt;
         }
 
-        foreach (getDirFilesList($dirPath) as $fileName) {
-            $fileExt = pathinfo($dirPath . DS . $fileName, PATHINFO_EXTENSION);
-            if (!array_key_exists("." . $fileExt, $dataAllowed)) return "." . $fileExt;
+        foreach (getDirFilesList($this->path) as $fileName) {
+            $fileExt = pathinfo($this->path . DS . $fileName, PATHINFO_EXTENSION);
+            if (!array_key_exists("." . $fileExt, $allowed)) return "." . $fileExt;
         }
 
         return '';
-    }
-
-    protected function isAlbumSongsOrderConsistent(album $album): bool
-    {
-        $songs = $album->getSongs();
-
-        if (count($songs) !== (integer)end($songs)->getData()['position']) {
-            return false;
-        }
-
-        foreach ($songs as $position => $song) {
-            if ($position + 1 !== (integer)$song->getData()['position']) {
-                return false;
-            }
-        }
-
-        return true;
     }
 
     /**
@@ -56,7 +39,7 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
      */
     protected function verifyUppercaseAbsent(string $title)
     {
-        $err = err('Remove uppercase from %s %s name.', $title, $this->unit);
+        $err = err('Remove uppercase from "%s" %s name.', $title, $this->unit);
         $err = prepareIssueCard($err, $this->path);
 
         $this->assertEquals(mb_strtolower($title), $title, $err);
@@ -69,7 +52,7 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
     protected function verifyRestrictedSymbolAbsent(string $title, array $restricted)
     {
         foreach ($restricted as $mark) {
-            $err = err('Remove %s from %s name.', $mark, $this->unit);
+            $err = err('Remove "%s" from %s name.', $mark, $this->unit);
             $err = prepareIssueCard($err, $this->path);
 
             $this->assertNotContains($mark, $title, $err);
@@ -82,7 +65,7 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
      */
     protected function verifyDataPresent(string $key, string $value)
     {
-        $err = err('Specify %s in %s name.', $key, $this->unit);
+        $err = err('Specify "%s" in %s name.', $key, $this->unit);
         $err = prepareIssueCard($err, $this->path);
 
         $this->assertNotEmpty($value, $err);
@@ -114,7 +97,7 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
         foreach ($data as $k => $v) {
             $v = implode($delimiters['tag_info'], $v);
 
-            $err = err('%s tag type is invalid in %s name.', $k, $this->unit);
+            $err = err('"%s" tag type is invalid in %s name.', $k, $this->unit);
             $err = prepareIssueCard($err, $this->path);
             if ($k === 'info') {
                 $this->assertTrue(key_exists($k, $allowed), $err);
@@ -185,5 +168,110 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
         $err = err('Invalid %s name format.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
         $this->assertEquals($format, $title, $err);
+    }
+
+    /**
+     * @param array $libA
+     * @param array $libB
+     * @param string $err
+     */
+    protected function verifyDuplicatingsAbsent(array $libA, array $libB, string $err)
+    {
+        $duplicate = array_intersect($libA, $libB);
+        $duplicate = implode(", ", $duplicate);
+
+        $err = err($err, $duplicate);
+        $err = prepareIssueCard($err);
+        $this->assertEmpty($duplicate, $err);
+    }
+
+    /**
+     * @param array $names
+     */
+    protected function verifyPrefixDuplicatingsAbsent(array $names)
+    {
+        foreach ($names as $name) {
+            $prefix = substr($name, 0, 4);
+            if ($prefix === 'the ') {
+                $err = err('"%s" %s is duplicated with prefix', str_replace($prefix, '', $name), $this->unit);
+                $err = err($err . ' "%s". ', $prefix);
+                $err = err($err . 'Please compare it to "%s" %s.', $name, $this->unit);
+                $err = prepareIssueCard($err);
+                $this->assertFalse(in_array(substr($name, 4), $names), $err);
+            }
+        }
+    }
+
+    /**
+     * @param array $files
+     * @throws Exception
+     */
+    protected function verifyOnlyExpectedFilesPresent(array $files)
+    {
+        $actual = [];
+        foreach (getDirFilesList($this->path) as $file) {
+            $actual[] = bendSeparatorsRight($this->path . DS . $file);
+        }
+
+        $err = err('Files list is unexpected in %s root folder.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertEquals(ksort($files), ksort($actual), $err);
+    }
+
+    /**
+     * @param artist $artist
+     * @throws Exception
+     */
+    protected function verifyAlbumsNotAbsent(artist $artist)
+    {
+        $albumsQtyLimit = (int)settings::getInstance()->get('limits/artist_albums_qty_min');
+        $albumsQty = count($artist->getAlbums());
+
+        $err = err('"%s" %s contains no Albums. Where are they?', $artist->getTitle(), $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertGreaterThanOrEqual($albumsQtyLimit, $albumsQty, $err);
+    }
+
+    /**
+     * @param album $album
+     * @throws Exception
+     */
+    protected function verifySongsNotAbsent(album $album)
+    {
+        $songsQtyLimit = (int)settings::getInstance()->get('limits/album_songs_qty_min');
+        $songsQty = count($album->getSongs());
+
+        $err = err('"%s" %s contains no Songs. Where are they?', $album->getTitle(), $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertGreaterThanOrEqual($songsQtyLimit, $songsQty, $err);
+    }
+
+    /**
+     * @param album $album
+     * @throws Exception
+     */
+    protected function verifySongsOrdered(album $album)
+    {
+        $songs = $album->getSongs();
+
+        $err = err('"%s" %s contains Songs in invalid order. Reorder them.', $album->getTitle(), $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertEquals(count($songs), (integer)end($songs)->getData()['position'], $err);
+        foreach ($songs as $position => $song) {
+            $this->assertEquals($position + 1, (integer)$song->getData()['position'], $err);
+        }
+    }
+
+    /**
+     * @param album $album
+     * @throws Exception
+     */
+    protected function verifyAlbumHasNoFolders(album $album)
+    {
+        $dirs = getDirDirsList($this->path);
+
+        $err = err('"%s" %s contains folder.', $album->getTitle(), $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertEmpty($dirs, $err);
     }
 }

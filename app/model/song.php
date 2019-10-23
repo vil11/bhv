@@ -176,7 +176,7 @@ class song extends unit
 
     private function setExpectedThumbnail()
     {
-        $thumbnailPath = $this->albumData['path'] . DS . 'cover.' . settings::getInstance()->get('extensions/thumbnail');
+        $thumbnailPath = $this->albumData['path'] . DS . settings::getInstance()->get('paths/album_thumbnail');
         $fd = fopen($thumbnailPath, 'rb');
         $this->expectedThumbnail = fread($fd, filesize($thumbnailPath));
         fclose($fd);
@@ -204,7 +204,7 @@ class song extends unit
         $tagObj->remove_other_tags = true;
 
         // tags preparing
-        $tagData = $this->prepareUpdatedMetadataForWriting();
+        $tagData = $this->getExpectedMetadata();
         if ($this->albumData) {
             $tagData['attached_picture'][] = array(
                 'picturetypeid' => 2,
@@ -224,24 +224,5 @@ class song extends unit
         $id3->encoding = $encodingType;
 
         return $result;
-    }
-
-    /**
-     * @throws Exception
-     * @return array
-     */
-    private function prepareUpdatedMetadataForWriting()
-    {
-        $metadata = $this->getExpectedMetadata();
-        foreach ($metadata as $k => &$m) {
-            if (count($m) !== 1)  {
-                throw new Exception('');
-            }
-
-            if (is_string($m[0])) {
-                $m[0] = $this->encode($m[0]);
-            }
-        }
-        return $metadata;
     }
 }

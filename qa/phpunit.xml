@@ -3,11 +3,15 @@
 <phpunit bootstrap="../app/bootstrap.php">
     <testsuites>
         <testsuite name="tests">
-<!--            <file>tests/queueNameFormatTest.php</file>-->
-<!--            <file>tests/bhvNameFormatTest.php</file>-->
-            <file>tests/contentTest.php</file>
+
+            <file>tests/bhvNameFormatTest.php</file>
+            <file>tests/queueNameFormatTest.php</file>
+
+<!--            <file>tests/bhvContentTest.php</file>-->
+<!--            <file>tests/queueContentFormatTest.php</file>-->
+
         </testsuite>
     </testsuites>
-<!--    <listeners>-->
-<!--    </listeners>-->
+    <!--    <listeners>-->
+    <!--    </listeners>-->
 </phpunit>

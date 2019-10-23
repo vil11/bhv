@@ -55,7 +55,7 @@ class bhv extends unit
 
     private function setCatalogPath()
     {
-        $path = settings::getInstance()->get('paths/bhv_catalog');
+        $path = $this->path . DS . settings::getInstance()->get('paths/bhv_catalog');
         $path = bendSeparatorsRight($path);
 
         $this->catalogPath = $path;
