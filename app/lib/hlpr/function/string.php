@@ -129,12 +129,12 @@ function bendSeparatorsRight($path): string
  * @param string $string
  * @return string
  *
- * @tested 1.2.3
+ * @ tested 1.2.3
  */
-function fixEncodingWhileRead(string $string): string
-{
-    return mb_convert_encoding($string, ENCODING['win'], ENCODING['utf']);
-}
+//function fixEncodingWhileRead(string $string): string
+//{
+//    return mb_convert_encoding($string, ENCODING['win'], ENCODING['utf']);
+//}
 
 /**
  * [IN PROGRESS] Switch encoding from UTF-8 to Windows-1251:
