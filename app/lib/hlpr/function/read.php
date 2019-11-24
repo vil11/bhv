@@ -257,17 +257,19 @@ function parseList(string $filePath, string $delimiter = "\r\n"): array
 //}
 
 /**
- * [IN PROGRESS] Add log record to appropriate log file.
+ * Add a record to an appropriate log file.
  *
  * @param string $logRecord
  * @param string $logFilePath
+ *
+ * @tested 1.2.9
  */
-//function addLog($logRecord, $logFilePath)
-//{
-//    $file = fopen($logFilePath, 'a');
-//    fwrite($file, $logRecord . "\r\n");
-//    fclose($file);
-//}
+function addLog($logRecord, $logFilePath)
+{
+    $file = fopen($logFilePath, 'a');
+    fwrite($file, $logRecord . "\r\n");
+    fclose($file);
+}
 
 /**
  * [IN PROGRESS] Clear logs file from duplications.
