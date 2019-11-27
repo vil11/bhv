@@ -99,7 +99,7 @@ class song extends unit
     /**
      * @throws Exception
      */
-    private function setActualMetadataAndThumbnail()
+    private function setActualMetadata()
     {
         $tagObj = new getID3();
         $tagObj->openfile($this->path);
@@ -118,20 +118,26 @@ class song extends unit
             if (array_key_exists('APIC', $apic)) {
                 $this->actualThumbnail = $apic['APIC'][0]['data'];
             } else {
-                $aaa = 1;
+                throw new Exception(prepareIssueCard("UNKNOWN CASE"));
             }
         }
+
+        ksort($this->actualMetadata);
     }
 
-    public function getActualMetadata()
+    /**
+     * @return array
+     * @throws Exception
+     */
+    public function getActualMetadata(): array
     {
-        if (!$this->actualMetadata) $this->setActualMetadataAndThumbnail();
+        if (!$this->actualMetadata) $this->setActualMetadata();
         return $this->actualMetadata;
     }
 
     public function getActualThumbnail()
     {
-        if (!$this->actualThumbnail) $this->setActualMetadataAndThumbnail();
+        if (!$this->actualThumbnail) $this->setActualMetadata();
         return $this->actualThumbnail;
     }
 
@@ -140,7 +146,8 @@ class song extends unit
         if ($writeTag === null) $writeTag = $readTag;
 
         if (array_key_exists($readTag, $tagsData)) {
-            $this->actualMetadata[$writeTag][] = $this->decode($tagsData[$readTag][0]);
+//            $this->actualMetadata[$writeTag][] = $this->decode($tagsData[$readTag][0]);
+            $this->actualMetadata[$writeTag][] = $tagsData[$readTag][0];
         }
     }
 
@@ -156,6 +163,8 @@ class song extends unit
             $this->expectedMetadata['album'][] = $this->prepareAlbumTitleTag();
             $this->expectedMetadata['track'][] = $this->data['position'];
         }
+
+        ksort($this->expectedMetadata);
     }
 
     /**
@@ -168,7 +177,10 @@ class song extends unit
             . $this->albumData['title'] . $this->prepareTagsString($this->albumData);
     }
 
-    public function getExpectedMetadata()
+    /**
+     * @return array
+     */
+    public function getExpectedMetadata(): array
     {
         if (!$this->expectedMetadata) $this->setExpectedMetadata();
         return $this->expectedMetadata;
@@ -189,8 +201,8 @@ class song extends unit
     }
 
     /**
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
     public function updateMetadata()
     {

@@ -2,7 +2,6 @@
 ## IN PROGRESS
 - (T1) continuously upgrading of HLPR lib, annotate tested functions accordingly
 - (T1) refactor & stabilization of tests execution while implementing:
-    - investigate forbidding of start or end titles (Album title name, Song title name, Song filename, any tag, etc.) from a dot (".") : RESTRICTED_PREFIX, RESTRICTED_POSTFIX
     - keep Album tags with other Album data as $data['tags']
     - try to make Song system filename as shorter as possible:
         - extend meta tags (^1) from Album level to Song level automatically (^2)
@@ -12,15 +11,9 @@
                 - (?) is Artist able to have meta tags (restrict OR allow with QA)
         - add " remix" & "remix " to blacklist (ex: replace all with "rmx")
             - then: wrap all those under "rmx" info tag
-        - investigate " vs ", "vs.", " vol ", "vol.", " ver ", " version", "instrumental", "instr", "инстр", "інстр" for unifying
+        - investigate "instrumental", "instr", "инстр", "інстр" for unifying
             - declare allowed AND/OR restricted
         - watch for max length of Songs' Filepaths (while resetting Catalog?)
-    - while updating Metadata, fetch Artists those:
-        - have manually added correspondent prefix (ex: "_")
-        - have no correspondent mark (^1) about updated metadata (^2)
-            - (^1) ex: build number AND/OR timestamp
-            - (^2) ex: timestamp in index file OR some general log file on BHV level
-
 
 
 ## BACKLOG

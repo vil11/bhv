@@ -7,8 +7,7 @@
             <file>tests/bhvNameFormatTest.php</file>
             <file>tests/queueNameFormatTest.php</file>
 
-<!--            <file>tests/bhvContentTest.php</file>-->
-<!--            <file>tests/queueContentFormatTest.php</file>-->
+            <file>tests/bhvContentTest.php</file>
 
         </testsuite>
     </testsuites>

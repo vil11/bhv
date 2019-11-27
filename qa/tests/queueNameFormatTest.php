@@ -36,6 +36,7 @@ class queueNameFormatTest extends tests_abstract
             $this->path = settings::getInstance()->get('libraries/queue') . DS . $queueName . DS . $artistName;
 
             $this->verifyUppercaseAbsent($artistName);
+            $this->verifyWrapAbsent($artistName);
             $this->verifyRestrictedSymbolAbsent($artistName, settings::getInstance()->get('restricted_marks'));
             $this->verifyRestrictedSymbolAbsent($artistName, $this->prepareTagsDelimiters());
         }

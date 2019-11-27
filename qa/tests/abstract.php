@@ -6,20 +6,6 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
     protected $path;
 
 
-    protected function findOvercontent(array $allowed)
-    {
-        foreach ($allowed as $fileExt => $limit) {
-            if (count(getDirFilesListByExt($this->path, $fileExt)) > $limit) return $fileExt;
-        }
-
-        foreach (getDirFilesList($this->path) as $fileName) {
-            $fileExt = pathinfo($this->path . DS . $fileName, PATHINFO_EXTENSION);
-            if (!array_key_exists("." . $fileExt, $allowed)) return "." . $fileExt;
-        }
-
-        return '';
-    }
-
     /**
      * @return array
      */
@@ -43,6 +29,17 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
         $err = prepareIssueCard($err, $this->path);
 
         $this->assertEquals(mb_strtolower($title), $title, $err);
+    }
+
+    /**
+     * @param string $title
+     */
+    protected function verifyWrapAbsent(string $title)
+    {
+        $err = err('Remove wrapper from "%s" %s name.', $title, $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+
+        $this->assertEquals(trim($title), $title, $err);
     }
 
     /**
@@ -273,5 +270,32 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
         $err = err('"%s" %s contains folder.', $album->getTitle(), $this->unit);
         $err = prepareIssueCard($err, $this->path);
         $this->assertEmpty($dirs, $err);
+    }
+
+    /**
+     * @param song $song
+     * @throws Exception
+     */
+    protected function verifySongMetadata(song $song)
+    {
+        $err = prepareIssueCard('Update Song metadata.', $this->path);
+        $this->assertEquals($song->getExpectedMetadata(), $song->getActualMetadata(), $err);
+
+        if ($song->getAlbumData()) {
+            $err = prepareIssueCard('Update Song picture metadata.', $this->path);
+            $this->assertEquals($song->getExpectedThumbnail(), $song->getActualThumbnail(), $err);
+        }
+    }
+
+    /**
+     * @param string $entry
+     */
+    protected function verifyCatalogEntryPresent(string $entry)
+    {
+        $filepath = bendSeparatorsRight($this->path . DS . $entry);
+
+        $err = err('"%s" is absent or empty. Where is it?', $entry);
+        $err = prepareIssueCard($err, $filepath);
+        $this->assertTrue(isFileValid($filepath), $err);
     }
 }

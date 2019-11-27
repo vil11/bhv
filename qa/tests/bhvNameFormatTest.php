@@ -35,6 +35,7 @@ class bhvNameFormatTest extends tests_abstract
         $this->path = $artist->getPath();
 
         $this->verifyUppercaseAbsent($artist->getTitle());
+        $this->verifyWrapAbsent($artist->getTitle());
         $this->verifyRestrictedSymbolAbsent($artist->getTitle(), settings::getInstance()->get('restricted_marks'));
         $this->verifyRestrictedSymbolAbsent($artist->getTitle(), $this->prepareTagsDelimiters());
     }
@@ -65,6 +66,7 @@ class bhvNameFormatTest extends tests_abstract
             $this->path = $album->getPath();
 
             $this->verifyUppercaseAbsent($album->getTitle());
+            $this->verifyWrapAbsent($album->getTitle());
             $this->verifyRestrictedSymbolAbsent($album->getTitle(), settings::getInstance()->get('restricted_marks'));
 
             $data = $album->getData();
@@ -72,6 +74,7 @@ class bhvNameFormatTest extends tests_abstract
             $this->verifyDataPresent('record type', $data['type']);
             $this->verifyRecordTypeValid($data['type']);
             $this->verifyDataPresent('title', $data['title']);
+            $this->verifyWrapAbsent($data['title']);
             $tags = (array_key_exists('tags', $data)) ? $this->verifyTagsValid($data['tags']) : '';
             $this->verifyAlbumFormatValid($album->getTitle(), $data, $tags);
         }
@@ -106,16 +109,19 @@ class bhvNameFormatTest extends tests_abstract
             $this->path = $song->getPath();
 
             $this->verifyUppercaseAbsent($song->getTitle());
+            $this->verifyWrapAbsent($song->getTitle());
             $this->verifyRestrictedSymbolAbsent(pathinfo($this->path)['filename'], settings::getInstance()->get('restricted_marks'));
 
             $data = $song->getData();
             if ($song->getAlbumData()) {
                 $this->verifyDataPresent('track position', $data['position']);
                 $this->verifyDataPresent('title', $data['title']);
+                $this->verifyWrapAbsent($data['title']);
                 $tags = (array_key_exists('tags', $data)) ? $this->verifyTagsValid($data['tags']) : '';
                 $this->verifyAlbumSongFormatValid($song->getTitle(), $data, $tags);
             } else {
                 $this->verifyDataPresent('title', $data['title']);
+                $this->verifyWrapAbsent($data['title']);
                 $tags = (array_key_exists('tags', $data)) ? $this->verifyTagsValid($data['tags']) : '';
                 $this->verifyArtistSongFormatValid($song->getTitle(), $data, $tags);
             }
