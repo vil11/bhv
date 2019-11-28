@@ -1,36 +1,22 @@
 
 ## IN PROGRESS
-- (T1) continuously upgrading of HLPR lib, annotate tested functions accordingly
-- (T1) refactor & stabilization of tests execution while implementing:
-    - keep Album tags with other Album data as $data['tags']
-    - try to make Song system filename as shorter as possible:
-        - extend meta tags (^1) from Album level to Song level automatically (^2)
-            - (^1) ex: add "isExtendable" attr for Tag
-            - (^2) while keeping Song Data
-            - investigate extending from Artist level to Album level
-                - (?) is Artist able to have meta tags (restrict OR allow with QA)
-        - add " remix" & "remix " to blacklist (ex: replace all with "rmx")
-            - then: wrap all those under "rmx" info tag
-        - investigate "instrumental", "instr", "инстр", "інстр" for unifying
-            - declare allowed AND/OR restricted
-        - watch for max length of Songs' Filepaths (while resetting Catalog?)
-
+- (T2) continuously upgrading of HLPR lib, annotate tested functions accordingly
+- (T2) Code clean-up
+      - move "unit.php" technical functions to the HLPR lib level
+      - reduce all TODOs inside project (the own ones)
+      - add annotation to every head variable of every model object
+      - make sure every thrown in the method Exception case is described in annotations to this method
 
 ## BACKLOG
 - (F2) Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
     - Album Metadata is inherited from Artist level and can be overwritten by its own if tags matched
+        - (?) add "isExtendable" attr for Tag
     - fail Assert in correspondent Test if every Song has the same "c=" (...) tag
         - create new Test if there is such need
         - explore for more similar cases
         - suggest solution in Assert err msg
             - ex: in case of full "c=" repeat: "move tag to the Album name level to be extended accordingly
-
-- (T2) Code clean-up
-    - move "unit.php" technical functions to the HLPR lib level
-    - reduce all TODOs inside project (the own ones)
-    - add annotation to every head variable of every model object
-    - make sure every thrown in the method Exception case is described in annotations to this method
 
 - (T2) HLPR lib from app to vendor
 - (F2) Artist index file (ex: last Album listened)

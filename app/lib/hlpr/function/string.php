@@ -129,7 +129,7 @@ function bendSeparatorsRight($path): string
  * @param string $string
  * @return string
  *
- * @ tested 1.2.3
+ * @tested 1.2.3
  */
 //function fixEncodingWhileRead(string $string): string
 //{

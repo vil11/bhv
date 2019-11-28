@@ -62,6 +62,10 @@ class album extends unit
         if ($titleAndTags !== $this->data['title']) {
             $this->setTags(explode($this->data['title'] . $delimiters['section'], $this->title)[1]);
         }
+
+        if (!$this->data) {
+            throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->path));
+        }
     }
 
     /**

@@ -75,6 +75,16 @@ class song extends unit
             $this->data['type'] = $this->albumData['type'];
             $this->data['position'] = explode($delimiters['song_position'], $fileName)[0];
 
+
+            $artist = explode($delimiters['song_artist'], $fileName);
+            if (count($artist) !== 1) {
+//                $a = $artist[0];
+//                $f = $artist[1];
+
+                throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->path));
+            }
+
+
             $position = $this->data['position'] . $delimiters['song_position'];
             $positionAndTitle = explode($delimiters['section'] . $delimiters['tag_open'], $fileName)[0];
             $this->data['title'] = explode($position, $positionAndTitle)[1];
@@ -93,6 +103,10 @@ class song extends unit
                 $tags = explode($this->data['title'] . $delimiters['section'], $fileName)[1];
                 $this->setTags($tags);
             }
+        }
+
+        if (!$this->data) {
+            throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->path));
         }
     }
 
