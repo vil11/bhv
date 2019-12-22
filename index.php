@@ -1,6 +1,8 @@
 <?php
 
-require_once 'app/bootstrap.php';
+require_once 'app/features.php';
 
-//updateCatalog();
-//updateMetadata();
+$features = new features();
+
+$features->updateMetadata(true);
+$features->updateCatalog();

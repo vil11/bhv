@@ -1,50 +1,67 @@
 <?php
 
+require_once 'app/boot/bootstrap.php';
+
 /**
- * Update Catalog to log the latest Beehive state:
- *  - run manually by calling the function directly from "index.php"
- *
- * @throws Exception
+ * Beehive app features. Run manually by calling the function directly from "index.php".
  */
-function updateCatalog()
+class features
 {
-    echo "\nCatalog updating:\n";
+    /** @var bhv */
+    private $bhv;
 
-    $bhv = new bhv();
-    $result = $bhv->updateCatalog();
+    public function __construct()
+    {
+        $this->bhv = new bhv();
+    }
 
-    $result = ($result) ? 'SUCCESS' : 'FAIL!!!';
-    echo "\n\n[$result] finished.\n\n";
-}
 
-/**
- * Update Metadata of all Artist Songs or for concrete Artist Albums only:
- *  - run manually by calling the function directly from "index.php"
- *  - start Artist folder name & Album folder name with an underscore* in order to tag it for updating
- *  - if no Albums are tagged for updating, all Artist Songs will be updated
- *  - you can enable automatic renaming of tagged folders on operation success, by default this option is disabled
- *
- * @param bool $autoRenamingIfSuccess
- * @throws Exception
- */
-function updateMetadata(bool $autoRenamingIfSuccess = false)
-{
-    echo "\nMetadata updating:\n";
+    /**
+     * Update Catalog to log the latest Beehive state.
+     *
+     * @throws Exception
+     */
+    public function updateCatalog()
+    {
+        $result = $this->bhv->updateCatalog();
+        $this->finish($result);
+    }
 
-    $bhv = new bhv();
-    $result = $bhv->updateMetadata($autoRenamingIfSuccess);
+    /**
+     * Update Metadata of all Artist Songs or for concrete Artist Albums only:
+     *  - start Artist folder name & Album folder name with an underscore* in order to tag it for updating
+     *  - if no Albums are tagged for updating, all Artist Songs will be updated
+     *  - you can enable automatic renaming of tagged folders on operation success, by default this option is disabled
+     *
+     * @param bool $autoRenamingIfSuccess
+     * @throws Exception
+     */
+    public function updateMetadata(bool $autoRenamingIfSuccess = false)
+    {
+        $result = $this->bhv->updateMetadata($autoRenamingIfSuccess);
+        $this->finish($result);
+    }
 
-    $result = ($result) ? 'SUCCESS' : 'FAIL!!!';
-    echo "\n\n[$result] finished.\n\n";
-}
+    /**
+     * @param bool $result
+     */
+    protected function finish(bool $result)
+    {
+        if ($result) {
+            say("\n\n[SUCCESS!]\n", 'green');
+        } else {
+            say("\n\n[FAIL!!!]\n", 'red');
+        }
+    }
 
-/**
- * Perform the QA session in order to be sure that BHV is deliverable.
- *
- * @throws Exception if QA execution script isn't performed validly
- * @throws Exception if testing results report reading is failed
- */
-//function performQA()
+
+//    /**
+//     * Perform the QA session in order to be sure that BHV is deliverable.
+//     *
+//     * @throws Exception if QA execution script isn't performed validly
+//     * @throws Exception if testing results report reading is failed
+//     */
+//public function performQA()
 //{
 //    echo "\nBhv testing:\n";
 //
@@ -88,7 +105,7 @@ function updateMetadata(bool $autoRenamingIfSuccess = false)
 //    echo "\n\nfinished.\n\n";
 //}
 
-//function autoCreateArtistIndex()
+//public function autoCreateArtistIndex()
 //{
 //    $bhv = new bhv();
 //    foreach ($bhv->getArtistsListing() as $artistName) {
@@ -102,3 +119,4 @@ function updateMetadata(bool $autoRenamingIfSuccess = false)
 //        }
 //    }
 //}
+}

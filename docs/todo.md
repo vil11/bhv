@@ -2,10 +2,15 @@
 ## IN PROGRESS
 - (T2) continuously upgrading of HLPR lib, annotate tested functions accordingly
 - (T2) Code clean-up
-      - move "unit.php" technical functions to the HLPR lib level
-      - reduce all TODOs inside project (the own ones)
-      - add annotation to every head variable of every model object
-      - make sure every thrown in the method Exception case is described in annotations to this method
+    - make all verifications inside "qa/tests/abstract.php" argument independent
+        - ex: "$album->getTitle();" can be changed to "$this->title;"
+    - move "unit.php" technical functions to the HLPR lib level
+    - reduce all TODOs inside project (the own ones)
+    - add annotation to every head variable of every model object
+    - make sure every thrown in the method Exception case is described in annotations to this method
+    - increase imgs_size_min
+    - decrease path_length_max
+    - make $unit->_type as CONST
 
 ## BACKLOG
 - (F2) Metadata inheritance
