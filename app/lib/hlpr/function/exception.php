@@ -1,5 +1,15 @@
 <?php
 
+const COLOR_RED = "\e[00;31m";
+const COLOR_GREEN = "\e[32m";
+const COLOR_YELLOW = "\e[0;33m";
+const COLOR_BLUE = "\e[0;34m";
+const COLOR_WHITE = "\e[0;37m";
+const COLOR_GREY = "\e[0;90m" ;
+
+const COLOR_OFF = "\033[0m";
+
+
 /**
  * Form error message (or its part) by filling phrase with arguments.
  *
@@ -28,19 +38,45 @@ function err(string $phrase, string $object, string $subject = null): string
  * @param string $path
  * @return string
  *
- * @tested 1.2.7
+ * @tested 1.3.1
  */
 function prepareIssueCard(string $issue, string $path = ''): string
 {
     $padding = str_repeat("\n", 2);
     $delimiter = '+' . str_repeat("-", 8) . '+' . str_repeat('-', 88) . "\n";
+    $delimiter = shColor($delimiter, 'grey');
 
     $err = $padding . $delimiter;
     if ($path !== '') {
-        $path = bendSeparatorsRight($path);
-        $err .= "| PATH   : $path\n" . $delimiter;
+        $issue = shColor($issue, 'white');
+        $path = shColor(bendSeparatorsRight($path), 'blue');
+
+        $err .= shColor('| PATH   : ', 'grey') . "$path\n" . $delimiter;
     }
-    $err .= "| ISSUE  : $issue\n" . $delimiter . $padding;
+    $err .= shColor('| ISSUE  : ', 'grey') . shColor("$issue\n", 'white') . $delimiter . str_repeat($padding, 4);
 
     return $err;
+}
+
+/**
+ * @param string $phrase
+ * @param string $color
+ *
+ * @tested 1.3.1
+ */
+function say(string $phrase, $color = '')
+{
+    echo ($color !== '') ? shColor($phrase, $color) : $phrase;
+}
+
+/**
+ * @param string $phrase
+ * @param string $color
+ * @return string
+ *
+ * @tested 1.3.1
+ */
+function shColor(string $phrase, string $color): string
+{
+    return constant(strtoupper("color_" . $color)) . $phrase . COLOR_OFF;
 }

@@ -158,13 +158,27 @@ function bendSeparatorsRight($path): string
  *
  * @tested 1.2.5
  */
-function getPathSectionBackwards($path, int $sectionPositionBackwards = 1): string
+function getPathSectionBackwards(string $path, int $sectionPositionBackwards = 1): string
+{
+    $path = parsePath($path);
+    return $path[count($path) - $sectionPositionBackwards];
+}
+
+/**
+ * Break path (file, URL, ...) to sections. Adjust path not to end with divider, in advance.
+ *
+ * @param string $path
+ * @param string $divider
+ * @return array
+ *
+ * @tested 1.2.5
+ */
+function parsePath(string $path, string $divider = '/'): array
 {
     $path = bendSeparatorsRight($path);
-    if ($path{strlen($path) - 1} === '/') {
-        $path = substr($path, 0, -1);
+    if ($path{strlen($path) - strlen($divider)} === $divider) {
+        $path = substr($path, 0, -strlen($divider));
     }
-    $path = explode('/', $path);
 
-    return $path[count($path) - $sectionPositionBackwards];
+    return explode($divider, $path);
 }
