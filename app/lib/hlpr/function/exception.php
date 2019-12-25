@@ -53,7 +53,7 @@ function prepareIssueCard(string $issue, string $path = ''): string
 
         $err .= shColor('| PATH   : ', 'grey') . "$path\n" . $delimiter;
     }
-    $err .= shColor('| ISSUE  : ', 'grey') . shColor("$issue\n", 'white') . $delimiter . str_repeat($padding, 4);
+    $err .= shColor('| ISSUE  : ', 'grey') . shColor("$issue\n", 'white') . $delimiter . str_repeat($padding, 2);
 
     return $err;
 }
