@@ -8,6 +8,7 @@
             <file>tests/queueNameFormatTest.php</file>
 
             <file>tests/bhvContentTest.php</file>
+            <file>tests/metadataTest.php</file>
 
         </testsuite>
     </testsuites>

@@ -11,6 +11,7 @@ class album extends unit
     protected $data;
 
     // lazy
+    /** @var song[] */
     protected $songs;
 
 
@@ -39,7 +40,7 @@ class album extends unit
     /**
      * @return string
      */
-    public function getArtistTitle()
+    public function getArtistTitle(): string
     {
         return $this->artistTitle;
     }
@@ -83,10 +84,10 @@ class album extends unit
     }
 
     /**
-     * @throws Exception
      * @return song[]
+     * @throws Exception
      */
-    public function getSongs()
+    public function getSongs(): array
     {
         if (!$this->songs) $this->setSongs();
 

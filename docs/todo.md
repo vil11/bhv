@@ -5,12 +5,7 @@
     - make all verifications inside "qa/tests/abstract.php" argument independent
         - ex: "$album->getTitle();" can be changed to "$this->title;"
     - move "unit.php" technical functions to the HLPR lib level
-    - reduce all TODOs inside project (the own ones)
-    - add annotation to every head variable of every model object
     - make sure every thrown in the method Exception case is described in annotations to this method
-    - increase imgs_size_min
-    - decrease path_length_max
-    - make $unit->_type as CONST
 
 ## BACKLOG
 - (F2) Metadata inheritance
@@ -22,7 +17,10 @@
         - explore for more similar cases
         - suggest solution in Assert err msg
             - ex: in case of full "c=" repeat: "move tag to the Album name level to be extended accordingly
-
+- (F2) as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (POLLEN)
+    - (td) located on the same level as BHV
+    - formatting customization is supported
+    - (qa) covered with "artistsAreNotDuplicated" test at least
 - (T2) HLPR lib from app to vendor
 - (F2) Artist index file (ex: last Album listened)
 - (F2) Album index file (ex: Song title placeholder)

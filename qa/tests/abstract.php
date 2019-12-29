@@ -221,12 +221,12 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
      */
     protected function verifyAlbumsNotAbsent(artist $artist)
     {
-        $albumsQtyLimit = (int)settings::getInstance()->get('limits/artist_albums_qty_min');
+        $albumsQtyMin = (int)settings::getInstance()->get('limits/artist_albums_qty_min');
         $albumsQty = count($artist->getAlbums());
 
         $err = err('"%s" %s contains no Albums. Where are they?', $artist->getTitle(), $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertGreaterThanOrEqual($albumsQtyLimit, $albumsQty, $err);
+        $this->assertGreaterThanOrEqual($albumsQtyMin, $albumsQty, $err);
     }
 
     /**
@@ -270,6 +270,33 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
         $err = err('"%s" %s contains folder.', $album->getTitle(), $this->unit);
         $err = prepareIssueCard($err, $this->path);
         $this->assertEmpty($dirs, $err);
+    }
+
+    protected function verifyAlbumThumbnail()
+    {
+        $min = (int)settings::getInstance()->get('limits/imgs_size_min');
+        $max = (int)settings::getInstance()->get('limits/imgs_size_max');
+        $thumbPath = $this->path . DS . settings::getInstance()->get('paths/album_thumbnail');
+        try {
+            $height = exif_read_data($thumbPath)['COMPUTED']['Height'];
+            $width = exif_read_data($thumbPath)['COMPUTED']['Width'];
+        } catch (Exception $e) {
+            $err = err('%s Thumbnail is broken. Replace it.', $this->unit);
+            $err = prepareIssueCard($err, $this->path);
+            echo $err, "\n\n", $e->getMessage();
+        }
+
+        $err = err('%s Thumbnail is too small.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertGreaterThanOrEqual($min, $height, $err);
+
+        $err = err('%s Thumbnail is too big.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertLessThanOrEqual($max, $height, $err);
+
+        $err = err('%s Thumbnail is not square.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertEquals($height, $width, $err);
     }
 
     /**

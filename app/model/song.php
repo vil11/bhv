@@ -8,13 +8,15 @@ class song extends unit
     // predefined
     /** @var string */
     protected $artistTitle;
-    /** @var array */
+    /** @var ?array */
     protected $albumData;
     protected $data;
 
     // lazy
+    /** @var array */
     protected $actualMetadata;
     protected $actualThumbnail;
+    /** @var array */
     protected $expectedMetadata;
     protected $expectedThumbnail;
 
@@ -25,7 +27,7 @@ class song extends unit
      * @param array|null $albumData
      * @throws Exception
      */
-    public function __construct(string $title, string $artistTitle, array $albumData = null)
+    public function __construct(string $title, string $artistTitle, ?array $albumData = null)
     {
         $this->artistTitle = $artistTitle;
         $this->albumData = $albumData;
@@ -37,18 +39,21 @@ class song extends unit
     /**
      * @return string
      */
-    public function getArtistTitle()
+    public function getArtistTitle(): string
     {
         return $this->artistTitle;
     }
 
-    public function getAlbumData()
+    /**
+     * @return array|null
+     */
+    public function getAlbumData(): ?array
     {
         return $this->albumData;
     }
 
     /**
-     * Exception if file is absent by specified path
+     * @throws Exception if file is absent by specified path
      */
     protected function setPath()
     {
@@ -155,7 +160,12 @@ class song extends unit
         return $this->actualThumbnail;
     }
 
-    private function setMetadata(array $tagsData, $readTag, $writeTag = null)
+    /**
+     * @param array $tagsData
+     * @param string $readTag
+     * @param string|null $writeTag
+     */
+    private function setMetadata(array $tagsData, string $readTag, ?string $writeTag = null)
     {
         if ($writeTag === null) $writeTag = $readTag;
 
@@ -184,7 +194,7 @@ class song extends unit
     /**
      * @return string
      */
-    private function prepareAlbumTitleTag()
+    private function prepareAlbumTitleTag(): string
     {
         $delimiters = settings::getInstance()->get('delimiters');
         return $delimiters['tag_open'] . $this->albumData['type'] . $delimiters['tag_close'] . $delimiters['section']
@@ -200,9 +210,17 @@ class song extends unit
         return $this->expectedMetadata;
     }
 
+    /**
+     * @throws Exception
+     */
     private function setExpectedThumbnail()
     {
         $thumbnailPath = $this->albumData['path'] . DS . settings::getInstance()->get('paths/album_thumbnail');
+        if (!isFileValid($thumbnailPath)) {
+            $err = prepareIssueCard('Thumbnail is absent or invalid.', $this->albumData['path']);
+            throw new Exception($err);
+        }
+
         $fd = fopen($thumbnailPath, 'rb');
         $this->expectedThumbnail = fread($fd, filesize($thumbnailPath));
         fclose($fd);
@@ -218,7 +236,7 @@ class song extends unit
      * @return bool
      * @throws Exception
      */
-    public function updateMetadata()
+    public function updateMetadata(): bool
     {
         // object declaration
         $tagObj = new getid3_writetags;
@@ -242,7 +260,12 @@ class song extends unit
 
         // writing
         $tagObj->tag_data = $tagData;
-        $result = $tagObj->WriteTags();
+        try {
+            $result = $tagObj->WriteTags();
+        } catch (Exception $e) {
+            $err = prepareIssueCard('Writing metadata failed.', $this->getPath());
+            echo $err, "\n\n", $e->getMessage();
+        }
 
         // finalizing
         $id3 = new getID3();

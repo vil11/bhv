@@ -124,8 +124,11 @@ class bhvContentTest extends tests_abstract
      *
      * Album contains at least 1 Song.
      * Album contains all Songs in consistent order.
+     *
      * Album contains no files except: Songs (required), Cover (required).
      * Album contains no folders.
+     *
+     * Cover has its width equals to height & meets the config value*.
      *
      * @dataProvider dataArtists
      * @param string $artistName
@@ -147,56 +150,11 @@ class bhvContentTest extends tests_abstract
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/album_thumbnail'))]
             );
             $this->verifyOnlyExpectedFilesPresent($files);
-
             $this->verifyAlbumHasNoFolders($album);
+
+            $this->verifyAlbumThumbnail();
         }
     }
-
-    /**
-     * @test
-     *
-     * Cover has its width equals to height & meets the config value*
-     * Look for metatags tags of jpg as well.
-     */
-    public function albumThumbnailConsistent()
-    {
-        $this->markTestSkipped('TBD');
-    }
-
-    /**
-     * @test
-     *
-     * Song has correct ID3 meta tags:
-     *  - inside the Album:
-     *      - "title" = correspondent Song title + its additional info
-     *      - "artist" = correspondent Artist title
-     *      - "album" = correspondent Album title + its additional info
-     *      - "year" = the year of correspondent Album release
-     *      - "track" = correspondent Song track position in correspondent Album
-     *      - "publisher" meets the config value
-     *      - "img" = correspondent Album Cover
-     *  - outside the Album:
-     *      - "title" = correspondent Song title + its additional info
-     *      - "artist" = correspondent Artist title + its additional info
-     *      - "publisher" meets the config value
-     * Song has its other meta tags blank.
-     *
-     * @dataProvider dataArtists
-     * @param string $artistName
-     * @throws Exception
-     */
-    public function songMetadataConsistent($artistName)
-    {
-        $artist = new artist($artistName);
-        /** @var song $song */
-        foreach ($artist->getSongs() as $song) {
-            $this->unit = ucfirst(get_class($song));
-            $this->path = $song->getPath();
-
-            $this->verifySongMetadata($song);
-        }
-    }
-
 
     /**
      * @param array|null $songs

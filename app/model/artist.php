@@ -10,8 +10,11 @@ class artist extends unit
     protected $albumsListing = [];
 
     // lazy
+    /** @var album[] */
     protected $albums;
+    /** @var ?song[] */
     protected $freeSongs;
+    /** @var song[] */
     protected $songs;
 
 
@@ -46,7 +49,7 @@ class artist extends unit
     /**
      * @return string[]
      */
-    public function getAlbumsListing()
+    public function getAlbumsListing(): array
     {
         return $this->albumsListing;
     }
@@ -62,10 +65,10 @@ class artist extends unit
     }
 
     /**
-     * @throws Exception
      * @return album[]
+     * @throws Exception
      */
-    public function getAlbums()
+    public function getAlbums(): array
     {
         if (!$this->albums) $this->setAlbums();
 
@@ -84,10 +87,10 @@ class artist extends unit
     }
 
     /**
+     * @return song[]|null
      * @throws Exception
-     * @return song[]
      */
-    public function getFreeSongs()
+    public function getFreeSongs(): ?array
     {
         if (!$this->freeSongs) $this->setFreeSongs();
 
@@ -112,8 +115,8 @@ class artist extends unit
     }
 
     /**
-     * @throws Exception
      * @return song[]
+     * @throws Exception
      */
     public function getSongs(): array
     {
@@ -124,8 +127,8 @@ class artist extends unit
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
     public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
@@ -160,10 +163,10 @@ class artist extends unit
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
-    private function updateMetadataForTaggedAlbums($autoRenamingIfSuccess)
+    private function updateMetadataForTaggedAlbums(bool $autoRenamingIfSuccess): bool
     {
         foreach ($this->albumsListing as $albumFolderName) {
             if (!$this->isMarkedToBeUpdated($albumFolderName)) continue;
@@ -185,10 +188,10 @@ class artist extends unit
 
     /**
      * @param song[] $songs
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
-    private function updateMetadataForSongs($songs)
+    private function updateMetadataForSongs(array $songs): bool
     {
         if (empty($songs)) {
             throw new Exception(prepareIssueCard('Songs are absent. Seems to be a useless call.'));
@@ -198,7 +201,7 @@ class artist extends unit
             if (!$song->updateMetadata()) {
                 return false;
             }
-            echo ".";
+            say('.', 'grey');
         }
 
         return true;

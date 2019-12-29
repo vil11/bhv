@@ -41,7 +41,7 @@ class unit
     }
 
     /**
-     * @throws Exception if unit (dir||file) is absent by specified path
+     * @throws Exception if unit (dir or file) is absent by specified path
      */
     protected function setPath()
     {
@@ -56,7 +56,7 @@ class unit
     /**
      * @return string
      */
-    public function getPath()
+    public function getPath(): string
     {
         return $this->path;
     }
@@ -70,7 +70,7 @@ class unit
      * @param array $data
      * @return string
      */
-    protected function prepareTagsString(array $data)
+    protected function prepareTagsString(array $data): string
     {
         if (!array_key_exists('tags', $data)) return '';
 
@@ -93,7 +93,7 @@ class unit
     /**
      * @param string $tagsSection
      */
-    protected function setTags($tagsSection)
+    protected function setTags(string $tagsSection)
     {
         $delimiters = settings::getInstance()->get('delimiters');
 
@@ -142,7 +142,7 @@ class unit
      * @param string $string
      * @return string
      */
-    protected function adjustName($string)
+    protected function adjustName(string $string): string
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         if ($this->isMarkedToBeUpdated($string)) {
@@ -154,12 +154,27 @@ class unit
 
     /**
      * @return bool
+     * @throws Exception
      */
     protected function renameUpdated(): bool
     {
-        return rename(
-            $this->getPath(),
-            str_replace($this->getTitle(), $this->adjustName($this->getTitle()), $this->getPath())
-        );
+        try {
+            $result = chmod($this->getPath(), 0777);
+        } catch (Exception $e) {
+            $err = prepareIssueCard('Permissions providing is failed.', $this->getPath());
+            echo $err, "\n\n", $e->getMessage();
+        }
+
+        try {
+            $result = rename(
+                $this->getPath(),
+                str_replace($this->getTitle(), $this->adjustName($this->getTitle()), $this->getPath())
+            );
+        } catch (Exception $e) {
+            $err = prepareIssueCard('Renaming is failed.', $this->getPath());
+            echo $err, "\n\n", $e->getMessage();
+        }
+
+        return $result;
     }
 }

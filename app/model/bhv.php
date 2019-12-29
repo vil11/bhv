@@ -64,7 +64,7 @@ class bhv extends unit
     /**
      * @return string
      */
-    public function getCatalogPath()
+    public function getCatalogPath(): string
     {
         return $this->catalogPath;
     }
@@ -82,8 +82,8 @@ class bhv extends unit
     }
 
     /**
-     * @throws Exception
      * @return array
+     * @throws Exception
      */
     public function getCatalog(): array
     {
@@ -97,18 +97,24 @@ class bhv extends unit
      */
     private function copyCatalogUnderProject(): bool
     {
-        $name = getPathSectionBackwards($this->catalogPath);
-        $name = bendSeparatorsRight(APP_PATH . DS . 'data' . DS . $name);
+        $mt = microtime(true);
+        say("\n\tcopying under Git");
 
-        return copy($this->catalogPath, $name);
+        $name = bendSeparatorsRight(APP_PATH . 'data' . DS . getPathSectionBackwards($this->catalogPath));
+        $result = copy($this->catalogPath, $name);
+
+        say(" takes " . (microtime(true) - $mt) . " seconds.");
+        return $result;
     }
 
     /**
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
     public function updateCatalog(): bool
     {
+        say("\n\nCatalog updating:");
+
         $f = fopen($this->catalogPath, 'wt');
         if ($f === false || !is_resource($f)) {
             throw new Exception(prepareIssueCard("File open failed!", $this->catalogPath));
@@ -119,10 +125,9 @@ class bhv extends unit
             if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
 
             $record = str_replace($this->path . DS, '', $path);
-            if (strlen($record) > 333) {
-                throw new Exception(prepareIssueCard("Too long file name.", $path));
+            if (strlen($record) > settings::getInstance()->get('limits/path_length_max')) {
+                throw new Exception(prepareIssueCard("Too long record.", $path));
             }
-
             if (fwrite($f, $record . "\n") === false) {
                 throw new Exception(prepareIssueCard("Writing failed!", $path));
             }
@@ -138,21 +143,22 @@ class bhv extends unit
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @throws Exception
      * @return bool
+     * @throws Exception
      */
     public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
+        say("\n\nMetadata updating:");
+
         foreach ($this->getArtistsListing() as $artistTitle) {
             if (!$this->isMarkedToBeUpdated($artistTitle)) continue;
 
             $artist = new artist($artistTitle);
-            echo "\n    " . substr($artist->getTitle(), 1);
+            echo "\n\t" . substr($artist->getTitle(), 1);
             if (!$artist->updateMetadata($autoRenamingIfSuccess)) {
                 return false;
             }
         }
-
-        return $this->updateCatalog();
+        return true;
     }
 }
