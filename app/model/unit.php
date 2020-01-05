@@ -10,6 +10,7 @@ class unit
     protected $title;
     /** @var string */
     protected $path;
+    /** @var ?array */
     protected $data;
 
 
@@ -61,7 +62,10 @@ class unit
         return $this->path;
     }
 
-    public function getData()
+    /**
+     * @return array|null
+     */
+    public function getData(): ?array
     {
         return $this->data;
     }

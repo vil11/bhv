@@ -43,6 +43,55 @@ class features
     }
 
     /**
+     * Perform the QC session in order to be sure that BHV is deliverable.
+     *
+     * @throws Exception if session execution script isn't performed validly
+     * @throws Exception if testing results report reading is failed
+     */
+    public function performQC()
+    {
+        say("\n\nQuality Control session:");
+
+        $qaPath = bendSeparatorsRight(dirname(APP_PATH) . DS . 'qa' . DS);
+        $cmd = 'cd ' . $qaPath;
+        $cmd = system($cmd);
+
+//        $logFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_report');
+//        $cmd = 'phpunit --configuration ' . $qaPath . 'phpunit.xml --log-tap ' . $logFilePath;
+        $cmd = 'phpunit --configuration ' . $qaPath . 'phpunit.xml';
+        $cmd = system($cmd);
+
+
+//        $logFileContent = file_get_contents($logFilePath);
+//        if (!$logFileContent) {
+//            $e = 'testing results report reading is failed';
+//            throw new Exception($e);
+//        }
+//        preg_match_all('|(message:).+|', $logFileContent, $fails);
+//        $fails = $fails[0];
+//
+//        $destinationTickPath = settings::getInstance()->get('paths/qa_tick_destination');
+//        if ($fails) {
+//            $resultContent = '';
+//            foreach ($fails as $fail) {
+//                $resultContent .= substr($fail, 9);
+//            }
+//
+//            $destinationReportPath = settings::getInstance()->get('paths/qa_result_destination');
+//            $resultFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_result');
+//
+//            if (!file_put_contents($resultFilePath, $resultContent)) exit('writing results to report file failed!');
+//            if (!copy($resultFilePath, $destinationReportPath)) exit('copying report to desktop failed');
+//
+//            if (!copy(PROJECT_PATH . '../qa/reports/tick_failed.png', $destinationTickPath)) {
+//                exit('copying tick_failed to desktop failed!');
+//            }
+//        }
+
+        $this->finish(true);
+    }
+
+    /**
      * @param bool $result
      */
     protected function finish(bool $result)
@@ -54,56 +103,6 @@ class features
         }
     }
 
-
-//    /**
-//     * Perform the QA session in order to be sure that BHV is deliverable.
-//     *
-//     * @throws Exception if QA execution script isn't performed validly
-//     * @throws Exception if testing results report reading is failed
-//     */
-//public function performQA()
-//{
-//    echo "\nBhv testing:\n";
-//
-//    $cmd = sprintf('cd %s/../qa/', PROJECT_PATH);
-//    $res = system(fixDirSeparatorsToTheRight($cmd));
-//
-//    $logFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_report');
-//    $cmd = sprintf('phpunit --configuration %s/../qa/phpunit.xml --log-tap %s', PROJECT_PATH, $logFilePath);
-//    $cmd = system(fixDirSeparatorsToTheRight($cmd));
-//    if ($cmd !== '') {
-//        $e = $cmd;
-//        throw new Exception($e);
-//    }
-//
-//    $logFileContent = file_get_contents($logFilePath);
-//    if (!$logFileContent) {
-//        $e = 'testing results report reading is failed';
-//        throw new Exception($e);
-//    }
-//    preg_match_all('|(message:).+|', $logFileContent, $fails);
-//    $fails = $fails[0];
-//
-//    $destinationTickPath = settings::getInstance()->get('paths/qa_tick_destination');
-//    if ($fails) {
-//        $resultContent = '';
-//        foreach ($fails as $fail) {
-//            $resultContent .= substr($fail, 9);
-//        }
-//
-//        $destinationReportPath = settings::getInstance()->get('paths/qa_result_destination');
-//        $resultFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_result');
-//
-//        if (!file_put_contents($resultFilePath, $resultContent)) exit('writing results to report file failed!');
-//        if (!copy($resultFilePath, $destinationReportPath)) exit('copying report to desktop failed');
-//
-//        if (!copy(PROJECT_PATH . '../qa/reports/tick_failed.png', $destinationTickPath)) {
-//            exit('copying tick_failed to desktop failed!');
-//        }
-//    }
-//
-//    echo "\n\nfinished.\n\n";
-//}
 
 //public function autoCreateArtistIndex()
 //{

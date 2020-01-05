@@ -8,6 +8,7 @@ class album extends unit
     // predefined
     /** @var string */
     protected $artistTitle;
+    /** @var ?array */
     protected $data;
 
     // lazy

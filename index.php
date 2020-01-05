@@ -6,3 +6,4 @@ $features = new features();
 
 $features->updateMetadata(true);
 $features->updateCatalog();
+//$features->performQC();

@@ -10,6 +10,7 @@ class song extends unit
     protected $artistTitle;
     /** @var ?array */
     protected $albumData;
+    /** @var ?array */
     protected $data;
 
     // lazy

@@ -132,6 +132,8 @@ class artist extends unit
      */
     public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
+//        $this->provideAccess();
+
         $ifAnyAlbumsTagged = false;
         foreach ($this->albumsListing as $albumFolderName) {
             if ($this->isMarkedToBeUpdated($albumFolderName)) {
@@ -206,4 +208,10 @@ class artist extends unit
 
         return true;
     }
+
+//    private function provideAccess()
+//    {
+//        $cmd = 'cd ' . $this->getPath() . ' && cd .. && chmod -R 777 ' . $this->getTitle();
+//        system($cmd);
+//    }
 }
