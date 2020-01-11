@@ -4,18 +4,38 @@
 
 ```diff
 !              []               
-             - []               
+-              []               
      ----------CM----------     
-             + []               
-             + []               
++              []               
++              []               
 ```
 
 try:
 ```diff
-- []
-+ text in green
-! text in orange
-# text in gray
+- red
++ green
+! orange
+# gray
+? blue
+< blue
+> blue
+. blue
+\ blue
+| blue
+/ blue
+, blue
+. blue
+@ blue
+# blue
+$ blue
+% blue
+^ blue
+& blue
+* blue
+( blue
+) blue
+{ blue
+} blue
 ```
 ok
 
