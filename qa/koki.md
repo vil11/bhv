@@ -2,8 +2,8 @@
 
 - born.........8 Jan 1992, Spain 
 
-```diff   
-             ! []               
+```diff
+!              []               
              - []               
      ----------CM----------     
              + []               
@@ -12,7 +12,7 @@
 
 try:
 ```diff
-- text in red
+- []
 + text in green
 ! text in orange
 # text in gray
