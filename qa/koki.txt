@@ -29,7 +29,5 @@
 | current_club...Atletico Madrid |
 | CAREER..........IN DEVELOPMENT |
 |                                |
-|                                |
-| [    ] 				  [edit] |
 |           FAFI_2017            |
 ----------------------------------
