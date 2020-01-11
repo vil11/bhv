@@ -11,10 +11,16 @@
                []               
                []               
 ```                                
-                                
-                                
-                                
-                                
+
+try:
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
+ok
+
 - ##### physics
   - height.....................177 
   - foot.....................right
