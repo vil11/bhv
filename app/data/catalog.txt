@@ -944,6 +944,23 @@ apocalyptica\2015 [studio] shadowmaker\07. till death do us part.mp3
 apocalyptica\2015 [studio] shadowmaker\08. hall of the mountain king [live][c=edvard grieg][ft=avanti orchestra].mp3
 apocalyptica\2015 [studio] shadowmaker\cover.jpg
 apocalyptica\x.txt
+apoptose\2000 [studio] nordland\01. nidstang.mp3
+apoptose\2000 [studio] nordland\02. sturmnacht.mp3
+apoptose\2000 [studio] nordland\03. erntewod.mp3
+apoptose\2000 [studio] nordland\cover.jpg
+apoptose\2002 [studio] blutopfer\01. blutopfer.mp3
+apoptose\2002 [studio] blutopfer\02. zu fussen der mutter.mp3
+apoptose\2002 [studio] blutopfer\cover.jpg
+apoptose\2007 [compil] schattenmadchen\01. ba-137m.mp3
+apoptose\2007 [compil] schattenmadchen\02. 2wei sonnen.mp3
+apoptose\2007 [compil] schattenmadchen\03. und null sekunden.mp3
+apoptose\2007 [compil] schattenmadchen\cover.jpg
+apoptose\2008 [ep] warrior creed\01. violet creed.mp3
+apoptose\2008 [ep] warrior creed\cover.jpg
+apoptose\2010 [studio] bannwald\01. vivian und wiebke.mp3
+apoptose\2010 [studio] bannwald\cover.jpg
+apoptose\2014 [studio] ana liil\01. adrenalin.mp3
+apoptose\2014 [studio] ana liil\cover.jpg
 appearance of nothing\2006 [demo] behind closed doors\01. the spell.mp3
 appearance of nothing\2006 [demo] behind closed doors\02. remember the time.mp3
 appearance of nothing\2006 [demo] behind closed doors\03. the door.mp3
@@ -1078,6 +1095,41 @@ archive\2015 [studio] restriction\06. black & blue.mp3
 archive\2015 [studio] restriction\07. ladders.mp3
 archive\2015 [studio] restriction\cover.jpg
 archive\x.txt
+armin van buuren\2003 [studio] 76\01. yet another day.mp3
+armin van buuren\2003 [studio] 76\02. never wanted this.mp3
+armin van buuren\2003 [studio] 76\03. astronauts.mp3
+armin van buuren\2003 [studio] 76\04. stay.mp3
+armin van buuren\2003 [studio] 76\05. communication.mp3
+armin van buuren\2003 [studio] 76\cover.jpg
+armin van buuren\2005 [studio] shivers\01. wall of sound [ft=justine suissa].mp3
+armin van buuren\2005 [studio] shivers\02. golddigger.mp3
+armin van buuren\2005 [studio] shivers\03. zocalo [ft=gabriel & dresden].mp3
+armin van buuren\2005 [studio] shivers\04. gypsy [ft=ray wilson].mp3
+armin van buuren\2005 [studio] shivers\05. who is watching [ft=nadia ali].mp3
+armin van buuren\2005 [studio] shivers\06. serenity.mp3
+armin van buuren\2005 [studio] shivers\cover.jpg
+armin van buuren\2008 [studio] imagine\01. imagine.mp3
+armin van buuren\2008 [studio] imagine\02. going wrong [ft=dj shah+chris jones].mp3
+armin van buuren\2008 [studio] imagine\03. unforgiveable [ft=jaren].mp3
+armin van buuren\2008 [studio] imagine\04. in & out of love [ft=sharon den adel].mp3
+armin van buuren\2008 [studio] imagine\05. what if [ft=vera ostrova].mp3
+armin van buuren\2008 [studio] imagine\cover.jpg
+armin van buuren\2010 [studio] mirage\01. mirage.mp3
+armin van buuren\2010 [studio] mirage\02. this light between us [ft=christian burns].mp3
+armin van buuren\2010 [studio] mirage\03. not giving up on love [ft=sophie ellis bextor].mp3
+armin van buuren\2010 [studio] mirage\04. take a moment [ft=winter kills].mp3
+armin van buuren\2010 [studio] mirage\05. feels so good [ft=nadia ali].mp3
+armin van buuren\2010 [studio] mirage\06. drowning [ft=laura v].mp3
+armin van buuren\2010 [studio] mirage\07. orbion.mp3
+armin van buuren\2010 [studio] mirage\cover.jpg
+armin van buuren\2013 [studio] intense\01. intense [ft=miri ben-ari].mp3
+armin van buuren\2013 [studio] intense\02. beautiful life [ft=cindy alma].mp3
+armin van buuren\2013 [studio] intense\03. pulsar.mp3
+armin van buuren\2013 [studio] intense\04. forever is ours [ft=emma hewitt].mp3
+armin van buuren\2013 [studio] intense\05. who's afraid of 138.mp3
+armin van buuren\2013 [studio] intense\06. humming the lights.mp3
+armin van buuren\2013 [studio] intense\cover.jpg
+armin van buuren\x.txt
 as i lay dying\2001 [studio] beneath the encasing of ashes\01. beneath the encasing of ashes.mp3
 as i lay dying\2001 [studio] beneath the encasing of ashes\02. a breath in the eyes of eternity.mp3
 as i lay dying\2001 [studio] beneath the encasing of ashes\03. behind me lies another fallen soldier.mp3
@@ -1092,6 +1144,80 @@ as i lay dying\2007 [studio] an ocean between us\cover.jpg
 as i lay dying\2012 [studio] awakened\01. a greater foundation.mp3
 as i lay dying\2012 [studio] awakened\cover.jpg
 as i lay dying\x.txt
+asp\2000 [studio] hast du mich vermisst\01. dancing.mp3
+asp\2000 [studio] hast du mich vermisst\02. imbecile anthem.mp3
+asp\2000 [studio] hast du mich vermisst\03. und wir tanzten.mp3
+asp\2000 [studio] hast du mich vermisst\04. blinded.mp3
+asp\2000 [studio] hast du mich vermisst\05. where do the gods go [hecq rmx].mp3
+asp\2000 [studio] hast du mich vermisst\cover.jpg
+asp\2001 [studio] duett\01. the little big man.mp3
+asp\2001 [studio] duett\02. kokon.mp3
+asp\2001 [studio] duett\03. tiles.mp3
+asp\2001 [studio] duett\cover.jpg
+asp\2002 [ep] die zusammenkunft\01. milk.mp3
+asp\2002 [ep] die zusammenkunft\02. imecicle anthem [1984 version].mp3
+asp\2002 [ep] die zusammenkunft\03. the little big man [rmx by hungry lucy].mp3
+asp\2002 [ep] die zusammenkunft\04. maybe [rmx by the dust of basement].mp3
+asp\2002 [ep] die zusammenkunft\05. fading away [onkelrmx by pilori].mp3
+asp\2002 [ep] die zusammenkunft\cover.jpg
+asp\2003 [studio] weltunter\01. welcome.mp3
+asp\2003 [studio] weltunter\02. ich will brennen.mp3
+asp\2003 [studio] weltunter\03. eleison.mp3
+asp\2003 [studio] weltunter\04. lykanthropie.mp3
+asp\2003 [studio] weltunter\05. die ruhe vor dem sturm.mp3
+asp\2003 [studio] weltunter\06. besessen [ft=saltatio mortis].mp3
+asp\2003 [studio] weltunter\07. die kleine ballade vom schwarzen schmetterling.mp3
+asp\2003 [studio] weltunter\cover.jpg
+asp\2005 [studio] aus der tiefe\01. tiefenrausch.mp3
+asp\2005 [studio] aus der tiefe\02. spiegelauge - tiefenrausch [p=3].mp3
+asp\2005 [studio] aus der tiefe\03. spiegelauge - spiegel [p=5].mp3
+asp\2005 [studio] aus der tiefe\04. kokon [rmx von umbra et imago].mp3
+asp\2005 [studio] aus der tiefe\cover.jpg
+asp\2006 [ep] hasslich\01. hasslich [daniel dressler rmx].mp3
+asp\2006 [ep] hasslich\cover.jpg
+asp\2006 [ep] humility [ft=chamber]\01. trust me.mp3
+asp\2006 [ep] humility [ft=chamber]\02. ride on.mp3
+asp\2006 [ep] humility [ft=chamber]\cover.jpg
+asp\2007 [ep] nie mehr!\01. frieden im land.mp3
+asp\2007 [ep] nie mehr!\02. sage nein!.mp3
+asp\2007 [ep] nie mehr!\cover.jpg
+asp\2007 [studio] requiembryo\01. offahrte.mp3
+asp\2007 [studio] requiembryo\02. de profundis.mp3
+asp\2007 [studio] requiembryo\03. schmetterflug.mp3
+asp\2007 [studio] requiembryo\04. frostbrand.mp3
+asp\2007 [studio] requiembryo\05. erinnerungen eines fremden.mp3
+asp\2007 [studio] requiembryo\06. raserei.mp3
+asp\2007 [studio] requiembryo\07. erinnerungen eines fremden [reprise].mp3
+asp\2007 [studio] requiembryo\08. requiem.mp3
+asp\2007 [studio] requiembryo\09. nie mehr.mp3
+asp\2007 [studio] requiembryo\cover.jpg
+asp\2008 [studio] zaubererbruder\01. betteljunge.mp3
+asp\2008 [studio] zaubererbruder\02. elf und einer.mp3
+asp\2008 [studio] zaubererbruder\cover.jpg
+asp\2011 [studio] fremd\01. a prayer for sanctuary.mp3
+asp\2011 [studio] fremd\02. angstkathedrale [canterbury version].mp3
+asp\2011 [studio] fremd\03. unverwandt.mp3
+asp\2011 [studio] fremd\cover.jpg
+asp\2012 [ep] die geisterfahrer\01. geisterfahrer.mp3
+asp\2012 [ep] die geisterfahrer\cover.jpg
+asp\2013 [studio] maskenhaft\01. augenaufschlag.mp3
+asp\2013 [studio] maskenhaft\02. aufbruchstimmung.mp3
+asp\2013 [studio] maskenhaft\03. carpe noctem [circadiane rhythmik rmx von lutz demmler].mp3
+asp\2013 [studio] maskenhaft\04. panzerhaus [zeromancer rmx].mp3
+asp\2013 [studio] maskenhaft\cover.jpg
+asp\2015 [studio] astoria\01. himmel und holle [kreuzweg].mp3
+asp\2015 [studio] astoria\02. begeistert [ich bin unsichtbar].mp3
+asp\2015 [studio] astoria\03. droehnen aus dem rostigen kellerherzen.mp3
+asp\2015 [studio] astoria\cover.jpg
+asp\2016 [studio] fassaden\01. bitte nicht storen!.mp3
+asp\2016 [studio] fassaden\02. ich losche dein licht [reprise].mp3
+asp\2016 [studio] fassaden\cover.jpg
+asp\2017 [studio] zutiefst\01. zutiefst.mp3
+asp\2017 [studio] zutiefst\02. leviathan.mp3
+asp\2017 [studio] zutiefst\03. abyssus 1.mp3
+asp\2017 [studio] zutiefst\04. bernsteinmeerengel.mp3
+asp\2017 [studio] zutiefst\cover.jpg
+asp\x.txt
 atreyu\2002 [studio] suicide notes & butterfly kisses\01. dilated.mp3
 atreyu\2002 [studio] suicide notes & butterfly kisses\02. living each day like you're already dead.mp3
 atreyu\2002 [studio] suicide notes & butterfly kisses\03. someone's standing on my chest.mp3
@@ -2426,6 +2552,193 @@ dance 2 trance\1992 [studio] moon spirits\cover.jpg
 dance 2 trance\1995 [studio] studio revival\01. purple onions.mp3
 dance 2 trance\1995 [studio] studio revival\cover.jpg
 dance 2 trance\x.txt
+david guetta\2002 [studio] just a little more love\01. love, don't let me go [ft=chris willis].mp3
+david guetta\2002 [studio] just a little more love\02. you [ft=chris willis].mp3
+david guetta\2002 [studio] just a little more love\03. can't u feel the change [ft=chris willis].mp3
+david guetta\2002 [studio] just a little more love\cover.jpg
+david guetta\2003 [rmx] fuck me i'm famous!\01. fuckin' track [ft=da fresh].mp3
+david guetta\2003 [rmx] fuck me i'm famous!\02. heart beat [ft=martin solveig].mp3
+david guetta\2003 [rmx] fuck me i'm famous!\03. ghetto blaste [ft=twin pitch].mp3
+david guetta\2003 [rmx] fuck me i'm famous!\04. stock exchange [ft=miss kittin+the hacker].mp3
+david guetta\2003 [rmx] fuck me i'm famous!\cover.jpg
+david guetta\2003 [single] just a little more love\01. just a little more love [ft=chris willis][wally lopez rmx].mp3
+david guetta\2003 [single] just a little more love\cover.jpg
+david guetta\2005 [single] in love with myself [ft=jd davis]\01. in love with myself [jd davis rmx].mp3
+david guetta\2005 [single] in love with myself [ft=jd davis]\cover.jpg
+david guetta\2005 [studio] guetta blaster\01. money [radio edit][ft=chris willis+mone].mp3
+david guetta\2005 [studio] guetta blaster\02. stay [ft=chris willis].mp3
+david guetta\2005 [studio] guetta blaster\03. the world is mine [ft=jd davis].mp3
+david guetta\2005 [studio] guetta blaster\04. used to be the one [ft=chris willis].mp3
+david guetta\2005 [studio] guetta blaster\05. open your eyes [ft=stereo mc's].mp3
+david guetta\2005 [studio] guetta blaster\06. ac-dc.mp3
+david guetta\2005 [studio] guetta blaster\07. movement girl [ft=james perry].mp3
+david guetta\2005 [studio] guetta blaster\cover.jpg
+david guetta\2006 [rmx] fuck me i'm famous! - ibiza rmx 06\01. world, hold on [joachim garraud & david guetta rmx][ft=bob sinclar+steve edwards].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - ibiza rmx 06\02. toop toop [ft=cassius].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - ibiza rmx 06\03. teasing mr. charlie [ft=steve angello].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - ibiza rmx 06\cover.jpg
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\01. it's too late [ft=evermore+dirty south].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\02. you're no good for me [ft=tocadisco ].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\03. love sensation 06 [hi tack burnin' up club rmx][ft=loleatta holloway].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\04. banquet [phones disco rmx][ft=bloc party].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\05. world cup [ft=kiko].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\06. bleeep! [ft=martijn ten velden+lucien foort].mp3
+david guetta\2006 [rmx] fuck me i'm famous! - international [p=1]\cover.jpg
+david guetta\2007 [single] love is gone [ft=chris willis]\01. love is gone [ft=chris willis][fred rister & joachim garraud radio edit rmx].mp3
+david guetta\2007 [single] love is gone [ft=chris willis]\cover.jpg
+david guetta\2007 [single] the world is mine [ft=jd davis]\01. the world is mine [ft=jd davis][cedric gervais rmx].mp3
+david guetta\2007 [single] the world is mine [ft=jd davis]\02. the world is mine [ft=jd davis][deep dish rmx].mp3
+david guetta\2007 [single] the world is mine [ft=jd davis]\03. the world is mine [ft=jd davis][paul oakenfolds downtempo rmx].mp3
+david guetta\2007 [single] the world is mine [ft=jd davis]\04. the world is mine [ft=jd davis+sweetie pap][paul oakenfolds downtempo rmx].mp3
+david guetta\2007 [single] the world is mine [ft=jd davis]\cover.jpg
+david guetta\2007 [studio] pop life\01. love is gone [ft=chris willis].mp3
+david guetta\2007 [studio] pop life\02. delirious [ft=tara mcdonald].mp3
+david guetta\2007 [studio] pop life\03. winner of the game [ft=jd davis].mp3
+david guetta\2007 [studio] pop life\04. do something love [ft=juliet].mp3
+david guetta\2007 [studio] pop life\05. never take away my freedom [ft=chris willis].mp3
+david guetta\2007 [studio] pop life\06. this is not a love song [ft=jd davis].mp3
+david guetta\2007 [studio] pop life\07. always [ft=jd davis].mp3
+david guetta\2007 [studio] pop life\08. joan of arc [ft=thailand].mp3
+david guetta\2007 [studio] pop life\cover.jpg
+david guetta\2008 [live] at q club [zurich]\01. to strong [ft=joachim garraud].mp3
+david guetta\2008 [live] at q club [zurich]\02. this machine kills breakfast [ft=dada life].mp3
+david guetta\2008 [live] at q club [zurich]\cover.jpg
+david guetta\2008 [rmx] fuck me i'm famous! - ibiza rmx 08\01. toys are nuts [ft=gregor salto+chuckie].mp3
+david guetta\2008 [rmx] fuck me i'm famous! - ibiza rmx 08\02. so strong [ft=meck+dino].mp3
+david guetta\2008 [rmx] fuck me i'm famous! - ibiza rmx 08\cover.jpg
+david guetta\2008 [rmx] fuck me i'm famous! - international [p=2]\01. bleep [ft=sandy vee].mp3
+david guetta\2008 [rmx] fuck me i'm famous! - international [p=2]\02. jack is back.mp3
+david guetta\2008 [rmx] fuck me i'm famous! - international [p=2]\03. runaway [ft=tom novy+abigail bailey][albin myers rmx].mp3
+david guetta\2008 [rmx] fuck me i'm famous! - international [p=2]\04. toca's miracle [inpetto 2008 rmx][ft=fragma].mp3
+david guetta\2008 [rmx] fuck me i'm famous! - international [p=2]\cover.jpg
+david guetta\2008 [rmx] jack is back\01. jack is back [original rmx].mp3
+david guetta\2008 [rmx] jack is back\cover.jpg
+david guetta\2008 [single] tomorrow can wait [ft=chris willis+tocadisco]\01. tomorrow can wait [radio edit][ft=chris willis+tocadisco].mp3
+david guetta\2008 [single] tomorrow can wait [ft=chris willis+tocadisco]\02. tomorrow can wait [tocadisco evil rmx][ft=chris willis+tocadisco].mp3
+david guetta\2008 [single] tomorrow can wait [ft=chris willis+tocadisco]\cover.jpg
+david guetta\2009 [single] grrrr\01. grrrr.mp3
+david guetta\2009 [single] grrrr\cover.jpg
+david guetta\2009 [studio] one love\01. gettin' over you [ft=chris willis].mp3
+david guetta\2009 [studio] one love\02. one love [ft=estelle].mp3
+david guetta\2009 [studio] one love\03. montenegro.mp3
+david guetta\2009 [studio] one love\04. commander [ft=kelly rowland].mp3
+david guetta\2009 [studio] one love\cover.jpg
+david guetta\2010 [rmx] fuck me i'm famous! - ibiza rmx 2010\01. put your hands up [ft=koen groeneveld+mark knight].mp3
+david guetta\2010 [rmx] fuck me i'm famous! - ibiza rmx 2010\02. glow [ft=cirez d].mp3
+david guetta\2010 [rmx] fuck me i'm famous! - ibiza rmx 2010\cover.jpg
+david guetta\2011 [rmx] fuck me i'm famous! - ibiza rmx 2011\01. sweat [ft=snoop dogg][afrojack rmx].mp3
+david guetta\2011 [rmx] fuck me i'm famous! - ibiza rmx 2011\02. replica [ft=afrojack ].mp3
+david guetta\2011 [rmx] fuck me i'm famous! - ibiza rmx 2011\03. duel [ft=third party].mp3
+david guetta\2011 [rmx] fuck me i'm famous! - ibiza rmx 2011\cover.jpg
+david guetta\2011 [single] little bad girl [ft=taio cruz+ludacris]\01. little bad girl [ft=taio cruz+ludacris][norman doray rmx].mp3
+david guetta\2011 [single] little bad girl [ft=taio cruz+ludacris]\cover.jpg
+david guetta\2011 [studio] nothing but the beat\01. turn me on [ft=nicki minaj].mp3
+david guetta\2011 [studio] nothing but the beat\02. titanium [ft=sia].mp3
+david guetta\2011 [studio] nothing but the beat\03. lunar [ft=afrojack].mp3
+david guetta\2011 [studio] nothing but the beat\04. toy story.mp3
+david guetta\2011 [studio] nothing but the beat\05. glasgow.mp3
+david guetta\2011 [studio] nothing but the beat\cover.jpg
+david guetta\2012 [rmx] fuck me i'm famous! - ibiza rmx 2012\01. metropolis [ft=nicky romero].mp3
+david guetta\2012 [rmx] fuck me i'm famous! - ibiza rmx 2012\02. get low [ft=sydney samson].mp3
+david guetta\2012 [rmx] fuck me i'm famous! - ibiza rmx 2012\03. greyhound [ft=swedish house mafia].mp3
+david guetta\2012 [rmx] fuck me i'm famous! - ibiza rmx 2012\04. quasar [ft=hard rock sofa].mp3
+david guetta\2012 [rmx] fuck me i'm famous! - ibiza rmx 2012\cover.jpg
+david guetta\2014 [studio] listen\01. no money no love [ft=elliphant+ms. dynamite+showtek].mp3
+david guetta\2014 [studio] listen\02. hey mama [ft=nicki minaj+bebe rexha+afrojack].mp3
+david guetta\2014 [studio] listen\03. sun goes down [ft=magic!+sonny wilson+showtek].mp3
+david guetta\2014 [studio] listen\04. rise [ft=skylar grey].mp3
+david guetta\2014 [studio] listen\cover.jpg
+david guetta\2018 [studio] 7\01. say my name [ft=bebe rexha+j balvin].mp3
+david guetta\2018 [studio] 7\02. i'm that bitch [ft=saweetie].mp3
+david guetta\2018 [studio] 7\03. she knows how to love me [ft=jess glynne+stefflon don].mp3
+david guetta\2018 [studio] 7\04. motto [ft=lil uzi vert+g-eazy+mally mall].mp3
+david guetta\2018 [studio] 7\05. inferno [ft=jack back].mp3
+david guetta\2018 [studio] 7\06. overtone [ft=jack back].mp3
+david guetta\2018 [studio] 7\07. back & forth [ft=jack back].mp3
+david guetta\2018 [studio] 7\08. pelican [ft=jack back].mp3
+david guetta\2018 [studio] 7\09. afterglow [ft=jack back].mp3
+david guetta\2018 [studio] 7\10. think think think [ft=jack back].mp3
+david guetta\2018 [studio] 7\11. orion [ft=jack back].mp3
+david guetta\2018 [studio] 7\cover.jpg
+david guetta\x.txt
+de-phazz\1997 [studio] detunized gravity\01. between 2 thieves.mp3
+de-phazz\1997 [studio] detunized gravity\02. little company.mp3
+de-phazz\1997 [studio] detunized gravity\03. nameless life.mp3
+de-phazz\1997 [studio] detunized gravity\04. good boy.mp3
+de-phazz\1997 [studio] detunized gravity\05. lullaby.mp3
+de-phazz\1997 [studio] detunized gravity\06. free drift.mp3
+de-phazz\1997 [studio] detunized gravity\07. hero dead & gone [radio swing rmx].mp3
+de-phazz\1997 [studio] detunized gravity\08. nameless life [repoetry].mp3
+de-phazz\1997 [studio] detunized gravity\09. hero dead & gone [original album rmx].mp3
+de-phazz\1997 [studio] detunized gravity\cover.jpg
+de-phazz\1999 [studio] godsdog\01. happiness.mp3
+de-phazz\1999 [studio] godsdog\02. godsdog.mp3
+de-phazz\1999 [studio] godsdog\03. next message!.mp3
+de-phazz\1999 [studio] godsdog\cover.jpg
+de-phazz\2001 [studio] death by chocolate\01. heartfixer.mp3
+de-phazz\2001 [studio] death by chocolate\02. something special.mp3
+de-phazz\2001 [studio] death by chocolate\03. death by chocolate.mp3
+de-phazz\2001 [studio] death by chocolate\04. online.mp3
+de-phazz\2001 [studio] death by chocolate\05. jim the jinn.mp3
+de-phazz\2001 [studio] death by chocolate\06. trash box.mp3
+de-phazz\2001 [studio] death by chocolate\07. love's labour's lost.mp3
+de-phazz\2001 [studio] death by chocolate\cover.jpg
+de-phazz\2002 [rmx] plastic love memory\01. drop down low.mp3
+de-phazz\2002 [rmx] plastic love memory\02. good boy [manmachineman rmx].mp3
+de-phazz\2002 [rmx] plastic love memory\cover.jpg
+de-phazz\2002 [studio] daily lama\01. you stayed.mp3
+de-phazz\2002 [studio] daily lama\02. what's behind.mp3
+de-phazz\2002 [studio] daily lama\03. wrong dance.mp3
+de-phazz\2002 [studio] daily lama\04. atomic cocktail.mp3
+de-phazz\2002 [studio] daily lama\05. cup of hope.mp3
+de-phazz\2002 [studio] daily lama\06. true north.mp3
+de-phazz\2002 [studio] daily lama\07. nightmare.mp3
+de-phazz\2002 [studio] daily lama\08. preachin' to the choir.mp3
+de-phazz\2002 [studio] daily lama\09. wait.mp3
+de-phazz\2002 [studio] daily lama\10. down the railroad.mp3
+de-phazz\2002 [studio] daily lama\11. word in a rhyme.mp3
+de-phazz\2002 [studio] daily lama\cover.jpg
+de-phazz\2005 [studio] natural fake\01. astrud astronette.mp3
+de-phazz\2005 [studio] natural fake\02. stumble.mp3
+de-phazz\2005 [studio] natural fake\03. eternity is.mp3
+de-phazz\2005 [studio] natural fake\04. rise & shine.mp3
+de-phazz\2005 [studio] natural fake\05. love is natural.mp3
+de-phazz\2005 [studio] natural fake\06. car eats town.mp3
+de-phazz\2005 [studio] natural fake\07. keep it simple.mp3
+de-phazz\2005 [studio] natural fake\08. who the pop cares.mp3
+de-phazz\2005 [studio] natural fake\09. make heaven my home.mp3
+de-phazz\2005 [studio] natural fake\10. close to jazz.mp3
+de-phazz\2005 [studio] natural fake\cover.jpg
+de-phazz\2007 [studio] days of twang\01. boogie philosophy.mp3
+de-phazz\2007 [studio] days of twang\02. nonsensical thing.mp3
+de-phazz\2007 [studio] days of twang\03. hell alright.mp3
+de-phazz\2007 [studio] days of twang\04. better world.mp3
+de-phazz\2007 [studio] days of twang\05. it will turn out right.mp3
+de-phazz\2007 [studio] days of twang\06. devil's music.mp3
+de-phazz\2007 [studio] days of twang\07. dancing with my hands.mp3
+de-phazz\2007 [studio] days of twang\08. rock'n'roll dude.mp3
+de-phazz\2007 [studio] days of twang\09. shadow of a lie.mp3
+de-phazz\2007 [studio] days of twang\cover.jpg
+de-phazz\2010 [studio] lala 2.0\01. when no words come.mp3
+de-phazz\2010 [studio] lala 2.0\02. slums of monte carlo.mp3
+de-phazz\2010 [studio] lala 2.0\03. cloudspotting.mp3
+de-phazz\2010 [studio] lala 2.0\04. walk with love.mp3
+de-phazz\2010 [studio] lala 2.0\cover.JPG
+de-phazz\2012 [studio] audio elastique\01. the story of it all.mp3
+de-phazz\2012 [studio] audio elastique\02. desir au maximum.mp3
+de-phazz\2012 [studio] audio elastique\AlbumArtSmall.jpg
+de-phazz\2012 [studio] audio elastique\cover.jpg
+de-phazz\2012 [studio] audio elastique\Folder.jpg
+de-phazz\2013 [studio] naive\01. faith.mp3
+de-phazz\2013 [studio] naive\02. time slips.mp3
+de-phazz\2013 [studio] naive\cover.jpg
+de-phazz\2016 [studio] prankster bride\01. apple & egg.mp3
+de-phazz\2016 [studio] prankster bride\02. prankster bride.mp3
+de-phazz\2016 [studio] prankster bride\03. soulflakes.mp3
+de-phazz\2016 [studio] prankster bride\cover.jpg
+de-phazz\2018 [studio] black white mono\01. in my blood.mp3
+de-phazz\2018 [studio] black white mono\cover.jpg
+de-phazz\x.txt
 deeexpus\2008 [studio] half way home\01. greed.mp3
 deeexpus\2008 [studio] half way home\cover.jpg
 deeexpus\2011 [studio] the king of number 33\01. me & my downfall.mp3
@@ -3729,6 +4042,25 @@ halou\2006 [studio] wholeness & separation\cover.jpg
 halou\2008 [studio] halou\01. it will all make sense in the morning.mp3
 halou\2008 [studio] halou\cover.jpg
 halou\x.txt
+heroin & your veins\2007 [studio] dead people's trails\01. diet & cancer.mp3
+heroin & your veins\2007 [studio] dead people's trails\02. sand in lungs.mp3
+heroin & your veins\2007 [studio] dead people's trails\03. alone.mp3
+heroin & your veins\2007 [studio] dead people's trails\04. absurd.mp3
+heroin & your veins\2007 [studio] dead people's trails\cover.jpg
+heroin & your veins\2009 [studio] nausea\01. intoxication.mp3
+heroin & your veins\2009 [studio] nausea\02. the lady.mp3
+heroin & your veins\2009 [studio] nausea\03. the trainyard.mp3
+heroin & your veins\2009 [studio] nausea\04. the gutter.mp3
+heroin & your veins\2009 [studio] nausea\cover.jpg
+heroin & your veins\2011 [studio] lovely bone structure\01. lovely bone structure.mp3
+heroin & your veins\2011 [studio] lovely bone structure\cover.jpg
+heroin & your veins\2012 [studio] regret\01. akrasia.mp3
+heroin & your veins\2012 [studio] regret\02. your kicks & what.mp3
+heroin & your veins\2012 [studio] regret\03. only when i'm drunk.mp3
+heroin & your veins\2012 [studio] regret\04. snow will cover my footsteps.mp3
+heroin & your veins\2012 [studio] regret\05. i feel everything.mp3
+heroin & your veins\2012 [studio] regret\cover.jpg
+heroin & your veins\x.txt
 him\1997 [studio] greatest lovesongs vol666\01. wicked game [c=chris isaak].mp3
 him\1997 [studio] greatest lovesongs vol666\02. our diabolical rapture.mp3
 him\1997 [studio] greatest lovesongs vol666\03. it's all tears.mp3
@@ -4132,6 +4464,131 @@ jukin' bone\2018 [studio] unfinished business\02. nothin' to lose.mp3
 jukin' bone\2018 [studio] unfinished business\03. end of the bar.mp3
 jukin' bone\2018 [studio] unfinished business\cover.jpg
 jukin' bone\x.txt
+kai tracid\1999 [studio] skywalker\01. liquid skies.mp3
+kai tracid\1999 [studio] skywalker\02. dawn of time.mp3
+kai tracid\1999 [studio] skywalker\03. so simple.mp3
+kai tracid\1999 [studio] skywalker\04. destruction.mp3
+kai tracid\1999 [studio] skywalker\cover.jpg
+kai tracid\2002 [studio] trance & acid\01. bad shape.mp3
+kai tracid\2002 [studio] trance & acid\02. trance & acid.mp3
+kai tracid\2002 [studio] trance & acid\03. voyager.mp3
+kai tracid\2002 [studio] trance & acid\cover.jpg
+kai tracid\2003 [studio] contemplate the reason you exist\01. i don't want to live 4ever.mp3
+kai tracid\2003 [studio] contemplate the reason you exist\02. contemplate the reason you exist.mp3
+kai tracid\2003 [studio] contemplate the reason you exist\cover.jpg
+kai tracid\x.txt
+kaliber\2006 [ep] kaliber 01\01. kaliber 01 - b1.mp3
+kaliber\2006 [ep] kaliber 01\cover.jpg
+kaliber\2006 [ep] kaliber 02\01. kaliber 02 - a1.mp3
+kaliber\2006 [ep] kaliber 02\cover.jpg
+kaliber\2006 [ep] kaliber 03\01. kaliber 03 - a1.mp3
+kaliber\2006 [ep] kaliber 03\02. kaliber 03 - b1.mp3
+kaliber\2006 [ep] kaliber 03\cover.jpg
+kaliber\2006 [ep] kaliber 05\01. kaliber 05 - a1.mp3
+kaliber\2006 [ep] kaliber 05\02. kaliber 05 - b1.mp3
+kaliber\2006 [ep] kaliber 05\cover.jpg
+kaliber\2006 [ep] kaliber 06\01. kaliber 06 - a1.mp3
+kaliber\2006 [ep] kaliber 06\cover.jpg
+kaliber\2006 [ep] kaliber 08\01. kaliber 08 - a1.mp3
+kaliber\2006 [ep] kaliber 08\02. kaliber 08 - b1.mp3
+kaliber\2006 [ep] kaliber 08\cover.jpg
+kaliber\2006 [ep] kaliber 09\01. kaliber 09 - a1.mp3
+kaliber\2006 [ep] kaliber 09\02. kaliber 09 - b2.mp3
+kaliber\2006 [ep] kaliber 09\cover.jpg
+kaliber\2006 [ep] kaliber 10\01. kaliber 10 - a1.mp3
+kaliber\2006 [ep] kaliber 10\cover.jpg
+kaliber\2007 [ep] kaliber 11\01. kaliber 11 - a1.mp3
+kaliber\2007 [ep] kaliber 11\02. kaliber 11 - b2.mp3
+kaliber\2007 [ep] kaliber 11\cover.jpg
+kaliber\2007 [ep] kaliber 12\01. kaliber 12 - a1.mp3
+kaliber\2007 [ep] kaliber 12\02. kaliber 12 - b2.mp3
+kaliber\2007 [ep] kaliber 12\cover.jpg
+kaliber\2007 [ep] kaliber 13\01. kaliber 13 - a1.mp3
+kaliber\2007 [ep] kaliber 13\cover.jpg
+kaliber\2007 [ep] kaliber 14\01. kaliber 14 - b2.mp3
+kaliber\2007 [ep] kaliber 14\cover.jpg
+kaliber\2007 [ep] kaliber 15\01. kaliber 15 - b1.mp3
+kaliber\2007 [ep] kaliber 15\cover.jpg
+kaliber\2007 [ep] kaliber 16\01. kaliber 16 - a1.mp3
+kaliber\2007 [ep] kaliber 16\02. kaliber 16 - b1.mp3
+kaliber\2007 [ep] kaliber 16\03. kaliber 16 - b2.mp3
+kaliber\2007 [ep] kaliber 16\cover.jpg
+kaliber\2008 [ep] kaliber 19\01. kaliber 19 - a1.mp3
+kaliber\2008 [ep] kaliber 19\cover.jpg
+kaliber\2009 [ep] kaliber 21\01. kaliber 21 - a1.mp3
+kaliber\2009 [ep] kaliber 21\02. kaliber 21 - b1.mp3
+kaliber\2009 [ep] kaliber 21\cover.jpg
+kaliber\x.txt
+killing joke\1980 [studio] killing joke\01. the wait.mp3
+killing joke\1980 [studio] killing joke\02. complications.mp3
+killing joke\1980 [studio] killing joke\03. s.o.36.mp3
+killing joke\1980 [studio] killing joke\cover.jpg
+killing joke\1981 [studio] what's this for\01. the fall of because.mp3
+killing joke\1981 [studio] what's this for\02. who told you how.mp3
+killing joke\1981 [studio] what's this for\03. exit.mp3
+killing joke\1981 [studio] what's this for\cover.jpg
+killing joke\1982 [studio] revelations\01. the pandys are coming.mp3
+killing joke\1982 [studio] revelations\cover.jpg
+killing joke\1983 [studio] fire dances\01. the gathering.mp3
+killing joke\1983 [studio] fire dances\02. dominator.mp3
+killing joke\1983 [studio] fire dances\cover.jpg
+killing joke\1985 [studio] night time\01. darkness before dawn.mp3
+killing joke\1985 [studio] night time\02. kings & queens.mp3
+killing joke\1985 [studio] night time\03. tabazan.mp3
+killing joke\1985 [studio] night time\04. multitudes.mp3
+killing joke\1985 [studio] night time\05. europe.mp3
+killing joke\1985 [studio] night time\cover.jpg
+killing joke\1986 [studio] brighter than a thousand suns\01. sanity.mp3
+killing joke\1986 [studio] brighter than a thousand suns\02. wintergardens.mp3
+killing joke\1986 [studio] brighter than a thousand suns\03. exile.mp3
+killing joke\1986 [studio] brighter than a thousand suns\cover.jpg
+killing joke\1988 [studio] outside the gate\01. america.mp3
+killing joke\1988 [studio] outside the gate\02. stay one jump ahead.mp3
+killing joke\1988 [studio] outside the gate\cover.jpg
+killing joke\1990 [studio] extremities, dirt & various repressed emotions\01. the beautiful dead.mp3
+killing joke\1990 [studio] extremities, dirt & various repressed emotions\02. inside the termite mound.mp3
+killing joke\1990 [studio] extremities, dirt & various repressed emotions\03. north of the border.mp3
+killing joke\1990 [studio] extremities, dirt & various repressed emotions\04. kaliyuga.mp3
+killing joke\1990 [studio] extremities, dirt & various repressed emotions\cover.jpg
+killing joke\1994 [studio] pandemonium\01. pandemonium.mp3
+killing joke\1994 [studio] pandemonium\02. pleasures of the flesh.mp3
+killing joke\1994 [studio] pandemonium\cover.jpg
+killing joke\1996 [studio] democracy\01. intellect.mp3
+killing joke\1996 [studio] democracy\cover.jpg
+killing joke\2003 [studio] killing joke\01. the death & resurrection show.mp3
+killing joke\2003 [studio] killing joke\02. total invasion.mp3
+killing joke\2003 [studio] killing joke\03. blood on your hands.mp3
+killing joke\2003 [studio] killing joke\04. loose cannon.mp3
+killing joke\2003 [studio] killing joke\05. the house that pain built.mp3
+killing joke\2003 [studio] killing joke\cover.jpg
+killing joke\2006 [studio] hosannas from the basements of hell\01. this tribal antidote.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\02. hosannas from the basements of hell.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\03. invocation.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\04. walking with gods.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\05. judas goat.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\06. gratitude.mp3
+killing joke\2006 [studio] hosannas from the basements of hell\cover.jpg
+killing joke\2010 [studio] absolute dissent\01. absolute dissent.mp3
+killing joke\2010 [studio] absolute dissent\02. the great cull.mp3
+killing joke\2010 [studio] absolute dissent\03. fresh fever from the skies.mp3
+killing joke\2010 [studio] absolute dissent\04. european super state.mp3
+killing joke\2010 [studio] absolute dissent\cover.jpg
+killing joke\2012 [studio] mmxii\01. pole shift.mp3
+killing joke\2012 [studio] mmxii\02. fema camp.mp3
+killing joke\2012 [studio] mmxii\03. rapture.mp3
+killing joke\2012 [studio] mmxii\04. colony collapse.mp3
+killing joke\2012 [studio] mmxii\05. trance.mp3
+killing joke\2012 [studio] mmxii\cover.jpg
+killing joke\2015 [studio] pylon\01. autonomous zone.mp3
+killing joke\2015 [studio] pylon\02. dawn of the hive.mp3
+killing joke\2015 [studio] pylon\03. euphoria.mp3
+killing joke\2015 [studio] pylon\04. new jerusalem.mp3
+killing joke\2015 [studio] pylon\05. war on freedom.mp3
+killing joke\2015 [studio] pylon\06. delete.mp3
+killing joke\2015 [studio] pylon\07. plague.mp3
+killing joke\2015 [studio] pylon\08. panopticon.mp3
+killing joke\2015 [studio] pylon\cover.jpg
+killing joke\x.txt
 kim jensen\2000 [ost] project igi\01. intro.mp3
 kim jensen\2000 [ost] project igi\02. menu.mp3
 kim jensen\2000 [ost] project igi\03. ingame 01.mp3
@@ -4901,6 +5358,39 @@ masterboy\1995 [studio] generation of love\02. generation of love.mp3
 masterboy\1995 [studio] generation of love\03. feel the fire.mp3
 masterboy\1995 [studio] generation of love\cover.jpg
 masterboy\x.txt
+mercyful fate\1982 [ep] mercyful fate\01. doomed by the living dead.mp3
+mercyful fate\1982 [ep] mercyful fate\cover.jpg
+mercyful fate\1983 [studio] melissa\01. curse of the pharaohs.mp3
+mercyful fate\1983 [studio] melissa\02. into the coven.mp3
+mercyful fate\1983 [studio] melissa\03. satan's fall.mp3
+mercyful fate\1983 [studio] melissa\04. black masses.mp3
+mercyful fate\1983 [studio] melissa\cover.jpg
+mercyful fate\1984 [studio] don't break the oath\01. desecration of souls.mp3
+mercyful fate\1984 [studio] don't break the oath\02. come to the sabbath.mp3
+mercyful fate\1984 [studio] don't break the oath\cover.jpg
+mercyful fate\1992 [compil] return of the vampire\01. return of the vampire.mp3
+mercyful fate\1992 [compil] return of the vampire\02. on a night of full moon.mp3
+mercyful fate\1992 [compil] return of the vampire\03. death kiss.mp3
+mercyful fate\1992 [compil] return of the vampire\04. you asked for it.mp3
+mercyful fate\1992 [compil] return of the vampire\cover.jpg
+mercyful fate\1993 [studio] in the shadows\01. shadows.mp3
+mercyful fate\1993 [studio] in the shadows\cover.jpg
+mercyful fate\1994 [studio] time\01. angel of light.mp3
+mercyful fate\1994 [studio] time\02. my demon.mp3
+mercyful fate\1994 [studio] time\03. time.mp3
+mercyful fate\1994 [studio] time\04. the afterlife.mp3
+mercyful fate\1994 [studio] time\cover.jpg
+mercyful fate\1996 [studio] into the unknown\01. fifteen men.mp3
+mercyful fate\1996 [studio] into the unknown\02. into the unknown.mp3
+mercyful fate\1996 [studio] into the unknown\03. under the spell.mp3
+mercyful fate\1996 [studio] into the unknown\04. deadtime.mp3
+mercyful fate\1996 [studio] into the unknown\cover.jpg
+mercyful fate\1998 [studio] dead again\01. the lady who cries.mp3
+mercyful fate\1998 [studio] dead again\02. sucking your blood.mp3
+mercyful fate\1998 [studio] dead again\03. dead again.mp3
+mercyful fate\1998 [studio] dead again\04. fear.mp3
+mercyful fate\1998 [studio] dead again\cover.jpg
+mercyful fate\x.txt
 metallica\1983 [studio] kill 'em all\01. hit the lights.mp3
 metallica\1983 [studio] kill 'em all\02. the four horsemen.mp3
 metallica\1983 [studio] kill 'em all\03. motorbreath.mp3
@@ -5303,6 +5793,52 @@ morphine\2000 [studio] the night\07. slow numbers.mp3
 morphine\2000 [studio] the night\08. take me with you.mp3
 morphine\2000 [studio] the night\cover.jpg
 morphine\x.txt
+mortaur\2002 [studio] horror vacui\01. unweep our souls.mp3
+mortaur\2002 [studio] horror vacui\02. nightfog.mp3
+mortaur\2002 [studio] horror vacui\03. as the forest speaks.mp3
+mortaur\2002 [studio] horror vacui\04. the unlight.mp3
+mortaur\2002 [studio] horror vacui\cover.jpg
+mortaur\2004 [studio] when word is made flesh\01. the haunting.mp3
+mortaur\2004 [studio] when word is made flesh\02. never ending loss.mp3
+mortaur\2004 [studio] when word is made flesh\03. room of many mirrors.mp3
+mortaur\2004 [studio] when word is made flesh\cover.jpg
+mortaur\2018 [studio] life without life\01. emptiness, loneliness, nonetheless.mp3
+mortaur\2018 [studio] life without life\02. moving in darkness.mp3
+mortaur\2018 [studio] life without life\cover.jpg
+mortaur\x.txt
+mortiis\1994 [studio] anden som gjorde oppror\01. en mork horisont.mp3
+mortiis\1994 [studio] anden som gjorde oppror\cover.jpg
+mortiis\1996 [compil] crypt of the wizard\01. en sirkel av kosmisk kaos.mp3
+mortiis\1996 [compil] crypt of the wizard\02. vandreren's sang.mp3
+mortiis\1996 [compil] crypt of the wizard\03. i morkret drommende.mp3
+mortiis\1996 [compil] crypt of the wizard\cover.jpg
+mortiis\2001 [studio] the smell of rain\01. scar trek - parasite god.mp3
+mortiis\2001 [studio] the smell of rain\02. spirit in a vacuum.mp3
+mortiis\2001 [studio] the smell of rain\03. monolith.mp3
+mortiis\2001 [studio] the smell of rain\04. you put a hex on me.mp3
+mortiis\2001 [studio] the smell of rain\05. everyone leaves.mp3
+mortiis\2001 [studio] the smell of rain\06. smell the witch.mp3
+mortiis\2001 [studio] the smell of rain\cover.jpg
+mortiis\2004 [studio] the grudge\01. the loneliest thing.mp3
+mortiis\2004 [studio] the grudge\cover.jpg
+mortiis\2007 [rmx] some kind of heroin\01. gibber [pig rmx].mp3
+mortiis\2007 [rmx] some kind of heroin\02. the worst in me [girls under glass rmx].mp3
+mortiis\2007 [rmx] some kind of heroin\03. the grudge [emotional heresy by kubrick].mp3
+mortiis\2007 [rmx] some kind of heroin\cover.jpg
+mortiis\2010 [studio] perfectly defect\01. sensation of guilt.mp3
+mortiis\2010 [studio] perfectly defect\02. sole defeat.mp3
+mortiis\2010 [studio] perfectly defect\cover.jpg
+mortiis\2016 [studio] the great deceiver\01. bleed like you.mp3
+mortiis\2016 [studio] the great deceiver\cover.jpg
+mortiis\2017 [rmx] the great corrupter\01. doppelganger [die krupps extended version].mp3
+mortiis\2017 [rmx] the great corrupter\02. demons are back [chris vrenna rmx].mp3
+mortiis\2017 [rmx] the great corrupter\cover.jpg
+mortiis\2017 [studio] the unraveling mind\01. virosus - silentium.mp3
+mortiis\2017 [studio] the unraveling mind\02. hollowed.mp3
+mortiis\2017 [studio] the unraveling mind\03. submit.mp3
+mortiis\2017 [studio] the unraveling mind\04. submit [subdued].mp3
+mortiis\2017 [studio] the unraveling mind\cover.jpg
+mortiis\x.txt
 mother love bone\1988 [demo] studio master demos\01. savoy fare side.mp3
 mother love bone\1988 [demo] studio master demos\02. waiting for you.mp3
 mother love bone\1988 [demo] studio master demos\03. ever kissed a lady.mp3
@@ -5387,7 +5923,6 @@ muse\1999 [studio] showbiz\cover.jpg
 muse\2000 [single] sunburn\01. ashamed.mp3
 muse\2000 [single] sunburn\cover.jpg
 muse\2000 [single] unintended\01. recess.mp3
-muse\2000 [single] unintended\02. nishe.mp3
 muse\2000 [single] unintended\cover.jpg
 muse\2001 [single] bliss\01. the gallery.mp3
 muse\2001 [single] bliss\02. hyper chondriac music.mp3
@@ -7027,6 +7562,31 @@ starlight brigade\2016 [studio] destination eternity\05. fading star v2.0.mp3
 starlight brigade\2016 [studio] destination eternity\06. the final sign.mp3
 starlight brigade\2016 [studio] destination eternity\cover.jpg
 starlight brigade\x.txt
+static-x\1999 [studio] wisconsin death trip\01. stem.mp3
+static-x\1999 [studio] wisconsin death trip\02. the trance is the motion.mp3
+static-x\1999 [studio] wisconsin death trip\cover.jpg
+static-x\2001 [studio] machine\01. cold.mp3
+static-x\2001 [studio] machine\02. a dios alma perdida.mp3
+static-x\2001 [studio] machine\cover.jpg
+static-x\2003 [studio] shadow zone\01. new pain.mp3
+static-x\2003 [studio] shadow zone\02. the only.mp3
+static-x\2003 [studio] shadow zone\03. all in wait.mp3
+static-x\2003 [studio] shadow zone\04. invincible.mp3
+static-x\2003 [studio] shadow zone\cover.jpg
+static-x\2004 [compil] beneath between beyond\01. deliver me.mp3
+static-x\2004 [compil] beneath between beyond\02. crash.mp3
+static-x\2004 [compil] beneath between beyond\cover.jpg
+static-x\2005 [studio] start a war\01. just in case.mp3
+static-x\2005 [studio] start a war\02. set it off.mp3
+static-x\2005 [studio] start a war\cover.jpg
+static-x\2007 [studio] cannibal\01. no submission.mp3
+static-x\2007 [studio] cannibal\02. destroyer.mp3
+static-x\2007 [studio] cannibal\03. get up & boogie.mp3
+static-x\2007 [studio] cannibal\cover.jpg
+static-x\2009 [studio] cult of static\01. terminal.mp3
+static-x\2009 [studio] cult of static\02. tera-fied.mp3
+static-x\2009 [studio] cult of static\cover.jpg
+static-x\x.ini
 steppenwolf\1968 [studio] steppenwolf\01. sookie sookie.mp3
 steppenwolf\1968 [studio] steppenwolf\02. hoochie coochie man.mp3
 steppenwolf\1968 [studio] steppenwolf\03. desperation.mp3
@@ -7515,6 +8075,37 @@ the human instinct\1974 [studio] the hustler\cover.jpg
 the human instinct\2002 [studio] peg leg\01. free bird.mp3
 the human instinct\2002 [studio] peg leg\cover.jpg
 the human instinct\x.txt
+the knife\2001 [studio] the knife\01. lasagna.mp3
+the knife\2001 [studio] the knife\02. i just had to die.mp3
+the knife\2001 [studio] the knife\03. i take time.mp3
+the knife\2001 [studio] the knife\04. bird.mp3
+the knife\2001 [studio] the knife\05. n.y. hotel.mp3
+the knife\2001 [studio] the knife\cover.jpg
+the knife\2003 [ost] hannah med h\01. handy-man.mp3
+the knife\2003 [ost] hannah med h\02. a different way.mp3
+the knife\2003 [ost] hannah med h\cover.jpg
+the knife\2003 [studio] deep cuts\01. girls' night out.mp3
+the knife\2003 [studio] deep cuts\02. the cop.mp3
+the knife\2003 [studio] deep cuts\03. you take my breath away.mp3
+the knife\2003 [studio] deep cuts\04. you make me like charity.mp3
+the knife\2003 [studio] deep cuts\05. behind the bushes.mp3
+the knife\2003 [studio] deep cuts\cover.jpg
+the knife\2005 [studio] silent shout\01. silent shout.mp3
+the knife\2005 [studio] silent shout\02. neverland.mp3
+the knife\2005 [studio] silent shout\03. the captain.mp3
+the knife\2005 [studio] silent shout\04. we share our mothers' health.mp3
+the knife\2005 [studio] silent shout\05. marble house.mp3
+the knife\2005 [studio] silent shout\06. like a pen.mp3
+the knife\2005 [studio] silent shout\07. one hit.mp3
+the knife\2005 [studio] silent shout\cover.jpg
+the knife\2010 [studio] tomorrow, in a year [ft=mt. sims+planningtorock]\01. annie's box.mp3
+the knife\2010 [studio] tomorrow, in a year [ft=mt. sims+planningtorock]\cover.jpg
+the knife\2013 [studio] shaking the habitual\01. a tooth for an eye.mp3
+the knife\2013 [studio] shaking the habitual\02. wrap your arms around me.mp3
+the knife\2013 [studio] shaking the habitual\03. stay out here.mp3
+the knife\2013 [studio] shaking the habitual\04. fracking fluid injection.mp3
+the knife\2013 [studio] shaking the habitual\cover.jpg
+the knife\x.txt
 the notwist\1991 [studio] the notwist\01. is it fear.mp3
 the notwist\1991 [studio] the notwist\02. be reckless.mp3
 the notwist\1991 [studio] the notwist\03. k. das devil.mp3
@@ -8494,6 +9085,12 @@ wolfmother\2014 [studio] new crown\05. tall ships.mp3
 wolfmother\2014 [studio] new crown\06. my tangerine dream.mp3
 wolfmother\2014 [studio] new crown\cover.jpg
 wolfmother\x.txt
+xel-ha\1997 [single] the flow\01. the flow.mp3
+xel-ha\1997 [single] the flow\02. love beat.mp3
+xel-ha\1997 [single] the flow\cover.jpg
+xel-ha\1998 [single] the right information\01. the right information [non eric';s club dub rmx].mp3
+xel-ha\1998 [single] the right information\cover.jpg
+xel-ha\x.txt
 xero\1997 [ep] xero\01. rhinestone.mp3
 xero\1997 [ep] xero\02. reading my eyes.mp3
 xero\1997 [ep] xero\03. stick n' move.mp3
