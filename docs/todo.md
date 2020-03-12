@@ -1,10 +1,7 @@
 
 ## IN PROGRESS
 - (T2) continuously upgrading of HLPR lib, annotate tested functions accordingly
-- (F2) QC integration:
-    - run session from "features" facade
-    - run session (for "marked to be updated" Artists only) when the "metadata updating" is finished
-        - (i) in order to stabilize potential tests fails separately from the massive stable build
+
 
 ## BACKLOG
 - (F2) Metadata inheritance
