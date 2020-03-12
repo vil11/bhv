@@ -138,7 +138,7 @@ class song extends unit
             if (array_key_exists('APIC', $apic)) {
                 $this->actualThumbnail = $apic['APIC'][0]['data'];
             } else {
-                throw new Exception(prepareIssueCard("UNKNOWN CASE"));
+                throw new Exception(prepareIssueCard('UNKNOWN CASE'));
             }
         }
 

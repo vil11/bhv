@@ -43,52 +43,32 @@ class features
     }
 
     /**
-     * Perform the QC session in order to be sure that BHV is deliverable.
+     * Perform the QC session in order to be sure that BHV is deliverable in expected condition.
      *
+     * @param array|null $phpUnitArgs
      * @throws Exception if session execution script isn't performed validly
      * @throws Exception if testing results report reading is failed
      */
-    public function performQC()
+    public function performQC(?array $phpUnitArgs)
     {
-        say("\n\nQuality Control session:");
+        say("\n\nQuality Control session:\n\n");
 
-        $qaPath = bendSeparatorsRight(dirname(APP_PATH) . DS . 'qa' . DS);
-        $cmd = 'cd ' . $qaPath;
+        $phpunitPath = dirname(PATH_APP) . DS . 'vendor/bin/phpunit';
+
+        $cmd = 'cd ' . bendSeparatorsRight(PATH_QA);
         $cmd = system($cmd);
 
-//        $logFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_report');
-//        $cmd = 'phpunit --configuration ' . $qaPath . 'phpunit.xml --log-tap ' . $logFilePath;
-        $cmd = 'phpunit --configuration ' . $qaPath . 'phpunit.xml';
+        $cmd = bendSeparatorsRight($phpunitPath) . ' --configuration ' . bendSeparatorsRight(PATH_QA) . 'phpunit.xml';
+        if ($phpUnitArgs) {
+            foreach ($phpUnitArgs as $arg => $value) {
+                $cmd .= ' --' . $arg . ' ' . $value;
+            }
+        }
+
         $cmd = system($cmd);
 
-
-//        $logFileContent = file_get_contents($logFilePath);
-//        if (!$logFileContent) {
-//            $e = 'testing results report reading is failed';
-//            throw new Exception($e);
-//        }
-//        preg_match_all('|(message:).+|', $logFileContent, $fails);
-//        $fails = $fails[0];
-//
-//        $destinationTickPath = settings::getInstance()->get('paths/qa_tick_destination');
-//        if ($fails) {
-//            $resultContent = '';
-//            foreach ($fails as $fail) {
-//                $resultContent .= substr($fail, 9);
-//            }
-//
-//            $destinationReportPath = settings::getInstance()->get('paths/qa_result_destination');
-//            $resultFilePath = PROJECT_PATH . settings::getInstance()->get('paths/qa_result');
-//
-//            if (!file_put_contents($resultFilePath, $resultContent)) exit('writing results to report file failed!');
-//            if (!copy($resultFilePath, $destinationReportPath)) exit('copying report to desktop failed');
-//
-//            if (!copy(PROJECT_PATH . '../qa/reports/tick_failed.png', $destinationTickPath)) {
-//                exit('copying tick_failed to desktop failed!');
-//            }
-//        }
-
-        $this->finish(true);
+        $result = (strpos($cmd, 'OK (') === 0) ? true : false;
+        $this->finish($result);
     }
 
     /**

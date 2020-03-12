@@ -1,6 +1,6 @@
 <?php
 
-class bhvNameFormatTest extends tests_abstract
+class bhvNameFormatTest extends dataIntegrityTest
 {
     /**
      * @return array
@@ -34,10 +34,12 @@ class bhvNameFormatTest extends tests_abstract
         $this->unit = ucfirst(get_class($artist));
         $this->path = $artist->getPath();
 
-        $this->verifyUppercaseAbsent($artist->getTitle());
-        $this->verifyWrapAbsent($artist->getTitle());
-        $this->verifyRestrictedSymbolAbsent($artist->getTitle(), settings::getInstance()->get('restricted_marks'));
-        $this->verifyRestrictedSymbolAbsent($artist->getTitle(), $this->prepareTagsDelimiters());
+        $artistName = (!$this->acceptanceMode) ? $artist->getTitle() : $this->adjustName($artist->getTitle());
+
+        $this->verifyUppercaseAbsent($artistName);
+        $this->verifyWrapAbsent($artistName);
+        $this->verifyRestrictedSymbolAbsent($artistName, settings::getInstance()->get('restricted_marks'));
+        $this->verifyRestrictedSymbolAbsent($artistName, $this->prepareTagsDelimiters());
     }
 
     /**

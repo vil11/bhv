@@ -1,6 +1,6 @@
 <?php
 
-class metadataTest extends tests_abstract
+class bhvMetadataTest extends dataIntegrityTest
 {
     /** @var bhv */
     protected $bhv;
@@ -47,7 +47,7 @@ class metadataTest extends tests_abstract
      * @param string $artistName
      * @throws Exception
      */
-    public function songMetadataConsistent($artistName)
+    public function songMetadataConsistent(string $artistName)
     {
         $artist = new artist($artistName);
         /** @var song $song */

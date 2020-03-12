@@ -151,13 +151,13 @@ class artist extends unit
                 return false;
             }
         }
-        echo "updated!";
+        echo 'updated!';
 
         if ($autoRenamingIfSuccess) {
             if (!$this->renameUpdated()) {
                 return false;
             }
-            echo " renamed!";
+            echo ' renamed!';
         }
 
         return true;

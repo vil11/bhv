@@ -13,6 +13,8 @@ class bhv extends unit
 
     // lazy
     /** @var array */
+    protected $newArtistsListing = [];
+    /** @var array */
     protected $catalog;
 
 
@@ -92,6 +94,26 @@ class bhv extends unit
         return $this->catalog;
     }
 
+    private function setNewArtistsListing()
+    {
+        foreach ($this->getArtistsListing() as $artistTitle) {
+            if (!$this->isMarkedToBeUpdated($artistTitle)) continue;
+
+            $this->newArtistsListing[] = $artistTitle;
+        }
+    }
+
+    /**
+     * @return array
+     * @throws Exception
+     */
+    public function getNewArtistsListing(): array
+    {
+        if (!$this->newArtistsListing) $this->setNewArtistsListing();
+
+        return $this->newArtistsListing;
+    }
+
     /**
      * @return bool
      */
@@ -100,10 +122,10 @@ class bhv extends unit
         $mt = microtime(true);
         say("\n\tcopying under Git");
 
-        $name = bendSeparatorsRight(APP_PATH . 'data' . DS . getPathSectionBackwards($this->catalogPath));
+        $name = bendSeparatorsRight(PATH_APP . 'data' . DS . getPathSectionBackwards($this->catalogPath));
         $result = copy($this->catalogPath, $name);
 
-        say(" takes " . (microtime(true) - $mt) . " seconds.");
+        say(' takes ' . (microtime(true) - $mt) . ' seconds.');
         return $result;
     }
 
@@ -117,7 +139,7 @@ class bhv extends unit
 
         $f = fopen($this->catalogPath, 'wt');
         if ($f === false || !is_resource($f)) {
-            throw new Exception(prepareIssueCard("File open failed!", $this->catalogPath));
+            throw new Exception(prepareIssueCard('File open failed!', $this->catalogPath));
         }
 
         $i = new RecursiveDirectoryIterator($this->path);
@@ -126,16 +148,16 @@ class bhv extends unit
 
             $record = str_replace($this->path . DS, '', $path);
             if (strlen($record) > settings::getInstance()->get('limits/path_length_max')) {
-                throw new Exception(prepareIssueCard("Too long record.", $path));
+                throw new Exception(prepareIssueCard('Too long record.', $path));
             }
             if (fwrite($f, $record . "\n") === false) {
-                throw new Exception(prepareIssueCard("Writing failed!", $path));
+                throw new Exception(prepareIssueCard('Writing failed!', $path));
             }
         }
 
         $f = fclose($f);
         if ($f === false) {
-            throw new Exception(prepareIssueCard("File close failed!", $this->catalogPath));
+            throw new Exception(prepareIssueCard('File close failed!', $this->catalogPath));
         }
 
         return $this->copyCatalogUnderProject();
@@ -150,8 +172,10 @@ class bhv extends unit
     {
         say("\n\nMetadata updating:");
 
-        foreach ($this->getArtistsListing() as $artistTitle) {
-            if (!$this->isMarkedToBeUpdated($artistTitle)) continue;
+        foreach ($this->getNewArtistsListing() as $artistTitle) {
+            if (!$this->isMarkedToBeUpdated($artistTitle)) {
+                throw new Exception(prepareIssueCard('UNKNOWN CASE'));
+            }
 
             $artist = new artist($artistTitle);
             echo "\n\t" . substr($artist->getTitle(), 1);

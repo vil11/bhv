@@ -1,6 +1,6 @@
 <?php
 
-class bhvContentTest extends tests_abstract
+class bhvContentTest extends dataIntegrityTest
 {
     /** @var bhv */
     protected $bhv;
@@ -96,7 +96,7 @@ class bhvContentTest extends tests_abstract
      * @param string $artistName
      * @throws Exception
      */
-    public function artistContentConsistent($artistName)
+    public function artistContentConsistent(string $artistName)
     {
         $artist = new artist($artistName);
         $this->unit = ucfirst(get_class($artist));
@@ -111,13 +111,13 @@ class bhvContentTest extends tests_abstract
         $this->verifyOnlyExpectedFilesPresent($files);
     }
 
-    /**
-     * @test
-     */
-    public function artistIndexConsistent()
-    {
-        $this->markTestSkipped('TBD');
-    }
+//    /**
+//     * @test
+//     */
+//    public function artistIndexConsistent()
+//    {
+//        $this->markTestSkipped('TBD');
+//    }
 
     /**
      * @test
@@ -134,7 +134,7 @@ class bhvContentTest extends tests_abstract
      * @param string $artistName
      * @throws Exception
      */
-    public function albumContentConsistent($artistName)
+    public function albumContentConsistent(string $artistName)
     {
         $artist = new artist($artistName);
         /** @var album $album */

@@ -6,14 +6,17 @@
  */
 class autoloader
 {
-    public static function autoload($className)
+    /** @param string $className */
+    public static function autoload(string $className)
     {
-        $path = APP_PATH . 'model' . DS . str_replace('_', DS, $className) . '.php';
+        $suffix = DS . str_replace('_', DS, $className) . '.php';
+
+        $path = PATH_APP . 'model' . $suffix;
         if (file_exists($path)) {
             require_once $path;
         }
 
-        $path = dirname(APP_PATH) . DS . 'qa' . DS . str_replace('_', DS, $className . '.php');
+        $path = PATH_QA . 'tests' . $suffix;
         if (file_exists($path)) {
             require_once $path;
         }

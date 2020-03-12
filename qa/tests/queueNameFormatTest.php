@@ -1,6 +1,6 @@
 <?php
 
-class queueNameFormatTest extends tests_abstract
+class queueNameFormatTest extends dataIntegrityTest
 {
     /**
      * @return array

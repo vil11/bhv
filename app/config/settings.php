@@ -9,7 +9,7 @@ class settings
 
     private function __construct()
     {
-        $this->path = APP_PATH . 'config' . DS . 'settings.ini';
+        $this->path = PATH_APP . 'config' . DS . 'settings.ini';
     }
 
 
@@ -40,9 +40,7 @@ class settings
         return $settings;
     }
 
-    /**
-     * @return settings
-     */
+    /** @return settings */
     public static function getInstance(): settings
     {
         if (is_null(self::$instance)) {

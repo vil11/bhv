@@ -4,6 +4,8 @@ require_once 'app/features.php';
 
 $features = new features();
 
-$features->updateMetadata(true);
-$features->updateCatalog();
-//$features->performQC();
+
+//$features->updateMetadata();
+//$features->performQC(['group' => 'acceptance']);
+//$features->updateCatalog();
+//$features->performQC(['testsuite' => 'full']);

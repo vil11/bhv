@@ -2,16 +2,22 @@
 
 <phpunit bootstrap="../app/boot/bootstrap.php">
     <testsuites>
-        <testsuite name="tests">
+        <testsuite name="acceptance">
+
+            <file>tests/bhvAcceptanceNameFormatTest.php</file>
+
+            <file>tests/bhvAcceptanceContentTest.php</file>
+            <file>tests/bhvAcceptanceMetadataTest.php</file>
+
+        </testsuite>
+        <testsuite name="full">
 
             <file>tests/bhvNameFormatTest.php</file>
             <file>tests/queueNameFormatTest.php</file>
 
             <file>tests/bhvContentTest.php</file>
-            <file>tests/metadataTest.php</file>
+            <file>tests/bhvMetadataTest.php</file>
 
         </testsuite>
     </testsuites>
-    <!--    <listeners>-->
-    <!--    </listeners>-->
 </phpunit>

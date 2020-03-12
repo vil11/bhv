@@ -1,7 +1,9 @@
 <?php
 
-abstract class tests_abstract extends PHPUnit\Framework\TestCase
+abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 {
+    public $acceptanceMode = false;
+
     protected $unit;
     protected $path;
 
@@ -17,6 +19,18 @@ abstract class tests_abstract extends PHPUnit\Framework\TestCase
             settings::getInstance()->get('delimiters/tag_name'),
             settings::getInstance()->get('delimiters/tag_info'),
         ];
+    }
+
+    /**
+     * @param string $string
+     * @return string
+     */
+    protected function adjustName(string $string): string
+    {
+        $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
+        $string = substr($string, strlen($updatePrefixMark));
+
+        return $string;
     }
 
 
