@@ -17,48 +17,50 @@ const ENCODING = [
  *  # remove tabs
  *  # remove restricted in Windows OS symbols
  *  # fix wrappings
- *  # remove doubles in wrapping
+ *  # remove doubles:
+ *      - in wrapping
+ *      - in spacing
  *  # trim
  *
  * @param string $fileName
  * @return string
  *
- * @tested 1.3.3
+ * @tested 1.3.4
  */
 function smartPrepareFileName(string $fileName): string
 {
     $replacements = [
         // vocabulary
-        "Á" => 'A',
-        "á" => 'a',
-        "à" => 'a',
-        "ã" => 'a',
-        "Ć" => 'C',
-        "ć" => 'c',
-        "č" => 'c',
-        "ð" => 'd',
-        "É" => 'E',
-        "é" => 'e',
-        "ë" => 'e',
-        "ï" => 'i',
-        "î" => 'i',
-        "í" => 'i',
-        "ñ" => 'n',
-        "Ö" => 'O',
-        "ö" => 'o',
-        "ô" => 'o',
-        "Ō" => 'O',
-        "ō" => 'o',
-        "Ó" => 'o',
-        "ó" => 'o',
-        "ş" => 's',
-        "Š" => 'S',
-        "š" => 's',
-        "ß" => 'ss',
-        "ü" => 'u',
-        "ū" => 'u',
-        "ú" => 'u',
-        "ž" => 'z',
+        'Á' => 'A',
+        'á' => 'a',
+        'à' => 'a',
+        'ã' => 'a',
+        'Ć' => 'C',
+        'ć' => 'c',
+        'č' => 'c',
+        'ð' => 'd',
+        'É' => 'E',
+        'é' => 'e',
+        'ë' => 'e',
+        'ï' => 'i',
+        'î' => 'i',
+        'í' => 'i',
+        'ñ' => 'n',
+        'Ö' => 'O',
+        'ö' => 'o',
+        'ô' => 'o',
+        'Ō' => 'O',
+        'ō' => 'o',
+        'Ó' => 'o',
+        'ó' => 'o',
+        'ş' => 's',
+        'Š' => 'S',
+        'š' => 's',
+        'ß' => 'ss',
+        'ü' => 'u',
+        'ū' => 'u',
+        'ú' => 'u',
+        'ž' => 'z',
 
         // tabs
         "\n" => '',
@@ -66,31 +68,30 @@ function smartPrepareFileName(string $fileName): string
         "\t" => '',
 
         // windows
-        "/" => '',
-        "|" => '',
+        '/' => '',
+        '|' => '',
         "\\" => '',
-        "?" => '',
-        "*" => '',
-        ":" => '',
-        ">" => '',
-        "<" => '',
+        '?' => '',
+        '*' => '',
+        ':' => '',
+        '>' => '',
+        '<' => '',
 
         // wrappers
-        "[ " => '[',
-        "( " => '(',
-        "{ " => '{',
-        " ]" => ']',
-        " )" => ')',
-        " }" => '}',
-        " !" => '!',
+        '[ ' => '[',
+        '( ' => '(',
+        '{ ' => '{',
+        ' ]' => ']',
+        ' )' => ')',
+        ' }' => '}',
+        ' !' => '!',
         '"' => "'",
-        ' ' => "",
     ];
     $restricteds = array_keys($replacements);
     $replacements = array_values($replacements);
     $fileName = str_replace($restricteds, $replacements, $fileName);
 
-    $fileName = removeDoubles(['[', ']', '(', ')', '{', '}'], $fileName);
+    $fileName = removeDoubles(['[', ']', '(', ')', '{', '}', ' '], $fileName);
 
     return trim($fileName);
 }
