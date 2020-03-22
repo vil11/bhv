@@ -10,93 +10,110 @@ const ENCODING = [
     'koi-r' => 'KOI8-R'
 ];
 
+
 /**
- * [IN PROGRESS] Prepare file name for saving:
- *  # replace foreign alphabet characters by english (latin) analogue;
- *  # remove tabs;
- *  # remove restricted in Windows OS symbols;
- *  # remove invalid wrapping;
- *  # remove double spaces;
- *  # fix directory separators;
- *  # trim.
+ * Make file name more unified to be saved on different OSs easily:
+ *  # replace derived Latin characters by English analogues
+ *  # remove tabs
+ *  # remove restricted in Windows OS symbols
+ *  # fix wrappings
+ *  # remove doubles in wrapping
+ *  # trim
  *
  * @param string $fileName
  * @return string
  *
+ * @tested 1.3.3
  */
-//function smartPrepareFileName(string $fileName): string
-//{
-//    $restrictedCharacters = [
-//        "Á" => 'A',
-//        "á" => 'a',
-//        "à" => 'a',
-//        "ã" => 'a',
-//        "Ć" => 'C',
-//        "ć" => 'c',
-//        "č" => 'c',
-//        "ð" => 'd',
-//        "É" => 'E',
-//        "é" => 'e',
-//        "ë" => 'e',
-//        "ï" => 'i',
-//        "î" => 'i',
-//        "í" => 'i',
-//        "ñ" => 'n',
-//        "Ö" => 'O',
-//        "ö" => 'o',
-//        "ô" => 'o',
-//        "Ō" => 'O',
-//        "ō" => 'o',
-//        "Ó" => 'o',
-//        "ó" => 'o',
-//        "ş" => 's',
-//        "Š" => 'S',
-//        "š" => 's',
-//        "ß" => 'ss',
-//        "ü" => 'u',
-//        "ū" => 'u',
-//        "ú" => 'u',
-//        "ž" => 'z',
-//        "\n" => ' ',
-//        "\r" => ' ',
-//        "\t" => ' ',
-//        "/" => ' ',
-//        "|" => ' ',
-//        "\\" => ' ',
-//        "+" => ' ',
-//        "?" => ' ',
-//        "*" => ' ',
-//        ":" => ' ',
-//        ">" => ' ',
-//        "<" => ' ',
-//        "[ " => '[',
-//        " ]" => ']',
-//        "( " => '(',
-//        " )" => ')',
-//        " !" => '!',
-//        '"' => "'",
-//    ];
-//    foreach ($restrictedCharacters as $restricted => $replacing) {
-//        $fileName = str_replace($restricted, $replacing, $fileName);
-//    }
-//
-//    $wrappers = [
-//        '[',
-//        ']',
-//        '(',
-//        ')',
-//        ' ',
-//    ];
-//    foreach ($wrappers as $wrapper) {
-//        while (strpos($fileName, $wrapper . $wrapper)) {
-//            $fileName = str_replace($wrapper . $wrapper, $wrapper, $fileName);
-//        }
-//    }
-//
-//    $fileName = trim(bendSeparatorsRight($fileName));
-//
-//    return $fileName;
-//}
+function smartPrepareFileName(string $fileName): string
+{
+    $replacements = [
+        // vocabulary
+        "Á" => 'A',
+        "á" => 'a',
+        "à" => 'a',
+        "ã" => 'a',
+        "Ć" => 'C',
+        "ć" => 'c',
+        "č" => 'c',
+        "ð" => 'd',
+        "É" => 'E',
+        "é" => 'e',
+        "ë" => 'e',
+        "ï" => 'i',
+        "î" => 'i',
+        "í" => 'i',
+        "ñ" => 'n',
+        "Ö" => 'O',
+        "ö" => 'o',
+        "ô" => 'o',
+        "Ō" => 'O',
+        "ō" => 'o',
+        "Ó" => 'o',
+        "ó" => 'o',
+        "ş" => 's',
+        "Š" => 'S',
+        "š" => 's',
+        "ß" => 'ss',
+        "ü" => 'u',
+        "ū" => 'u',
+        "ú" => 'u',
+        "ž" => 'z',
+
+        // tabs
+        "\n" => '',
+        "\r" => '',
+        "\t" => '',
+
+        // windows
+        "/" => '',
+        "|" => '',
+        "\\" => '',
+        "?" => '',
+        "*" => '',
+        ":" => '',
+        ">" => '',
+        "<" => '',
+
+        // wrappers
+        "[ " => '[',
+        "( " => '(',
+        "{ " => '{',
+        " ]" => ']',
+        " )" => ')',
+        " }" => '}',
+        " !" => '!',
+        '"' => "'",
+        ' ' => "",
+    ];
+    $restricteds = array_keys($replacements);
+    $replacements = array_values($replacements);
+    $fileName = str_replace($restricteds, $replacements, $fileName);
+
+    $fileName = removeDoubles(['[', ']', '(', ')', '{', '}'], $fileName);
+
+    return trim($fileName);
+}
+
+/**
+ * Remove duplicates of requested substrings inside file name.
+ *
+ * @param string[] $uniques
+ * @param string $fileName
+ * @return string
+ *
+ * @tested 1.3.3
+ */
+function removeDoubles(array $uniques, string $fileName): string
+{
+    foreach ($uniques as $unique) {
+        while (strpos($fileName, $unique . $unique)) {
+            $fileName = str_replace($unique . $unique, $unique, $fileName);
+        }
+    }
+
+    return $fileName;
+}
 
 /**
  * Replace backslash with slash in specified path (file, URL, ...).
@@ -110,17 +127,6 @@ function bendSeparatorsRight($path): string
 {
     return str_replace("\\", '/', $path);
 }
-
-/**
- * [IN PROGRESS] Replace slash with backslash in specified path (file, URL, ...).
- *
- * @param string $path
- * @return string
- */
-//function bendSeparatorsLeft($path)
-//{
-//    return str_replace("/", "\\", $path);
-//}
 
 /**
  * Switch encoding from Windows-1251 to UTF-8:

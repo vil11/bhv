@@ -134,19 +134,21 @@ function getDirFilesListByExt(string $dirPath, string $ext): array
 //}
 
 /**
- * [IN PROGRESS] Create directory on Hard Disk Drive by specified path.
+ * Create directory if such is absent.
  *
  * @param string $dirPath
- * @throws Exception if directory is not created
+ * @throws Exception if directory was not created
+ *
+ * @tested 1.3.3
  */
-//function createDir($dirPath)
-//{
-//    if (!is_dir($dirPath)) {
-//        if (!mkdir($dirPath, 0777)) {
-//            throw new Exception("Directory [$dirPath] is not created.");
-//        }
-//    }
-//}
+function createDir(string $dirPath)
+{
+    if (!is_dir($dirPath)) {
+        if (!mkdir($dirPath, 0777)) {
+            throw new Exception(prepareIssueCard("Directory was not created.", $dirPath));
+        }
+    }
+}
 
 /**
  * [IN PROGRESS] Remove empty directory on Hard Disk Drive by specified path.

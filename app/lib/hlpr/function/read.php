@@ -92,34 +92,34 @@ function getExt(string $filePath): string
 //}
 
 /**
- * [IN PROGRESS] Download file by URL.
- * TODO: specify supported file formats.
+ * Download file by URL.
  *
- * @param string $fileUrl
+ * @param string $url
  * @param string $saveFilePath
+ *
+ * @tested 1.3.3
  */
-//function downloadFile($fileUrl, $saveFilePath)
-//{
-//    file_put_contents($saveFilePath, fopen($fileUrl, 'r'));
-//}
+function downloadFile(string $url, string $saveFilePath)
+{
+    $fp = fopen($saveFilePath, 'wb');
 
-/**
- * [IN PROGRESS] Download file by URL.
- * TODO: specify supported file formats.
- *
- * @param string $fileUrl
- * @param string $saveFilePath
- */
-//function downloadFile2($fileUrl, $saveFilePath)
-//{
-//    $ch = curl_init($fileUrl);
-//    $fp = fopen($saveFilePath, 'wb');
-//    curl_setopt($ch, CURLOPT_FILE, $fp);
-//    curl_setopt($ch, CURLOPT_HEADER, 0);
-//    curl_exec($ch);
-//    curl_close($ch);
-//    fclose($fp);
-//}
+    $ch = curl_init();
+    $options = [
+        CURLOPT_URL => $url,
+        CURLOPT_HEADER => true,
+        CURLOPT_CONNECTTIMEOUT => 1488,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_FILE => $fp,
+    ];
+    curl_setopt_array($ch, $options);
+
+    curl_exec($ch);
+    curl_close($ch);
+
+    fclose($fp);
+}
 
 /**
  * [IN PROGRESS] Wait while file is loading.
@@ -155,25 +155,29 @@ function getExt(string $filePath): string
 //}
 
 /**
- * [IN PROGRESS] Get file size by its path on Hard Disk Drive or per URL.
+ * [IN PROGRESS] Works very slow for big files...
  *
- * @param string $filePath
- * @return int
+ * @param string $url
+ * @return float
  */
-//function getFileSize($filePath)
+//function getFileSize(string $url): float
 //{
-//    if (substr($filePath, 0, 4) != 'http') {
-//        $fileSize = @filesize($filePath);
-//    } else {
-//        $fileData = array_change_key_case(get_headers($filePath, 1), CASE_LOWER);
-//        if (!is_array($fileData['content-length'])) {
-//            $fileSize = $fileData['content-length'];
-//        } else {
-//            $fileSize = $fileData['content-length'][1];
-//        }
-//    }
+//    $ch = curl_init();
+//    $options = [
+//        CURLOPT_URL => $url,
+//        CURLOPT_HEADER => true,
+//        CURLOPT_CONNECTTIMEOUT => 1488,
+//        CURLOPT_RETURNTRANSFER => true,
+//        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+//        CURLOPT_FOLLOWLOCATION => true,
+//    ];
+//    curl_setopt_array($ch, $options);
 //
-//    return (int)$fileSize;
+//    curl_exec($ch);
+//    $fileSize = curl_getinfo($ch, CURLINFO_CONTENT_LENGTH_DOWNLOAD);
+//    curl_close($ch);
+//
+//    return $fileSize;
 //}
 
 /**
