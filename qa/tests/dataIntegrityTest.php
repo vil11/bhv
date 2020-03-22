@@ -339,4 +339,22 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $err = prepareIssueCard($err, $filepath);
         $this->assertTrue(isFileValid($filepath), $err);
     }
+
+    /**
+     * @param string[] $catalog
+     * @param artist $artist
+     */
+    protected function verifyArtistFilesCatalogued(array $catalog, artist $artist)
+    {
+        $i = new RecursiveDirectoryIterator($artist->getPath());
+        foreach (new RecursiveIteratorIterator($i) as $path => $file) {
+            if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
+
+            $f = $artist->getTitle() . str_replace($artist->getPath(), '', $path);
+
+            $err = err('"%s" is not catalogued. Review this file & update Catalog accordingly.', $f);
+            $err = prepareIssueCard($err, $path);
+            $this->assertTrue(in_array($f, $catalog), $err);
+        }
+    }
 }

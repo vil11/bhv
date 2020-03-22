@@ -72,7 +72,7 @@ class bhvContentTest extends dataIntegrityTest
     /**
      * @test
      *
-     * Every Catalog entry is still present in BHV.
+     * Every Catalog entry is present in BHV.
      *
      * @throws Exception
      */
@@ -84,6 +84,24 @@ class bhvContentTest extends dataIntegrityTest
         foreach ($catalog as $entry) {
             $this->verifyCatalogEntryPresent($entry);
         }
+    }
+
+    /**
+     * @test
+     *
+     * Artist has all its files catalogued.
+     *
+     * @dataProvider dataArtists
+     * @param string $artistName
+     * @throws Exception
+     */
+    public function bhvArtistFilesCatalogued(string $artistName)
+    {
+        $artist = new artist($artistName);
+        $this->path = $artist->getPath();
+
+        $catalog = $this->bhv->getCatalog();
+        $this->verifyArtistFilesCatalogued($catalog, $artist);
     }
 
     /**
