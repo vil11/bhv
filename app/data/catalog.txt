@@ -4678,6 +4678,27 @@ kiss\2012 [studio] monster\02. long way down.mp3
 kiss\2012 [studio] monster\03. the devil is me.mp3
 kiss\2012 [studio] monster\cover.jpg
 kiss\x.txt
+klank\1995 [studio] still suffering\01. time.mp3
+klank\1995 [studio] still suffering\cover.jpg
+klank\1999 [studio] numb\01. dark india rmx.mp3
+klank\1999 [studio] numb\cover.jpg
+klank\2010 [studio] numb reborn\01. no answers no reasons.mp3
+klank\2010 [studio] numb reborn\02. bleed me dry.mp3
+klank\2010 [studio] numb reborn\03. blind.mp3
+klank\2010 [studio] numb reborn\04. so very real.mp3
+klank\2010 [studio] numb reborn\05. can you scream [out loud rmx].mp3
+klank\2010 [studio] numb reborn\06. numb [crazy rmx].mp3
+klank\2010 [studio] numb reborn\cover.jpg
+klank\2012 [studio] urban warfare\01. urban warfare.mp3
+klank\2012 [studio] urban warfare\02. sick is the new sane.mp3
+klank\2012 [studio] urban warfare\03. stomp you out.mp3
+klank\2012 [studio] urban warfare\04. something about you [ft=dug pinnick].mp3
+klank\2012 [studio] urban warfare\cover.jpg
+klank\2017 [studio] rise\01. de-volve.mp3
+klank\2017 [studio] rise\02. till the end.mp3
+klank\2017 [studio] rise\03. the damage.mp3
+klank\2017 [studio] rise\cover.jpg
+klank\x.txt
 korn\1994 [studio] korn\01. blind.mp3
 korn\1994 [studio] korn\02. need to.mp3
 korn\1994 [studio] korn\03. shoots & ladders.mp3
