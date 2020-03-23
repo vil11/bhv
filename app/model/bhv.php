@@ -135,8 +135,6 @@ class bhv extends unit
      */
     public function updateCatalog(): bool
     {
-        say("\n\nCatalog updating:");
-
         $f = fopen($this->catalogPath, 'wt');
         if ($f === false || !is_resource($f)) {
             throw new Exception(prepareIssueCard('File open failed!', $this->catalogPath));
@@ -170,8 +168,6 @@ class bhv extends unit
      */
     public function updateMetadata(bool $autoRenamingIfSuccess): bool
     {
-        say("\n\nMetadata updating:");
-
         foreach ($this->getNewArtistsListing() as $artistTitle) {
             if (!$this->isMarkedToBeUpdated($artistTitle)) {
                 throw new Exception(prepareIssueCard('UNKNOWN CASE'));

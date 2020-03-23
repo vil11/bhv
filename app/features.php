@@ -3,12 +3,13 @@
 require_once 'app/boot/bootstrap.php';
 
 /**
- * Beehive app features. Run manually by calling the function directly from "index.php".
+ * Beehive app features. Run manually by calling functions directly from "index.php".
  */
 class features
 {
     /** @var bhv */
     private $bhv;
+
 
     public function __construct()
     {
@@ -17,12 +18,13 @@ class features
 
 
     /**
-     * Update Catalog to log the latest Beehive state.
+     * Update Catalog to log the latest state of Beehive shadow.
      *
      * @throws Exception
      */
     public function updateCatalog()
     {
+        say("\n\nCatalog updating:");
         $result = $this->bhv->updateCatalog();
         $this->finish($result);
     }
@@ -38,12 +40,13 @@ class features
      */
     public function updateMetadata(bool $autoRenamingIfSuccess = false)
     {
+        say("\n\nMetadata updating:");
         $result = $this->bhv->updateMetadata($autoRenamingIfSuccess);
         $this->finish($result);
     }
 
     /**
-     * Perform the QC session in order to be sure that BHV is deliverable in expected condition.
+     * Perform the QC session in order to be sure that the Beehive is deliverable in expected condition.
      *
      * @param array|null $phpUnitArgs
      * @throws Exception if session execution script isn't performed validly
@@ -53,18 +56,15 @@ class features
     {
         say("\n\nQuality Control session:\n\n");
 
-        $phpunitPath = dirname(PATH_APP) . DS . 'vendor/bin/phpunit';
-
         $cmd = 'cd ' . bendSeparatorsRight(PATH_QA);
         $cmd = system($cmd);
 
-        $cmd = bendSeparatorsRight($phpunitPath) . ' --configuration ' . bendSeparatorsRight(PATH_QA) . 'phpunit.xml';
+        $cmd = bendSeparatorsRight(PATH_VENDOR . 'bin' . DS . 'phpunit') . ' --configuration ' . bendSeparatorsRight(PATH_QA) . 'phpunit.xml';
         if ($phpUnitArgs) {
             foreach ($phpUnitArgs as $arg => $value) {
                 $cmd .= ' --' . $arg . ' ' . $value;
             }
         }
-
         $cmd = system($cmd);
 
         $result = (strpos($cmd, 'OK (') === 0) ? true : false;
@@ -72,9 +72,26 @@ class features
     }
 
     /**
-     * @param bool $result
+     * Download Albums (from mzka.clb) by "view Album" pages' urls.
+     *
+     * @param string[] $urls
+     * @throws Exception
      */
-    protected function finish(bool $result)
+    public function downloadAlbums(array $urls)
+    {
+        say("\n\nDownloading Albums:\n\n");
+        foreach ($urls as $url) {
+            $album = new resource_album($url);
+            $result = $album->downloadSongs();
+            if (!$result) {
+                $this->finish($result);
+            }
+        }
+        $this->finish(true);
+    }
+
+    /** @param bool $result */
+    private function finish(bool $result)
     {
         if ($result) {
             say("\n\n[SUCCESS!]\n", 'green');

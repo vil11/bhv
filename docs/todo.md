@@ -1,7 +1,11 @@
 
 ## IN PROGRESS
 - `T2` continuously upgrading of HLPR lib, annotate tested functions accordingly
-- `F2` As a BHV keeper, I want to download all Album Songs (from mzka.clb) by specifying corresponding Album page URL
+- `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
+    - (td) located on the same level as BHV
+    - formatting customization is supported
+    - (qa) covered with "artistsAreNotDuplicated" test at least
+
 
 ## BACKLOG
 - `F2` Metadata inheritance
@@ -13,14 +17,6 @@
         - explore for more similar cases
         - suggest solution in Assert err msg
             - ex: in case of full "c=" repeat: "move tag to the Album name level to be extended accordingly
-- `F2` implement index files:
-    - Artist index file (ex: last Album listened)
-    - Album index file (ex: Song title placeholder)
-    - use Catalog as BHV index file
-- `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
-    - (td) located on the same level as BHV
-    - formatting customization is supported
-    - (qa) covered with "artistsAreNotDuplicated" test at least
 - `T2` move HLPR lib from app to vendor
 
 - `F3` single-sided & dual-sided Relations between Artists (ex: "audioslave" & "rage against the machine")
@@ -45,3 +41,9 @@
     - report readable results in case of not success
 - `T4` investigate Factory pattern usage for Songs, Albums, Artists
 - `F4` integration with "di.fm" wishlist (several accounts)
+- `F4` implement index files:
+    - Artist index file (ex: last Album listened)
+    - Album index file (ex: Song title placeholder)
+    - use Catalog as BHV index file
+
+
