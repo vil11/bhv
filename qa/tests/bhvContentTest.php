@@ -44,7 +44,7 @@ class bhvContentTest extends dataIntegrityTest
             $queueArtists = array_merge($queueArtists, $queue);
         }
 
-        $this->verifyDuplicatingsAbsent($this->bhv->getArtistsListing(), $queueArtists, '"s" is already in BHV. Remove it from Queue.');
+        $this->verifyDuplicatingsAbsent($this->bhv->getArtistsListing(), $queueArtists, '"%s" is already in BHV. Remove it from Queue.');
         $artists = array_merge($this->bhv->getArtistsListing(), $queueArtists);
 
         $this->verifyPrefixDuplicatingsAbsent($artists);

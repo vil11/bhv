@@ -2666,6 +2666,64 @@ crazy town\1999 [studio] the gift of game\cover.jpg
 crazy town\2003 [ep] hurt you so bad\01. boom box gang war.mp3
 crazy town\2003 [ep] hurt you so bad\cover.jpg
 crazy town\x.txt
+cream\1966 [studio] fresh cream\01. sleepy time time.mp3
+cream\1966 [studio] fresh cream\02. sweet wine.mp3
+cream\1966 [studio] fresh cream\03. spoonful.mp3
+cream\1966 [studio] fresh cream\04. cat's squirrel.mp3
+cream\1966 [studio] fresh cream\05. rollin' & tumblin'.mp3
+cream\1966 [studio] fresh cream\06. i'm so glad.mp3
+cream\1966 [studio] fresh cream\07. toad.mp3
+cream\1966 [studio] fresh cream\cover.jpg
+cream\1967 [studio] disraeli gears\01. strange brew.mp3
+cream\1967 [studio] disraeli gears\02. sunshine of your love.mp3
+cream\1967 [studio] disraeli gears\03. world of pain.mp3
+cream\1967 [studio] disraeli gears\04. dance the night away.mp3
+cream\1967 [studio] disraeli gears\05. tales of brave ulysses.mp3
+cream\1967 [studio] disraeli gears\06. we're going wrong.mp3
+cream\1967 [studio] disraeli gears\07. outside woman blues.mp3
+cream\1967 [studio] disraeli gears\08. take it back.mp3
+cream\1967 [studio] disraeli gears\09. lawdy mama.mp3
+cream\1967 [studio] disraeli gears\cover.jpg
+cream\1968 [studio] wheels of fire\01. white room.mp3
+cream\1968 [studio] wheels of fire\02. sitting on top of the world.mp3
+cream\1968 [studio] wheels of fire\03. born under a bad sign.mp3
+cream\1968 [studio] wheels of fire\04. crossroads.mp3
+cream\1968 [studio] wheels of fire\cover.jpg
+cream\1969 [studio] goodbye\01. badge.mp3
+cream\1969 [studio] goodbye\02. what a bringdown.mp3
+cream\1969 [studio] goodbye\cover.jpg
+cream\x.txt
+crystal castles\2008 [studio] crystal castles\01. air war.mp3
+crystal castles\2008 [studio] crystal castles\02. courtship dating.mp3
+crystal castles\2008 [studio] crystal castles\03. 1983 1991.mp3
+crystal castles\2008 [studio] crystal castles\04. through the hosiery.mp3
+crystal castles\2008 [studio] crystal castles\05. reckless.mp3
+crystal castles\2008 [studio] crystal castles\06. black panther.mp3
+crystal castles\2008 [studio] crystal castles\cover.jpg
+crystal castles\2010 [studio] 2\01. year of silence.mp3
+crystal castles\2010 [studio] 2\02. empathy.mp3
+crystal castles\2010 [studio] 2\03. violent dreams.mp3
+crystal castles\2010 [studio] 2\04. vietnam.mp3
+crystal castles\2010 [studio] 2\05. birds.mp3
+crystal castles\2010 [studio] 2\06. pap smear.mp3
+crystal castles\2010 [studio] 2\07. not in love.mp3
+crystal castles\2010 [studio] 2\08. intimate.mp3
+crystal castles\2010 [studio] 2\cover.jpg
+crystal castles\2012 [studio] 3\01. plague.mp3
+crystal castles\2012 [studio] 3\02. kerosene.mp3
+crystal castles\2012 [studio] 3\03. wrath of god.mp3
+crystal castles\2012 [studio] 3\04. affection.mp3
+crystal castles\2012 [studio] 3\05. pale flesh.mp3
+crystal castles\2012 [studio] 3\06. sad eyes.mp3
+crystal castles\2012 [studio] 3\07. insulin.mp3
+crystal castles\2012 [studio] 3\08. transgender.mp3
+crystal castles\2012 [studio] 3\09. mercenary.mp3
+crystal castles\2012 [studio] 3\cover.jpg
+crystal castles\2016 [studio] amnesty\01. fleece.mp3
+crystal castles\2016 [studio] amnesty\02. char.mp3
+crystal castles\2016 [studio] amnesty\03. frail.mp3
+crystal castles\2016 [studio] amnesty\cover.jpg
+crystal castles\x.txt
 culture beat\1991 [studio] horizon\01. i like you.mp3
 culture beat\1991 [studio] horizon\cover.jpg
 culture beat\1993 [studio] serenity\01. mr. vain.mp3
@@ -4663,6 +4721,33 @@ john kay\2001 [studio] heretics & privateers\02. the ice age.mp3
 john kay\2001 [studio] heretics & privateers\03. the back page.mp3
 john kay\2001 [studio] heretics & privateers\cover.jpg
 john kay\x.txt
+joy division\1979 [studio] unknown pleasures\01. day of the lords.mp3
+joy division\1979 [studio] unknown pleasures\02. new dawn fades.mp3
+joy division\1979 [studio] unknown pleasures\03. shadowplay.mp3
+joy division\1979 [studio] unknown pleasures\cover.jpg
+joy division\1980 [single] komakino\01. komakino.mp3
+joy division\1980 [single] komakino\cover.jpg
+joy division\1980 [studio] closer\01. atrocity exhibition.mp3
+joy division\1980 [studio] closer\02. a means to an end.mp3
+joy division\1980 [studio] closer\03. the eternal.mp3
+joy division\1980 [studio] closer\04. decades.mp3
+joy division\1980 [studio] closer\cover.jpg
+joy division\1981 [compil] still\01. walked in line.mp3
+joy division\1981 [compil] still\02. the kill.mp3
+joy division\1981 [compil] still\cover.jpg
+joy division\1988 [compil] substance\01. from safety to where.mp3
+joy division\1988 [compil] substance\cover.jpg
+joy division\1988 [single] atmosphere\01. the only mistake.mp3
+joy division\1988 [single] atmosphere\cover.jpg
+joy division\1994 [compil] warsaw\01. the drawback.mp3
+joy division\1994 [compil] warsaw\cover.jpg
+joy division\1997 [compil] heart & soul\01. in a lonely place.mp3
+joy division\1997 [compil] heart & soul\cover.jpg
+joy division\2011 [compil] total from joy division to new order\01. blue monday.mp3
+joy division\2011 [compil] total from joy division to new order\02. crystal.mp3
+joy division\2011 [compil] total from joy division to new order\03. hellbent.mp3
+joy division\2011 [compil] total from joy division to new order\cover.jpg
+joy division\x.txt
 jukin' bone\1972 [studio] way down east\01. cara lynn.mp3
 jukin' bone\1972 [studio] way down east\02. nightcrawler.mp3
 jukin' bone\1972 [studio] way down east\03. come on home.mp3
@@ -4740,6 +4825,40 @@ kaliber\2009 [ep] kaliber 21\01. kaliber 21 - a1.mp3
 kaliber\2009 [ep] kaliber 21\02. kaliber 21 - b1.mp3
 kaliber\2009 [ep] kaliber 21\cover.jpg
 kaliber\x.txt
+khors\2005 [studio] the flame of eternity's decline\01. throne of antiquity.mp3
+khors\2005 [studio] the flame of eternity's decline\02. moan of the grief.mp3
+khors\2005 [studio] the flame of eternity's decline\cover.jpg
+khors\2006 [studio] cold\01. cold.mp3
+khors\2006 [studio] cold\02. ashes.mp3
+khors\2006 [studio] cold\03. misery.mp3
+khors\2006 [studio] cold\04. conscious burning.mp3
+khors\2006 [studio] cold\05. whispers.mp3
+khors\2006 [studio] cold\06. in the depths of black hills.mp3
+khors\2006 [studio] cold\07. the abyss.mp3
+khors\2006 [studio] cold\cover.jpg
+khors\2008 [studio] mysticism\01. through the rays of fading moon.mp3
+khors\2008 [studio] mysticism\02. raven's dance.mp3
+khors\2008 [studio] mysticism\03. milk of heavens.mp3
+khors\2008 [studio] mysticism\04. winterfall.mp3
+khors\2008 [studio] mysticism\05. in the cold embrace of mist.mp3
+khors\2008 [studio] mysticism\06. pagan scars.mp3
+khors\2008 [studio] mysticism\07. mysticism.mp3
+khors\2008 [studio] mysticism\cover.jpg
+khors\2010 [studio] return to abandoned\01. lost threads.mp3
+khors\2010 [studio] return to abandoned\02. mysteries cosmos.mp3
+khors\2010 [studio] return to abandoned\03. the seas burn of omnipotence.mp3
+khors\2010 [studio] return to abandoned\cover.jpg
+khors\2012 [studio] мудрість століть\01. where the grandeur of mountains embraces the space.mp3
+khors\2012 [studio] мудрість століть\02. horizons glassy.mp3
+khors\2012 [studio] мудрість століть\03. wisdom of centuries.mp3
+khors\2012 [studio] мудрість століть\04. only time will take it away.mp3
+khors\2012 [studio] мудрість століть\cover.jpg
+khors\2015 [studio] і ніч схиляється до наших лиць\01. dead birds valley.mp3
+khors\2015 [studio] і ніч схиляється до наших лиць\02. following the ways of blood.mp3
+khors\2015 [studio] і ніч схиляється до наших лиць\03. 1664.mp3
+khors\2015 [studio] і ніч схиляється до наших лиць\04. for the last time.mp3
+khors\2015 [studio] і ніч схиляється до наших лиць\cover.jpg
+khors\x.txt
 killing joke\1980 [studio] killing joke\01. the wait.mp3
 killing joke\1980 [studio] killing joke\02. complications.mp3
 killing joke\1980 [studio] killing joke\03. s.o.36.mp3
@@ -11689,7 +11808,7 @@ zzebra\x.txt
 танцы минус\x.txt
 тартак\2001 [studio] демо графiчний вибух\01. 100%-ий плагiат.mp3
 тартак\2001 [studio] демо графiчний вибух\02. did uhim.mp3
-тартак\2001 [studio] демо графiчний вибух\03. кожнетіло.mp3
+тартак\2001 [studio] демо графiчний вибух\03. кожнетіло [c=herbie hancock].mp3
 тартак\2001 [studio] демо графiчний вибух\04. о-ля-ля.mp3
 тартак\2001 [studio] демо графiчний вибух\05. буча-чака.mp3
 тартак\2001 [studio] демо графiчний вибух\cover.jpg
