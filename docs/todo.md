@@ -1,13 +1,16 @@
 
 ## IN PROGRESS
 - `T2` continuously upgrading of HLPR lib, annotate tested functions accordingly
+- `T2` stabilize Albums downloading
+- `F2` Artist logo
+
+
+
+## BACKLOG
 - `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
     - (td) located on the same level as BHV
     - formatting customization is supported
     - (qa) covered with "artistsAreNotDuplicated" test at least
-
-
-## BACKLOG
 - `F2` Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
     - Album Metadata is inherited from Artist level and can be overwritten by its own if tags matched
@@ -36,9 +39,6 @@
     - ex: "discogs", "wikipedia"
     - titles (or any other Metadata) can be whitelisted in index file
 - `F4` Multi Extensions support (ex: ".flac", ".png")
-- `F4` QC integration:
-    - run tests directly on GitHub on every commit push?
-    - report readable results in case of not success
 - `T4` investigate Factory pattern usage for Songs, Albums, Artists
 - `F4` integration with "di.fm" wishlist (several accounts)
 - `F4` implement index files:

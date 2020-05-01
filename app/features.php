@@ -73,6 +73,7 @@ class features
 
     /**
      * Download Albums (from mzka.clb) by "view Album" pages' urls.
+     *  - (i) mzka.clb provides limited qty of downloads per day
      *
      * @param string[] $urls
      * @throws Exception
@@ -93,11 +94,13 @@ class features
     /** @param bool $result */
     private function finish(bool $result)
     {
+        say("\n\n[");
         if ($result) {
-            say("\n\n[SUCCESS!]\n", 'green');
+            say('SUCCESS!', 'green');
         } else {
-            say("\n\n[FAIL!!!]\n", 'red');
+            say('FAIL!!!', 'red');
         }
+        say("]\n");
     }
 
 
