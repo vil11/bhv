@@ -155,30 +155,32 @@ function downloadFile(string $url, string $saveFilePath)
 //}
 
 /**
- * [IN PROGRESS] Works very slow for big files...
+ * Get file size.
  *
  * @param string $url
  * @return float
+ *
+ * @tested 1.3.5
  */
-//function getFileSize(string $url): float
-//{
-//    $ch = curl_init();
-//    $options = [
-//        CURLOPT_URL => $url,
-//        CURLOPT_HEADER => true,
-//        CURLOPT_CONNECTTIMEOUT => 1488,
-//        CURLOPT_RETURNTRANSFER => true,
-//        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
-//        CURLOPT_FOLLOWLOCATION => true,
-//    ];
-//    curl_setopt_array($ch, $options);
-//
-//    curl_exec($ch);
-//    $fileSize = curl_getinfo($ch, CURLINFO_CONTENT_LENGTH_DOWNLOAD);
-//    curl_close($ch);
-//
-//    return $fileSize;
-//}
+function getFileSize(string $url): float
+{
+    $ch = curl_init();
+    $options = [
+        CURLOPT_URL => $url,
+        CURLOPT_HEADER => true,
+        CURLOPT_CONNECTTIMEOUT => 1488,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36',
+        CURLOPT_FOLLOWLOCATION => true,
+    ];
+    curl_setopt_array($ch, $options);
+
+    curl_exec($ch);
+    $fileSize = curl_getinfo($ch, CURLINFO_CONTENT_LENGTH_DOWNLOAD);
+    curl_close($ch);
+
+    return $fileSize;
+}
 
 /**
  * [IN PROGRESS] Parse CSV file & convert pulled data to array of arrays.
