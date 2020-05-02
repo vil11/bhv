@@ -9,6 +9,8 @@ class resource_album
     protected $pageHtml;
     protected $pageDom;
 
+    /** @var bool */
+    protected $qc = true;
 
     /** @var string */
     protected $artist;
@@ -50,16 +52,19 @@ class resource_album
         $this->pageHtml = getHtml($url);
         $this->pageDom = new Query($this->pageHtml);
 
-        $artists = getTextsByXpath($this->pageDom, self::ARTIST_XP);
-        $this->artist = array_shift($artists);
-        $this->feat = $artists;
+        $this->setArtists();
         $this->released = getTextByXpath($this->pageDom, self::RELEASED_XP);
         $this->setType();
         $this->title = getTextByXpath($this->pageDom, self::TITLE_XP);
-
         $this->setSongs();
     }
 
+    private function setArtists()
+    {
+        $artists = getTextsByXpath($this->pageDom, self::ARTIST_XP);
+        $this->artist = array_shift($artists);
+        $this->feat = $artists;
+    }
 
     private function setType()
     {
@@ -68,20 +73,16 @@ class resource_album
         $type = getTextByXpath($this->pageDom, self::TYPE_XP);
         if ($type === 'Сборник исполнителя') {
             $type = $rec['compilation'];
-        }
-        elseif ($type === 'Демо') {
+        } elseif ($type === 'Демо') {
             $type = $rec['demo'];
-        }
-        elseif ($type === 'Студийный альбом') {
+        } elseif ($type === 'Студийный альбом') {
             $type = $rec['studio'];
-        }
-        elseif ($type === 'EP') {
+        } elseif ($type === 'EP') {
             $type = $rec['ep'];
-        }
-        elseif ($type === 'Live') {
+        } elseif ($type === 'Live') {
             $type = $rec['live'];
-        }
-        elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей') {
+        } elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей') {
+            $this->qc = false;
             $type = '';
         } else {
             throw new Exception(prepareIssueCard(err('"%s": unknown Album type.', $type)));
@@ -109,7 +110,7 @@ class resource_album
         $songName = getTextByXpath($this->pageDom, sprintf(self::SONG_NAME_XP, $s));
         $songArtists = getTextsByXpath($this->pageDom, sprintf(self::SONG_ARTISTS_XP, $s));
 
-        if ($songArtists[0] !== $this->getArtist() && $this->type !== '') {
+        if ($this->qc && !in_array($this->getArtist(), $songArtists)) {
             throw new Exception();
         }
         if (count($songArtists) !== 1) {
