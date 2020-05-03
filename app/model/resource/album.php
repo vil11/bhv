@@ -14,7 +14,6 @@ class resource_album
 
     /** @var string */
     protected $artist;
-//    const ARTIST_XP = '//*[@class="main-details"]//*[@itemprop="byArtist"]';
     const ARTIST_XP = '//*[@class="main-details"]//*[@itemprop="byArtist"]/..//a';
     /** @var array */
     protected $feat = [];
@@ -110,9 +109,12 @@ class resource_album
         $songName = getTextByXpath($this->pageDom, sprintf(self::SONG_NAME_XP, $s));
         $songArtists = getTextsByXpath($this->pageDom, sprintf(self::SONG_ARTISTS_XP, $s));
 
-        if ($this->qc && !in_array($this->getArtist(), $songArtists)) {
-            throw new Exception();
+        if ($this->qc) {
+            if (!$this->ifSongArtistsAreExpected($songArtists)) {
+                throw new Exception();
+            }
         }
+
         if (count($songArtists) !== 1) {
             array_shift($songArtists);
             $songName .= $this->prepareFeat($songArtists);
@@ -122,6 +124,21 @@ class resource_album
         $songName .= '.' . settings::getInstance()->get('extensions/music');
 
         return $songName;
+    }
+
+    private function ifSongArtistsAreExpected(array $songArtists): bool
+    {
+        if (in_array($this->getArtist(), $songArtists)) {
+            return true;
+        }
+
+        foreach ($songArtists as $songArtist) {
+            if (in_array($songArtist, $this->getFeat())) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private function prepareSongUrl(int $s): string
