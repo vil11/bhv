@@ -28,7 +28,7 @@ class artistB extends artist
     /**
      * @throws Exception
      */
-    private function setSongs()
+    protected function setSongs()
     {
         if (!$this->albums) $this->setAlbums();
         $songs = [];
