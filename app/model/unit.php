@@ -1,6 +1,6 @@
 <?php
 
-class unit
+class unit implements unitInterface
 {
     // technical
     protected $_type;
@@ -25,25 +25,19 @@ class unit
     }
 
 
-    /**
-     * @param string $title
-     */
+    /** @param string $title */
     private function setTitle(string $title)
     {
         $this->title = $title;
     }
 
-    /**
-     * @return string
-     */
+    /** @return string */
     public function getTitle(): string
     {
         return $this->title;
     }
 
-    /**
-     * @throws Exception if unit (dir or file) is absent by specified path
-     */
+    /** @throws Exception if unit type is absent by specified path */
     protected function setPath()
     {
         $path = bendSeparatorsRight($this->path);
@@ -54,21 +48,18 @@ class unit
         $this->path = $path;
     }
 
-    /**
-     * @return string
-     */
+    /** @return string */
     public function getPath(): string
     {
         return $this->path;
     }
 
-    /**
-     * @return array|null
-     */
+    /** @return array|null */
     public function getData(): ?array
     {
         return $this->data;
     }
+
 
     /**
      * @param array $data
@@ -127,7 +118,7 @@ class unit
                     ucwords(get_class($this)),
                     $pattern
                 );
-                throw new Exception(prepareIssueCard($err, $this->path));
+                throw new Exception(prepareIssueCard($err, $this->getPath()));
             }
         }
     }
@@ -138,8 +129,7 @@ class unit
      */
     protected function isMarkedToBeUpdated(string $string): bool
     {
-        $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
-        return (substr($string, 0, strlen($updatePrefixMark)) === $updatePrefixMark);
+        return isMarkedWithPrefix($string, settings::getInstance()->get('tags/update_metadata'));
     }
 
     /**
