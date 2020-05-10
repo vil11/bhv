@@ -1,46 +1,42 @@
 <?php
 
-class album extends unit
+abstract class album extends unit implements albumInterface
 {
     // technical
     protected $_type = 'dir';
 
     // predefined
     /** @var string */
+    protected $artistPath;
+    /** @var string */
     protected $artistTitle;
-    /** @var ?array */
-    protected $data;
 
     // lazy
-    /** @var song[] */
+    /** @var array */
     protected $songs;
 
 
     /**
+     * @param string $artistPath
      * @param string $artistTitle
-     * @param string $title
+     * @param string $albumTitle
      * @throws Exception
      */
-    public function __construct(string $artistTitle, string $title)
+    public function __construct(string $artistPath, string $artistTitle, string $albumTitle)
     {
+        $this->artistPath = $artistPath;
         $this->artistTitle = $artistTitle;
-        parent::__construct($title);
-        $this->setData();
+        parent::__construct($albumTitle);
     }
 
 
-    /**
-     * @throws Exception if dir is absent by specified path
-     */
-    protected function setPath()
+    /** @return string */
+    public function getArtistPath(): string
     {
-        $this->path = settings::getInstance()->get('libraries/bhv') . DS . $this->artistTitle . DS . $this->title;
-        parent::setPath();
+        return $this->artistPath;
     }
 
-    /**
-     * @return string
-     */
+    /** @return string */
     public function getArtistTitle(): string
     {
         return $this->artistTitle;
@@ -49,7 +45,35 @@ class album extends unit
     /**
      * @throws Exception
      */
-    private function setData()
+    protected function setSongs()
+    {
+        /** @var songInterface $class */
+        $class = str_replace('album', 'song', get_class($this));
+
+        $selection = getDirFilesListByExt($this->getPath(), settings::getInstance()->get('extensions/music'));
+        foreach ($selection as $songFileName) {
+            if (!$this->data) $this->setData();
+            $albumData = array_merge(['path' => $this->getPath()], $this->data);
+
+            $this->songs[] = new $class($songFileName, $this->artistPath, $this->artistTitle, $albumData);
+        }
+    }
+
+    /**
+     * @return array
+     * @throws Exception
+     */
+    public function getSongs(): array
+    {
+        if (!$this->songs) $this->setSongs();
+        return $this->songs;
+    }
+
+
+    /**
+     * @throws Exception
+     */
+    protected function setData()
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         $this->verifyFileName("|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
@@ -66,32 +90,7 @@ class album extends unit
         }
 
         if (!$this->data) {
-            throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->path));
+            throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->getPath()));
         }
-    }
-
-    /**
-     * @throws Exception
-     */
-    private function setSongs()
-    {
-        $selection = getDirFilesListByExt($this->path, settings::getInstance()->get('extensions/music'));
-        foreach ($selection as $songFileName) {
-            if (!$this->data) $this->setData();
-            $albumData = array_merge(['path' => $this->path], $this->data);
-
-            $this->songs[] = new song($songFileName, $this->artistTitle, $albumData);
-        }
-    }
-
-    /**
-     * @return song[]
-     * @throws Exception
-     */
-    public function getSongs(): array
-    {
-        if (!$this->songs) $this->setSongs();
-
-        return $this->songs;
     }
 }
