@@ -189,3 +189,17 @@ function parsePath(string $path, string $divider = '/'): array
 
     return explode($divider, $path);
 }
+
+/**
+ * Check if the string is tagged with the prefix.
+ *
+ * @param string $string
+ * @param string $prefix
+ * @return bool
+ *
+ * @tested 1.3.6
+ */
+function isMarkedWithPrefix(string $string, string $prefix): bool
+{
+    return (substr($string, 0, strlen($prefix)) === $prefix);
+}
