@@ -82,7 +82,7 @@ class features
     {
         say("\n\nDownloading Albums:\n\n");
         foreach ($urls as $url) {
-            $album = new resource_album($url);
+            $album = new albumR($url);
             $result = $album->downloadSongs();
             if (!$result) {
                 $this->finish($result);

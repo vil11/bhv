@@ -30,32 +30,26 @@ class bhv extends unit
     }
 
 
-    /**
-     * @throws Exception if dir is absent by specified path
-     */
+    /** @throws Exception if dir is absent by specified path */
     protected function setPath()
     {
         $this->path = settings::getInstance()->get('libraries/bhv');
         parent::setPath();
     }
 
-    /**
-     * @throws Exception
-     */
-    private function setArtistsListing()
+    /** @throws Exception */
+    protected function setArtistsListing()
     {
         $this->artistsListing = getDirDirsList($this->path);
     }
 
-    /**
-     * @return array
-     */
+    /** @return array */
     public function getArtistsListing(): array
     {
         return $this->artistsListing;
     }
 
-    private function setCatalogPath()
+    protected function setCatalogPath()
     {
         $path = $this->path . DS . settings::getInstance()->get('paths/bhv_catalog');
         $path = bendSeparatorsRight($path);
@@ -63,17 +57,13 @@ class bhv extends unit
         $this->catalogPath = $path;
     }
 
-    /**
-     * @return string
-     */
+    /** @return string */
     public function getCatalogPath(): string
     {
         return $this->catalogPath;
     }
 
-    /**
-     * @throws Exception
-     */
+    /** @throws Exception */
     private function setCatalog()
     {
         if (!isFileValid($this->catalogPath)) {
@@ -90,7 +80,6 @@ class bhv extends unit
     public function getCatalog(): array
     {
         if (!$this->catalog) $this->setCatalog();
-
         return $this->catalog;
     }
 
@@ -110,13 +99,10 @@ class bhv extends unit
     public function getNewArtistsListing(): array
     {
         if (!$this->newArtistsListing) $this->setNewArtistsListing();
-
         return $this->newArtistsListing;
     }
 
-    /**
-     * @return bool
-     */
+    /** @return bool */
     private function copyCatalogUnderProject(): bool
     {
         $mt = microtime(true);
@@ -140,11 +126,11 @@ class bhv extends unit
             throw new Exception(prepareIssueCard('File open failed!', $this->catalogPath));
         }
 
-        $i = new RecursiveDirectoryIterator($this->path);
+        $i = new RecursiveDirectoryIterator($this->getPath());
         foreach (new RecursiveIteratorIterator($i) as $path => $file) {
             if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
 
-            $record = str_replace($this->path . DS, '', $path);
+            $record = str_replace($this->getPath() . DS, '', $path);
             if (strlen($record) > settings::getInstance()->get('limits/path_length_max')) {
                 throw new Exception(prepareIssueCard('Too long record.', $path));
             }
@@ -173,7 +159,7 @@ class bhv extends unit
                 throw new Exception(prepareIssueCard('UNKNOWN CASE'));
             }
 
-            $artist = new artist($artistTitle);
+            $artist = new artistB($artistTitle);
             echo "\n\t" . substr($artist->getTitle(), 1);
             if (!$artist->updateMetadata($autoRenamingIfSuccess)) {
                 return false;

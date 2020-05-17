@@ -24,7 +24,6 @@ class artistB extends artist
         parent::setPath();
     }
 
-
     /**
      * @throws Exception
      */
@@ -136,10 +135,4 @@ class artistB extends artist
 
         return true;
     }
-
-//    private function provideAccess()
-//    {
-//        $cmd = 'cd ' . $this->getPath() . ' && cd .. && chmod -R 777 ' . $this->getTitle();
-//        system($cmd);
-//    }
 }

@@ -10,10 +10,10 @@ $features = new features();
 //$features->updateCatalog();
 //$features->performQC(['testsuite' => 'full']);
 
-$features->downloadAlbums([
+//$features->downloadAlbums([
 //    '',
 //    '',
 
 //    '',
 //    '',
-]);
+//]);

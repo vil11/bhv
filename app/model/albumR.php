@@ -2,7 +2,7 @@
 
 use Laminas\Dom\Query as Query;
 
-class resource_album
+class albumR
 {
     protected $pageUrl;
     protected $pageDomain;
@@ -229,7 +229,7 @@ class resource_album
      */
     private function prepareLandingDirsStructure(): string
     {
-        $path = settings::getInstance()->get('libraries/queue') . DS . smartPrepareFileName($this->getArtist()) . DS;
+        $path = settings::getInstance()->get('libraries/qee') . DS . smartPrepareFileName($this->getArtist()) . DS;
         $path = bendSeparatorsRight($path);
         createDir($path);
 
