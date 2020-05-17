@@ -7,6 +7,7 @@ $features = new features();
 
 //$features->updateMetadata();
 //$features->performQC(['group' => 'acceptance']);
+//$features->updateMetadata(true);
 //$features->updateCatalog();
 //$features->performQC(['testsuite' => 'full']);
 

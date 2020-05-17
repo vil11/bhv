@@ -2807,6 +2807,19 @@ dance 2 trance\1992 [studio] moon spirits\cover.jpg
 dance 2 trance\1995 [studio] studio revival\01. purple onions.mp3
 dance 2 trance\1995 [studio] studio revival\cover.jpg
 dance 2 trance\x.txt
+dave clarke\1996 [studio] archive 1\01. rhapsody in red.mp3
+dave clarke\1996 [studio] archive 1\02. the woki.mp3
+dave clarke\1996 [studio] archive 1\03. splendour.mp3
+dave clarke\1996 [studio] archive 1\cover.jpg
+dave clarke\2003 [studio] devil's advocate\01. way of life.mp3
+dave clarke\2003 [studio] devil's advocate\cover.jpg
+dave clarke\2017 [studio] the desecration of desire\01. is vic there [ft=louisahhh].mp3
+dave clarke\2017 [studio] the desecration of desire\02. frisson [ft=mt. sims].mp3
+dave clarke\2017 [studio] the desecration of desire\03. charcoal eyes [ft=mark lanegan].mp3
+dave clarke\2017 [studio] the desecration of desire\04. i'm not afraid [ft=anika].mp3
+dave clarke\2017 [studio] the desecration of desire\05. death of pythagoras.mp3
+dave clarke\2017 [studio] the desecration of desire\cover.jpg
+dave clarke\x.txt
 david guetta\2002 [studio] just a little more love\01. love, don't let me go [ft=chris willis].mp3
 david guetta\2002 [studio] just a little more love\02. you [ft=chris willis].mp3
 david guetta\2002 [studio] just a little more love\03. can't u feel the change [ft=chris willis].mp3
