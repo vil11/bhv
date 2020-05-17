@@ -2005,6 +2005,10 @@ black strobe\the punisher [c=zen-kei].mp3
 black strobe\what was her name [c=clarke].mp3
 black strobe\won't let go [ft=hot toddy+danielle moore].mp3
 black strobe\x.txt
+blood circus\1992 [studio] primal rock therapy\01. my dad's dead.mp3
+blood circus\1992 [studio] primal rock therapy\02. electric johnny.mp3
+blood circus\1992 [studio] primal rock therapy\cover.jpg
+blood circus\x.txt
 bloodhound gang\1995 [studio] use your fingers\01. go down.mp3
 bloodhound gang\1995 [studio] use your fingers\02. coo coo ca choo.mp3
 bloodhound gang\1995 [studio] use your fingers\cover.jpg
@@ -2360,6 +2364,38 @@ caithness\2009 [studio] apostasy & the sorrowful child\01. sortie de terre.mp3
 caithness\2009 [studio] apostasy & the sorrowful child\02. faces & shades.mp3
 caithness\2009 [studio] apostasy & the sorrowful child\cover.jpg
 caithness\x.txt
+can butt\1989 [studio] journey to the center of\01. sedgwick.mp3
+can butt\1989 [studio] journey to the center of\cover.jpg
+can butt\x.txt
+candlebox\1993 [studio] candlebox\01. change.mp3
+candlebox\1993 [studio] candlebox\02. you.mp3
+candlebox\1993 [studio] candlebox\03. arrow.mp3
+candlebox\1993 [studio] candlebox\04. rain.mp3
+candlebox\1993 [studio] candlebox\05. mothers dream.mp3
+candlebox\1993 [studio] candlebox\cover.jpg
+candlebox\1995 [studio] lucy\01. lucy.mp3
+candlebox\1995 [studio] lucy\02. become.mp3
+candlebox\1995 [studio] lucy\03. understanding.mp3
+candlebox\1995 [studio] lucy\04. bothered.mp3
+candlebox\1995 [studio] lucy\cover.jpg
+candlebox\1998 [studio] happy pills\01. blinders.mp3
+candlebox\1998 [studio] happy pills\02. step back.mp3
+candlebox\1998 [studio] happy pills\cover.jpg
+candlebox\2008 [studio] into the sun\01. stand.mp3
+candlebox\2008 [studio] into the sun\02. bitches brewin'.mp3
+candlebox\2008 [studio] into the sun\03. into the sun.mp3
+candlebox\2008 [studio] into the sun\04. underneath it all.mp3
+candlebox\2008 [studio] into the sun\05. how does it feel.mp3
+candlebox\2008 [studio] into the sun\cover.jpg
+candlebox\2012 [studio] love stories & other musings\01. youth in revolt.mp3
+candlebox\2012 [studio] love stories & other musings\02. believe in it.mp3
+candlebox\2012 [studio] love stories & other musings\03. lifelike song.mp3
+candlebox\2012 [studio] love stories & other musings\cover.jpg
+candlebox\2016 [studio] disappearing in airports\01. i've got a gun.mp3
+candlebox\2016 [studio] disappearing in airports\02. the bridge.mp3
+candlebox\2016 [studio] disappearing in airports\03. keep on waiting.mp3
+candlebox\2016 [studio] disappearing in airports\cover.jpg
+candlebox\x.txt
 cappella\1989 [studio] helyom halib\01. push the beat - bauhaus.mp3
 cappella\1989 [studio] helyom halib\02. get out of my case.mp3
 cappella\1989 [studio] helyom halib\cover.jpg
@@ -4168,6 +4204,25 @@ grey daze\1997 [studio] no sun today\03. in time.mp3
 grey daze\1997 [studio] no sun today\04. the down syndrome.mp3
 grey daze\1997 [studio] no sun today\cover.jpg
 grey daze\x.txt
+gruntruck\1991 [studio] inside yours\01. crucifunkin'.mp3
+gruntruck\1991 [studio] inside yours\02. so long.mp3
+gruntruck\1991 [studio] inside yours\03. buried.mp3
+gruntruck\1991 [studio] inside yours\04. inside yours.mp3
+gruntruck\1991 [studio] inside yours\05. move in silence.mp3
+gruntruck\1991 [studio] inside yours\cover.jpg
+gruntruck\1992 [studio] push\01. machine action.mp3
+gruntruck\1992 [studio] push\02. above me.mp3
+gruntruck\1992 [studio] push\03. slow scorch.mp3
+gruntruck\1992 [studio] push\04. lose.mp3
+gruntruck\1992 [studio] push\05. push.mp3
+gruntruck\1992 [studio] push\cover.jpg
+gruntruck\1996 [ep] shot illusion new god\01. shot.mp3
+gruntruck\1996 [ep] shot illusion new god\02. illusion.mp3
+gruntruck\1996 [ep] shot illusion new god\cover.jpg
+gruntruck\2017 [studio] gruntruck\01. bar fly.mp3
+gruntruck\2017 [studio] gruntruck\02. noise field.mp3
+gruntruck\2017 [studio] gruntruck\cover.jpg
+gruntruck\x.txt
 guano apes\1997 [studio] proud like a god\01. open your eyes.mp3
 guano apes\1997 [studio] proud like a god\02. maria.mp3
 guano apes\1997 [studio] proud like a god\03. lords of the boards.mp3
@@ -4640,6 +4695,36 @@ jefferson airplane\1972 [studio] long john silver\cover.jpg
 jefferson airplane\1989 [studio] jefferson airplane\01. freedom.mp3
 jefferson airplane\1989 [studio] jefferson airplane\02. ice age.mp3
 jefferson airplane\1989 [studio] jefferson airplane\cover.jpg
+jefferson starship\1974 [studio] dragon fly\01. ride the tiger.mp3
+jefferson starship\1974 [studio] dragon fly\02. devils den.mp3
+jefferson starship\1974 [studio] dragon fly\03. all fly away.mp3
+jefferson starship\1974 [studio] dragon fly\04. hyperdrive.mp3
+jefferson starship\1974 [studio] dragon fly\cover.jpg
+jefferson starship\1976 [studio] spitfire\01. cruisin'.mp3
+jefferson starship\1976 [studio] spitfire\02. hot water.mp3
+jefferson starship\1976 [studio] spitfire\03. st. charles.mp3
+jefferson starship\1976 [studio] spitfire\cover.jpg
+jefferson starship\1978 [studio] earth\01. love too good.mp3
+jefferson starship\1978 [studio] earth\02. show yourself.mp3
+jefferson starship\1978 [studio] earth\cover.jpg
+jefferson starship\1979 [studio] freedom at point zero\01. jane.mp3
+jefferson starship\1979 [studio] freedom at point zero\02. awakening.mp3
+jefferson starship\1979 [studio] freedom at point zero\03. just the same.mp3
+jefferson starship\1979 [studio] freedom at point zero\cover.jpg
+jefferson starship\1981 [studio] modern times\01. stranger.mp3
+jefferson starship\1981 [studio] modern times\02. alien.mp3
+jefferson starship\1981 [studio] modern times\cover.jpg
+jefferson starship\1982 [studio] winds of change\01. quit wasting time.mp3
+jefferson starship\1982 [studio] winds of change\cover.jpg
+jefferson starship\1984 [studio] nuclear furniture\01. sorry me, sorry you.mp3
+jefferson starship\1984 [studio] nuclear furniture\02. live & let live.mp3
+jefferson starship\1984 [studio] nuclear furniture\cover.jpg
+jefferson starship\1998 [studio] windows of heaven\01. the windows of heaven.mp3
+jefferson starship\1998 [studio] windows of heaven\cover.jpg
+jefferson starship\2008 [studio] jefferson's tree of liberty\01. follow the drinking gourd.mp3
+jefferson starship\2008 [studio] jefferson's tree of liberty\02. pastures of plenty.mp3
+jefferson starship\2008 [studio] jefferson's tree of liberty\cover.jpg
+jefferson starship\x.txt
 jerry cantrell\1998 [studio] boggy depot\01. settling down.mp3
 jerry cantrell\1998 [studio] boggy depot\02. jesus hands.mp3
 jerry cantrell\1998 [studio] boggy depot\03. devil by his side.mp3
@@ -4699,6 +4784,22 @@ jet\2009 [studio] shaka rock\05. walk.mp3
 jet\2009 [studio] shaka rock\06. start the show.mp3
 jet\2009 [studio] shaka rock\cover.jpg
 jet\x.txt
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\01. smoke night.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\02. someone sang & slowly danced.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\03. hearing weird noises in the back room.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\04. dark smooth chord.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\05. gin & tonic.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\06. drunk lady licking her hand.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\07. gloomy club.mp3
+joel fausto\2013 [studio] illusion orchestra at the gloomy club [ft=illusion orchestra]\cover.jpg
+joel fausto\2016 [studio] hello\01. i've seen you before.mp3
+joel fausto\2016 [studio] hello\02. last street.mp3
+joel fausto\2016 [studio] hello\03. the baker girl.mp3
+joel fausto\2016 [studio] hello\04. cheap trance romance.mp3
+joel fausto\2016 [studio] hello\05. a special friend.mp3
+joel fausto\2016 [studio] hello\06. inside the throat of a giant insect.mp3
+joel fausto\2016 [studio] hello\cover.jpg
+joel fausto\x.txt
 john kay\1972 [studio] forgotten songs & unsung heroes\01. bold marauder.mp3
 john kay\1972 [studio] forgotten songs & unsung heroes\02. i'm movin' on.mp3
 john kay\1972 [studio] forgotten songs & unsung heroes\cover.jpg
@@ -5608,6 +5709,25 @@ mad season\1995 [studio] above\12. slip away.mp3
 mad season\1995 [studio] above\13. i don't wanna be a soldier [c=john lennon].mp3
 mad season\1995 [studio] above\cover.jpg
 mad season\x.txt
+margenta\2003 [studio] отлетались. ария маргариты\01. памяти джорджа харрисона.mp3
+margenta\2003 [studio] отлетались. ария маргариты\cover.jpg
+margenta\2007 [studio] династия посвященных\01. лилия и лилит [ft=артур беркут].mp3
+margenta\2007 [studio] династия посвященных\02. каждому [ft=кирилл немоляев].mp3
+margenta\2007 [studio] династия посвященных\03. саксонский корпус [ft=анатолий алешин].mp3
+margenta\2007 [studio] династия посвященных\04. андайский крест [ft=артур беркут].mp3
+margenta\2007 [studio] династия посвященных\cover.jpg
+margenta\2009 [studio] дети савонаролы\01. дети савонаролы.mp3
+margenta\2009 [studio] дети савонаролы\cover.jpg
+margenta\2013 [studio] sic transit gloria mundi\01. крысолов.mp3
+margenta\2013 [studio] sic transit gloria mundi\02. письмена в облаках.mp3
+margenta\2013 [studio] sic transit gloria mundi\cover.jpg
+margenta\2016 [studio] дым. крепости. волк [ft=андрей кустарёв]\01. небо. крепости. рельсы.mp3
+margenta\2016 [studio] дым. крепости. волк [ft=андрей кустарёв]\02. скоморох.mp3
+margenta\2016 [studio] дым. крепости. волк [ft=андрей кустарёв]\03. в потерянном мире.mp3
+margenta\2016 [studio] дым. крепости. волк [ft=андрей кустарёв]\cover.jpg
+margenta\2018 [studio] династия посвящённых 4. окситания\01. 1й страж времени - окситания.mp3
+margenta\2018 [studio] династия посвящённых 4. окситания\cover.jpg
+margenta\x.txt
 marilyn manson\1994 [single] get your gunn\01. revelation #9.mp3
 marilyn manson\1994 [single] get your gunn\cover.jpg
 marilyn manson\1994 [studio] portrait of an american family\01. lunchbox.mp3
@@ -5956,6 +6076,27 @@ milk incorporated\2005 [single] blind\cover.jpg
 milk incorporated\2006 [studio] supersized\01. breakin'.mp3
 milk incorporated\2006 [studio] supersized\cover.jpg
 milk incorporated\x.txt
+minimum vital\1985 [studio] envol triangles\01. ronde.mp3
+minimum vital\1985 [studio] envol triangles\cover.jpg
+minimum vital\1988 [studio] les saisons marines\01. zappata.mp3
+minimum vital\1988 [studio] les saisons marines\02. les saisons marines.mp3
+minimum vital\1988 [studio] les saisons marines\cover.jpg
+minimum vital\1990 [studio] sarabandes\01. sarabande [p=1].mp3
+minimum vital\1990 [studio] sarabandes\02. hymne et danse.mp3
+minimum vital\1990 [studio] sarabandes\cover.jpg
+minimum vital\1993 [studio] la source\01. tabou.mp3
+minimum vital\1993 [studio] la source\cover.jpg
+minimum vital\2003 [studio] atlas\01. la ribote.mp3
+minimum vital\2003 [studio] atlas\cover.jpg
+minimum vital\2008 [studio] capitaines\01. le chant de gauthier.mp3
+minimum vital\2008 [studio] capitaines\02. en superbo.mp3
+minimum vital\2008 [studio] capitaines\cover.jpg
+minimum vital\2015 [studio] pavanes\01. la basse danse.mp3
+minimum vital\2015 [studio] pavanes\02. l'enfance des sages.mp3
+minimum vital\2015 [studio] pavanes\03. chanter toujours.mp3
+minimum vital\2015 [studio] pavanes\04. suite iberique.mp3
+minimum vital\2015 [studio] pavanes\cover.jpg
+minimum vital\x.txt
 mo-do\1994 [single] eins, zwei, polizei\01. eins zwei polizei [extended rmx].mp3
 mo-do\1994 [single] eins, zwei, polizei\cover.jpg
 mo-do\1995 [single] gema tanzen\01. gema tanzen [extended rmx].mp3
@@ -8951,10 +9092,91 @@ this heat\1979 [studio] this heat\02. the fall of saigon.mp3
 this heat\1979 [studio] this heat\03. testcard.mp3
 this heat\1979 [studio] this heat\cover.jpg
 this heat\x.txt
+throbbing gristle\1977 [studio] the 2nd annual report\01. southampton [ft=maggot death].mp3
+throbbing gristle\1977 [studio] the 2nd annual report\cover.jpg
+throbbing gristle\1978 [studio] d.o.a. the 3rd & final report\01. e-coli.mp3
+throbbing gristle\1978 [studio] d.o.a. the 3rd & final report\cover.jpg
+throbbing gristle\1979 [studio] 20 jazz funk greats\01. six six sixties.mp3
+throbbing gristle\1979 [studio] 20 jazz funk greats\cover.jpg
+throbbing gristle\1984 [studio] in the shadow of the sun\01. in the shadow of the sun.mp3
+throbbing gristle\1984 [studio] in the shadow of the sun\cover.jpg
+throbbing gristle\2004 [studio] tg now\01. splitting sky.mp3
+throbbing gristle\2004 [studio] tg now\02. almost like this.mp3
+throbbing gristle\2004 [studio] tg now\03. how do you deal.mp3
+throbbing gristle\2004 [studio] tg now\cover.jpg
+throbbing gristle\2007 [studio] the endless not [p=2]\01. rabbit snare.mp3
+throbbing gristle\2007 [studio] the endless not [p=2]\02. almost a kiss.mp3
+throbbing gristle\2007 [studio] the endless not [p=2]\03. lyre liar.mp3
+throbbing gristle\2007 [studio] the endless not [p=2]\cover.jpg
+throbbing gristle\x.txt
 thug life\1994 [studio] thug life [volume 1]\01. don't get it twisted.mp3
 thug life\1994 [studio] thug life [volume 1]\02. shit don't stop [ft=y.n.v.].mp3
 thug life\1994 [studio] thug life [volume 1]\cover.jpg
 thug life\x.txt
+tiamat\1990 [studio] sumerian cry\01. sumerian cry [p=1].mp3
+tiamat\1990 [studio] sumerian cry\cover.jpg
+tiamat\1991 [studio] the astral sleep\01. lady temptress.mp3
+tiamat\1991 [studio] the astral sleep\02. on golden wings.mp3
+tiamat\1991 [studio] the astral sleep\03. angels far beyond.mp3
+tiamat\1991 [studio] the astral sleep\04. a winter shadow.mp3
+tiamat\1991 [studio] the astral sleep\05. the seal.mp3
+tiamat\1991 [studio] the astral sleep\cover.jpg
+tiamat\1992 [studio] clouds\01. in a dream.mp3
+tiamat\1992 [studio] clouds\02. the scapegoat.mp3
+tiamat\1992 [studio] clouds\03. undressed.mp3
+tiamat\1992 [studio] clouds\cover.jpg
+tiamat\1994 [ep] gaia\01. when you’re in [c=pink floyd].mp3
+tiamat\1994 [ep] gaia\cover.jpg
+tiamat\1994 [studio] wildhoney\01. gaia.mp3
+tiamat\1994 [studio] wildhoney\02. visionaire.mp3
+tiamat\1994 [studio] wildhoney\03. do you dream of me.mp3
+tiamat\1994 [studio] wildhoney\cover.jpg
+tiamat\1997 [single] cold\01. only in my tears it lasts [the cat rmx].mp3
+tiamat\1997 [single] cold\cover.jpg
+tiamat\1997 [studio] a deeper kind of slumber\01. trillion zillion centipedes.mp3
+tiamat\1997 [studio] a deeper kind of slumber\02. atlantis as a lover.mp3
+tiamat\1997 [studio] a deeper kind of slumber\03. alteration x 10.mp3
+tiamat\1997 [studio] a deeper kind of slumber\04. four leary biscuits.mp3
+tiamat\1997 [studio] a deeper kind of slumber\05. the whores of babylon.mp3
+tiamat\1997 [studio] a deeper kind of slumber\06. phantasma de luxe.mp3
+tiamat\1997 [studio] a deeper kind of slumber\07. mount marilyn.mp3
+tiamat\1997 [studio] a deeper kind of slumber\08. a deeper kind of slumber.mp3
+tiamat\1997 [studio] a deeper kind of slumber\cover.jpg
+tiamat\1999 [studio] skeleton skeletron\01. church of tiamat.mp3
+tiamat\1999 [studio] skeleton skeletron\02. brighter than the sun.mp3
+tiamat\1999 [studio] skeleton skeletron\03. for her pleasure.mp3
+tiamat\1999 [studio] skeleton skeletron\04. sympathy for the devil [c=the rolling stones].mp3
+tiamat\1999 [studio] skeleton skeletron\cover.jpg
+tiamat\2002 [studio] judas christ\01. the return of the son of nothing.mp3
+tiamat\2002 [studio] judas christ\02. the truth's for sale.mp3
+tiamat\2002 [studio] judas christ\03. fireflower.mp3
+tiamat\2002 [studio] judas christ\04. sumer by night.mp3
+tiamat\2002 [studio] judas christ\05. spine.mp3
+tiamat\2002 [studio] judas christ\06. i am in love with myself.mp3
+tiamat\2002 [studio] judas christ\07. sixshooter.mp3
+tiamat\2002 [studio] judas christ\cover.jpg
+tiamat\2003 [studio] prey\01. cain.mp3
+tiamat\2003 [studio] prey\02. 10 thousand tentacles.mp3
+tiamat\2003 [studio] prey\03. love in chains.mp3
+tiamat\2003 [studio] prey\04. divided.mp3
+tiamat\2003 [studio] prey\05. carry your cross & i'll carry mine.mp3
+tiamat\2003 [studio] prey\06. clovenhoof.mp3
+tiamat\2003 [studio] prey\07. nihil.mp3
+tiamat\2003 [studio] prey\08. the pentagram.mp3
+tiamat\2003 [studio] prey\cover.jpg
+tiamat\2008 [studio] amanethes\01. equinox of the gods.mp3
+tiamat\2008 [studio] amanethes\02. until the hellhounds sleep again.mp3
+tiamat\2008 [studio] amanethes\03. summertime is gone.mp3
+tiamat\2008 [studio] amanethes\04. katarraktis apo aima.mp3
+tiamat\2008 [studio] amanethes\cover.jpg
+tiamat\2012 [studio] the scarred people\01. 384.mp3
+tiamat\2012 [studio] the scarred people\02. radiant star.mp3
+tiamat\2012 [studio] the scarred people\03. love terrorists.mp3
+tiamat\2012 [studio] the scarred people\04. the red of the morning sun.mp3
+tiamat\2012 [studio] the scarred people\cover.jpg
+tiamat\2013 [single] born to die\01. born to die.mp3
+tiamat\2013 [single] born to die\cover.jpg
+tiamat\x.txt
 tool\1991 [demo] 72826\01. cold & ugly.mp3
 tool\1991 [demo] 72826\02. crawl away.mp3
 tool\1991 [demo] 72826\cover.jpg
