@@ -13,9 +13,10 @@
         <testsuite name="full">
 
             <file>tests/bhvNameFormatTest.php</file>
-            <file>tests/queueNameFormatTest.php</file>
+            <file>tests/qeeNameFormatTest.php</file>
 
             <file>tests/bhvContentTest.php</file>
+            <file>tests/qeeContentTest.php</file>
             <file>tests/bhvMetadataTest.php</file>
 
         </testsuite>

@@ -30,7 +30,7 @@ class bhvNameFormatTest extends dataIntegrityTest
      */
     public function artistNameConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
+        $artist = new artistB($artistName);
         $this->unit = ucfirst(get_class($artist));
         $this->path = $artist->getPath();
 
@@ -61,8 +61,8 @@ class bhvNameFormatTest extends dataIntegrityTest
      */
     public function albumNameConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
-        /** @var album $album */
+        $artist = new artistB($artistName);
+        /** @var albumB $album */
         foreach ($artist->getAlbums() as $album) {
             $this->unit = ucfirst(get_class($album));
             $this->path = $album->getPath();
@@ -104,8 +104,8 @@ class bhvNameFormatTest extends dataIntegrityTest
      */
     public function songNameConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
-        /** @var song $song */
+        $artist = new artistB($artistName);
+        /** @var songB $song */
         foreach ($artist->getSongs() as $song) {
             $this->unit = ucfirst(get_class($song));
             $this->path = $song->getPath();

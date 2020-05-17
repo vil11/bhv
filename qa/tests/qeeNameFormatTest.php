@@ -1,6 +1,6 @@
 <?php
 
-class queueNameFormatTest extends dataIntegrityTest
+class qeeNameFormatTest extends dataIntegrityTest
 {
     /**
      * @return array
@@ -8,9 +8,9 @@ class queueNameFormatTest extends dataIntegrityTest
      */
     public function dataArtists(): array
     {
-        $queue = new queue();
-        $data = wrap($queue->getArtistsListing());
-        unset($queue);
+        $qee = new qee();
+        $data = wrap($qee->getArtistsListing());
+        unset($qee);
 
         return $data;
     }
@@ -25,15 +25,19 @@ class queueNameFormatTest extends dataIntegrityTest
      *  - additional info tags (may present for Albums & Songs only)
      *
      * @dataProvider dataArtists
-     * @param string $queueName
+     * @param string $qeeName
      * @param array $artistNames
      * @throws Exception
      */
-    public function artistNameConsistent(string $queueName, array $artistNames)
+    public function artistNameConsistent(string $qeeName, array $artistNames)
     {
+        $this->assertNotEmpty($artistNames);
         foreach ($artistNames as $artistName) {
-            $this->unit = 'Queue Artist';
-            $this->path = settings::getInstance()->get('libraries/queue') . DS . $queueName . DS . $artistName;
+            $artist = new artistQ($artistName, $qeeName);
+            $this->unit = ucfirst(get_class($artist));
+            $this->path = $artist->getPath();
+
+            $artistName = (!$this->acceptanceMode) ? $artist->getTitle() : $this->adjustName($artist->getTitle());
 
             $this->verifyUppercaseAbsent($artistName);
             $this->verifyWrapAbsent($artistName);

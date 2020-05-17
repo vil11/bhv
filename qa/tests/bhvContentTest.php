@@ -29,23 +29,23 @@ class bhvContentTest extends dataIntegrityTest
      * @test
      *
      * Artist name is unique:
-     *  - among all containers (BHV pool, all Queues)
+     *  - among all containers (BHV pool, all Qees)
      *  - if Artist name starts from "the ", verify that the same Artist name without "the " is absent among all containers
      *  - TODO: add POLLEN state to pool
      */
     public function artistsAreNotDuplicated()
     {
-        $queues = new queue();
-        $this->unit = 'Artist';
+        $qees = new qee();
+        $this->unit = 'artistB';
 
-        $queueArtists = [];
-        foreach ($queues->getArtistsListing() as $queueName => $queue) {
-            $this->verifyDuplicatingsAbsent($queueArtists, $queue, '"%s" is duplicated somewhere among Queues.');
-            $queueArtists = array_merge($queueArtists, $queue);
+        $qeeArtists = [];
+        foreach ($qees->getArtistsListing() as $qeeName => $qee) {
+            $this->verifyDuplicatingsAbsent($qeeArtists, $qee, '"%s" is duplicated somewhere among Qees.');
+            $qeeArtists = array_merge($qeeArtists, $qee);
         }
 
-        $this->verifyDuplicatingsAbsent($this->bhv->getArtistsListing(), $queueArtists, '"%s" is already in BHV. Remove it from Queue.');
-        $artists = array_merge($this->bhv->getArtistsListing(), $queueArtists);
+        $this->verifyDuplicatingsAbsent($this->bhv->getArtistsListing(), $qeeArtists, '"%s" is already in BHV. Remove it from Qee.');
+        $artists = array_merge($this->bhv->getArtistsListing(), $qeeArtists);
 
         $this->verifyPrefixDuplicatingsAbsent($artists);
     }
@@ -87,7 +87,7 @@ class bhvContentTest extends dataIntegrityTest
     }
 
     /**
-     * @test
+     * @ test
      *
      * Artist has all its files catalogued.
      *
@@ -97,7 +97,7 @@ class bhvContentTest extends dataIntegrityTest
      */
     public function bhvArtistFilesCatalogued(string $artistName)
     {
-        $artist = new artist($artistName);
+        $artist = new artistB($artistName);
         $this->path = $artist->getPath();
 
         $catalog = $this->bhv->getCatalog();
@@ -116,7 +116,7 @@ class bhvContentTest extends dataIntegrityTest
      */
     public function artistContentConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
+        $artist = new artistB($artistName);
         $this->unit = ucfirst(get_class($artist));
         $this->path = $artist->getPath();
 
@@ -154,8 +154,8 @@ class bhvContentTest extends dataIntegrityTest
      */
     public function albumContentConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
-        /** @var album $album */
+        $artist = new artistB($artistName);
+        /** @var albumInterface $album */
         foreach ($artist->getAlbums() as $album) {
             $this->unit = ucfirst(get_class($album));
             $this->path = $album->getPath();

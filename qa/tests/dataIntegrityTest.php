@@ -8,9 +8,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     protected $path;
 
 
-    /**
-     * @return array
-     */
+    /** @return array */
     protected function prepareTagsDelimiters(): array
     {
         return [
@@ -34,9 +32,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
 
-    /**
-     * @param string $title
-     */
+    /** @param string $title */
     protected function verifyUppercaseAbsent(string $title)
     {
         $err = err('Remove uppercase from "%s" %s name.', $title, $this->unit);
@@ -45,9 +41,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $this->assertEquals(mb_strtolower($title), $title, $err);
     }
 
-    /**
-     * @param string $title
-     */
+    /** @param string $title */
     protected function verifyWrapAbsent(string $title)
     {
         $err = err('Remove wrapper from "%s" %s name.', $title, $this->unit);
@@ -82,9 +76,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $this->assertNotEmpty($value, $err);
     }
 
-    /**
-     * @param string $type
-     */
+    /** @param string $type */
     protected function verifyRecordTypeValid(string $type)
     {
         $allowed = settings::getInstance()->get('record_types');
@@ -196,9 +188,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $this->assertEmpty($duplicate, $err);
     }
 
-    /**
-     * @param array $names
-     */
+    /** @param array $names */
     protected function verifyPrefixDuplicatingsAbsent(array $names)
     {
         foreach ($names as $name) {
@@ -230,10 +220,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param artist $artist
+     * @param artistInterface $artist
      * @throws Exception
      */
-    protected function verifyAlbumsNotAbsent(artist $artist)
+    protected function verifyAlbumsNotAbsent(artistInterface $artist)
     {
         $albumsQtyMin = (int)settings::getInstance()->get('limits/artist_albums_qty_min');
         $albumsQty = count($artist->getAlbums());
@@ -244,10 +234,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param album $album
+     * @param albumInterface $album
      * @throws Exception
      */
-    protected function verifySongsNotAbsent(album $album)
+    protected function verifySongsNotAbsent(albumInterface $album)
     {
         $songsQtyLimit = (int)settings::getInstance()->get('limits/album_songs_qty_min');
         $songsQty = count($album->getSongs());
@@ -258,26 +248,27 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param album $album
+     * @param albumInterface $album
      * @throws Exception
      */
-    protected function verifySongsOrdered(album $album)
+    protected function verifySongsOrdered(albumInterface $album)
     {
         $songs = $album->getSongs();
 
         $err = err('"%s" %s contains Songs in invalid order. Reorder them.', $album->getTitle(), $this->unit);
         $err = prepareIssueCard($err, $this->path);
         $this->assertEquals(count($songs), (integer)end($songs)->getData()['position'], $err);
+        /** @var songInterface $song */
         foreach ($songs as $position => $song) {
             $this->assertEquals($position + 1, (integer)$song->getData()['position'], $err);
         }
     }
 
     /**
-     * @param album $album
+     * @param albumInterface $album
      * @throws Exception
      */
-    protected function verifyAlbumHasNoFolders(album $album)
+    protected function verifyAlbumHasNoFolders(albumInterface $album)
     {
         $dirs = getDirDirsList($this->path);
 
@@ -314,10 +305,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param song $song
+     * @param songB $song
      * @throws Exception
      */
-    protected function verifySongMetadata(song $song)
+    protected function verifySongMetadata(songB $song)
     {
         $err = prepareIssueCard('Update Song metadata.', $this->path);
         $this->assertEquals($song->getExpectedMetadata(), $song->getActualMetadata(), $err);
@@ -328,9 +319,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         }
     }
 
-    /**
-     * @param string $entry
-     */
+    /** @param string $entry */
     protected function verifyCatalogEntryPresent(string $entry)
     {
         $filepath = bendSeparatorsRight($this->path . DS . $entry);
@@ -341,10 +330,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param string[] $catalog
-     * @param artist $artist
+     * @param array $catalog
+     * @param artistInterface $artist
      */
-    protected function verifyArtistFilesCatalogued(array $catalog, artist $artist)
+    protected function verifyArtistFilesCatalogued(array $catalog, artistInterface $artist)
     {
         $i = new RecursiveDirectoryIterator($artist->getPath());
         foreach (new RecursiveIteratorIterator($i) as $path => $file) {

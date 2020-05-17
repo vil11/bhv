@@ -2,8 +2,8 @@
 
 class bhvMetadataTest extends dataIntegrityTest
 {
-    /** @var bhv */
-    protected $bhv;
+//    /** @var bhv */
+//    protected $bhv;
 
 
     /**
@@ -19,10 +19,10 @@ class bhvMetadataTest extends dataIntegrityTest
         return $data;
     }
 
-    protected function setUp()
-    {
-       $this->bhv = new bhv();
-    }
+//    protected function setUp()
+//    {
+//       $this->bhv = new bhv();
+//    }
 
 
     /**
@@ -49,8 +49,8 @@ class bhvMetadataTest extends dataIntegrityTest
      */
     public function songMetadataConsistent(string $artistName)
     {
-        $artist = new artist($artistName);
-        /** @var song $song */
+        $artist = new artistB($artistName);
+        /** @var songB $song */
         foreach ($artist->getSongs() as $song) {
             $this->unit = ucfirst(get_class($song));
             $this->path = $song->getPath();
