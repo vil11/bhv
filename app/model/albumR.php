@@ -229,7 +229,7 @@ class albumR
      */
     private function prepareLandingDirsStructure(): string
     {
-        $path = settings::getInstance()->get('libraries/qee') . DS . smartPrepareFileName($this->getArtist()) . DS;
+        $path = settings::getInstance()->get('libraries/download') . smartPrepareFileName($this->getArtist()) . DS;
         $path = bendSeparatorsRight($path);
         createDir($path);
 

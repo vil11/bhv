@@ -20,7 +20,7 @@ class artistB extends artist
     /** @throws Exception if dir is absent by specified path */
     protected function setPath()
     {
-        $this->path = settings::getInstance()->get('libraries/bhv') . DS . $this->title;
+        $this->path = settings::getInstance()->get('libraries/bhv') . $this->title;
         parent::setPath();
     }
 
@@ -62,7 +62,7 @@ class artistB extends artist
 //        $this->provideAccess();
 
         $ifAnyAlbumsTagged = false;
-        foreach ($this->albumsListing as $albumFolderName) {
+        foreach ($this->getAlbumsListing() as $albumFolderName) {
             if ($this->isMarkedToBeUpdated($albumFolderName)) {
                 $ifAnyAlbumsTagged = true;
                 break;

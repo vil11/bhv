@@ -27,7 +27,7 @@ class songB extends song
     /** @throws Exception if file is absent by specified path */
     protected function setPath()
     {
-        $this->path = settings::getInstance()->get('libraries/bhv') . DS . $this->artistTitle;
+        $this->path = settings::getInstance()->get('libraries/bhv') . $this->artistTitle;
         if ($this->albumData) {
             $this->path .= DS . basename($this->albumData['path']);
         }

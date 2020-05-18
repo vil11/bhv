@@ -22,7 +22,7 @@ class artistQ extends artist
     /** @throws Exception if dir is absent by specified path */
     protected function setPath()
     {
-        $this->path = settings::getInstance()->get('libraries/qee') . DS . $this->qeeName . DS . $this->title;
+        $this->path = settings::getInstance()->get('libraries/qee') . $this->qeeName . DS . $this->title;
         parent::setPath();
     }
 }

@@ -13,8 +13,6 @@ $features = new features();
 
 //$features->downloadAlbums([
 //    '',
-//    '',
 
-//    '',
 //    '',
 //]);
