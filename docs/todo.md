@@ -12,6 +12,7 @@
 ## BACKLOG
 
 ###### major
+- `T2` consider Unit as a trait
 - `T2` Integration tests
 - `F2` Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
