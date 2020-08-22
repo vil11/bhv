@@ -82,6 +82,10 @@ class features
     {
         say("\n\nDownloading Albums:\n\n");
         foreach ($urls as $url) {
+            if ($url === '') {
+                continue;
+            }
+
             $album = new albumR($url);
             $result = $album->downloadSongs();
             if (!$result) {
