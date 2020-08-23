@@ -28,4 +28,5 @@ require_once(PATH_APP . 'config' . DS . 'settings.php');
 
 // 4. register app & vendor classes
 require_once(realpath(__DIR__) . DS . 'autoload.php');
+//require_once(PATH_VENDOR . 'autoload.php');
 spl_autoload_register(array('autoloader', 'autoload'));
