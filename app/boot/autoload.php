@@ -47,11 +47,12 @@ class autoloader
         }
 
 
-//        if ($i !== 1 && $className !== 'PHP_Invoker') {
-//        if ($i === 0 && $className !== 'PHP_Invoker') {
-//            $err = err('Class "%s" was not found.', $className);
-//            $err = prepareIssueCard($err, $path);
-//            throw new Exception($err);
-//        }
+        if ($i !== 1 && $className !== 'PHP_Invoker') {
+            if ($i === 0 && $className !== 'PHP_Invoker') {
+                $err = err('Class "%s" was not found.', $className);
+                $err = prepareIssueCard($err, $path);
+                throw new Exception($err);
+            }
+        }
     }
 }

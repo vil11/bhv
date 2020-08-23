@@ -38,7 +38,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $err = err('Remove uppercase from "%s" %s name.', $title, $this->unit);
         $err = prepareIssueCard($err, $this->path);
 
-        $this->assertEquals(mb_strtolower($title), $title, $err);
+        $this->assertSame(mb_strtolower($title), $title, $err);
     }
 
     /** @param string $title */
@@ -47,7 +47,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $err = err('Remove wrapper from "%s" %s name.', $title, $this->unit);
         $err = prepareIssueCard($err, $this->path);
 
-        $this->assertEquals(trim($title), $title, $err);
+        $this->assertSame(trim($title), $title, $err);
     }
 
     /**
@@ -112,7 +112,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
 //            if ($k === $allowed['cover']) {
 //                $err = prepareIssueCard('Impossible to make cover to several authors.', $this->path);
-//                $this->assertEquals(1, count($data[$allowed['cover']]), $err);
+//                $this->assertSame(1, count($data[$allowed['cover']]), $err);
 //            }
         }
 
@@ -136,7 +136,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Invalid %s name format.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals($format, $title, $err);
+        $this->assertSame($format, $title, $err);
     }
 
     /**
@@ -154,7 +154,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Invalid %s name format.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals($format, $title, $err);
+        $this->assertSame($format, $title, $err);
     }
 
     /**
@@ -170,7 +170,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Invalid %s name format.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals($format, $title, $err);
+        $this->assertSame($format, $title, $err);
     }
 
     /**
@@ -216,7 +216,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Files list is unexpected in %s root folder.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals(ksort($files), ksort($actual), $err);
+        $this->assertSame(ksort($files), ksort($actual), $err);
     }
 
     /**
@@ -257,10 +257,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('"%s" %s contains Songs in invalid order. Reorder them.', $album->getTitle(), $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals(count($songs), (integer)end($songs)->getData()['position'], $err);
+        $this->assertSame(count($songs), (integer)end($songs)->getData()['position'], $err);
         /** @var songInterface $song */
         foreach ($songs as $position => $song) {
-            $this->assertEquals($position + 1, (integer)$song->getData()['position'], $err);
+            $this->assertSame($position + 1, (integer)$song->getData()['position'], $err);
         }
     }
 
@@ -301,7 +301,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('%s Thumbnail is not square.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEquals($height, $width, $err);
+        $this->assertSame($height, $width, $err);
     }
 
     /**
@@ -311,11 +311,11 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     protected function verifySongMetadata(songB $song)
     {
         $err = prepareIssueCard('Update Song metadata.', $this->path);
-        $this->assertEquals($song->getExpectedMetadata(), $song->getActualMetadata(), $err);
+        $this->assertSame($song->getExpectedMetadata(), $song->getActualMetadata(), $err);
 
         if ($song->getAlbumData()) {
             $err = prepareIssueCard('Update Song picture metadata.', $this->path);
-            $this->assertEquals($song->getExpectedThumbnail(), $song->getActualThumbnail(), $err);
+            $this->assertSame($song->getExpectedThumbnail(), $song->getActualThumbnail(), $err);
         }
     }
 
