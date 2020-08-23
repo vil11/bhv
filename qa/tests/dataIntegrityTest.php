@@ -324,7 +324,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     {
         $filepath = bendSeparatorsRight($this->path . DS . $entry);
 
-        $err = err('"%s" is absent or empty. Where is it?', $entry);
+        $err = err('"%s" is absent or empty. Where is it?', $filepath);
         $err = prepareIssueCard($err, $filepath);
         $this->assertTrue(isFileValid($filepath), $err);
     }
@@ -339,7 +339,8 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         foreach (new RecursiveIteratorIterator($i) as $path => $file) {
             if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
 
-            $f = $artist->getTitle() . str_replace($artist->getPath(), '', $path);
+            $f = bendSeparatorsRight($path);
+            $f = $artist->getTitle() . str_replace($artist->getPath(), '', $f);
 
             $err = err('"%s" is not catalogued. Review this file & update Catalog accordingly.', $f);
             $err = prepareIssueCard($err, $path);

@@ -116,7 +116,7 @@ class artistB extends artist
     }
 
     /**
-     * @param array $songs
+     * @param songB[] $songs
      * @return bool
      * @throws Exception
      */

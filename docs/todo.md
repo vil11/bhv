@@ -1,6 +1,5 @@
 
 ## IN PROGRESS
-- `B1` Catalog paths are broken
 - `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
     - `td` located on the same level as BHV
     - `qa` covered with "artistsAreNotDuplicated" test at least

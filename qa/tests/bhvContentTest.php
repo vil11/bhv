@@ -72,23 +72,6 @@ class bhvContentTest extends dataIntegrityTest
     /**
      * @test
      *
-     * Every Catalog entry is present in BHV.
-     *
-     * @throws Exception
-     */
-    public function bhvCatalogConsistent()
-    {
-        $this->path = $this->bhv->getPath();
-
-        $catalog = $this->bhv->getCatalog();
-        foreach ($catalog as $entry) {
-            $this->verifyCatalogEntryPresent($entry);
-        }
-    }
-
-    /**
-     * @ test
-     *
      * Artist has all its files catalogued.
      *
      * @dataProvider dataArtists
@@ -102,6 +85,23 @@ class bhvContentTest extends dataIntegrityTest
 
         $catalog = $this->bhv->getCatalog();
         $this->verifyArtistFilesCatalogued($catalog, $artist);
+    }
+
+    /**
+     * @test
+     *
+     * Every Catalog entry is present in BHV.
+     *
+     * @throws Exception
+     */
+    public function bhvCatalogConsistent()
+    {
+        $this->path = $this->bhv->getPath();
+
+        $catalog = $this->bhv->getCatalog();
+        foreach ($catalog as $entry) {
+            $this->verifyCatalogEntryPresent($entry);
+        }
     }
 
     /**
@@ -130,7 +130,7 @@ class bhvContentTest extends dataIntegrityTest
     }
 
 //    /**
-//     * @test
+//     * @ test
 //     */
 //    public function artistIndexConsistent()
 //    {

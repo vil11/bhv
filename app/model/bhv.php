@@ -106,12 +106,12 @@ class bhv extends unit
     private function copyCatalogUnderProject(): bool
     {
         $mt = microtime(true);
-        say("\n\tcopying under Git");
+        say("\n\tcopying under Git takes ");
 
         $name = bendSeparatorsRight(PATH_APP . 'data' . DS . getPathSectionBackwards($this->catalogPath));
         $result = copy($this->catalogPath, $name);
 
-        say(' takes ' . (microtime(true) - $mt) . ' seconds.');
+        say(round((microtime(true) - $mt), 4) . ' seconds.');
         return $result;
     }
 
@@ -128,9 +128,17 @@ class bhv extends unit
 
         $i = new RecursiveDirectoryIterator($this->getPath());
         foreach (new RecursiveIteratorIterator($i) as $path => $file) {
-            if ($file->getFileName() === '.' || $file->getFileName() === '..') continue;
+            if ($file->getFileName() === '.') {
+                continue;
+            }
+            if ($file->getFileName() === '..') {
+                fwrite($f, "\n");
+                continue;
+            }
 
-            $record = str_replace($this->getPath() . DS, '', $path);
+            $record = bendSeparatorsRight($path);
+            $record = str_replace($this->getPath(), '', $record);
+
             if (strlen($record) > settings::getInstance()->get('limits/path_length_max')) {
                 throw new Exception(prepareIssueCard('Too long record.', $path));
             }
