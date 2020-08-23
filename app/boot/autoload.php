@@ -48,8 +48,12 @@ class autoloader
 
 
         if ($i !== 1 && $className !== 'PHP_Invoker') {
-            if ($i === 0 && $className !== 'PHP_Invoker') {
+            if ($i === 0) {
                 $err = err('Class "%s" was not found.', $className);
+                $err = prepareIssueCard($err, $path);
+                throw new Exception($err);
+            } else {
+                $err = err('Class "%s" was found more than once.', $className);
                 $err = prepareIssueCard($err, $path);
                 throw new Exception($err);
             }
