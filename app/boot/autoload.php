@@ -26,13 +26,17 @@ class autoloader
             }
         }
 
-        $fileRelativeName = 'tests' . DS . str_replace('_', DS, $className);
-        $path = PATH_QA . $fileRelativeName . '.php';
-        if (file_exists($path)) {
-            if (require_once $path) {
-                $i++;
+        $types = ['integrity'];
+        foreach ($types as $type) {
+            $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
+            $path = PATH_QA . $fileRelativeName . '.php';
+            if (file_exists($path)) {
+                if (require_once $path) {
+                    $i++;
+                }
             }
-        }
+        };
+
 
         $fileRelativeName = str_replace('Laminas' . DS . 'Dom', 'laminas' . DS . 'laminas-dom' . DS . 'src', $className);
         $path = PATH_VENDOR . $fileRelativeName . '.php';

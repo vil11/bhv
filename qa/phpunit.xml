@@ -4,20 +4,20 @@
     <testsuites>
         <testsuite name="acceptance">
 
-            <file>tests/bhvAcceptanceNameFormatTest.php</file>
+            <file>tests/integrity/bhvAcceptanceNameFormatTest.php</file>
 
-            <file>tests/bhvAcceptanceContentTest.php</file>
-            <file>tests/bhvAcceptanceMetadataTest.php</file>
+            <file>tests/integrity/bhvAcceptanceContentTest.php</file>
+            <file>tests/integrity/bhvAcceptanceMetadataTest.php</file>
 
         </testsuite>
         <testsuite name="full">
 
-            <file>tests/bhvNameFormatTest.php</file>
-            <file>tests/qeeNameFormatTest.php</file>
+            <file>tests/integrity/bhvNameFormatTest.php</file>
+            <file>tests/integrity/qeeNameFormatTest.php</file>
 
-            <file>tests/bhvContentTest.php</file>
-            <file>tests/qeeContentTest.php</file>
-            <file>tests/bhvMetadataTest.php</file>
+            <file>tests/integrity/bhvContentTest.php</file>
+            <file>tests/integrity/qeeContentTest.php</file>
+            <file>tests/integrity/bhvMetadataTest.php</file>
 
         </testsuite>
     </testsuites>

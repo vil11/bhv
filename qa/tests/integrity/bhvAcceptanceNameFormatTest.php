@@ -12,7 +12,11 @@ class bhvAcceptanceNameFormatTest extends bhvNameFormatTest
     public function dataArtists(): array
     {
         $bhv = new bhv();
-        $data = wrap($bhv->getNewArtistsListing());
+        $list = $bhv->getNewArtistsListing();
+        if (empty($list)) {
+            echo "\nArtists for Metadata updating are absent\n";
+        }
+        $data = wrap($list);
         unset($bhv);
 
         return $data;
