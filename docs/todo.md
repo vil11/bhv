@@ -36,6 +36,7 @@
 - `T3` describe every thrown Exception in annotations, make all Exceptions named
 - `T3` investigate if there is a need to replace autoloading with declaration of uses
 - `T3` investigate if it makes sense to move executable PHP to vendor
+- `T3` upgrade PhpUnit
 
 ###### trivial
 - `F4` Artist media: Photos
