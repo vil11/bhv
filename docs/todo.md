@@ -1,5 +1,7 @@
 
 ## IN PROGRESS
+- `T2` Integration tests
+- `T2` Functional tests
 - `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
     - `td` located on the same level as BHV
     - `qa` covered with "artistsAreNotDuplicated" test at least
@@ -12,7 +14,6 @@
 
 ###### major
 - `T2` consider Unit as a trait
-- `T2` Integration tests
 - `F2` Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
     - Album Metadata is inherited from Artist level and can be overwritten by its own if tags matched
@@ -58,15 +59,16 @@
 
 ## NOTATIONS
 
-   |      |                      |   |
-   |------|----------------------|---|
-   | `B`  | bug                  |   |
-   | `F`  | feature              |   |
-   | `T`  | task                 |   |
-   |      |                      |   |
-   | `ex` | example              |   |
-   | `td` | tech design          |   |
-   | `qa` | quality assurance    |   |
-   | `??` | open question        |   |
+   | notation    | meaning             | comments      |
+   |-------------|---------------------|---------------|
+   |  `B`        | bug                 |               |
+   |  `F`        | feature             |               |
+   |  `T`        | task                |               |
+   |`1`, `2`, ...| priority            |from `0` to `4`|
+   |             |                     |               |
+   |    `ex`     | example             |               |
+   |    `td`     | tech design         |               |
+   |    `qa`     | quality assurance   |               |
+   |    `??`     | open question       |               |
 
 
