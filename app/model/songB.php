@@ -42,7 +42,7 @@ class songB extends song
 
         $fileName = basename($this->title, '.' . settings::getInstance()->get('extensions/music'));
         if ($this->albumData) {
-            $this->verifyFileName("|^\d{2}\.(\ \S+)*|");
+            $this->verifyFileName($this->title, "|^\d{2}\.(\ \S+)*|");
 
             $this->data['released'] = $this->albumData['released'];
             $this->data['type'] = $this->albumData['type'];

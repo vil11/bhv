@@ -1,7 +1,7 @@
 
 ## IN PROGRESS
-- `T2` Integration tests
-- `T2` Functional tests
+- `T2` consider Unit class as a several standalone specific Traits
+- `T2` unifying the Song entity
 - `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
     - `td` located on the same level as BHV
     - `qa` covered with "artistsAreNotDuplicated" test at least
@@ -13,7 +13,7 @@
 ## BACKLOG
 
 ###### major
-- `T2` consider Unit as a trait
+- `T2` Integration tests to cover features
 - `F2` Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
     - Album Metadata is inherited from Artist level and can be overwritten by its own if tags matched

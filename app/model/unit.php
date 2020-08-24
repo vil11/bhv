@@ -105,14 +105,15 @@ class unit implements unitInterface
     }
 
     /**
-     * @param ?string $pattern
+     * @param string $string
+     * @param string|null $pattern
      * @throws Exception
      */
-    protected function verifyFileName($pattern = null)
+    protected function verifyFileName(string $string, ?string $pattern = null)
     {
         if ($pattern) {
-            preg_match($pattern, $this->title, $matches);
-            if (empty($matches) || $matches[0] !== $this->title) {
+            preg_match($pattern, $string, $matches);
+            if (empty($matches) || $matches[0] !== $string) {
                 $err = sprintf(
                     "Invalid %s filename format. Format it to match the %s pattern.",
                     ucwords(get_class($this)),

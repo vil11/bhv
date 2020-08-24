@@ -76,7 +76,7 @@ abstract class album extends unit implements albumInterface
     protected function setData()
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
-        $this->verifyFileName("|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
+        $this->verifyFileName($this->title, "|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
 
         $delimiters = settings::getInstance()->get('delimiters');
         $this->data['released'] = substr($this->adjustName($this->title), 0, 4);
