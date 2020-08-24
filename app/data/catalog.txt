@@ -1059,6 +1059,151 @@ amenophis/cover.jpg
 amenophis/x.txt
 
 
+amon tobin/1996 [single] creatures/01. daytrip.mp3
+amon tobin/1996 [single] creatures/cover.jpg
+
+amon tobin/1997 [single] mission/01. tabukula beach resort.mp3
+amon tobin/1997 [single] mission/cover.jpg
+
+amon tobin/1997 [studio] bricolage/01. stoney street.mp3
+amon tobin/1997 [studio] bricolage/02. easy muffin.mp3
+amon tobin/1997 [studio] bricolage/03. yasawas.mp3
+amon tobin/1997 [studio] bricolage/04. creatures.mp3
+amon tobin/1997 [studio] bricolage/05. new york editor.mp3
+amon tobin/1997 [studio] bricolage/06. defocus.mp3
+amon tobin/1997 [studio] bricolage/07. the nasty.mp3
+amon tobin/1997 [studio] bricolage/08. 1 small step.mp3
+amon tobin/1997 [studio] bricolage/cover.jpg
+
+amon tobin/1998 [studio] permutation/01. bridge.mp3
+amon tobin/1998 [studio] permutation/02. sordid.mp3
+amon tobin/1998 [studio] permutation/03. escape.mp3
+amon tobin/1998 [studio] permutation/04. sultan drops.mp3
+amon tobin/1998 [studio] permutation/05. fast eddie.mp3
+amon tobin/1998 [studio] permutation/06. toys.mp3
+amon tobin/1998 [studio] permutation/cover.jpg
+
+amon tobin/2000 [single] 4 ton mantis/01. yards.mp3
+amon tobin/2000 [single] 4 ton mantis/cover.jpg
+
+amon tobin/2000 [studio] supermodified/01. get your snack on.mp3
+amon tobin/2000 [studio] supermodified/02. 4 ton mantis.mp3
+amon tobin/2000 [studio] supermodified/03. saboteur.mp3
+amon tobin/2000 [studio] supermodified/04. rhino jockey.mp3
+amon tobin/2000 [studio] supermodified/05. mars brothers.mp3
+amon tobin/2000 [studio] supermodified/06. the light.mp3
+amon tobin/2000 [studio] supermodified/cover.jpg
+
+amon tobin/2002 [single] east to west/01. east to west.mp3
+amon tobin/2002 [single] east to west/02. sirens.mp3
+amon tobin/2002 [single] east to west/03. grief [c=ryuichi sakamoto].mp3
+amon tobin/2002 [single] east to west/cover.jpg
+
+amon tobin/2002 [single] verbal/01. cougar merkin.mp3
+amon tobin/2002 [single] verbal/02. the whole 9.mp3
+amon tobin/2002 [single] verbal/03. el chimi.mp3
+amon tobin/2002 [single] verbal/cover.jpg
+
+amon tobin/2002 [studio] out from out where/01. verbal [ft=mc decimal r.].mp3
+amon tobin/2002 [studio] out from out where/02. searchers.mp3
+amon tobin/2002 [studio] out from out where/03. hey blondie.mp3
+amon tobin/2002 [studio] out from out where/04. rosies.mp3
+amon tobin/2002 [studio] out from out where/05. cosmo retro intro outro.mp3
+amon tobin/2002 [studio] out from out where/06. triple science.mp3
+amon tobin/2002 [studio] out from out where/07. proper hoodidge.mp3
+amon tobin/2002 [studio] out from out where/08. mighty micro people.mp3
+amon tobin/2002 [studio] out from out where/cover.jpg
+
+amon tobin/2003 [ep] verbal rmxes & collaborations/01. untitled [ft=kid koala].mp3
+amon tobin/2003 [ep] verbal rmxes & collaborations/02. 10 piece metric wrench set [ft=steinski].mp3
+amon tobin/2003 [ep] verbal rmxes & collaborations/03. ownage [ft=doubleclick].mp3
+amon tobin/2003 [ep] verbal rmxes & collaborations/04. verbal [boom bip rmx].mp3
+amon tobin/2003 [ep] verbal rmxes & collaborations/cover.jpg
+
+amon tobin/2005 [ost] chaos theory/01. the lighthouse.mp3
+amon tobin/2005 [ost] chaos theory/02. displaced.mp3
+amon tobin/2005 [ost] chaos theory/03. ruthless [reprise].mp3
+amon tobin/2005 [ost] chaos theory/cover.jpg
+
+amon tobin/2007 [rmx] kitchen sink/01. kitchen sink [boxcutter rmx].mp3
+amon tobin/2007 [rmx] kitchen sink/cover.jpg
+
+amon tobin/2007 [studio] foley room/01. bloodstone [ft=kronos quartet].mp3
+amon tobin/2007 [studio] foley room/02. esther's.mp3
+amon tobin/2007 [studio] foley room/03. keep your distance.mp3
+amon tobin/2007 [studio] foley room/04. big furry head.mp3
+amon tobin/2007 [studio] foley room/05. ever falling.mp3
+amon tobin/2007 [studio] foley room/06. always.mp3
+amon tobin/2007 [studio] foley room/07. straight psyche.mp3
+amon tobin/2007 [studio] foley room/08. at the end of the day.mp3
+amon tobin/2007 [studio] foley room/cover.jpg
+
+amon tobin/2008 [ep] taxidermia/01. run part !.mp3
+amon tobin/2008 [ep] taxidermia/02. blood, sweat & more blood.mp3
+amon tobin/2008 [ep] taxidermia/03. taxidermia.mp3
+amon tobin/2008 [ep] taxidermia/04. run.mp3
+amon tobin/2008 [ep] taxidermia/05. bath scene.mp3
+amon tobin/2008 [ep] taxidermia/06. rural soldiers.mp3
+amon tobin/2008 [ep] taxidermia/07. introducing the son.mp3
+amon tobin/2008 [ep] taxidermia/08. tactory training.mp3
+amon tobin/2008 [ep] taxidermia/09. taxidermia [magpie rmx].mp3
+amon tobin/2008 [ep] taxidermia/cover.jpg
+
+amon tobin/2009 [ost] infamous/01. rabble rouser.mp3
+amon tobin/2009 [ost] infamous/02. dinner with sasha [ft=jim dooley].mp3
+amon tobin/2009 [ost] infamous/03. the courier.mp3
+amon tobin/2009 [ost] infamous/04. hunt for the ray sphere.mp3
+amon tobin/2009 [ost] infamous/05. silent melody.mp3
+amon tobin/2009 [ost] infamous/06. the price.mp3
+amon tobin/2009 [ost] infamous/07. no protection.mp3
+amon tobin/2009 [ost] infamous/cover.jpg
+
+amon tobin/2011 [rmx] chaos theory/01. breaking protocol.mp3
+amon tobin/2011 [rmx] chaos theory/02. the lighthouse [fing cannibal rmx].mp3
+amon tobin/2011 [rmx] chaos theory/03. the clean up [lorn rmx].mp3
+amon tobin/2011 [rmx] chaos theory/cover.jpg
+
+amon tobin/2011 [single] surge/01. surge [16bit rmx].mp3
+amon tobin/2011 [single] surge/cover.jpg
+
+amon tobin/2011 [studio] isam/01. goto 10.mp3
+amon tobin/2011 [studio] isam/02. wooden toy.mp3
+amon tobin/2011 [studio] isam/03. 1 last look.mp3
+amon tobin/2011 [studio] isam/cover.jpg
+
+amon tobin/2012 [compil] box set/01. hey mr. tree.mp3
+amon tobin/2012 [compil] box set/02. twelvses.mp3
+amon tobin/2012 [compil] box set/03. at work.mp3
+amon tobin/2012 [compil] box set/04. 8 sum.mp3
+amon tobin/2012 [compil] box set/05. it's a lovely night.mp3
+amon tobin/2012 [compil] box set/06. shut down.mp3
+amon tobin/2012 [compil] box set/07. trickstep.mp3
+amon tobin/2012 [compil] box set/08. the big marching threat.mp3
+amon tobin/2012 [compil] box set/09. the bleak outlook.mp3
+amon tobin/2012 [compil] box set/10. theme for eagle road sequence.mp3
+amon tobin/2012 [compil] box set/11. red pill sequence.mp3
+amon tobin/2012 [compil] box set/12. el train.mp3
+amon tobin/2012 [compil] box set/13. dustmen suspense.mp3
+amon tobin/2012 [compil] box set/14. 1st sons suspense.mp3
+amon tobin/2012 [compil] box set/15. coste.mp3
+amon tobin/2012 [compil] box set/16. clear skies.mp3
+amon tobin/2012 [compil] box set/17. roots of fools gt killer.mp3
+amon tobin/2012 [compil] box set/18. ambient score level 1.mp3
+amon tobin/2012 [compil] box set/19. spy vs spy vs spy.mp3
+amon tobin/2012 [compil] box set/20. black run.mp3
+amon tobin/2012 [compil] box set/21. end game.mp3
+amon tobin/2012 [compil] box set/22. worlds collide [ft=michael shrieve].mp3
+amon tobin/2012 [compil] box set/23. oracle [ft=michael shrieve].mp3
+amon tobin/2012 [compil] box set/24. hydraulics.mp3
+amon tobin/2012 [compil] box set/25. computer game.mp3
+amon tobin/2012 [compil] box set/26. lost & found [the thief. lost & found redux][ft=colin stetson].mp3
+amon tobin/2012 [compil] box set/27. night swim [lorn reel][ft=lorn].mp3
+amon tobin/2012 [compil] box set/28. night swim [frank riggio rmx][ft=frank riggio].mp3
+amon tobin/2012 [compil] box set/29. goto 10 [photek rmx][ft=photek ].mp3
+amon tobin/2012 [compil] box set/cover.jpg
+amon tobin/x.txt
+
+
 amorphis/1992 [studio] the karelian isthmus/01. warriors trial.mp3
 amorphis/1992 [studio] the karelian isthmus/02. black embrace.mp3
 amorphis/1992 [studio] the karelian isthmus/03. the lost name of god.mp3
@@ -12745,6 +12890,34 @@ warlock/1984 [studio] burning the witches/cover.jpg
 warlock/1987 [studio] triumph & agony/01. i rule the ruins.mp3
 warlock/1987 [studio] triumph & agony/cover.jpg
 warlock/x.txt
+
+
+way out west/1997 [studio] way out west/01. domination.mp3
+way out west/1997 [studio] way out west/02. questions never answered.mp3
+way out west/1997 [studio] way out west/03. ajare.mp3
+way out west/1997 [studio] way out west/04. drive by.mp3
+way out west/1997 [studio] way out west/05. king of the funk.mp3
+way out west/1997 [studio] way out west/cover.jpg
+
+way out west/2001 [studio] intensify/01. activity.mp3
+way out west/2001 [studio] intensify/02. call me.mp3
+way out west/2001 [studio] intensify/03. hypnotise.mp3
+way out west/2001 [studio] intensify/04. stealth.mp3
+way out west/2001 [studio] intensify/05. ub devoid.mp3
+way out west/2001 [studio] intensify/06. secret.mp3
+way out west/2001 [studio] intensify/07. intensify [p=1].mp3
+way out west/2001 [studio] intensify/cover.jpg
+
+way out west/2004 [studio] don't look now/01. killa.mp3
+way out west/2004 [studio] don't look now/cover.jpg
+
+way out west/2009 [studio] we love machine/01. future perfect.mp3
+way out west/2009 [studio] we love machine/02. surrender.mp3
+way out west/2009 [studio] we love machine/cover.jpg
+
+way out west/2017 [studio] tuesday maybe/01. a sheltered place.mp3
+way out west/2017 [studio] tuesday maybe/cover.jpg
+way out west/x.txt
 
 
 westbam/1988 [studio] westbam/01. a long hard dick.mp3

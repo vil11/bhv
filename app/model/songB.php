@@ -51,8 +51,6 @@ class songB extends song
 
             $artist = explode($delimiters['song_artist'], $fileName);
             if (count($artist) !== 1) {
-//                $a = $artist[0];
-//                $f = $artist[1];
                 throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->getPath()));
             }
 
@@ -63,22 +61,23 @@ class songB extends song
 
             $tags = null;
             if ($fileName !== $positionAndTitle) {
-                $tags = explode($this->data['title'] . $delimiters['section'], $fileName)[1];
-                $this->setTags($tags);
+                $before = $this->data['position'] . $delimiters['song_position'] . $this->data['title'] . $delimiters['section'];
+                $this->setTags(str_replace($before, '', $fileName));
             }
         } else {
+//            $this->verifyFileName("|...|");
 
             $this->data['title'] = explode($delimiters['section'] . $delimiters['tag_open'], $fileName)[0];
 
             $tags = null;
-            if ($fileName !== $this->data['title']) {
+            if ($this->data['title'] !== $fileName) {
                 $tags = explode($this->data['title'] . $delimiters['section'], $fileName)[1];
                 $this->setTags($tags);
             }
         }
 
         if (!$this->data) {
-            throw new Exception(prepareIssueCard('UNKNOWN CASE', $this->getPath()));
+            throw new Exception(prepareIssueCard('Song data is absent.', $this->getPath()));
         }
     }
 
@@ -220,11 +219,13 @@ class songB extends song
 
         // writing
         $tagObj->tag_data = $tagData;
-        try {
-            $result = $tagObj->WriteTags();
-        } catch (Exception $e) {
-            $err = prepareIssueCard('Writing metadata failed.', $this->getPath());
-            echo $err, "\n\n", $e->getMessage();
+        $result = $tagObj->WriteTags();
+        if ($errors = $tagObj->errors) {
+            $err = 'Writing metadata failed.' . " Details: " . implode("; ", $errors);
+            $err = prepareIssueCard($err, $this->getPath());
+            echo $err;
+
+            return $result;
         }
 
         // finalizing

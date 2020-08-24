@@ -9,7 +9,7 @@ $features = new features();
 //$features->performQC(['group' => 'acceptance']);
 //$features->updateMetadata(true);
 //$features->updateCatalog();
-//$features->performQC(['testsuite' => 'full']);
+//$features->performQC(['testsuite' => 'full_integrity']);
 
 //$features->downloadAlbums([
 //    '',

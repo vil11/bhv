@@ -26,7 +26,7 @@ class autoloader
             }
         }
 
-        $types = ['integrity'];
+        $types = ['integration' ,'integrity'];
         foreach ($types as $type) {
             $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
             $path = PATH_QA . $fileRelativeName . '.php';
@@ -47,16 +47,16 @@ class autoloader
         }
 
 
-        if ($i !== 1 && $className !== 'PHP_Invoker') {
-            if ($i === 0) {
-                $err = err('Class "%s" was not found.', $className);
-                $err = prepareIssueCard($err, $path);
-                throw new Exception($err);
-            } else {
-                $err = err('Class "%s" was found more than once.', $className);
-                $err = prepareIssueCard($err, $path);
-                throw new Exception($err);
-            }
-        }
+//        if ($i !== 1 && $className !== 'PHP_Invoker') {
+//            if ($i === 0) {
+//                $err = err('Class "%s" was not found.', $className);
+//                $err = prepareIssueCard($err, $path);
+//                throw new Exception($err);
+//            } else {
+//                $err = err('Class "%s" was found more than once.', $className);
+//                $err = prepareIssueCard($err, $path);
+//                throw new Exception($err);
+//            }
+//        }
     }
 }
