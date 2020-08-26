@@ -2,23 +2,24 @@
 
 <phpunit bootstrap="../app/boot/bootstrap.php">
     <testsuites>
-        <testsuite name="acceptance">
-
+        <testsuite name="acceptance_integrity">
             <file>tests/integrity/bhvAcceptanceNameFormatTest.php</file>
 
             <file>tests/integrity/bhvAcceptanceContentTest.php</file>
             <file>tests/integrity/bhvAcceptanceMetadataTest.php</file>
-
         </testsuite>
-        <testsuite name="full">
 
+<!--        <testsuite name="full_integration">-->
+<!--            <file>tests/integration/bhvSongTest.php</file>-->
+<!--        </testsuite>-->
+
+        <testsuite name="full_integrity">
             <file>tests/integrity/bhvNameFormatTest.php</file>
             <file>tests/integrity/qeeNameFormatTest.php</file>
 
             <file>tests/integrity/bhvContentTest.php</file>
             <file>tests/integrity/qeeContentTest.php</file>
             <file>tests/integrity/bhvMetadataTest.php</file>
-
         </testsuite>
     </testsuites>
 </phpunit>
