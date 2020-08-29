@@ -57,7 +57,7 @@ class bhvContentTest extends dataIntegrityTest
      *
      * @throws Exception
      */
-    public function bhvContentConsistent()
+    public function contentConsistent()
     {
         $this->unit = strtoupper(get_class($this->bhv));
         $this->path = $this->bhv->getPath();
@@ -78,7 +78,7 @@ class bhvContentTest extends dataIntegrityTest
      * @param string $artistName
      * @throws Exception
      */
-    public function bhvArtistFilesCatalogued(string $artistName)
+    public function artistFilesCatalogued(string $artistName)
     {
         $artist = new artistB($artistName);
         $this->path = $artist->getPath();
@@ -94,7 +94,7 @@ class bhvContentTest extends dataIntegrityTest
      *
      * @throws Exception
      */
-    public function bhvCatalogConsistent()
+    public function catalogConsistent()
     {
         $this->path = $this->bhv->getPath();
 

@@ -13,7 +13,19 @@
 ## BACKLOG
 
 ###### major
-- `T2` Integration tests to cover features
+- `T2` `qa` Move "$this->assert" from Test Cases to Util
+- `T2` `qa` Integration tests to cover features
+- `F2` Statistics:
+    - in BHV, qty of:
+        - Artists (total)
+        - Albums per Artist
+        - Songs per Album
+        - Songs per Artist
+
+
+
+    ...
+
 - `F2` Metadata inheritance
     - Song Metadata is inherited from Album level and can be overwritten by its own if tag names matched
     - Album Metadata is inherited from Artist level and can be overwritten by its own if tags matched
@@ -26,6 +38,7 @@
 - `T2` move HLPR lib from app to vendor
 
 ###### minor
+- `T3` describe all tests in its annotations
 - `F3` single-sided & dual-sided Relations between Artists (ex: "audioslave" & "rage against the machine")
 - `F3` add references to existent in BHV Artists inside additional info tags (ex: "ft=REF", "c=REF")
 - `F3` improve Metadata (ex: add rating, original date, genres, bitrate, etc.)

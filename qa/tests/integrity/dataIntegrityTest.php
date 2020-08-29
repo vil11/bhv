@@ -207,7 +207,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
      * @param array $files
      * @throws Exception
      */
-    protected function verifyOnlyExpectedFilesPresent(array $files)
+    protected function verifyOnlyExpectedFilesPresent(array $files = [])
     {
         $actual = [];
         foreach (getDirFilesList($this->path) as $file) {
@@ -216,7 +216,10 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Files list is unexpected in %s root folder.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertSame(ksort($files), ksort($actual), $err);
+
+        ksort($files);
+        ksort($actual);
+        $this->assertSame($files, $actual, $err);
     }
 
     /**
@@ -346,5 +349,16 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
             $err = prepareIssueCard($err, $path);
             $this->assertTrue(in_array($f, $catalog), $err);
         }
+    }
+
+    protected function verifyQeeContainsArtistsInLimits(array $artistNames, int $limit)
+    {
+        $err = err('%s contains no Artists. Where are they?', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertNotEmpty($artistNames, $err);
+
+        $err = err('%s contains too many Artists.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertGreaterThanOrEqual(count($artistNames), $limit, $err);
     }
 }

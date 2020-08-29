@@ -34,7 +34,7 @@ class qee
         $qee = getDirDirsList($location);
 
         foreach ($qee as $name) {
-            $path = bendSeparatorsRight($location . DS . $name);
+            $path = bendSeparatorsRight($location . $name);
 
             if (in_array($path, $libraries)) {
                 continue;

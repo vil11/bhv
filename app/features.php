@@ -83,6 +83,7 @@ class features
         say("\n\nDownloading Albums:\n\n");
         foreach ($urls as $url) {
             if ($url === '') {
+                say("\n");
                 continue;
             }
 
