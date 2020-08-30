@@ -183,6 +183,28 @@ function getFileSize(string $url): float
 }
 
 /**
+ * Get folder size.
+ *
+ * @param string $path
+ * @return int
+ *
+ * @tested 1.3.7
+ */
+function getFolderSize(string $path): int
+{
+    $path = realpath($path);
+
+    $fileSize = 0;
+    if ($path !== false && $path != '' && file_exists($path)) {
+        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path, FilesystemIterator::SKIP_DOTS)) as $file) {
+            $fileSize += $file->getSize();
+        }
+    }
+
+    return $fileSize;
+}
+
+/**
  * [IN PROGRESS] Parse CSV file & convert pulled data to array of arrays.
  * Function returns empty array if input file is empty.
  *
