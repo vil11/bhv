@@ -276,24 +276,52 @@ class albumR
     {
         if (!isFileValid($filePath)) return false;
 
-        $size = (string)floatval($expectedSize);
+        $size = floatval($expectedSize);
         $metr = trim(str_replace($size, '', $expectedSize));
 
-        if ($metr === 'Мб') {
-            $actualFileSize = filesize($filePath) / 1024 / 1024;
-        } elseif ($metr === 'Кб') {
-            $actualFileSize = getFileSize($filePath);
-//            return true;
-            throw new Exception();
-        } else {
-            throw new Exception(prepareIssueCard(err('"%s": unsupportable metrics.', $metr)));
+        switch ($metr) {
+            case 'Мб':
+                $actualFileSize = filesize($filePath) / 1024 / 1024;
+                return $this->verifySemiStrict($actualFileSize, $size);
+            case 'Кб':
+                $actualFileSize = filesize($filePath) / 1024;
+                return $this->verifyInRange($actualFileSize, $size, 2);
         }
-        $actualFileSize1 = (string)round($actualFileSize, 2);
-        $actualFileSize2 = (string)$actualFileSize;
 
-        if (strpos($actualFileSize1, $size) === 0) return true;
-        if (strpos($actualFileSize2, $size) === 0) return true;
+        throw new Exception(prepareIssueCard(err('"%s": unsupportable metrics.', $metr)));
+    }
+
+    private function verifySemiStrict(float $actualSize, float $expectedSize): bool
+    {
+        foreach ($this->getRounded($actualSize) as $actualSize) {
+            if (strpos((string)$actualSize, (string)$expectedSize) === 0) {
+                return true;
+            }
+        }
 
         return false;
+    }
+
+    private function verifyInRange(float $actualSize, float $expectedSize, float $range): bool
+    {
+        $expectedSizeMin = $expectedSize - $range;
+        $expectedSizeMax = $expectedSize + $range;
+
+        foreach ($this->getRounded($actualSize) as $actualSize) {
+            if ($actualSize >= $expectedSizeMin && $actualSize <= $expectedSizeMax) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private function getRounded(float $value): array
+    {
+        // rounding logic on teh R server side is unknown
+        $rounded[] = round($value, 2);
+        $rounded[] = $value;
+
+        return $rounded;
     }
 }
