@@ -293,7 +293,7 @@ class albumR
 
     private function verifySemiStrict(float $actualSize, float $expectedSize): bool
     {
-        foreach ($this->getRounded($actualSize) as $actualSize) {
+        foreach ($this->prepareRounded($actualSize) as $actualSize) {
             if (strpos((string)$actualSize, (string)$expectedSize) === 0) {
                 return true;
             }
@@ -307,7 +307,7 @@ class albumR
         $expectedSizeMin = $expectedSize - $range;
         $expectedSizeMax = $expectedSize + $range;
 
-        foreach ($this->getRounded($actualSize) as $actualSize) {
+        foreach ($this->prepareRounded($actualSize) as $actualSize) {
             if ($actualSize >= $expectedSizeMin && $actualSize <= $expectedSizeMax) {
                 return true;
             }
@@ -316,7 +316,7 @@ class albumR
         return false;
     }
 
-    private function getRounded(float $value): array
+    private function prepareRounded(float $value): array
     {
         // rounding logic on teh R server side is unknown
         $rounded[] = round($value, 2);
