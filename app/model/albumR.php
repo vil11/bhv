@@ -58,6 +58,7 @@ class albumR
         $this->setSongs();
     }
 
+    /** @throws Exception */
     private function setArtists()
     {
         $artists = getTextsByXpath($this->pageDom, self::ARTIST_XP);
@@ -65,6 +66,7 @@ class albumR
         $this->feat = $artists;
     }
 
+    /** @throws Exception */
     private function setType()
     {
         $rec = settings::getInstance()->get('record_types');
@@ -109,36 +111,30 @@ class albumR
         $songName = getTextByXpath($this->pageDom, sprintf(self::SONG_NAME_XP, $s));
         $songArtists = getTextsByXpath($this->pageDom, sprintf(self::SONG_ARTISTS_XP, $s));
 
-        if ($this->qc) {
-            if (!$this->ifSongArtistsAreExpected($songArtists)) {
-                throw new Exception();
-            }
-        }
-
-        if (count($songArtists) !== 1) {
-            array_shift($songArtists);
-            $songName .= $this->prepareFeat($songArtists);
-        }
-
-        $songName = sprintf("%02d", $s) . '. ' . smartPrepareFileName($songName);
-        $songName .= '.' . settings::getInstance()->get('extensions/music');
-
-        return $songName;
+        return sprintf(
+            "%02d%s%s.%s",
+            $s,
+            settings::getInstance()->get('delimiters/song_position'),
+            smartPrepareFileName($songName . $this->prepareFeat($songArtists)),
+            settings::getInstance()->get('extensions/music')
+        );
     }
 
-    private function ifSongArtistsAreExpected(array $songArtists): bool
+    private function prepareFeat(array $artists): string
     {
-        if (in_array($this->getArtist(), $songArtists)) {
-            return true;
+        if (($key = array_search($this->getArtist(), $artists)) !== false) {
+            unset($artists[$key]);
         }
 
-        foreach ($songArtists as $songArtist) {
-            if (in_array($songArtist, $this->getFeat())) {
-                return true;
-            }
-        }
+        $delim = settings::getInstance()->get('delimiters');
 
-        return false;
+        return
+            $delim['section']
+            . $delim['tag_open']
+            . settings::getInstance()->get('info_tags/feat')
+            . $delim['tag_name']
+            . implode($delim['tag_info'], $artists)
+            . $delim['tag_close'];
     }
 
     private function prepareSongUrl(int $s): string
@@ -157,12 +153,6 @@ class albumR
         return $songSize;
     }
 
-    private function prepareFeat(array $artists): string
-    {
-        $delim = settings::getInstance()->get('delimiters');
-        return $delim['section'] . $delim['tag_open'] . settings::getInstance()->get('info_tags/feat')
-            . $delim['tag_name'] . implode($delim['tag_info'], $artists) . $delim['tag_close'];
-    }
 
     /** @return string */
     public function getArtist(): string
