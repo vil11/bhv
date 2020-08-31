@@ -50,7 +50,12 @@ abstract class album extends unit implements albumInterface
         /** @var songInterface $class */
         $class = str_replace('album', 'song', get_class($this));
 
-        $selection = getDirFilesListByExt($this->getPath(), settings::getInstance()->get('extensions/music'));
+        $ext = settings::getInstance()->get('extensions/music');
+        $selection = getDirFilesListByExt($this->getPath(), $ext);
+        if (empty($selection)) {
+            $err = err('Album contains no Songs (%s). Where are they?', $ext);
+            throw new Exception(prepareIssueCard($err, $this->getPath()));
+        }
         foreach ($selection as $songFileName) {
             if (!$this->data) $this->setData();
             $albumData = array_merge(['path' => $this->getPath()], $this->data);
@@ -63,7 +68,8 @@ abstract class album extends unit implements albumInterface
      * @return array
      * @throws Exception
      */
-    public function getSongs(): array
+    public
+    function getSongs(): array
     {
         if (!$this->songs) $this->setSongs();
         return $this->songs;
@@ -73,7 +79,8 @@ abstract class album extends unit implements albumInterface
     /**
      * @throws Exception
      */
-    protected function setData()
+    protected
+    function setData()
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         $this->verifyFileName($this->title, "|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
