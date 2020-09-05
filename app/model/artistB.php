@@ -61,15 +61,7 @@ class artistB extends artist
     {
 //        $this->provideAccess();
 
-        $ifAnyAlbumsTagged = false;
-        foreach ($this->getAlbumsListing() as $albumFolderName) {
-            if ($this->isMarkedToBeUpdated($albumFolderName)) {
-                $ifAnyAlbumsTagged = true;
-                break;
-            }
-        }
-
-        if ($ifAnyAlbumsTagged) {
+        if ($this->ifAnyAlbumsTagged()) {
             if (!$this->updateMetadataForTaggedAlbums($autoRenamingIfSuccess)) {
                 return false;
             }
@@ -88,6 +80,23 @@ class artistB extends artist
         }
 
         return true;
+    }
+
+    /**
+     * @return bool
+     * @throws Exception
+     */
+    private function ifAnyAlbumsTagged(): bool
+    {
+        $ifAnyAlbumsTagged = false;
+        foreach ($this->getAlbumsListing() as $albumFolderName) {
+            if ($this->isMarkedToBeUpdated($albumFolderName)) {
+                $ifAnyAlbumsTagged = true;
+                break;
+            }
+        }
+
+        return $ifAnyAlbumsTagged;
     }
 
     /**
