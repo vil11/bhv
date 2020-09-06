@@ -6633,6 +6633,20 @@ kaliber/2009 [ep] kaliber 21/cover.jpg
 kaliber/x.txt
 
 
+kendrick lamar/2012 [studio] good kid, m.a.a.d. city/01. the art of peer pressure.mp3
+kendrick lamar/2012 [studio] good kid, m.a.a.d. city/02. m.a.a.d city [ft=mc eiht].mp3
+kendrick lamar/2012 [studio] good kid, m.a.a.d. city/03. swimming pools.mp3
+kendrick lamar/2012 [studio] good kid, m.a.a.d. city/04. the recipe [ft=dr. dre].mp3
+kendrick lamar/2012 [studio] good kid, m.a.a.d. city/cover.jpg
+
+kendrick lamar/2017 [studio] damn/01. blood.mp3
+kendrick lamar/2017 [studio] damn/02. dna.mp3
+kendrick lamar/2017 [studio] damn/03. humble.mp3
+kendrick lamar/2017 [studio] damn/04. lust.mp3
+kendrick lamar/2017 [studio] damn/cover.jpg
+kendrick lamar/x.txt
+
+
 khors/2005 [studio] the flame of eternity's decline/01. throne of antiquity.mp3
 khors/2005 [studio] the flame of eternity's decline/02. moan of the grief.mp3
 khors/2005 [studio] the flame of eternity's decline/cover.jpg
@@ -8075,6 +8089,11 @@ metallica/2011 [ep] beyond magnetic/03. hell & back.mp3
 metallica/2011 [ep] beyond magnetic/04. rebel of babylon.mp3
 metallica/2011 [ep] beyond magnetic/cover.jpg
 metallica/x.txt
+
+
+method man & redman/2009 [studio] blackout [p=2]/01. dis iz 4 all my smokers.mp3
+method man & redman/2009 [studio] blackout [p=2]/cover.jpg
+method man & redman/x.txt
 
 
 midi, maxi & efti/1991 [studio] midi, maxi & efti/01. ragga steady.mp3
@@ -10449,6 +10468,83 @@ skid row/2014 [ep] rise of the damnation army/cover.jpg
 skid row/x.txt
 
 
+skinny puppy/1984 [studio] remission/01. glass houses.mp3
+skinny puppy/1984 [studio] remission/cover.jpg
+
+skinny puppy/1987 [studio] cleanse fold & manipulate/01. addiction.mp3
+skinny puppy/1987 [studio] cleanse fold & manipulate/02. draining faces.mp3
+skinny puppy/1987 [studio] cleanse fold & manipulate/03. 2nd tooth.mp3
+skinny puppy/1987 [studio] cleanse fold & manipulate/cover.jpg
+
+skinny puppy/1988 [studio] 66sect6/01. dogshit.mp3
+skinny puppy/1988 [studio] 66sect6/02. harsh stone white.mp3
+skinny puppy/1988 [studio] 66sect6/03. testure.mp3
+skinny puppy/1988 [studio] 66sect6/04. hospital waste.mp3
+skinny puppy/1988 [studio] 66sect6/05. fritter.mp3
+skinny puppy/1988 [studio] 66sect6/cover.jpg
+
+skinny puppy/1989 [studio] rabies/01. rodent.mp3
+skinny puppy/1989 [studio] rabies/02. worlock.mp3
+skinny puppy/1989 [studio] rabies/03. rivers.mp3
+skinny puppy/1989 [studio] rabies/04. choralone.mp3
+skinny puppy/1989 [studio] rabies/05. amputate.mp3
+skinny puppy/1989 [studio] rabies/06. spahn dirge [live].mp3
+skinny puppy/1989 [studio] rabies/cover.jpg
+
+skinny puppy/1990 [studio] too dark park/01. tormentor.mp3
+skinny puppy/1990 [studio] too dark park/02. nature's revenge.mp3
+skinny puppy/1990 [studio] too dark park/03. shore lined poison.mp3
+skinny puppy/1990 [studio] too dark park/cover.jpg
+
+skinny puppy/1992 [studio] last rights/01. killing game.mp3
+skinny puppy/1992 [studio] last rights/02. knowhere.mp3
+skinny puppy/1992 [studio] last rights/03. inquisition.mp3
+skinny puppy/1992 [studio] last rights/04. scrapyard.mp3
+skinny puppy/1992 [studio] last rights/05. riverz end.mp3
+skinny puppy/1992 [studio] last rights/06. circustance.mp3
+skinny puppy/1992 [studio] last rights/07. download.mp3
+skinny puppy/1992 [studio] last rights/cover.jpg
+
+skinny puppy/1996 [studio] the process/01. jahya.mp3
+skinny puppy/1996 [studio] the process/02. death.mp3
+skinny puppy/1996 [studio] the process/03. candle.mp3
+skinny puppy/1996 [studio] the process/04. cult.mp3
+skinny puppy/1996 [studio] the process/05. process.mp3
+skinny puppy/1996 [studio] the process/06. curcible.mp3
+skinny puppy/1996 [studio] the process/07. blue serge.mp3
+skinny puppy/1996 [studio] the process/08. morter.mp3
+skinny puppy/1996 [studio] the process/09. amnesia.mp3
+skinny puppy/1996 [studio] the process/cover.jpg
+
+skinny puppy/2004 [studio] the greater wrong of the right/01. i'mmortal.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/02. pro-test.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/03. empte.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/04. neuwerld.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/05. ghostman.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/06. d0wnsizer.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/07. past present.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/08. use less.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/09. goneja.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/10. daddyuwarbash.mp3
+skinny puppy/2004 [studio] the greater wrong of the right/cover.jpg
+
+skinny puppy/2007 [studio] mythmaker/01. pedafly.mp3
+skinny puppy/2007 [studio] mythmaker/02. politikil.mp3
+skinny puppy/2007 [studio] mythmaker/03. pasturn.mp3
+skinny puppy/2007 [studio] mythmaker/cover.jpg
+
+skinny puppy/2011 [studio] handover/01. ovirt.mp3
+skinny puppy/2011 [studio] handover/02. cullorblind.mp3
+skinny puppy/2011 [studio] handover/03. ashas.mp3
+skinny puppy/2011 [studio] handover/04. vyrisus.mp3
+skinny puppy/2011 [studio] handover/cover.jpg
+
+skinny puppy/2013 [studio] weapon/01. salvo.mp3
+skinny puppy/2013 [studio] weapon/02. plasicage.mp3
+skinny puppy/2013 [studio] weapon/cover.jpg
+skinny puppy/x.txt
+
+
 skold/1996 [ep] neverland/01. anything [dominatrix rmx].mp3
 skold/1996 [ep] neverland/cover.jpg
 
@@ -10657,6 +10753,36 @@ sophie zelmani/2011 [studio] soul/cover.jpg
 sophie zelmani/2014 [studio] going home/01. got to stop.mp3
 sophie zelmani/2014 [studio] going home/cover.jpg
 sophie zelmani/x.txt
+
+
+soulja boy/2007 [studio] souljaboytellem.com/01. crank that.mp3
+soulja boy/2007 [studio] souljaboytellem.com/02. snap & roll.mp3
+soulja boy/2007 [studio] souljaboytellem.com/03. bapes [ft=arab].mp3
+soulja boy/2007 [studio] souljaboytellem.com/04. pass it to arab [ft=arab].mp3
+soulja boy/2007 [studio] souljaboytellem.com/cover.jpg
+
+soulja boy/2008 [studio] isouljaboytellem/01. i'm bout tha stax.mp3
+soulja boy/2008 [studio] isouljaboytellem/02. eazy.mp3
+soulja boy/2008 [studio] isouljaboytellem/03. rubber bands.mp3
+soulja boy/2008 [studio] isouljaboytellem/04. shoppin' spree [ft=gucci mane+yo gotti].mp3
+soulja boy/2008 [studio] isouljaboytellem/05. i pray.mp3
+soulja boy/2008 [studio] isouljaboytellem/cover.jpg
+
+soulja boy/2010 [studio] the deandre way/01. pretty boy swag.mp3
+soulja boy/2010 [studio] the deandre way/02. thousand million.mp3
+soulja boy/2010 [studio] the deandre way/03. fly.mp3
+soulja boy/2010 [studio] the deandre way/cover.jpg
+
+soulja boy/2015 [studio] loyalty/01. hurricane.mp3
+soulja boy/2015 [studio] loyalty/02. we don't fight.mp3
+soulja boy/2015 [studio] loyalty/03. don't nothing move but the money.mp3
+soulja boy/2015 [studio] loyalty/04. og gas [ft=rich the kid].mp3
+soulja boy/2015 [studio] loyalty/05. gold bricks.mp3
+soulja boy/2015 [studio] loyalty/06. backwoods.mp3
+soulja boy/2015 [studio] loyalty/07. hit it.mp3
+soulja boy/2015 [studio] loyalty/08. rambo.mp3
+soulja boy/2015 [studio] loyalty/cover.jpg
+soulja boy/x.txt
 
 
 soulstice/2001 [rmx] illusions/01. lockdown [soulstice rmx].mp3
