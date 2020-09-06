@@ -361,4 +361,16 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $err = prepareIssueCard($err, $this->path);
         $this->assertGreaterThanOrEqual(count($artistNames), $limit, $err);
     }
+
+    /**
+     * @param int $limit
+     */
+    protected function verifyFolderSize(int $limit)
+    {
+        $actualSize = getFolderSize($this->path);
+
+        $err = err('%s is too large.', $this->unit);
+        $err = prepareIssueCard($err, $this->path);
+        $this->assertGreaterThanOrEqual($actualSize, $limit, $err);
+    }
 }

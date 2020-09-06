@@ -142,6 +142,21 @@ class qeeContentTest extends dataIntegrityTest
         $this->verifyQeeContainsArtistsInLimits($artistNames, $limit);
 
         $this->verifyOnlyExpectedFilesPresent();
+
+        $limit = settings::getInstance()->get('limits/qee_artist_size_max');
+        foreach ($artistNames as $artistName) {
+            $artist = new artistQ($artistName, $qeeName);
+            $this->unit = ucfirst(get_class($artist));
+            $this->path = $artist->getPath();
+
+            // temp start: skip giant folders until solid discographies are collected
+            if ($qeeName === 'to_upload_giant') {
+                continue;
+            }
+            // temp end.
+
+            $this->verifyFolderSize($limit);
+        }
     }
 
     /**

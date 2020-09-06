@@ -13,7 +13,7 @@
 ## BACKLOG
 
 ###### major
-- `T2` `qa` Move "$this->assert" from Test Cases to Util
+- `T2` `qa` Move "$this->assert" from Test Cases to standalone (as trait?) Util
 - `T2` `qa` Integration tests to cover features
 - `F2` Statistics:
     - in BHV, qty of:

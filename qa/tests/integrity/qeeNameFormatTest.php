@@ -31,7 +31,6 @@ class qeeNameFormatTest extends dataIntegrityTest
      */
     public function artistNameConsistent(string $qeeName, array $artistNames)
     {
-        $this->assertNotEmpty($artistNames);
         foreach ($artistNames as $artistName) {
             $artist = new artistQ($artistName, $qeeName);
             $this->unit = ucfirst(get_class($artist));

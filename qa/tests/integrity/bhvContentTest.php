@@ -164,7 +164,7 @@ class bhvContentTest extends dataIntegrityTest
             $this->verifySongsOrdered($album);
 
             $files = array_merge(
-                $this->prepareSongsPaths($artist->getSongs()),
+                $this->prepareSongsPaths($album->getSongs()),
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/album_thumbnail'))]
             );
             $this->verifyOnlyExpectedFilesPresent($files);
