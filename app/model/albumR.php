@@ -82,6 +82,8 @@ class albumR
             $type = $rec['ep'];
         } elseif ($type === 'Live') {
             $type = $rec['live'];
+        } elseif ($type === 'Саундтрек') {
+            $type = $rec['ost'];
         } elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей') {
             $this->qc = false;
             $type = '';
