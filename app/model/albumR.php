@@ -127,6 +127,9 @@ class albumR
         if (($key = array_search($this->getArtist(), $artists)) !== false) {
             unset($artists[$key]);
         }
+        if (empty($artists)) {
+            return '';
+        }
 
         $delim = settings::getInstance()->get('delimiters');
 
