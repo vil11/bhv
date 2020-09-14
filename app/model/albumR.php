@@ -113,14 +113,12 @@ class albumR
         $songName = getTextByXpath($this->pageDom, sprintf(self::SONG_NAME_XP, $s));
         $songArtists = getTextsByXpath($this->pageDom, sprintf(self::SONG_ARTISTS_XP, $s));
 
-        return smartPrepareFileName(
-            sprintf(
-                "%02d%s%s.%s",
-                $s,
-                settings::getInstance()->get('delimiters/song_position'),
-                $songName . $this->prepareFeat($songArtists),
-                settings::getInstance()->get('extensions/music')
-            )
+        return sprintf(
+            "%02d%s%s.%s",
+            $s,
+            settings::getInstance()->get('delimiters/song_position'),
+            smartPrepareFileName($songName . $this->prepareFeat($songArtists)),
+            settings::getInstance()->get('extensions/music')
         );
     }
 
@@ -226,18 +224,20 @@ class albumR
      */
     private function prepareLandingDirsStructure(): string
     {
-        $path = settings::getInstance()->get('libraries/download') . $this->getArtist() . DS;
+        $path = settings::getInstance()->get('libraries/download') . smartPrepareFileName($this->getArtist()) . DS;
         $path = bendSeparatorsRight($path);
-        $path = smartPrepareFileName($path);
         createDir($path);
 
-        $feat = (empty($this->getFeat())) ? '' : $this->prepareFeat($this->getFeat());
-        $path .= sprintf(
-                '%s %s - %s%s',
-                $this->getReleased(), $this->getType(), $this->getTitle(), $feat
+        $path .= smartPrepareFileName(
+                sprintf(
+                    '%s %s - %s%s',
+                    $this->getReleased(),
+                    $this->getType(),
+                    $this->getTitle(),
+                    (empty($this->getFeat())) ? '' : $this->prepareFeat($this->getFeat())
+                )
             ) . DS;
         $path = bendSeparatorsRight($path);
-        $path = smartPrepareFileName($path);
         createDir($path);
 
         return $path;
