@@ -25,7 +25,7 @@ class features
     public function updateCatalog()
     {
         say("\n\nCatalog updating:");
-        $result = $this->bhv->updateCatalog();
+        $result = $this->bhv->resetCatalog();
         $this->finish($result);
     }
 

@@ -67,7 +67,7 @@ class bhv extends unit
     private function setCatalog()
     {
         if (!isFileValid($this->catalogPath)) {
-            $this->updateCatalog();
+            $this->resetCatalog();
         }
 
         $this->catalog = parseList($this->catalogPath);
@@ -119,15 +119,27 @@ class bhv extends unit
      * @return bool
      * @throws Exception
      */
-    public function updateCatalog(): bool
+    public function resetCatalog(): bool
     {
-        $f = fopen($this->catalogPath, 'wt');
+        $this->catalogueFolderTree($this->getPath());
+        return $this->copyCatalogUnderProject();
+    }
+
+    /**
+     * @param string $rootPath
+     * @throws Exception
+     */
+    private function catalogueFolderTree(string $rootPath)
+    {
+        $modeReset = 'wt';
+        $modeLog = 'at';
+
+        $f = fopen($this->getCatalogPath(), $modeReset);
         if ($f === false || !is_resource($f)) {
-            throw new Exception(prepareIssueCard('File open failed!', $this->catalogPath));
+            throw new Exception(prepareIssueCard('File open failed!', $this->getCatalogPath()));
         }
 
-        $i = new RecursiveDirectoryIterator($this->getPath());
-        foreach (new RecursiveIteratorIterator($i) as $path => $file) {
+        foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($rootPath)) as $path => $file) {
             if ($file->getFileName() === '.') {
                 continue;
             }
@@ -137,7 +149,7 @@ class bhv extends unit
             }
 
             $record = bendSeparatorsRight($path);
-            $record = str_replace($this->getPath(), '', $record);
+            $record = str_replace($rootPath, '', $record);
 
             if (strlen($record) > settings::getInstance()->get('limits/path_length_max')) {
                 throw new Exception(prepareIssueCard('Too long record.', $path));
@@ -149,10 +161,8 @@ class bhv extends unit
 
         $f = fclose($f);
         if ($f === false) {
-            throw new Exception(prepareIssueCard('File close failed!', $this->catalogPath));
+            throw new Exception(prepareIssueCard('File close failed!', $this->getCatalogPath()));
         }
-
-        return $this->copyCatalogUnderProject();
     }
 
     /**
