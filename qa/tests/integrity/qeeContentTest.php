@@ -72,7 +72,7 @@ class qeeContentTest extends dataIntegrityTest
         $this->unit = ucfirst(get_class($this->qee));
         $this->path = settings::getInstance()->get('libraries/qee');
 
-        $this->verifyOnlyExpectedFilesPresent();
+        $this->verifyExpectedFilesPresent();
     }
 
     /**
@@ -95,7 +95,7 @@ class qeeContentTest extends dataIntegrityTest
         $limit = settings::getInstance()->get('limits/qee_demo_artists_subqty_max');
         $this->verifyQeeContainsArtistsInLimits($artistNames, $limit);
 
-        $this->verifyOnlyExpectedFilesPresent();
+        $this->verifyExpectedFilesPresent();
     }
 
     /**
@@ -118,7 +118,7 @@ class qeeContentTest extends dataIntegrityTest
         $limit = settings::getInstance()->get('limits/qee_progress_artists_subqty_max');
         $this->verifyQeeContainsArtistsInLimits($artistNames, $limit);
 
-        $this->verifyOnlyExpectedFilesPresent();
+        $this->verifyExpectedFilesPresent();
     }
 
     /**
@@ -141,7 +141,7 @@ class qeeContentTest extends dataIntegrityTest
         $limit = settings::getInstance()->get('limits/qee_waiting_artists_subqty_max');
         $this->verifyQeeContainsArtistsInLimits($artistNames, $limit);
 
-        $this->verifyOnlyExpectedFilesPresent();
+        $this->verifyExpectedFilesPresent();
 
         $limit = settings::getInstance()->get('limits/qee_artist_size_max');
         foreach ($artistNames as $artistName) {
@@ -183,7 +183,7 @@ class qeeContentTest extends dataIntegrityTest
                 $this->prepareSongsPaths($artist->getFreeSongs()),
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_index'))]
             );
-            $this->verifyOnlyExpectedFilesPresent($files);
+            $this->verifyExpectedFilesPresent($files);
         }
     }
 

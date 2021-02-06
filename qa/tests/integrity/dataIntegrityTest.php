@@ -204,22 +204,26 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param array $files
+     * @param array $expectedMandatoryFiles
+     * @param array $expectedPossibleFiles
      * @throws Exception
      */
-    protected function verifyOnlyExpectedFilesPresent(array $files = [])
+    protected function verifyExpectedFilesPresent(array $expectedMandatoryFiles = [], array $expectedPossibleFiles = [])
     {
         $actual = [];
         foreach (getDirFilesList($this->path) as $file) {
             $actual[] = bendSeparatorsRight($this->path . DS . $file);
         }
 
+        $diff = array_diff($actual, $expectedMandatoryFiles);
+
+        if (!empty($diff) && !empty($expectedPossibleFiles)) {
+            $diff = array_diff($diff, $expectedPossibleFiles);
+        }
+
         $err = err('Files list is unexpected in %s root folder.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-
-        ksort($files);
-        ksort($actual);
-        $this->assertSame($files, $actual, $err);
+        $this->assertEmpty($diff, $err);
     }
 
     /**

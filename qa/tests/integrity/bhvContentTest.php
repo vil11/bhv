@@ -66,7 +66,7 @@ class bhvContentTest extends dataIntegrityTest
             bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/bhv_catalog')),
             bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/bhv_icon')),
         ];
-        $this->verifyOnlyExpectedFilesPresent($files);
+        $this->verifyExpectedFilesPresent($files);
     }
 
     /**
@@ -122,11 +122,14 @@ class bhvContentTest extends dataIntegrityTest
 
         $this->verifyAlbumsNotAbsent($artist);
 
-        $files = array_merge(
+        $mandatoryFiles = array_merge(
             $this->prepareSongsPaths($artist->getFreeSongs()),
-            [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_index'))]
+            [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_index'))],
         );
-        $this->verifyOnlyExpectedFilesPresent($files);
+        $possibleFiles = [
+            bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_thumbnail')),
+        ];
+        $this->verifyExpectedFilesPresent($mandatoryFiles, $possibleFiles);
     }
 
 //    /**
@@ -167,7 +170,7 @@ class bhvContentTest extends dataIntegrityTest
                 $this->prepareSongsPaths($album->getSongs()),
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/album_thumbnail'))]
             );
-            $this->verifyOnlyExpectedFilesPresent($files);
+            $this->verifyExpectedFilesPresent($files);
             $this->verifyAlbumHasNoFolders($album);
 
             $this->verifyAlbumThumbnail();
