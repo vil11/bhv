@@ -223,7 +223,7 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
 
         $err = err('Files list is unexpected in %s root folder.', $this->unit);
         $err = prepareIssueCard($err, $this->path);
-        $this->assertEmpty($diff, $err);
+        $this->assertSame([], $diff, $err);
     }
 
     /**

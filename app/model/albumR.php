@@ -84,7 +84,7 @@ class albumR
             $type = $rec['live'];
         } elseif ($type === 'Саундтрек') {
             $type = $rec['ost'];
-        } elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей') {
+        } elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей' || $type === 'Микстейп') {
             $this->qc = false;
             $type = '';
         } else {
@@ -108,13 +108,18 @@ class albumR
         }
     }
 
+    /**
+     * @param int $s
+     * @return string
+     * @throws Exception
+     */
     private function prepareSongName(int $s): string
     {
         $songName = getTextByXpath($this->pageDom, sprintf(self::SONG_NAME_XP, $s));
         $songArtists = getTextsByXpath($this->pageDom, sprintf(self::SONG_ARTISTS_XP, $s));
 
         return sprintf(
-            "%02d%s%s.%s",
+            '%02d%s%s.%s',
             $s,
             settings::getInstance()->get('delimiters/song_position'),
             smartPrepareFileName($songName . $this->prepareFeat($songArtists)),
@@ -142,6 +147,11 @@ class albumR
             . $delim['tag_close'];
     }
 
+    /**
+     * @param int $s
+     * @return string
+     * @throws Exception
+     */
     private function prepareSongUrl(int $s): string
     {
         $songUrl = getAttributeByXpath($this->pageDom, sprintf(self::SONG_REF_XP, $s), self::SONG_REF_ATTR);
@@ -150,6 +160,11 @@ class albumR
         return $songUrl;
     }
 
+    /**
+     * @param int $s
+     * @return string
+     * @throws Exception
+     */
     private function prepareSongSize(int $s): string
     {
         $songSize = getTextByXpath($this->pageDom, sprintf(self::SONG_SIZE_XP, $s));
@@ -317,7 +332,7 @@ class albumR
 
     private function prepareRounded(float $value): array
     {
-        // rounding logic on teh R server side is unknown
+        // rounding logic on the R server side is unknown
         $rounded[] = round($value, 2);
         $rounded[] = $value;
 
