@@ -1,12 +1,13 @@
 
 ## IN PROGRESS
+- `T2` move HLPR lib from app to vendor
 - `T2` consider Unit class as a several standalone specific Traits
 - `T2` unifying the Song entity
 - `F2` as a BHV keeper, i want to manage freestanding Songs (without Artists) as well (ex: POLLEN)
     - `td` located on the same level as BHV
     - `qa` covered with "artistsAreNotDuplicated" test at least
 - `T3` stabilize Albums downloading
-- `T3` continuously upgrading of HLPR lib, annotate tested functions accordingly
+
 
 
 
@@ -35,7 +36,6 @@
         - explore for more similar cases
         - suggest solution in Assert err msg
             - `ex` in case of full "c=" repeat: "move tag to the Album name level to be extended accordingly
-- `T2` move HLPR lib from app to vendor
 
 ###### minor
 - `T3` describe all tests in its annotations

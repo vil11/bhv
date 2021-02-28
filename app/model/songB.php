@@ -3,12 +3,10 @@
 class songB extends song
 {
     // lazy
-    /** @var array */
-    protected $actualMetadata;
-    protected $actualThumbnail;
-    /** @var array */
-    protected $expectedMetadata;
-    protected $expectedThumbnail;
+    protected ?array $actualMetadata = null;
+    protected ?string $actualThumbnail = null;
+    protected array $expectedMetadata;
+    protected string $expectedThumbnail;
 
 
     /**
@@ -101,8 +99,6 @@ class songB extends song
             $apic = $tagObj->info['id3v2'];
             if (array_key_exists('APIC', $apic)) {
                 $this->actualThumbnail = $apic['APIC'][0]['data'];
-            } else {
-                throw new Exception(prepareIssueCard('UNKNOWN CASE'));
             }
         }
 
@@ -192,15 +188,14 @@ class songB extends song
     }
 
     /**
-     * @return bool
      * @throws Exception
      */
-    public function updateMetadata(): bool
+    public function updateMetadata()
     {
         // object declaration
         $tagObj = new getid3_writetags;
         $tagObj->filename = $this->getPath();
-        $tagObj->tagformats = array('id3v1', 'id3v2.3');
+        $tagObj->tagformats = ['id3v1', 'id3v2.3'];
         $tagObj->overwrite_tags = true;
         $encodingType = 'UTF-8';
         $tagObj->tag_encoding = $encodingType;
@@ -209,30 +204,26 @@ class songB extends song
         // tags preparing
         $tagData = $this->getExpectedMetadata();
         if ($this->albumData) {
-            $tagData['attached_picture'][] = array(
+            $tagData['attached_picture'][] = [
                 'picturetypeid' => 2,
                 'description' => 'cover',
                 'mime' => 'image/jpeg',
                 'data' => $this->getExpectedThumbnail()
-            );
+            ];
         }
 
         // writing
         $tagObj->tag_data = $tagData;
-        $result = $tagObj->WriteTags();
+        $tagObj->WriteTags();
         if ($errors = $tagObj->errors) {
             $err = 'Writing metadata failed.' . " Details: " . implode("; ", $errors);
             $err = prepareIssueCard($err, $this->getPath());
-            echo $err;
-
-            return $result;
+            throw new Exception($err);
         }
 
         // finalizing
         $id3 = new getID3();
         $id3->analyze($this->getPath());
         $id3->encoding = $encodingType;
-
-        return $result;
     }
 }

@@ -167,10 +167,9 @@ class bhv extends unit
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @return bool
      * @throws Exception
      */
-    public function updateMetadata(bool $autoRenamingIfSuccess): bool
+    public function updateMetadata(bool $autoRenamingIfSuccess)
     {
         foreach ($this->getNewArtistsListing() as $artistTitle) {
             if (!$this->isMarkedToBeUpdated($artistTitle)) {
@@ -179,10 +178,7 @@ class bhv extends unit
 
             $artist = new artistB($artistTitle);
             echo "\n\t" . substr($artist->getTitle(), 1);
-            if (!$artist->updateMetadata($autoRenamingIfSuccess)) {
-                return false;
-            }
+            $artist->updateMetadata($autoRenamingIfSuccess);
         }
-        return true;
     }
 }

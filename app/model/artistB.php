@@ -54,32 +54,23 @@ class artistB extends artist
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @return bool
      * @throws Exception
      */
-    public function updateMetadata(bool $autoRenamingIfSuccess): bool
+    public function updateMetadata(bool $autoRenamingIfSuccess)
     {
 //        $this->provideAccess();
 
         if ($this->ifAnyAlbumsTagged()) {
-            if (!$this->updateMetadataForTaggedAlbums($autoRenamingIfSuccess)) {
-                return false;
-            }
+            $this->updateMetadataForTaggedAlbums($autoRenamingIfSuccess);
         } else {
-            if (!$this->updateMetadataForSongs($this->getSongs())) {
-                return false;
-            }
+            $this->updateMetadataForSongs($this->getSongs());
         }
         echo 'updated!';
 
         if ($autoRenamingIfSuccess) {
-            if (!$this->renameUpdated()) {
-                return false;
-            }
+            $this->renameUpdated();
             echo ' renamed!';
         }
-
-        return true;
     }
 
     /**
@@ -101,47 +92,35 @@ class artistB extends artist
 
     /**
      * @param bool $autoRenamingIfSuccess
-     * @return bool
      * @throws Exception
      */
-    private function updateMetadataForTaggedAlbums(bool $autoRenamingIfSuccess): bool
+    private function updateMetadataForTaggedAlbums(bool $autoRenamingIfSuccess)
     {
         foreach ($this->albumsListing as $albumFolderName) {
             if (!$this->isMarkedToBeUpdated($albumFolderName)) continue;
 
             $album = new albumB($this->getPath(), $this->getTitle(), $albumFolderName);
-            if (!$this->updateMetadataForSongs($album->getSongs())) {
-                return false;
-            }
+            $this->updateMetadataForSongs($album->getSongs());
 
             if ($autoRenamingIfSuccess) {
-                if (!$album->renameUpdated()) {
-                    return false;
-                }
+                $album->renameUpdated();
             }
         }
-
-        return true;
     }
 
     /**
-     * @param songB[] $songs
-     * @return bool
+     * @param array $songs
      * @throws Exception
      */
-    private function updateMetadataForSongs(array $songs): bool
+    private function updateMetadataForSongs(array $songs)
     {
         if (empty($songs)) {
             throw new Exception(prepareIssueCard('Songs are absent. Seems to be a useless call.'));
         }
 
         foreach ($songs as $song) {
-            if (!$song->updateMetadata()) {
-                return false;
-            }
+            $song->updateMetadata();
             say('.', 'grey');
         }
-
-        return true;
     }
 }
