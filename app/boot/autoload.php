@@ -26,25 +26,25 @@ class autoloader
             }
         }
 
-        $types = ['integration' ,'integrity'];
-        foreach ($types as $type) {
-            $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
-            $path = PATH_QA . $fileRelativeName . '.php';
-            if (file_exists($path)) {
-                if (require_once $path) {
-                    $i++;
-                }
-            }
-        };
-
-
-        $fileRelativeName = str_replace('Laminas' . DS . 'Dom', 'laminas' . DS . 'laminas-dom' . DS . 'src', $className);
-        $path = PATH_VENDOR . $fileRelativeName . '.php';
-        if (file_exists($path)) {
-            if (require_once $path) {
-                $i++;
-            }
-        }
+//        $types = ['integration' ,'integrity'];
+//        foreach ($types as $type) {
+//            $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
+//            $path = PATH_QA . $fileRelativeName . '.php';
+//            if (file_exists($path)) {
+//                if (require_once $path) {
+//                    $i++;
+//                }
+//            }
+//        };
+//
+//
+//        $fileRelativeName = str_replace('Laminas' . DS . 'Dom', 'laminas' . DS . 'laminas-dom' . DS . 'src', $className);
+//        $path = PATH_VENDOR . $fileRelativeName . '.php';
+//        if (file_exists($path)) {
+//            if (require_once $path) {
+//                $i++;
+//            }
+//        }
 
 
 //        if ($i !== 1 && $className !== 'PHP_Invoker') {
