@@ -293,7 +293,8 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
             $height = exif_read_data($thumbPath)['COMPUTED']['Height'];
             $width = exif_read_data($thumbPath)['COMPUTED']['Width'];
         } catch (Exception $e) {
-            $err = err('%s Thumbnail is broken. Replace it.', $this->unit);
+            $err = '%s Thumbnail is broken or absent. Make sure extension is allowed or try to replace it.';
+            $err = err($err, $this->unit);
             $err = prepareIssueCard($err, $this->path);
             echo $err, "\n\n", $e->getMessage();
         }
