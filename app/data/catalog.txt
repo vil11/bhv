@@ -876,6 +876,15 @@ afterlife/cover.jpg
 afterlife/x.txt
 
 
+al'kov/2016 [ep] live at galernaya20/01. renaissance.mp3
+al'kov/2016 [ep] live at galernaya20/02. wood.mp3
+al'kov/2016 [ep] live at galernaya20/03. caravan.mp3
+al'kov/2016 [ep] live at galernaya20/04. impulsive.mp3
+al'kov/2016 [ep] live at galernaya20/cover.jpg
+al'kov/plague stripteaser.mp3
+al'kov/x.txt
+
+
 alice in chains/1990 [ep] we die young/01. killing yourself.mp3
 alice in chains/1990 [ep] we die young/cover.jpg
 
@@ -2532,6 +2541,66 @@ black light burns/2013 [studio] lotus island/cover.jpg
 black light burns/x.txt
 
 
+black rebel motorcycle club/2001 [studio] brmc/01. love burns.mp3
+black rebel motorcycle club/2001 [studio] brmc/02. red eyes & tears.mp3
+black rebel motorcycle club/2001 [studio] brmc/03. whatever happened to my rock 'n' roll.mp3
+black rebel motorcycle club/2001 [studio] brmc/04. as sure as the sun.mp3
+black rebel motorcycle club/2001 [studio] brmc/05. rifles.mp3
+black rebel motorcycle club/2001 [studio] brmc/06. spread your love.mp3
+black rebel motorcycle club/2001 [studio] brmc/07. head up high.mp3
+black rebel motorcycle club/2001 [studio] brmc/cover.jpg
+
+black rebel motorcycle club/2003 [studio] take them on, on your own/01. stop.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/02. 6 barrel shotgun.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/03. in like the rose.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/04. ha ha high babe.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/05. generation.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/06. u.s. government.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/07. suddenly.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/08. rise or fall.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/09. going under.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/10. heart & soul.mp3
+black rebel motorcycle club/2003 [studio] take them on, on your own/cover.jpg
+
+black rebel motorcycle club/2005 [studio] howl/01. shuffle your feet.mp3
+black rebel motorcycle club/2005 [studio] howl/02. fault line.mp3
+black rebel motorcycle club/2005 [studio] howl/03. promise.mp3
+black rebel motorcycle club/2005 [studio] howl/04. restless sinner.mp3
+black rebel motorcycle club/2005 [studio] howl/05. the line.mp3
+black rebel motorcycle club/2005 [studio] howl/cover.jpg
+
+black rebel motorcycle club/2007 [studio] baby 81/01. windows.mp3
+black rebel motorcycle club/2007 [studio] baby 81/02. 666 conducer.mp3
+black rebel motorcycle club/2007 [studio] baby 81/03. lien on your dreams.mp3
+black rebel motorcycle club/2007 [studio] baby 81/04. killing the light.mp3
+black rebel motorcycle club/2007 [studio] baby 81/05. american x.mp3
+black rebel motorcycle club/2007 [studio] baby 81/cover.jpg
+
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/01. beat the devil's tattoo.mp3
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/02. conscience killer.mp3
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/03. war machine.mp3
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/04. shadow's keeper.mp3
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/05. 1-51.mp3
+black rebel motorcycle club/2010 [studio] beat the devil's tattoo/cover.jpg
+
+black rebel motorcycle club/2013 [studio] specter at the feast/01. fire walker.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/02. hate the taste.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/03. teenage disease.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/04. some kind of ghost.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/05. funny games.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/06. sell it.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/07. lose yourself.mp3
+black rebel motorcycle club/2013 [studio] specter at the feast/cover.jpg
+
+black rebel motorcycle club/2018 [studio] wrong creatures/01. dff.mp3
+black rebel motorcycle club/2018 [studio] wrong creatures/02. haunt.mp3
+black rebel motorcycle club/2018 [studio] wrong creatures/03. 9th configuration.mp3
+black rebel motorcycle club/2018 [studio] wrong creatures/04. little tiing gone wild.mp3
+black rebel motorcycle club/2018 [studio] wrong creatures/05. carried from the start.mp3
+black rebel motorcycle club/2018 [studio] wrong creatures/cover.jpg
+black rebel motorcycle club/x.txt
+
+
 black sabbath/1970 [studio] black sabbath/01. black sabbath.mp3
 black sabbath/1970 [studio] black sabbath/02. the wizard.mp3
 black sabbath/1970 [studio] black sabbath/03. behind the wall of sleep.mp3
@@ -4143,6 +4212,14 @@ de-phazz/2018 [studio] black white mono/cover.jpg
 de-phazz/x.txt
 
 
+debbie deb/1995 [studio] she's back!/01. i wanna work it out.mp3
+debbie deb/1995 [studio] she's back!/cover.jpg
+
+debbie deb/1997 [studio] lookout weekend/01. lookout weekend [instrumental].mp3
+debbie deb/1997 [studio] lookout weekend/cover.jpg
+debbie deb/x.txt
+
+
 deeexpus/2008 [studio] half way home/01. greed.mp3
 deeexpus/2008 [studio] half way home/cover.jpg
 
@@ -4598,6 +4675,31 @@ desiderii marginis/2018 [studio] vita arkivet/cover.jpg
 desiderii marginis/x.txt
 
 
+dido/1999 [studio] no angel/01. isobel.mp3
+dido/1999 [studio] no angel/02. i'm no angel.mp3
+dido/1999 [studio] no angel/03. my life.mp3
+dido/1999 [studio] no angel/04. worthless.mp3
+dido/1999 [studio] no angel/cover.jpg
+
+dido/2008 [studio] safe trip home/01. don't believe in love.mp3
+dido/2008 [studio] safe trip home/02. northern skies.mp3
+dido/2008 [studio] safe trip home/03. for 1 day.mp3
+dido/2008 [studio] safe trip home/cover.jpg
+
+dido/2013 [studio] girl who got away/01. let us move on.mp3
+dido/2013 [studio] girl who got away/02. blackbird.mp3
+dido/2013 [studio] girl who got away/03. love to blame.mp3
+dido/2013 [studio] girl who got away/04. go dreaming.mp3
+dido/2013 [studio] girl who got away/05. all i see.mp3
+dido/2013 [studio] girl who got away/06. lost.mp3
+dido/2013 [studio] girl who got away/cover.jpg
+
+dido/2019 [studio] still on my mind/01. hell after this.mp3
+dido/2019 [studio] still on my mind/02. some kind of love.mp3
+dido/2019 [studio] still on my mind/cover.jpg
+dido/x.txt
+
+
 diezel dj power/2005 [studio] beauty & the beast/01. dj pwr.mp3
 diezel dj power/2005 [studio] beauty & the beast/02. endless road.mp3
 diezel dj power/2005 [studio] beauty & the beast/cover.jpg
@@ -4752,6 +4854,41 @@ dj yamato hahn/2009 [rmx] minutes to revolution projekt rmx [ft=linkin park]/01.
 dj yamato hahn/2009 [rmx] minutes to revolution projekt rmx [ft=linkin park]/02. 4times.mp3
 dj yamato hahn/2009 [rmx] minutes to revolution projekt rmx [ft=linkin park]/cover.jpg
 dj yamato hahn/x.txt
+
+
+dmx/1998 [studio] flesh of my flesh blood of my blood/01. my niggaz.mp3
+dmx/1998 [studio] flesh of my flesh blood of my blood/02. bring your whole crew [ft=p. killer trackz].mp3
+dmx/1998 [studio] flesh of my flesh blood of my blood/cover.jpg
+
+dmx/1998 [studio] it's dark & hell is hot/01. for my dogs [ft=big stan+loose+kasino & drag-on].mp3
+dmx/1998 [studio] it's dark & hell is hot/02. i can feel it [ft=nardo].mp3
+dmx/1998 [studio] it's dark & hell is hot/cover.jpg
+
+dmx/1999 [studio] & then there was x/01. fame.mp3
+dmx/1999 [studio] & then there was x/cover.jpg
+
+dmx/2001 [studio] the great depression/01. school street.mp3
+dmx/2001 [studio] the great depression/02. shorty was da bomb.mp3
+dmx/2001 [studio] the great depression/cover.jpg
+
+dmx/2003 [studio] grand champ/01. get it on the floor [ft=swizz beatz].mp3
+dmx/2003 [studio] grand champ/02. rob all night.mp3
+dmx/2003 [studio] grand champ/03. x gon' give it to ya.mp3
+dmx/2003 [studio] grand champ/cover.jpg
+
+dmx/2006 [studio] year of the dog. again/01. life be my song.mp3
+dmx/2006 [studio] year of the dog. again/cover.jpg
+
+dmx/2012 [studio] undisputed/01. cold world [ft=andreena mills].mp3
+dmx/2012 [studio] undisputed/02. fuck u bitch.mp3
+dmx/2012 [studio] undisputed/03. love that bitch [ft=jannyce].mp3
+dmx/2012 [studio] undisputed/cover.jpg
+
+dmx/2015 [studio] redemption of the beast/01. on & on.mp3
+dmx/2015 [studio] redemption of the beast/02. gonna get mine.mp3
+dmx/2015 [studio] redemption of the beast/03. love that bitch.mp3
+dmx/2015 [studio] redemption of the beast/cover.jpg
+dmx/x.txt
 
 
 dokken/1983 [studio] breaking the chains/01. felony.mp3
@@ -5043,6 +5180,23 @@ enigma/2008 [studio] seven lives many faces/cover.jpg
 enigma/x.txt
 
 
+epmd/1992 [studio] business never personal/01. who killed jane.mp3
+epmd/1992 [studio] business never personal/cover.jpg
+
+epmd/1997 [studio] back in business/01. dungeon master [ft=nocturnal].mp3
+epmd/1997 [studio] back in business/cover.jpg
+
+epmd/1999 [studio] out of business/01. rap is still outta control [ft=busta rhymes].mp3
+epmd/1999 [studio] out of business/02. u got shot [ft=8-off agallah+215].mp3
+epmd/1999 [studio] out of business/03. house party.mp3
+epmd/1999 [studio] out of business/cover.jpg
+
+epmd/2008 [studio] we mean business/01. puttin' in work [ft=raekwon].mp3
+epmd/2008 [studio] we mean business/02. never defeat 'em [ft=method man].mp3
+epmd/2008 [studio] we mean business/cover.jpg
+epmd/x.txt
+
+
 epsilon/1971 [studio] epsilon/01. two-2-2.mp3
 epsilon/1971 [studio] epsilon/02. 2-four-4.mp3
 epsilon/1971 [studio] epsilon/03. everyday's pain.mp3
@@ -5096,6 +5250,23 @@ eric b. & rakim/1992 [studio] don't sweat the technique/03. know the ledge.mp3
 eric b. & rakim/1992 [studio] don't sweat the technique/04. don't sweat the technique.mp3
 eric b. & rakim/1992 [studio] don't sweat the technique/cover.jpg
 eric b. & rakim/x.txt
+
+
+erick sermon/1993 [studio] no pressure/01. all in the mind.mp3
+erick sermon/1993 [studio] no pressure/cover.jpg
+
+erick sermon/2001 [studio] music/01. the sermon.mp3
+erick sermon/2001 [studio] music/cover.jpg
+
+erick sermon/2015 [studio] esp/01. 1 shot [ft=masspike miles].mp3
+erick sermon/2015 [studio] esp/02. angry [ft=voice].mp3
+erick sermon/2015 [studio] esp/03. culture [ft=fish grease].mp3
+erick sermon/2015 [studio] esp/cover.jpg
+
+erick sermon/2019 [studio] vernia/01. tha game [ft=az+styles p].mp3
+erick sermon/2019 [studio] vernia/02. vernia.mp3
+erick sermon/2019 [studio] vernia/cover.jpg
+erick sermon/x.txt
 
 
 esthetic education/2004 [studio] face reading/01. beautiful.mp3
@@ -7666,6 +7837,38 @@ linkin park/2014 [studio] the hunting party/cover.jpg
 linkin park/x.txt
 
 
+ll cool j/1989 [studio] walking with a panther/01. why do you think they call it dope.mp3
+ll cool j/1989 [studio] walking with a panther/02. going back to cali.mp3
+ll cool j/1989 [studio] walking with a panther/03. change your ways.mp3
+ll cool j/1989 [studio] walking with a panther/cover.jpg
+
+ll cool j/1990 [studio] mama said knock you out/01. eat 'em up l chill.mp3
+ll cool j/1990 [studio] mama said knock you out/cover.jpg
+
+ll cool j/1993 [studio] 14 shots to the dome/01. ain't no stoppin' this.mp3
+ll cool j/1993 [studio] 14 shots to the dome/02. diggy down.mp3
+ll cool j/1993 [studio] 14 shots to the dome/cover.jpg
+
+ll cool j/1995 [studio] mr. smith/01. i shot ya [ft=keith murray].mp3
+ll cool j/1995 [studio] mr. smith/cover.jpg
+
+ll cool j/2000 [studio] goat/01. the goat.mp3
+ll cool j/2000 [studio] goat/cover.jpg
+
+ll cool j/2002 [studio] 10/01. clockin' g's.mp3
+ll cool j/2002 [studio] 10/cover.jpg
+
+ll cool j/2008 [studio] exit 13/01. come & party with me [ft=fat joe & sheek louch].mp3
+ll cool j/2008 [studio] exit 13/02. dear hip hop.mp3
+ll cool j/2008 [studio] exit 13/cover.jpg
+
+ll cool j/2013 [studio] authentic/01. bath salt.mp3
+ll cool j/2013 [studio] authentic/02. whaddup.mp3
+ll cool j/2013 [studio] authentic/03. take it.mp3
+ll cool j/2013 [studio] authentic/cover.jpg
+ll cool j/x.txt
+
+
 loft/1993 [single] hold on/01. hold on [atmospheric rmx].mp3
 loft/1993 [single] hold on/cover.jpg
 
@@ -9714,6 +9917,29 @@ placebo/2013 [studio] loud like love/02. exit wounds.mp3
 placebo/2013 [studio] loud like love/03. begin the end.mp3
 placebo/2013 [studio] loud like love/cover.jpg
 placebo/x.txt
+
+
+pmd/1996 [studio] business is business/01. leave your style cramped.mp3
+pmd/1996 [studio] business is business/02. i'm a b-boy.mp3
+pmd/1996 [studio] business is business/cover.jpg
+
+pmd/2003 [studio] the awakening/01. intro.mp3
+pmd/2003 [studio] the awakening/02. p's still dangerous.mp3
+pmd/2003 [studio] the awakening/03. straight from da heart.mp3
+pmd/2003 [studio] the awakening/04. next chapter [ft=drayz from das efx+don fu-quan].mp3
+pmd/2003 [studio] the awakening/05. champions [ft=cypress hill].mp3
+pmd/2003 [studio] the awakening/06. look at u know.mp3
+pmd/2003 [studio] the awakening/07. back to work [ft=fat joe+k-solo].mp3
+pmd/2003 [studio] the awakening/08. l.i. to l.e.s. [ft=feever+rah+don fu-quan].mp3
+pmd/2003 [studio] the awakening/09. buckwild.mp3
+pmd/2003 [studio] the awakening/cover.jpg
+
+pmd/2017 [studio] busine$$ mentality/01. agallah prodigy tribute.mp3
+pmd/2017 [studio] busine$$ mentality/02. the real is gone [ft=erick sermon][c=b.b. king].mp3
+pmd/2017 [studio] busine$$ mentality/03. moment of truth [ft=ace brav+leek].mp3
+pmd/2017 [studio] busine$$ mentality/04. outro 2020.mp3
+pmd/2017 [studio] busine$$ mentality/cover.jpg
+pmd/x.txt
 
 
 portishead/1994 [single] numb/01. numbed in moscow.mp3
@@ -11776,6 +12002,14 @@ the black eyed peas/2010 [studio] the beginning/cover.jpg
 the black eyed peas/x.txt
 
 
+the box/1983 [studio] secrets out/01. out.mp3
+the box/1983 [studio] secrets out/cover.jpg
+
+the box/1984 [studio] great moments in big slam/01. stop.mp3
+the box/1984 [studio] great moments in big slam/cover.jpg
+the box/x.txt
+
+
 the chemical brothers/1995 [studio] exit planet dust/01. in dust we trust.mp3
 the chemical brothers/1995 [studio] exit planet dust/02. song to the siren.mp3
 the chemical brothers/1995 [studio] exit planet dust/03. three little birdies down beats.mp3
@@ -12590,7 +12824,6 @@ the sound defects/2003 [studio] volume 2/07. tater hater.mp3
 the sound defects/2003 [studio] volume 2/08. double down.mp3
 the sound defects/2003 [studio] volume 2/09. flavor saver.mp3
 the sound defects/2003 [studio] volume 2/10. acadiana.mp3
-the sound defects/2003 [studio] volume 2/11. tom collins.mp3
 the sound defects/2003 [studio] volume 2/12. focus.mp3
 the sound defects/2003 [studio] volume 2/cover.jpg
 
@@ -13261,6 +13494,66 @@ u96/1998 [single] energie/01. energie [video rmx].mp3
 u96/1998 [single] energie/02. energie [u2000 rmx].mp3
 u96/1998 [single] energie/cover.jpg
 u96/x.txt
+
+
+up, bustle & out/1994 [studio] the breeze was mellow/01. hearty do-lallies.mp3
+up, bustle & out/1994 [studio] the breeze was mellow/02. mr pavement man in urburbia.mp3
+up, bustle & out/1994 [studio] the breeze was mellow/03. coffee at seсor roody's.mp3
+up, bustle & out/1994 [studio] the breeze was mellow/cover.jpg
+
+up, bustle & out/1996 [ep] the dance of caravan summer/01. kickin' more ass than senoritas.mp3
+up, bustle & out/1996 [ep] the dance of caravan summer/02. aqua no ma!.mp3
+up, bustle & out/1996 [ep] the dance of caravan summer/cover.jpg
+
+up, bustle & out/1996 [rmx] the revolutionary woman/01. the revolutionary woman of the windmill [yam yam rmx].mp3
+up, bustle & out/1996 [rmx] the revolutionary woman/cover.jpg
+
+up, bustle & out/1996 [studio] 1 colour just reflects another/01. the revolutionary woman of the windmill.mp3
+up, bustle & out/1996 [studio] 1 colour just reflects another/02. running rude.mp3
+up, bustle & out/1996 [studio] 1 colour just reflects another/03. 3 drunk musicians at poncho cafe [p=2].mp3
+up, bustle & out/1996 [studio] 1 colour just reflects another/04. the hand of contraband.mp3
+up, bustle & out/1996 [studio] 1 colour just reflects another/cover.jpg
+
+up, bustle & out/1997 [ep] carbine 744,520 - a dream of land & freedom/01. guitar transmission rmx.mp3
+up, bustle & out/1997 [ep] carbine 744,520 - a dream of land & freedom/cover.jpg
+
+up, bustle & out/1997 [ep] emerald alley - compared to what/01. the amber prayer.mp3
+up, bustle & out/1997 [ep] emerald alley - compared to what/cover.jpg
+
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/01. emerald alley.mp3
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/02. apple strudle.mp3
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/03. compared to what.mp3
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/04. coca conga.mp3
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/05. party with the raj.mp3
+up, bustle & out/1997 [studio] light 'em up, blow 'em out/cover.jpg
+
+up, bustle & out/2000 [studio] master sessions [p=1]/01. havana's streets.mp3
+up, bustle & out/2000 [studio] master sessions [p=1]/cover.jpg
+
+up, bustle & out/2001 [studio] master sessions [p=2]/01. mariel port, spanish harlem.mp3
+up, bustle & out/2001 [studio] master sessions [p=2]/02. penalver, el hombre.mp3
+up, bustle & out/2001 [studio] master sessions [p=2]/cover.jpg
+
+up, bustle & out/2008 [studio] istanbul's secrets/01. ben seni.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/02. yol turkusu.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/03. hidjaz ask [intro].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/04. hidjaz ask.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/05. orthodox gold.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/06. istanbul's secrets.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/07. silence's brink.mp3
+up, bustle & out/2008 [studio] istanbul's secrets/08. river song [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/09. ben seni [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/10. giden gitti [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/11. yol turkusu [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/12. hidjaz ask [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/13. silence's brink [dub].mp3
+up, bustle & out/2008 [studio] istanbul's secrets/cover.jpg
+
+up, bustle & out/2010 [studio] soliloquy/01. scratchy aperture [dub].mp3
+up, bustle & out/2010 [studio] soliloquy/02. sokak cats [ft=sally's city cats].mp3
+up, bustle & out/2010 [studio] soliloquy/03. satie's atelier.mp3
+up, bustle & out/2010 [studio] soliloquy/cover.jpg
+up, bustle & out/x.txt
 
 
 vamp le stat/1993 [studio] bloodline/01. madame blue.mp3
@@ -13979,133 +14272,6 @@ zzebra/2001 [live] lost world/03. mr. j.mp3
 zzebra/2001 [live] lost world/04. hungry horse.mp3
 zzebra/2001 [live] lost world/cover.jpg
 zzebra/x.txt
-
-
-_black rebel motorcycle club/2001 [studio] brmc/01. love burns.mp3
-_black rebel motorcycle club/2001 [studio] brmc/02. red eyes & tears.mp3
-_black rebel motorcycle club/2001 [studio] brmc/03. whatever happened to my rock 'n' roll.mp3
-_black rebel motorcycle club/2001 [studio] brmc/04. as sure as the sun.mp3
-_black rebel motorcycle club/2001 [studio] brmc/05. rifles.mp3
-_black rebel motorcycle club/2001 [studio] brmc/06. spread your love.mp3
-_black rebel motorcycle club/2001 [studio] brmc/07. head up high.mp3
-_black rebel motorcycle club/2001 [studio] brmc/cover.jpg
-
-_black rebel motorcycle club/2003 [studio] take them on, on your own/01. stop.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/02. 6 barrel shotgun.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/03. in like the rose.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/04. ha ha high babe.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/05. generation.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/06. u.s. government.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/07. suddenly.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/08. rise or fall.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/09. going under.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/10. heart & soul.mp3
-_black rebel motorcycle club/2003 [studio] take them on, on your own/cover.jpg
-
-_black rebel motorcycle club/2005 [studio] howl/01. shuffle your feet.mp3
-_black rebel motorcycle club/2005 [studio] howl/02. fault line.mp3
-_black rebel motorcycle club/2005 [studio] howl/03. promise.mp3
-_black rebel motorcycle club/2005 [studio] howl/04. restless sinner.mp3
-_black rebel motorcycle club/2005 [studio] howl/05. the line.mp3
-_black rebel motorcycle club/2005 [studio] howl/cover.jpg
-
-_black rebel motorcycle club/2007 [studio] baby 81/01. windows.mp3
-_black rebel motorcycle club/2007 [studio] baby 81/02. 666 conducer.mp3
-_black rebel motorcycle club/2007 [studio] baby 81/03. lien on your dreams.mp3
-_black rebel motorcycle club/2007 [studio] baby 81/04. killing the light.mp3
-_black rebel motorcycle club/2007 [studio] baby 81/05. american x.mp3
-_black rebel motorcycle club/2007 [studio] baby 81/cover.jpg
-
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/01. beat the devil's tattoo.mp3
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/02. conscience killer.mp3
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/03. war machine.mp3
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/04. shadow's keeper.mp3
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/05. 1-51.mp3
-_black rebel motorcycle club/2010 [studio] beat the devil's tattoo/cover.jpg
-
-_black rebel motorcycle club/2013 [studio] specter at the feast/01. fire walker.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/02. hate the taste.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/03. teenage disease.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/04. some kind of ghost.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/05. funny games.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/06. sell it.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/07. lose yourself.mp3
-_black rebel motorcycle club/2013 [studio] specter at the feast/cover.jpg
-
-_black rebel motorcycle club/2018 [studio] wrong creatures/01. dff.mp3
-_black rebel motorcycle club/2018 [studio] wrong creatures/02. haunt.mp3
-_black rebel motorcycle club/2018 [studio] wrong creatures/03. 9th configuration.mp3
-_black rebel motorcycle club/2018 [studio] wrong creatures/04. little tiing gone wild.mp3
-_black rebel motorcycle club/2018 [studio] wrong creatures/05. carried from the start.mp3
-_black rebel motorcycle club/2018 [studio] wrong creatures/cover.jpg
-_black rebel motorcycle club/x.txt
-
-
-_dmx/1998 [studio] flesh of my flesh blood of my blood/01. my niggaz.mp3
-_dmx/1998 [studio] flesh of my flesh blood of my blood/02. bring your whole crew [ft=p. killer trackz].mp3
-_dmx/1998 [studio] flesh of my flesh blood of my blood/cover.jpg
-
-_dmx/1998 [studio] it's dark & hell is hot/01. for my dogs [ft=big stan+loose+kasino & drag-on].mp3
-_dmx/1998 [studio] it's dark & hell is hot/02. i can feel it [ft=nardo].mp3
-_dmx/1998 [studio] it's dark & hell is hot/cover.jpg
-
-_dmx/1999 [studio] & then there was x/01. fame.mp3
-_dmx/1999 [studio] & then there was x/cover.jpg
-
-_dmx/2001 [studio] the great depression/01. school street.mp3
-_dmx/2001 [studio] the great depression/02. shorty was da bomb.mp3
-_dmx/2001 [studio] the great depression/cover.jpg
-
-_dmx/2003 [studio] grand champ/01. get it on the floor [ft=swizz beatz].mp3
-_dmx/2003 [studio] grand champ/02. rob all night.mp3
-_dmx/2003 [studio] grand champ/03. x gon' give it to ya.mp3
-_dmx/2003 [studio] grand champ/cover.jpg
-
-_dmx/2006 [studio] year of the dog. again/01. life be my song.mp3
-_dmx/2006 [studio] year of the dog. again/cover.jpg
-
-_dmx/2012 [studio] undisputed/01. cold world [ft=andreena mills].mp3
-_dmx/2012 [studio] undisputed/02. fuck u bitch.mp3
-_dmx/2012 [studio] undisputed/03. love that bitch [ft=jannyce].mp3
-_dmx/2012 [studio] undisputed/cover.jpg
-
-_dmx/2015 [studio] redemption of the beast/01. on & on.mp3
-_dmx/2015 [studio] redemption of the beast/02. gonna get mine.mp3
-_dmx/2015 [studio] redemption of the beast/03. love that bitch.mp3
-_dmx/2015 [studio] redemption of the beast/cover.jpg
-_dmx/x.txt
-
-
-_ll cool j/1989 [studio] walking with a panther/01. why do you think they call it dope.mp3
-_ll cool j/1989 [studio] walking with a panther/02. going back to cali.mp3
-_ll cool j/1989 [studio] walking with a panther/03. change your ways.mp3
-_ll cool j/1989 [studio] walking with a panther/cover.jpg
-
-_ll cool j/1990 [studio] mama said knock you out/01. eat 'em up l chill.mp3
-_ll cool j/1990 [studio] mama said knock you out/cover.jpg
-
-_ll cool j/1993 [studio] 14 shots to the dome/01. ain't no stoppin' this.mp3
-_ll cool j/1993 [studio] 14 shots to the dome/02. diggy down.mp3
-_ll cool j/1993 [studio] 14 shots to the dome/cover.jpg
-
-_ll cool j/1995 [studio] mr. smith/01. i shot ya [ft=keith murray].mp3
-_ll cool j/1995 [studio] mr. smith/cover.jpg
-
-_ll cool j/2000 [studio] goat/01. the goat.mp3
-_ll cool j/2000 [studio] goat/cover.jpg
-
-_ll cool j/2002 [studio] 10/01. clockin' g's.mp3
-_ll cool j/2002 [studio] 10/cover.jpg
-
-_ll cool j/2008 [studio] exit 13/01. come & party with me [ft=fat joe & sheek louch].mp3
-_ll cool j/2008 [studio] exit 13/02. dear hip hop.mp3
-_ll cool j/2008 [studio] exit 13/cover.jpg
-
-_ll cool j/2013 [studio] authentic/01. bath salt.mp3
-_ll cool j/2013 [studio] authentic/02. whaddup.mp3
-_ll cool j/2013 [studio] authentic/03. take it.mp3
-_ll cool j/2013 [studio] authentic/cover.jpg
-_ll cool j/x.txt
 
 
 агата кристи/1988 [studio] второй фронт/01. ты уходишь.mp3
