@@ -1,6 +1,6 @@
 {
   "name": "vil11/bhv",
-  "version": "1.2.2",
+  "version": "1.3.1",
   "minimum-stability": "dev",
   "description": "Music library unifier.",
   "type": "project",
@@ -10,7 +10,8 @@
     "ext-iconv": "*",
     "ext-exif": "*",
     "ext-mbstring": "*",
-    "laminas/laminas-dom": "^2.7@dev"
+    "laminas/laminas-dom": "^2.7@dev",
+    "vil11/hlpr": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^6"
