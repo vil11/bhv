@@ -41,8 +41,8 @@ class features
     public function updateMetadata(bool $autoRenamingIfSuccess = false)
     {
         say("\n\nMetadata updating:");
-        $result = $this->bhv->updateMetadata($autoRenamingIfSuccess);
-        $this->finish($result);
+        $this->bhv->updateMetadata($autoRenamingIfSuccess);
+        $this->finish(true);
     }
 
     /**

@@ -172,10 +172,6 @@ class bhv extends unit
     public function updateMetadata(bool $autoRenamingIfSuccess)
     {
         foreach ($this->getNewArtistsListing() as $artistTitle) {
-            if (!$this->isMarkedToBeUpdated($artistTitle)) {
-                throw new Exception(prepareIssueCard('UNKNOWN CASE'));
-            }
-
             $artist = new artistB($artistTitle);
             echo "\n\t" . substr($artist->getTitle(), 1);
             $artist->updateMetadata($autoRenamingIfSuccess);

@@ -1,62 +1,59 @@
 <?php
 
 /**
- * Loads corresponding app model class if it is called validly.
- * Loads corresponding integrity test class if it is called validly.
- * Loads corresponding dom lib class if it is called validly.
+ * Loads corresponding App Model class if it is called validly.
+ * Loads corresponding Integrity Test class if it is called validly.
+ * Loads corresponding Dom Lib class if it is called validly.
  */
 class autoloader
 {
-    public $i;
-
     /**
      * @param string $className
-     * @throws Exception if invalid q-ty of classes are found
+     * @throws Exception
      */
     public static function autoload(string $className)
     {
-        $i = 0;
-
-
         $fileRelativeName = 'model' . DS . str_replace('_', DS, $className);
         $path = PATH_APP . $fileRelativeName . '.php';
-        if (file_exists($path)) {
-            if (require_once $path) {
-                $i++;
-            }
-        }
+        $result = self::require($path);
 
-        $types = ['integration' ,'integrity'];
-        foreach ($types as $type) {
-            $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
-            $path = PATH_QA . $fileRelativeName . '.php';
-            if (file_exists($path)) {
-                if (require_once $path) {
-                    $i++;
+        if (!$result) {
+            $types = ['integrity'];
+            foreach ($types as $type) {
+                $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
+                $path = PATH_QA . $fileRelativeName . '.php';
+                $result = self::require($path);
+                if ($result) {
+                    break;
                 }
-            }
-        };
+            };
+        }
 
-
-        $fileRelativeName = str_replace('Laminas' . DS . 'Dom', 'laminas' . DS . 'laminas-dom' . DS . 'src', $className);
-        $path = PATH_VENDOR . $fileRelativeName . '.php';
-        if (file_exists($path)) {
-            if (require_once $path) {
-                $i++;
-            }
+        if (!$result) {
+            $fileRelativeName = str_replace(
+                'Laminas' . DS . 'Dom',
+                'laminas' . DS . 'laminas-dom' . DS . 'src',
+                $className
+            );
+            $path = PATH_VENDOR . $fileRelativeName . '.php';
+            $result = self::require($path);
         }
 
 
-//        if ($i !== 1 && $className !== 'PHP_Invoker') {
-//            if ($i === 0) {
-//                $err = err('Class "%s" was not found.', $className);
-//                $err = prepareIssueCard($err, $path);
-//                throw new Exception($err);
-//            } else {
-//                $err = err('Class "%s" was found more than once.', $className);
-//                $err = prepareIssueCard($err, $path);
-//                throw new Exception($err);
-//            }
-//        }
+        if (!$result && $className !== 'PHP_Invoker') {
+            $err = err('Class "%s" was not found.', $className);
+            $err = prepareIssueCard($err, $path);
+            throw new Exception($err);
+        }
+    }
+
+    protected static function require(string $path)
+    {
+        if (file_exists($path)) {
+            require_once $path;
+            return true;
+        }
+
+        return false;
     }
 }
