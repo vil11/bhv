@@ -13,6 +13,11 @@ define('PATH_APP', dirname(realpath((__DIR__))) . DS);
 define('PATH_QA', dirname(PATH_APP) . DS . 'qa' . DS);
 define('PATH_VENDOR', dirname(PATH_APP) . DS . 'vendor' . DS);
 
+// vendor lib
+$id3VendorPath = PATH_VENDOR . 'james-heinrich' . DS . 'getid3' . DS . 'getid3' . DS;
+require_once $id3VendorPath . 'getid3.php';
+require_once $id3VendorPath . 'write.php';
+
 // upload app settings
 require_once(PATH_APP . 'config' . DS . 'settings.php');
 

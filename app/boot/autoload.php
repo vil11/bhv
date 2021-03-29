@@ -15,14 +15,22 @@ class autoloader
     {
         $fileRelativeName = 'model' . DS . str_replace('_', DS, $className);
         $path = PATH_APP . $fileRelativeName . '.php';
-        $result = self::require($path);
+//        $result = self::require($path);
+        if (file_exists($path)) {
+            require_once $path;
+            $result = true;
+        }
 
         if (!$result) {
             $types = ['integrity'];
             foreach ($types as $type) {
                 $fileRelativeName = 'tests' . DS . $type . DS . str_replace('_', DS, $className);
                 $path = PATH_QA . $fileRelativeName . '.php';
-                $result = self::require($path);
+//                $result = self::require($path);
+                if (file_exists($path)) {
+                    require_once $path;
+                    $result = true;
+                }
                 if ($result) {
                     break;
                 }
@@ -36,7 +44,11 @@ class autoloader
                 $className
             );
             $path = PATH_VENDOR . $fileRelativeName . '.php';
-            $result = self::require($path);
+//            $result = self::require($path);
+            if (file_exists($path)) {
+                require_once $path;
+                $result = true;
+            }
         }
 
 
@@ -45,15 +57,5 @@ class autoloader
             $err = prepareIssueCard($err, $path);
             throw new Exception($err);
         }
-    }
-
-    protected static function require(string $path)
-    {
-        if (file_exists($path)) {
-            require_once $path;
-            return true;
-        }
-
-        return false;
     }
 }
