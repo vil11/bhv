@@ -136,7 +136,7 @@ class songB extends song
         }
     }
 
-    private function setExpectedMetadata()
+    private function getExpectedMetadata()
     {
         $this->expectedMetadata['publisher'][] = settings::getInstance()->get('tags/publisher');
 
@@ -150,6 +150,8 @@ class songB extends song
         }
 
         ksort($this->expectedMetadata);
+
+        return $this->expectedMetadata;
     }
 
     /** @return string */
@@ -160,15 +162,8 @@ class songB extends song
             . $this->albumData['title'] . $this->prepareTagsString($this->albumData);
     }
 
-    /** @return array */
-    public function getExpectedMetadata(): array
-    {
-        if (!$this->expectedMetadata) $this->setExpectedMetadata();
-        return $this->expectedMetadata;
-    }
-
     /** @throws Exception */
-    private function setExpectedThumbnail()
+    private function getExpectedThumbnail()
     {
         $thumbnailPath = $this->albumData['path'] . DS . settings::getInstance()->get('paths/album_thumbnail');
         if (!isFileValid($thumbnailPath)) {
@@ -179,11 +174,7 @@ class songB extends song
         $fd = fopen($thumbnailPath, 'rb');
         $this->expectedThumbnail = fread($fd, filesize($thumbnailPath));
         fclose($fd);
-    }
 
-    public function getExpectedThumbnail()
-    {
-        if (!$this->expectedThumbnail) $this->setExpectedThumbnail();
         return $this->expectedThumbnail;
     }
 

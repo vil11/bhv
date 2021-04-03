@@ -13,6 +13,8 @@ class autoloader
      */
     public static function autoload(string $className)
     {
+        $result = null;
+
         $fileRelativeName = 'model' . DS . str_replace('_', DS, $className);
         $path = PATH_APP . $fileRelativeName . '.php';
 //        $result = self::require($path);
@@ -52,10 +54,10 @@ class autoloader
         }
 
 
-        if (!$result && $className !== 'PHP_Invoker') {
-            $err = err('Class "%s" was not found.', $className);
-            $err = prepareIssueCard($err, $path);
-            throw new Exception($err);
-        }
+//        if (!$result && $className !== 'PHP_Invoker') {
+//            $err = err('Class "%s" was not found.', $className);
+//            $err = prepareIssueCard($err, $path);
+//            throw new Exception($err);
+//        }
     }
 }

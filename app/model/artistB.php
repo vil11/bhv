@@ -58,7 +58,7 @@ class artistB extends artist
      */
     public function updateMetadata(bool $autoRenamingIfSuccess)
     {
-//        $this->provideAccess();
+        $this->provideAccess();
 
         if ($this->ifAnyAlbumsTagged()) {
             $this->updateMetadataForTaggedAlbums($autoRenamingIfSuccess);
@@ -118,9 +118,22 @@ class artistB extends artist
             throw new Exception(prepareIssueCard('Songs are absent. Seems to be a useless call.'));
         }
 
+        /** @var songB $song */
         foreach ($songs as $song) {
             $song->updateMetadata();
             say('.', 'grey');
+        }
+    }
+
+    /**
+     * @throws Exception
+     */
+    private function provideAccess()
+    {
+        $result = chmod($this->getPath(), 777);
+        if (!$result) {
+            $err = sprintf('Failed to provide access to %s', $this->getPath());
+            throw new Exception($err);
         }
     }
 }
