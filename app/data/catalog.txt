@@ -6739,6 +6739,22 @@ incubus/2017 [studio] 8/cover.jpg
 incubus/x.txt
 
 
+interphases/2006 [studio] psychomovie/01. the tenant.mp3
+interphases/2006 [studio] psychomovie/02. a change in the weather.mp3
+interphases/2006 [studio] psychomovie/03. family day.mp3
+interphases/2006 [studio] psychomovie/cover.jpg
+
+interphases/2011 [ep] inside/01. locked-in & keyless.mp3
+interphases/2011 [ep] inside/02. this yellow heart.mp3
+interphases/2011 [ep] inside/cover.jpg
+
+interphases/2019 [studio] dunkle materie/01. ionensturm.mp3
+interphases/2019 [studio] dunkle materie/02. kopernikus.mp3
+interphases/2019 [studio] dunkle materie/03. sky marshal.mp3
+interphases/2019 [studio] dunkle materie/cover.jpg
+interphases/x.txt
+
+
 iron maiden/1980 [studio] iron maiden/01. prowler.mp3
 iron maiden/1980 [studio] iron maiden/02. remember tomorrow.mp3
 iron maiden/1980 [studio] iron maiden/03. phantom of the opera.mp3
@@ -10879,6 +10895,12 @@ potemkine/1978 [studio] nicolas 2/cover.jpg
 potemkine/x.txt
 
 
+prodigy/2012 [studio] hnic [p=3]/01. life is what you make it.mp3
+prodigy/2012 [studio] hnic [p=3]/cover.jpg
+prodigy/cover.jpg
+prodigy/x.txt
+
+
 puddle of mudd/1994 [ep] stuck/01. harassed.mp3
 puddle of mudd/1994 [ep] stuck/02. poke out my eyes.mp3
 puddle of mudd/1994 [ep] stuck/03. suicide.mp3
@@ -13256,6 +13278,34 @@ the cinematic orchestra/2019 [studio] to believe/02. zero 1. this. fantasy.mp3
 the cinematic orchestra/2019 [studio] to believe/03. a promise.mp3
 the cinematic orchestra/2019 [studio] to believe/cover.jpg
 the cinematic orchestra/x.txt
+
+
+the cranberries/1993 [studio] everybody else is doing it, so why can't we/01. dreams.mp3
+the cranberries/1993 [studio] everybody else is doing it, so why can't we/02. pretty.mp3
+the cranberries/1993 [studio] everybody else is doing it, so why can't we/03. not sorry.mp3
+the cranberries/1993 [studio] everybody else is doing it, so why can't we/cover.jpg
+
+the cranberries/1994 [studio] no need to arque/01. zombie.mp3
+the cranberries/1994 [studio] no need to arque/02. ridiculous thoughts.mp3
+the cranberries/1994 [studio] no need to arque/cover.jpg
+
+the cranberries/1996 [studio] to the faithful departed/01. hollywood.mp3
+the cranberries/1996 [studio] to the faithful departed/02. i just shot john lennon.mp3
+the cranberries/1996 [studio] to the faithful departed/03. ave maria [ft=pavarotti].mp3
+the cranberries/1996 [studio] to the faithful departed/04. god be with you.mp3
+the cranberries/1996 [studio] to the faithful departed/cover.jpg
+
+the cranberries/2012 [studio] roses/01. show me.mp3
+the cranberries/2012 [studio] roses/02. astral projections.mp3
+the cranberries/2012 [studio] roses/cover.jpg
+
+the cranberries/2017 [studio] something else/01. zombie [acoustic].mp3
+the cranberries/2017 [studio] something else/02. why.mp3
+the cranberries/2017 [studio] something else/cover.jpg
+
+the cranberries/2019 [studio] in the end/01. wake me when it's over.mp3
+the cranberries/2019 [studio] in the end/cover.jpg
+the cranberries/x.txt
 
 
 the crystal method/1994 [single] now is the time/01. now is the time [cloud 9,5 rmx].mp3
