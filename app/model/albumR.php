@@ -9,35 +9,28 @@ class albumR
     protected $pageHtml;
     protected $pageDom;
 
-    /** @var bool */
-    protected $qc = true;
+    protected bool $qc = true;
 
-    /** @var string */
-    protected $artist;
-    const ARTIST_XP = '//*[@class="main-details"]//*[@itemprop="byArtist"]/..//a';
-    /** @var array */
-    protected $feat = [];
+    protected string $artist;
+    public const ARTIST_XP = '//*[@class="main-details"]//*[@itemprop="byArtist"]/..//a';
+    protected array $feat = [];
 
-    /** @var string */
-    protected $released;
-    const RELEASED_XP = '//*[@class="main-details"]//*[@itemprop="datePublished"]/../a';
+    protected string $released;
+    public const RELEASED_XP = '//*[@class="main-details"]//*[@itemprop="datePublished"]/../a';
 
-    /** @var string */
-    protected $type;
-    const TYPE_XP = '//*[@class="main-details"]//tr[contains(.,"Тип:")]/td[last()]';
+    protected string $type;
+    public const TYPE_XP = '//*[@class="main-details"]//tr[contains(.,"Тип:")]/td[last()]';
 
-    /** @var string */
-    protected $title;
-    const TITLE_XP = '//*[@class="breadcrumbs"]/span[@itemprop="title"]';
+    protected string $title;
+    public const TITLE_XP = '//*[@class="breadcrumbs"]/span[@itemprop="title"]';
 
-    /** @var array */
-    protected $songs = [];
-    const SONGS_XP = '//div[@itemscope="itemscope"]';
-    const SONG_ARTISTS_XP = self::SONGS_XP . '[%s]//div[@class="details"]/*[@class="strong"]';
-    const SONG_NAME_XP = self::SONGS_XP . '[%s]//p/a';
-    const SONG_REF_XP = self::SONGS_XP . '[%s]//div[@class="play"]/span';
-    const SONG_REF_ATTR = 'data-url';
-    const SONG_SIZE_XP = self::SONGS_XP . '[%s]//div[@class="details"]/div[@class="time"]';
+    protected array $songs = [];
+    public const SONGS_XP = '//div[@itemscope="itemscope"]';
+    public const SONG_ARTISTS_XP = self::SONGS_XP . '[%s]//div[@class="details"]/*[@class="strong"]';
+    public const SONG_NAME_XP = self::SONGS_XP . '[%s]//p/a';
+    public const SONG_REF_XP = self::SONGS_XP . '[%s]//div[@class="play"]/span';
+    public const SONG_REF_ATTR = 'data-url';
+    public const SONG_SIZE_XP = self::SONGS_XP . '[%s]//div[@class="details"]/div[@class="time"]';
 
 
     /**
@@ -174,37 +167,31 @@ class albumR
     }
 
 
-    /** @return string */
     public function getArtist(): string
     {
         return $this->artist;
     }
 
-    /** @return array */
     public function getFeat(): array
     {
         return $this->feat;
     }
 
-    /** @return string */
     public function getReleased(): string
     {
         return $this->released;
     }
 
-    /** @return string */
     public function getType(): string
     {
         return $this->type;
     }
 
-    /** @return string */
     public function getTitle(): string
     {
         return $this->title;
     }
 
-    /** @return array */
     public function getSongs(): array
     {
         return $this->songs;

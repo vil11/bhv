@@ -7,8 +7,7 @@ require_once 'app/boot/bootstrap.php';
  */
 class features
 {
-    /** @var bhv */
-    private $bhv;
+    private bhv $bhv;
 
 
     public function __construct()

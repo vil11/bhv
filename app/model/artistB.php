@@ -3,8 +3,7 @@
 class artistB extends artist
 {
     // lazy
-    /** @var array */
-    protected $songs;
+    protected array $songs;
 
 
     /**
@@ -24,9 +23,7 @@ class artistB extends artist
         parent::setPath();
     }
 
-    /**
-     * @throws Exception
-     */
+    /** @throws Exception */
     protected function setSongs()
     {
         if (!$this->albums) $this->setAlbums();
@@ -125,9 +122,7 @@ class artistB extends artist
         }
     }
 
-    /**
-     * @throws Exception
-     */
+    /** @throws Exception */
     private function provideAccess()
     {
         $result = chmod($this->getPath(), 777);

@@ -6,14 +6,11 @@ abstract class album extends unit implements albumInterface
     protected $_type = 'dir';
 
     // predefined
-    /** @var string */
-    protected $artistPath;
-    /** @var string */
-    protected $artistTitle;
+    protected string $artistPath;
+    protected string $artistTitle;
 
     // lazy
-    /** @var array */
-    protected $songs;
+    protected array $songs;
 
 
     /**
@@ -30,21 +27,17 @@ abstract class album extends unit implements albumInterface
     }
 
 
-    /** @return string */
     public function getArtistPath(): string
     {
         return $this->artistPath;
     }
 
-    /** @return string */
     public function getArtistTitle(): string
     {
         return $this->artistTitle;
     }
 
-    /**
-     * @throws Exception
-     */
+    /** @throws Exception */
     protected function setSongs()
     {
         /** @var songInterface $class */
@@ -68,19 +61,15 @@ abstract class album extends unit implements albumInterface
      * @return array
      * @throws Exception
      */
-    public
-    function getSongs(): array
+    public function getSongs(): array
     {
         if (!$this->songs) $this->setSongs();
         return $this->songs;
     }
 
 
-    /**
-     * @throws Exception
-     */
-    protected
-    function setData()
+    /** @throws Exception */
+    protected function setData()
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         $this->verifyFileName($this->title, "|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");

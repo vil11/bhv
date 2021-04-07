@@ -6,12 +6,9 @@ abstract class song extends unit implements songInterface
     protected $_type = 'file';
 
     // predefined
-    /** @var string */
-    protected $artistPath;
-    /** @var string */
-    protected $artistTitle;
-    /** @var ?array */
-    protected $albumData;
+    protected string $artistPath;
+    protected string $artistTitle;
+    protected ?array $albumData;
 
 
     /**
@@ -30,19 +27,16 @@ abstract class song extends unit implements songInterface
     }
 
 
-    /** @return string */
     public function getArtistPath(): string
     {
         return $this->artistPath;
     }
 
-    /** @return string */
     public function getArtistTitle(): string
     {
         return $this->artistTitle;
     }
 
-    /** @return array|null */
     public function getAlbumData(): ?array
     {
         return $this->albumData;

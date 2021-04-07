@@ -6,12 +6,9 @@ abstract class artist extends unit implements artistInterface
     protected $_type = 'dir';
 
     // lazy
-    /** @var array */
-    protected $albumsListing = [];
-    /** @var array */
-    protected $albums;
-    /** @var array|null */
-    protected $freeSongs;
+    protected array $albumsListing = [];
+    protected array $albums;
+    protected ?array $freeSongs;
 
 
     /** @throws Exception */

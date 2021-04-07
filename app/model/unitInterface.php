@@ -2,12 +2,7 @@
 
 interface unitInterface
 {
-    /** @return string */
-    public function getTitle();
-
-    /** @return string */
-    public function getPath();
-
-    /** @return array|null */
-    public function getData();
+    public function getTitle(): string;
+    public function getPath(): string;
+    public function getData(): ?array;
 }

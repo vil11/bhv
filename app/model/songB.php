@@ -121,11 +121,6 @@ class songB extends song
         return $this->actualThumbnail;
     }
 
-    /**
-     * @param array $tagsData
-     * @param string $readTag
-     * @param string|null $writeTag
-     */
     private function setMetadata(array $tagsData, string $readTag, ?string $writeTag = null)
     {
         if ($writeTag === null) $writeTag = $readTag;
@@ -136,7 +131,7 @@ class songB extends song
         }
     }
 
-    private function getExpectedMetadata()
+    public function getExpectedMetadata()
     {
         $this->expectedMetadata['publisher'][] = settings::getInstance()->get('tags/publisher');
 
@@ -154,7 +149,6 @@ class songB extends song
         return $this->expectedMetadata;
     }
 
-    /** @return string */
     private function prepareAlbumTitleTag(): string
     {
         $delimiters = settings::getInstance()->get('delimiters');
@@ -163,7 +157,7 @@ class songB extends song
     }
 
     /** @throws Exception */
-    private function getExpectedThumbnail()
+    public function getExpectedThumbnail()
     {
         $thumbnailPath = $this->albumData['path'] . DS . settings::getInstance()->get('paths/album_thumbnail');
         if (!isFileValid($thumbnailPath)) {
@@ -178,9 +172,7 @@ class songB extends song
         return $this->expectedThumbnail;
     }
 
-    /**
-     * @throws Exception
-     */
+    /** @throws Exception */
     public function updateMetadata()
     {
         // object declaration

@@ -6,12 +6,9 @@ class unit implements unitInterface
     protected $_type;
 
     // predefined
-    /** @var string */
-    protected $title;
-    /** @var string */
-    protected $path;
-    /** @var ?array */
-    protected $data;
+    protected string $title;
+    protected string $path;
+    protected ?array $data;
 
 
     /**
@@ -25,13 +22,11 @@ class unit implements unitInterface
     }
 
 
-    /** @param string $title */
     private function setTitle(string $title)
     {
         $this->title = $title;
     }
 
-    /** @return string */
     public function getTitle(): string
     {
         return $this->title;
@@ -48,23 +43,17 @@ class unit implements unitInterface
         $this->path = $path;
     }
 
-    /** @return string */
     public function getPath(): string
     {
         return $this->path;
     }
 
-    /** @return array|null */
     public function getData(): ?array
     {
         return $this->data;
     }
 
 
-    /**
-     * @param array $data
-     * @return string
-     */
     protected function prepareTagsString(array $data): string
     {
         if (!array_key_exists('tags', $data)) return '';
@@ -85,9 +74,6 @@ class unit implements unitInterface
         return $result;
     }
 
-    /**
-     * @param string $tagsSection
-     */
     protected function setTags(string $tagsSection)
     {
         $delimiters = settings::getInstance()->get('delimiters');
@@ -124,19 +110,11 @@ class unit implements unitInterface
         }
     }
 
-    /**
-     * @param string $string
-     * @return bool
-     */
     protected function isMarkedToBeUpdated(string $string): bool
     {
         return isMarkedWithPrefix($string, settings::getInstance()->get('tags/update_metadata'));
     }
 
-    /**
-     * @param string $string
-     * @return string
-     */
     protected function adjustName(string $string): string
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
@@ -153,6 +131,8 @@ class unit implements unitInterface
      */
     protected function renameUpdated(): bool
     {
+        $result = false;
+
         try {
             $result = chmod($this->getPath(), 0777);
         } catch (Exception $e) {

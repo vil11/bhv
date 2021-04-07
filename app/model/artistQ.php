@@ -3,8 +3,7 @@
 class artistQ extends artist
 {
     // predefined
-    /** @var string */
-    protected $qeeName;
+    protected string $qeeName;
 
 
     /**

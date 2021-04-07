@@ -6,16 +6,12 @@ class bhv extends unit
     protected $_type = 'dir';
 
     // predefined
-    /** @var array */
-    protected $artistsListing = [];
-    /** @var string */
-    protected $catalogPath;
+    protected array $artistsListing = [];
+    protected string $catalogPath;
 
     // lazy
-    /** @var array */
-    protected $newArtistsListing = [];
-    /** @var array */
-    protected $catalog;
+    protected array $newArtistsListing = [];
+    protected array $catalog;
 
 
     /**
@@ -43,7 +39,6 @@ class bhv extends unit
         $this->artistsListing = getDirDirsList($this->path);
     }
 
-    /** @return array */
     public function getArtistsListing(): array
     {
         return $this->artistsListing;
@@ -57,7 +52,6 @@ class bhv extends unit
         $this->catalogPath = $path;
     }
 
-    /** @return string */
     public function getCatalogPath(): string
     {
         return $this->catalogPath;
@@ -102,7 +96,6 @@ class bhv extends unit
         return $this->newArtistsListing;
     }
 
-    /** @return bool */
     private function copyCatalogUnderProject(): bool
     {
         $mt = microtime(true);

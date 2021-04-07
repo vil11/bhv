@@ -3,18 +3,13 @@
 class qee
 {
     // predefined
-    /** @var array */
-    protected $paths = [];
-    /** @var array */
-    protected $artistsListing = [];
+    protected array $paths = [];
+    protected array $artistsListing = [];
 
     // lazy
-    /** @var array */
-    protected $demoArtistsListing = [];
-    /** @var array */
-    protected $progressArtistsListing = [];
-    /** @var array */
-    protected $waitingArtistsListing = [];
+    protected array $demoArtistsListing = [];
+    protected array $progressArtistsListing = [];
+    protected array $waitingArtistsListing = [];
 
 
     /** @throws Exception */
@@ -48,7 +43,6 @@ class qee
         }
     }
 
-    /** @return array */
     public function getPaths(): array
     {
         return $this->paths;
@@ -62,9 +56,6 @@ class qee
         }
     }
 
-    /**
-     * @return array
-     */
     public function getArtistsListing(): array
     {
         return $this->artistsListing;
@@ -115,10 +106,6 @@ class qee
         return $this->waitingArtistsListing;
     }
 
-    /**
-     * @param string $prefix
-     * @return array
-     */
     private function prepareArtistsListing(string $prefix): array
     {
         $result = [];

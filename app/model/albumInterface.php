@@ -2,12 +2,7 @@
 
 interface albumInterface extends unitInterface
 {
-    /** @return string */
-    public function getArtistPath();
-
-    /** @return string */
-    public function getArtistTitle();
-
-    /** @return array */
-    public function getSongs();
+    public function getArtistPath(): string;
+    public function getArtistTitle(): string;
+    public function getSongs(): array;
 }
