@@ -11083,6 +11083,67 @@ out of focus/1974 [studio] not too late/cover.jpg
 out of focus/x.txt
 
 
+ozzy osbourne/1980 [studio] blizzard of ozz/01. goodbye to romance.mp3
+ozzy osbourne/1980 [studio] blizzard of ozz/02. suicide solution.mp3
+ozzy osbourne/1980 [studio] blizzard of ozz/03. mr. crowley.mp3
+ozzy osbourne/1980 [studio] blizzard of ozz/cover.jpg
+
+ozzy osbourne/1981 [studio] diary of a madman/01. over the mountain.mp3
+ozzy osbourne/1981 [studio] diary of a madman/02. believer.mp3
+ozzy osbourne/1981 [studio] diary of a madman/03. sato.mp3
+ozzy osbourne/1981 [studio] diary of a madman/cover.jpg
+
+ozzy osbourne/1983 [studio] bark at the moon/01. rock'n'roll rebel.mp3
+ozzy osbourne/1983 [studio] bark at the moon/02. now you see it.mp3
+ozzy osbourne/1983 [studio] bark at the moon/03. waiting for darkness.mp3
+ozzy osbourne/1983 [studio] bark at the moon/04. spiders.mp3
+ozzy osbourne/1983 [studio] bark at the moon/cover.jpg
+
+ozzy osbourne/1986 [studio] the ultimate sin/01. fool like you.mp3
+ozzy osbourne/1986 [studio] the ultimate sin/cover.jpg
+
+ozzy osbourne/1988 [studio] no rest for the wicked/01. miracle man.mp3
+ozzy osbourne/1988 [studio] no rest for the wicked/02. breaking all the rules.mp3
+ozzy osbourne/1988 [studio] no rest for the wicked/03. demon alcohol.mp3
+ozzy osbourne/1988 [studio] no rest for the wicked/cover.jpg
+
+ozzy osbourne/1991 [studio] no more tears/01. hellraiser.mp3
+ozzy osbourne/1991 [studio] no more tears/cover.jpg
+
+ozzy osbourne/1995 [studio] ozzmosis/01. perry mason.mp3
+ozzy osbourne/1995 [studio] ozzmosis/02. i just want you.mp3
+ozzy osbourne/1995 [studio] ozzmosis/cover.jpg
+
+ozzy osbourne/2001 [studio] down to earth/01. black illusion.mp3
+ozzy osbourne/2001 [studio] down to earth/02. can you hear them.mp3
+ozzy osbourne/2001 [studio] down to earth/cover.jpg
+
+ozzy osbourne/2005 [compil] under cover/01. sympathy for the devil [c=the rolling stones].mp3
+ozzy osbourne/2005 [compil] under cover/cover.jpg
+
+ozzy osbourne/2007 [studio] black rain/01. trap door.mp3
+ozzy osbourne/2007 [studio] black rain/02. i can't save you.mp3
+ozzy osbourne/2007 [studio] black rain/cover.jpg
+
+ozzy osbourne/2010 [studio] scream/01. soul sucker.mp3
+ozzy osbourne/2010 [studio] scream/02. diggin' me down.mp3
+ozzy osbourne/2010 [studio] scream/03. crucify.mp3
+ozzy osbourne/2010 [studio] scream/04. fearless.mp3
+ozzy osbourne/2010 [studio] scream/05. time.mp3
+ozzy osbourne/2010 [studio] scream/06. i love you all.mp3
+ozzy osbourne/2010 [studio] scream/07. hand of the enemy.mp3
+ozzy osbourne/2010 [studio] scream/cover.jpg
+
+ozzy osbourne/2020 [studio] ordinary man/01. straight to hell.mp3
+ozzy osbourne/2020 [studio] ordinary man/02. goodbye.mp3
+ozzy osbourne/2020 [studio] ordinary man/03. under the graveyard.mp3
+ozzy osbourne/2020 [studio] ordinary man/04. eat me.mp3
+ozzy osbourne/2020 [studio] ordinary man/05. today is the end.mp3
+ozzy osbourne/2020 [studio] ordinary man/06. scary little green man.mp3
+ozzy osbourne/2020 [studio] ordinary man/cover.jpg
+ozzy osbourne/x.txt
+
+
 pagoda/2007 [studio] pagoda/01. lesson learned.mp3
 pagoda/2007 [studio] pagoda/02. amego.mp3
 pagoda/2007 [studio] pagoda/03. fetus.mp3
