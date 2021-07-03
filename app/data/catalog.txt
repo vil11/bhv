@@ -3894,7 +3894,6 @@ circle of dust/2016 [studio] disengage/04. goodbye [1998].mp3
 circle of dust/2016 [studio] disengage/05. beneath the skin.mp3
 circle of dust/2016 [studio] disengage/06. dust 32.mp3
 circle of dust/2016 [studio] disengage/cover.jpg
-circle of dust/2016 [studio] disengage/Thumbs.db
 
 circle of dust/2016 [studio] machines of our disgrace/01. re-engage.mp3
 circle of dust/2016 [studio] machines of our disgrace/02. machines of our disgrace.mp3
@@ -4325,9 +4324,9 @@ david guetta/2011 [single] little bad girl [ft=taio cruz+ludacris]/01. little ba
 david guetta/2011 [single] little bad girl [ft=taio cruz+ludacris]/cover.jpg
 
 david guetta/2011 [studio] nothing but the beat/01. turn me on [ft=nicki minaj].mp3
-david guetta/2011 [studio] nothing but the beat/03. lunar [ft=afrojack].mp3
-david guetta/2011 [studio] nothing but the beat/04. toy story.mp3
-david guetta/2011 [studio] nothing but the beat/05. glasgow.mp3
+david guetta/2011 [studio] nothing but the beat/02. lunar [ft=afrojack].mp3
+david guetta/2011 [studio] nothing but the beat/03. toy story.mp3
+david guetta/2011 [studio] nothing but the beat/04. glasgow.mp3
 david guetta/2011 [studio] nothing but the beat/cover.jpg
 
 david guetta/2012 [rmx] fuck me i'm famous! - ibiza rmx 2012/01. metropolis [ft=nicky romero].mp3
@@ -4433,13 +4432,11 @@ de-phazz/2010 [studio] lala 2.0/01. when no words come.mp3
 de-phazz/2010 [studio] lala 2.0/02. slums of monte carlo.mp3
 de-phazz/2010 [studio] lala 2.0/03. cloudspotting.mp3
 de-phazz/2010 [studio] lala 2.0/04. walk with love.mp3
-de-phazz/2010 [studio] lala 2.0/cover.JPG
+de-phazz/2010 [studio] lala 2.0/cover.jpg
 
 de-phazz/2012 [studio] audio elastique/01. the story of it all.mp3
 de-phazz/2012 [studio] audio elastique/02. desir au maximum.mp3
-de-phazz/2012 [studio] audio elastique/AlbumArtSmall.jpg
 de-phazz/2012 [studio] audio elastique/cover.jpg
-de-phazz/2012 [studio] audio elastique/Folder.jpg
 
 de-phazz/2013 [studio] naive/01. faith.mp3
 de-phazz/2013 [studio] naive/02. time slips.mp3
@@ -9175,10 +9172,10 @@ marilyn manson/1994 [single] get your gunn/01. revelation #9.mp3
 marilyn manson/1994 [single] get your gunn/cover.jpg
 
 marilyn manson/1994 [studio] portrait of an american family/01. lunchbox.mp3
-marilyn manson/1994 [studio] portrait of an american family/03. dope hat.mp3
-marilyn manson/1994 [studio] portrait of an american family/04. wrapped in plastic.mp3
-marilyn manson/1994 [studio] portrait of an american family/05. dogma.mp3
-marilyn manson/1994 [studio] portrait of an american family/06. misery machine.mp3
+marilyn manson/1994 [studio] portrait of an american family/02. dope hat.mp3
+marilyn manson/1994 [studio] portrait of an american family/03. wrapped in plastic.mp3
+marilyn manson/1994 [studio] portrait of an american family/04. dogma.mp3
+marilyn manson/1994 [studio] portrait of an american family/05. misery machine.mp3
 marilyn manson/1994 [studio] portrait of an american family/cover.jpg
 
 marilyn manson/1995 [ep] smells like children/01. diary of a dope fiend [dope hat re-record].mp3
@@ -13440,7 +13437,7 @@ starlight brigade/2016 [studio] destination eternity/04. who will you turn to.mp
 starlight brigade/2016 [studio] destination eternity/05. fading star v2.0.mp3
 starlight brigade/2016 [studio] destination eternity/06. the final sign.mp3
 starlight brigade/2016 [studio] destination eternity/cover.jpg
-starlight brigade/x1.txt
+starlight brigade/x.txt
 
 
 static-x/1999 [studio] wisconsin death trip/01. stem.mp3
@@ -14838,7 +14835,7 @@ the sound defects/2003 [studio] volume 2/07. tater hater.mp3
 the sound defects/2003 [studio] volume 2/08. double down.mp3
 the sound defects/2003 [studio] volume 2/09. flavor saver.mp3
 the sound defects/2003 [studio] volume 2/10. acadiana.mp3
-the sound defects/2003 [studio] volume 2/12. focus.mp3
+the sound defects/2003 [studio] volume 2/11. focus.mp3
 the sound defects/2003 [studio] volume 2/cover.jpg
 
 the sound defects/2008 [studio] the iron horse/01. theme from the iron horse.mp3
