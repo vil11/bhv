@@ -294,7 +294,7 @@ $uicideboy$/x.txt
 2pac/2001 [studio] until the end of time/01. lil' homies.mp3
 2pac/2001 [studio] until the end of time/02. letter 2 my unborn [ft=anthem+tena jones].mp3
 2pac/2001 [studio] until the end of time/cover.jpg
-2pac/cover.jpeg
+2pac/cover.jpg
 2pac/x.txt
 
 
@@ -635,7 +635,7 @@ abel ganz/2008 [studio] shooting albatross/cover.jpg
 
 abel ganz/2014 [studio] abel ganz/01. heartland.mp3
 abel ganz/2014 [studio] abel ganz/cover.jpg
-abel ganz/cover.gif
+abel ganz/cover.jpg
 
 
 ac-dc/1975 [studio] high voltage/01. soul stripper.mp3
@@ -1690,7 +1690,7 @@ archive/2015 [studio] restriction/05. crushed.mp3
 archive/2015 [studio] restriction/06. black & blue.mp3
 archive/2015 [studio] restriction/07. ladders.mp3
 archive/2015 [studio] restriction/cover.jpg
-archive/cover.png
+archive/cover.jpg
 archive/x.txt
 
 
@@ -1752,7 +1752,7 @@ as i lay dying/2007 [studio] an ocean between us/cover.jpg
 
 as i lay dying/2012 [studio] awakened/01. a greater foundation.mp3
 as i lay dying/2012 [studio] awakened/cover.jpg
-as i lay dying/cover.png
+as i lay dying/cover.jpg
 as i lay dying/x.txt
 
 
@@ -1883,7 +1883,7 @@ atreyu/2009 [studio] congregation of the damned/cover.jpg
 
 atreyu/2010 [ep] covers of the damned/01. guitar gangsters & cadillac [c=volbeat].mp3
 atreyu/2010 [ep] covers of the damned/cover.jpg
-atreyu/cover.jpeg
+atreyu/cover.jpg
 atreyu/x.txt
 
 
@@ -1958,7 +1958,7 @@ b.g. the prince of rap/1994 [studio] the time is now/cover.jpg
 
 b.g. the prince of rap/1996 [studio] get the groove on/01. don't stop - keep movin'.mp3
 b.g. the prince of rap/1996 [studio] get the groove on/cover.jpg
-b.g. the prince of rap/cover.png
+b.g. the prince of rap/cover.jpg
 b.g. the prince of rap/x.txt
 
 
@@ -2106,7 +2106,7 @@ bauhaus/2008 [studio] go away white/05. mirror remains.mp3
 bauhaus/2008 [studio] go away white/06. the dog's a vapour.mp3
 bauhaus/2008 [studio] go away white/07. zikir.mp3
 bauhaus/2008 [studio] go away white/cover.jpg
-bauhaus/cover.jpeg
+bauhaus/cover.jpg
 bauhaus/x.txt
 
 
@@ -3109,6 +3109,61 @@ bomb the bass/2013 [studio] in the sun/cover.jpg
 bomb the bass/x.txt
 
 
+bon jovi/1984 [studio] bon jovi/01. runaway.mp3
+bon jovi/1984 [studio] bon jovi/02. roulette.mp3
+bon jovi/1984 [studio] bon jovi/03. breakout.mp3
+bon jovi/1984 [studio] bon jovi/04. burning for love.mp3
+bon jovi/1984 [studio] bon jovi/cover.jpg
+
+bon jovi/1985 [studio] 7800 fahrenheit/01. the price of love.mp3
+bon jovi/1985 [studio] 7800 fahrenheit/02. king of the mountain.mp3
+bon jovi/1985 [studio] 7800 fahrenheit/03. always run to you.mp3
+bon jovi/1985 [studio] 7800 fahrenheit/04. to the fire.mp3
+bon jovi/1985 [studio] 7800 fahrenheit/cover.jpg
+
+bon jovi/1986 [studio] slippery when wet/01. wanted dead or alive.mp3
+bon jovi/1986 [studio] slippery when wet/cover.jpg
+
+bon jovi/1988 [studio] new jersey/01. lay your hands on me.mp3
+bon jovi/1988 [studio] new jersey/02. homebound train.mp3
+bon jovi/1988 [studio] new jersey/03. i'll be there for you.mp3
+bon jovi/1988 [studio] new jersey/cover.jpg
+
+bon jovi/1992 [studio] keep the faith/01. keep the faith.mp3
+bon jovi/1992 [studio] keep the faith/02. if i was your mother.mp3
+bon jovi/1992 [studio] keep the faith/03. save a prayer.mp3
+bon jovi/1992 [studio] keep the faith/cover.jpg
+
+bon jovi/1995 [studio] these days/01. hey god.mp3
+bon jovi/1995 [studio] these days/02. my guitar lies bleeding in my arms.mp3
+bon jovi/1995 [studio] these days/03. something to believe in.mp3
+bon jovi/1995 [studio] these days/04. all i want is everything.mp3
+bon jovi/1995 [studio] these days/05. let's make it baby.mp3
+bon jovi/1995 [studio] these days/cover.jpg
+
+bon jovi/2000 [studio] crush/01. it's my life.mp3
+bon jovi/2000 [studio] crush/02. 2 story town.mp3
+bon jovi/2000 [studio] crush/cover.jpg
+
+bon jovi/2002 [studio] bounce/01. everyday.mp3
+bon jovi/2002 [studio] bounce/02. hook me up.mp3
+bon jovi/2002 [studio] bounce/03. standing.mp3
+bon jovi/2002 [studio] bounce/cover.jpg
+
+bon jovi/2005 [studio] have a nice day/01. last man standing.mp3
+bon jovi/2005 [studio] have a nice day/cover.jpg
+
+bon jovi/2007 [studio] lost highway/01. put the boy back in cowboy.mp3
+bon jovi/2007 [studio] lost highway/cover.jpg
+
+bon jovi/2009 [studio] the circle/01. bullet.mp3
+bon jovi/2009 [studio] the circle/cover.jpg
+
+bon jovi/2015 [studio] burning bridges/01. i'm your man.mp3
+bon jovi/2015 [studio] burning bridges/cover.jpg
+bon jovi/x.txt
+
+
 bondage fairies/2006 [studio] what you didn't know when you hired me/01. he-man.mp3
 bondage fairies/2006 [studio] what you didn't know when you hired me/02. disco fever.mp3
 bondage fairies/2006 [studio] what you didn't know when you hired me/03. appeltysken.mp3
@@ -3502,6 +3557,22 @@ cappella/1998 [studio] cappella/cover.jpg
 cappella/x.txt
 
 
+captain hollywood project/1993 [studio] love is not sex/01. impossible.mp3
+captain hollywood project/1993 [studio] love is not sex/02. only with you.mp3
+captain hollywood project/1993 [studio] love is not sex/03. only with you [paze 2 edit].mp3
+captain hollywood project/1993 [studio] love is not sex/cover.jpg
+
+captain hollywood project/1995 [studio] animals or human/01. lost in gravity.mp3
+captain hollywood project/1995 [studio] animals or human/cover.jpg
+
+captain hollywood project/2001 [single] danger sign/01. danger sign.mp3
+captain hollywood project/2001 [single] danger sign/cover.jpg
+
+captain hollywood project/2003 [single] axel f/01. axel f [radio rmx].mp3
+captain hollywood project/2003 [single] axel f/cover.jpg
+captain hollywood project/x.txt
+
+
 carach angren/2008 [studio] lammendam/01. phobic shadows & moonlit meadows.mp3
 carach angren/2008 [studio] lammendam/02. invisible physic entity.mp3
 carach angren/2008 [studio] lammendam/03. la malediction de la dame blanche.mp3
@@ -3547,6 +3618,71 @@ caravan palace/2015 [studio] robot face/03. midnight.mp3
 caravan palace/2015 [studio] robot face/04. lay down.mp3
 caravan palace/2015 [studio] robot face/cover.jpg
 caravan palace/x.txt
+
+
+cassandra wilson/1985 [studio] point of view/01. desperate move.mp3
+cassandra wilson/1985 [studio] point of view/cover.jpg
+
+cassandra wilson/1987 [studio] days aweigh/01. let's face the music.mp3
+cassandra wilson/1987 [studio] days aweigh/02. black & yellow.mp3
+cassandra wilson/1987 [studio] days aweigh/cover.jpg
+
+cassandra wilson/1988 [studio] blue skies/01. gee baby ain't i good to you.mp3
+cassandra wilson/1988 [studio] blue skies/02. my 1 & only love.mp3
+cassandra wilson/1988 [studio] blue skies/cover.jpg
+
+cassandra wilson/1990 [studio] jumpworld/01. domination switch.mp3
+cassandra wilson/1990 [studio] jumpworld/02. love phases dimensions.mp3
+cassandra wilson/1990 [studio] jumpworld/cover.jpg
+
+cassandra wilson/1991 [studio] she who weeps/01. she who weeps.mp3
+cassandra wilson/1991 [studio] she who weeps/02. new african blues.mp3
+cassandra wilson/1991 [studio] she who weeps/cover.jpg
+
+cassandra wilson/1992 [studio] after the beginning again/01. yazoo moon.mp3
+cassandra wilson/1992 [studio] after the beginning again/02. sweet black night.mp3
+cassandra wilson/1992 [studio] after the beginning again/cover.jpg
+
+cassandra wilson/1992 [studio] dance to the drums again/01. nothin' but a tang.mp3
+cassandra wilson/1992 [studio] dance to the drums again/cover.jpg
+
+cassandra wilson/1993 [studio] blue light 'til dawn/01. you don't know what love is.mp3
+cassandra wilson/1993 [studio] blue light 'til dawn/02. come on in my kitchen.mp3
+cassandra wilson/1993 [studio] blue light 'til dawn/03. hellhound on my trail.mp3
+cassandra wilson/1993 [studio] blue light 'til dawn/04. i can't stand the rain.mp3
+cassandra wilson/1993 [studio] blue light 'til dawn/cover.jpg
+
+cassandra wilson/1995 [studio] new moon daughter/01. death letter.mp3
+cassandra wilson/1995 [studio] new moon daughter/cover.jpg
+
+cassandra wilson/1999 [studio] traveling miles/01. run the voodoo down.mp3
+cassandra wilson/1999 [studio] traveling miles/02. voodoo reprise.mp3
+cassandra wilson/1999 [studio] traveling miles/cover.jpg
+
+cassandra wilson/2002 [studio] belly of the sun/01. you gotta move.mp3
+cassandra wilson/2002 [studio] belly of the sun/02. drunk as cooter brown.mp3
+cassandra wilson/2002 [studio] belly of the sun/03. show me a love.mp3
+cassandra wilson/2002 [studio] belly of the sun/cover.jpg
+
+cassandra wilson/2003 [studio] glamoured/01. honey bee.mp3
+cassandra wilson/2003 [studio] glamoured/cover.jpg
+
+cassandra wilson/2006 [studio] thunderbird/01. i want to be loved.mp3
+cassandra wilson/2006 [studio] thunderbird/cover.jpg
+
+cassandra wilson/2008 [studio] loverly/01. dust my broom.mp3
+cassandra wilson/2008 [studio] loverly/cover.jpg
+
+cassandra wilson/2010 [studio] silver pony/01. 40 days & 40 nights.mp3
+cassandra wilson/2010 [studio] silver pony/cover.jpg
+
+cassandra wilson/2012 [studio] another country [ft=fabrizio sotti]/01. red guitar.mp3
+cassandra wilson/2012 [studio] another country [ft=fabrizio sotti]/02. another country.mp3
+cassandra wilson/2012 [studio] another country [ft=fabrizio sotti]/cover.jpg
+
+cassandra wilson/2015 [studio] coming forth by day/01. billie's blues.mp3
+cassandra wilson/2015 [studio] coming forth by day/cover.jpg
+cassandra wilson/x.txt
 catalog.txt
 
 
@@ -5619,6 +5755,49 @@ fatboy slim/2004 [studio] palookaville/cover.jpg
 fatboy slim/x.txt
 
 
+fear factory/1992 [studio] soul of a wew machine/01. scapegoat.mp3
+fear factory/1992 [studio] soul of a wew machine/02. suffer age.mp3
+fear factory/1992 [studio] soul of a wew machine/cover.jpg
+
+fear factory/1995 [studio] demanufacture/01. concreto.mp3
+fear factory/1995 [studio] demanufacture/02. national panel beating.mp3
+fear factory/1995 [studio] demanufacture/03. bound for forgiveness.mp3
+fear factory/1995 [studio] demanufacture/cover.jpg
+
+fear factory/1998 [studio] obsolete/01. timelessness.mp3
+fear factory/1998 [studio] obsolete/02. cars.mp3
+fear factory/1998 [studio] obsolete/03. soulwound.mp3
+fear factory/1998 [studio] obsolete/cover.jpg
+
+fear factory/2001 [studio] digimortal/01. what will become.mp3
+fear factory/2001 [studio] digimortal/02. invisible wounds.mp3
+fear factory/2001 [studio] digimortal/03. never end.mp3
+fear factory/2001 [studio] digimortal/cover.jpg
+
+fear factory/2004 [studio] archetype/01. drones.mp3
+fear factory/2004 [studio] archetype/02. archetype.mp3
+fear factory/2004 [studio] archetype/03. bonescraper.mp3
+fear factory/2004 [studio] archetype/04. ascension.mp3
+fear factory/2004 [studio] archetype/05. school [c=nirvana].mp3
+fear factory/2004 [studio] archetype/cover.jpg
+
+fear factory/2005 [studio] transgression/01. contagion.mp3
+fear factory/2005 [studio] transgression/02. empty vision.mp3
+fear factory/2005 [studio] transgression/03. echo of my scream.mp3
+fear factory/2005 [studio] transgression/cover.jpg
+
+fear factory/2010 [studio] mechanize/01. designing the enemy.mp3
+fear factory/2010 [studio] mechanize/cover.jpg
+
+fear factory/2012 [studio] the industrialist/01. human augmentation.mp3
+fear factory/2012 [studio] the industrialist/02. landfill.mp3
+fear factory/2012 [studio] the industrialist/cover.jpg
+
+fear factory/2015 [studio] genexus/01. soul hacker.mp3
+fear factory/2015 [studio] genexus/cover.jpg
+fear factory/x.txt
+
+
 felix/1993 [studio] #1/01. fastslow.mp3
 felix/1993 [studio] #1/02. stars.mp3
 felix/1993 [studio] #1/03. it will make me crazy [mmmm rmx].mp3
@@ -6739,6 +6918,27 @@ incubus/2017 [studio] 8/cover.jpg
 incubus/x.txt
 
 
+instant funk/1976 [studio] get down with the philly jump/01. give me your love.mp3
+instant funk/1976 [studio] get down with the philly jump/cover.jpg
+
+instant funk/1979 [studio] instant funk/01. dark vader.mp3
+instant funk/1979 [studio] instant funk/02. i'll be doggone.mp3
+instant funk/1979 [studio] instant funk/cover.jpg
+
+instant funk/1979 [studio] witch doctor/01. witch doctor.mp3
+instant funk/1979 [studio] witch doctor/02. scream & shout.mp3
+instant funk/1979 [studio] witch doctor/03. bodyshine [12'' rmx].mp3
+instant funk/1979 [studio] witch doctor/cover.jpg
+
+instant funk/1980 [studio] the funk is on/01. everybody.mp3
+instant funk/1980 [studio] the funk is on/02. funk-n-roll.mp3
+instant funk/1980 [studio] the funk is on/cover.jpg
+
+instant funk/1983 [studio] kinky/01. don't call me brother.mp3
+instant funk/1983 [studio] kinky/cover.jpg
+instant funk/x.txt
+
+
 interphases/2006 [studio] psychomovie/01. the tenant.mp3
 interphases/2006 [studio] psychomovie/02. a change in the weather.mp3
 interphases/2006 [studio] psychomovie/03. family day.mp3
@@ -6753,6 +6953,60 @@ interphases/2019 [studio] dunkle materie/02. kopernikus.mp3
 interphases/2019 [studio] dunkle materie/03. sky marshal.mp3
 interphases/2019 [studio] dunkle materie/cover.jpg
 interphases/x.txt
+
+
+inxs/1982 [studio] shabooh shoobah/01. to look at you.mp3
+inxs/1982 [studio] shabooh shoobah/cover.jpg
+
+inxs/1984 [studio] the swing/01. johnson's aeroplane.mp3
+inxs/1984 [studio] the swing/cover.jpg
+
+inxs/1985 [studio] listen like thieves/01. good & bad times.mp3
+inxs/1985 [studio] listen like thieves/02. 3 sisters.mp3
+inxs/1985 [studio] listen like thieves/03. red red sun.mp3
+inxs/1985 [studio] listen like thieves/cover.jpg
+
+inxs/1987 [studio] kick/01. mystify.mp3
+inxs/1987 [studio] kick/02. need you tonight [mendelson extended rmx].mp3
+inxs/1987 [studio] kick/cover.jpg
+
+inxs/1990 [studio] x/01. suicide blonde.mp3
+inxs/1990 [studio] x/02. faith in each other.mp3
+inxs/1990 [studio] x/03. know the difference.mp3
+inxs/1990 [studio] x/04. on my way.mp3
+inxs/1990 [studio] x/05. waiting to be free.mp3
+inxs/1990 [studio] x/cover.jpg
+
+inxs/1992 [studio] welcome to wherever you are/01. questions.mp3
+inxs/1992 [studio] welcome to wherever you are/02. taste it.mp3
+inxs/1992 [studio] welcome to wherever you are/03. wishing well.mp3
+inxs/1992 [studio] welcome to wherever you are/04. strange desire.mp3
+inxs/1992 [studio] welcome to wherever you are/cover.jpg
+
+inxs/1993 [studio] full moon, dirty hearts/01. the gift.mp3
+inxs/1993 [studio] full moon, dirty hearts/02. make your peace.mp3
+inxs/1993 [studio] full moon, dirty hearts/cover.jpg
+
+inxs/1997 [studio] elegantly wasted/01. don't lose your head.mp3
+inxs/1997 [studio] elegantly wasted/02. searching.mp3
+inxs/1997 [studio] elegantly wasted/03. we are thrown together.mp3
+inxs/1997 [studio] elegantly wasted/04. shake the tree.mp3
+inxs/1997 [studio] elegantly wasted/05. she is rising.mp3
+inxs/1997 [studio] elegantly wasted/06. building bridges.mp3
+inxs/1997 [studio] elegantly wasted/07. shine.mp3
+inxs/1997 [studio] elegantly wasted/cover.jpg
+
+inxs/2005 [studio] switch/01. devil's party.mp3
+inxs/2005 [studio] switch/02. pretty nights.mp3
+inxs/2005 [studio] switch/03. hot girls.mp3
+inxs/2005 [studio] switch/04. remember who's your man.mp3
+inxs/2005 [studio] switch/05. hungry.mp3
+inxs/2005 [studio] switch/06. taste it [live].mp3
+inxs/2005 [studio] switch/cover.jpg
+
+inxs/2010 [studio] original sin/01. just keep walking [ft=dan sultan].mp3
+inxs/2010 [studio] original sin/cover.jpg
+inxs/x.txt
 
 
 iron maiden/1980 [studio] iron maiden/01. prowler.mp3
@@ -7045,6 +7299,100 @@ jet/2009 [studio] shaka rock/cover.jpg
 jet/x.txt
 
 
+jethro tull/1968 [studio] this was/01. my sunday feeling.mp3
+jethro tull/1968 [studio] this was/02. beggars' farm.mp3
+jethro tull/1968 [studio] this was/03. serenade to a cuckoo.mp3
+jethro tull/1968 [studio] this was/04. dharma for 1.mp3
+jethro tull/1968 [studio] this was/05. round.mp3
+jethro tull/1968 [studio] this was/06. a song for jeffrey.mp3
+jethro tull/1968 [studio] this was/07. stormy monday.mp3
+jethro tull/1968 [studio] this was/08. 1 for john gee.mp3
+jethro tull/1968 [studio] this was/cover.jpg
+
+jethro tull/1969 [studio] stand up/01. a new day yesterday.mp3
+jethro tull/1969 [studio] stand up/02. bouree.mp3
+jethro tull/1969 [studio] stand up/03. back to the family.mp3
+jethro tull/1969 [studio] stand up/04. nothing is easy.mp3
+jethro tull/1969 [studio] stand up/05. driving song.mp3
+jethro tull/1969 [studio] stand up/06. dharma for 1.mp3
+jethro tull/1969 [studio] stand up/cover.jpg
+
+jethro tull/1970 [studio] benefit/01. teacher.mp3
+jethro tull/1970 [studio] benefit/cover.jpg
+
+jethro tull/1971 [studio] aqualung/01. aqualung.mp3
+jethro tull/1971 [studio] aqualung/02. up to me.mp3
+jethro tull/1971 [studio] aqualung/03. hymn 43.mp3
+jethro tull/1971 [studio] aqualung/04. locomotive breath.mp3
+jethro tull/1971 [studio] aqualung/cover.jpg
+
+jethro tull/1972 [studio] thick as a brick/01. thick as a brick [p=1].mp3
+jethro tull/1972 [studio] thick as a brick/cover.jpg
+
+jethro tull/1974 [studio] war child/01. back-door angels.mp3
+jethro tull/1974 [studio] war child/02. paradise steakhouse.mp3
+jethro tull/1974 [studio] war child/03. saturation.mp3
+jethro tull/1974 [studio] war child/cover.jpg
+
+jethro tull/1975 [studio] minstrel in the gallery/01. cold wind to valhalla.mp3
+jethro tull/1975 [studio] minstrel in the gallery/02. baker st. muse.mp3
+jethro tull/1975 [studio] minstrel in the gallery/cover.jpg
+
+jethro tull/1976 [studio] too old to rock n roll - too young to die/01. bad-eyed & loveless.mp3
+jethro tull/1976 [studio] too old to rock n roll - too young to die/cover.jpg
+
+jethro tull/1978 [studio] heavy horses/01. journeyman.mp3
+jethro tull/1978 [studio] heavy horses/cover.jpg
+
+jethro tull/1979 [studio] stormwatch/01. home.mp3
+jethro tull/1979 [studio] stormwatch/02. something's on the move.mp3
+jethro tull/1979 [studio] stormwatch/03. elegy.mp3
+jethro tull/1979 [studio] stormwatch/04. crossword.mp3
+jethro tull/1979 [studio] stormwatch/cover.jpg
+
+jethro tull/1980 [studio] a/01. uniform.mp3
+jethro tull/1980 [studio] a/02. 4wd.mp3
+jethro tull/1980 [studio] a/cover.jpg
+
+jethro tull/1982 [studio] the broadsword & the beast/01. jack a lynn.mp3
+jethro tull/1982 [studio] the broadsword & the beast/02. overhang.mp3
+jethro tull/1982 [studio] the broadsword & the beast/cover.jpg
+
+jethro tull/1987 [studio] crest of a knave/01. jump start.mp3
+jethro tull/1987 [studio] crest of a knave/02. said she was a dancer.mp3
+jethro tull/1987 [studio] crest of a knave/03. budapest.mp3
+jethro tull/1987 [studio] crest of a knave/04. raising steam.mp3
+jethro tull/1987 [studio] crest of a knave/05. part of the machine.mp3
+jethro tull/1987 [studio] crest of a knave/cover.jpg
+
+jethro tull/1989 [studio] rock island/01. rock island.mp3
+jethro tull/1989 [studio] rock island/02. the whaler's dues.mp3
+jethro tull/1989 [studio] rock island/03. big riff & mando.mp3
+jethro tull/1989 [studio] rock island/04. strange avenues.mp3
+jethro tull/1989 [studio] rock island/05. locomotive breath.mp3
+jethro tull/1989 [studio] rock island/cover.jpg
+
+jethro tull/1991 [studio] catfish rising/01. roll yer own.mp3
+jethro tull/1991 [studio] catfish rising/02. rocks on the road.mp3
+jethro tull/1991 [studio] catfish rising/03. sparrow on the schoolyard wall.mp3
+jethro tull/1991 [studio] catfish rising/04. when jesus came to play.mp3
+jethro tull/1991 [studio] catfish rising/05. night in the wilderness.mp3
+jethro tull/1991 [studio] catfish rising/cover.jpg
+
+jethro tull/1995 [studio] roots to branches/01. rare & precious chain.mp3
+jethro tull/1995 [studio] roots to branches/02. dangerous veils.mp3
+jethro tull/1995 [studio] roots to branches/03. wounded, old & treacherous.mp3
+jethro tull/1995 [studio] roots to branches/cover.jpg
+
+jethro tull/1999 [studio] j-tull dot com/01. awol.mp3
+jethro tull/1999 [studio] j-tull dot com/02. hunt by numbers.mp3
+jethro tull/1999 [studio] j-tull dot com/cover.jpg
+
+jethro tull/2003 [studio] the jethro tull christmas album/01. a christmas song.mp3
+jethro tull/2003 [studio] the jethro tull christmas album/cover.jpg
+jethro tull/x.txt
+
+
 joe satriani/1984 [ep] joe satriani/01. dreaming #11.mp3
 joe satriani/1984 [ep] joe satriani/cover.jpg
 
@@ -7294,6 +7642,112 @@ joy division/2011 [compil] total from joy division to new order/02. crystal.mp3
 joy division/2011 [compil] total from joy division to new order/03. hellbent.mp3
 joy division/2011 [compil] total from joy division to new order/cover.jpg
 joy division/x.txt
+
+
+judas priest/1974 [studio] rocka rolla/01. 1 for the road.mp3
+judas priest/1974 [studio] rocka rolla/02. cheater.mp3
+judas priest/1974 [studio] rocka rolla/03. never satisfied.mp3
+judas priest/1974 [studio] rocka rolla/04. run of the mill.mp3
+judas priest/1974 [studio] rocka rolla/05. dying to meet you.mp3
+judas priest/1974 [studio] rocka rolla/06. caviar & meths.mp3
+judas priest/1974 [studio] rocka rolla/cover.jpg
+
+judas priest/1976 [studio] sad wings of destiny/01. victim of changes.mp3
+judas priest/1976 [studio] sad wings of destiny/02. dreamer.mp3
+judas priest/1976 [studio] sad wings of destiny/03. island of domination.mp3
+judas priest/1976 [studio] sad wings of destiny/cover.jpg
+
+judas priest/1977 [studio] sin after sin/01. last rose of summer.mp3
+judas priest/1977 [studio] sin after sin/02. call for the priest - raw deal.mp3
+judas priest/1977 [studio] sin after sin/03. here come the tears.mp3
+judas priest/1977 [studio] sin after sin/04. dissident aggressor.mp3
+judas priest/1977 [studio] sin after sin/cover.jpg
+
+judas priest/1978 [studio] killing machine/01. killing machine.mp3
+judas priest/1978 [studio] killing machine/02. evil fantasies.mp3
+judas priest/1978 [studio] killing machine/cover.jpg
+
+judas priest/1978 [studio] stained class/01. white heat, red hot.mp3
+judas priest/1978 [studio] stained class/02. saints in hell.mp3
+judas priest/1978 [studio] stained class/03. beyond the realms of death.mp3
+judas priest/1978 [studio] stained class/cover.jpg
+
+judas priest/1980 [studio] british steel/01. the rage.mp3
+judas priest/1980 [studio] british steel/cover.jpg
+
+judas priest/1981 [studio] point of entry/01. don't go.mp3
+judas priest/1981 [studio] point of entry/02. turning circles.mp3
+judas priest/1981 [studio] point of entry/03. you say yes.mp3
+judas priest/1981 [studio] point of entry/04. all the way.mp3
+judas priest/1981 [studio] point of entry/cover.jpg
+
+judas priest/1982 [studio] screaming for vengeance/01. electric eye.mp3
+judas priest/1982 [studio] screaming for vengeance/02. riding on the wind.mp3
+judas priest/1982 [studio] screaming for vengeance/03. fever.mp3
+judas priest/1982 [studio] screaming for vengeance/cover.jpg
+
+judas priest/1984 [studio] defenders of the faith/01. love bites.mp3
+judas priest/1984 [studio] defenders of the faith/cover.jpg
+
+judas priest/1986 [studio] turbo/01. out in the cold.mp3
+judas priest/1986 [studio] turbo/cover.jpg
+
+judas priest/1988 [studio] ram it down/01. monsters of rock.mp3
+judas priest/1988 [studio] ram it down/cover.jpg
+
+judas priest/1990 [studio] painkiller/01. hell patrol.mp3
+judas priest/1990 [studio] painkiller/cover.jpg
+
+judas priest/1997 [studio] jugulator/01. blood stained.mp3
+judas priest/1997 [studio] jugulator/02. abductors.mp3
+judas priest/1997 [studio] jugulator/03. cathedral spires.mp3
+judas priest/1997 [studio] jugulator/cover.jpg
+
+judas priest/2001 [studio] demolition/01. hell is home.mp3
+judas priest/2001 [studio] demolition/02. close to you.mp3
+judas priest/2001 [studio] demolition/03. devil digger.mp3
+judas priest/2001 [studio] demolition/04. feed on me.mp3
+judas priest/2001 [studio] demolition/05. cyberface.mp3
+judas priest/2001 [studio] demolition/06. metal messiah.mp3
+judas priest/2001 [studio] demolition/07. what's my name.mp3
+judas priest/2001 [studio] demolition/cover.jpg
+
+judas priest/2005 [studio] angel of retribution/01. deal with the devil.mp3
+judas priest/2005 [studio] angel of retribution/02. revolution.mp3
+judas priest/2005 [studio] angel of retribution/03. demonizer.mp3
+judas priest/2005 [studio] angel of retribution/04. wheels of fire.mp3
+judas priest/2005 [studio] angel of retribution/05. angel.mp3
+judas priest/2005 [studio] angel of retribution/06. eulogy.mp3
+judas priest/2005 [studio] angel of retribution/07. lochness.mp3
+judas priest/2005 [studio] angel of retribution/cover.jpg
+
+judas priest/2008 [studio] nostradamus/01. dawn of creation.mp3
+judas priest/2008 [studio] nostradamus/02. war.mp3
+judas priest/2008 [studio] nostradamus/03. sands of time.mp3
+judas priest/2008 [studio] nostradamus/04. death.mp3
+judas priest/2008 [studio] nostradamus/05. conquest.mp3
+judas priest/2008 [studio] nostradamus/06. persecution.mp3
+judas priest/2008 [studio] nostradamus/07. solitude.mp3
+judas priest/2008 [studio] nostradamus/08. exiled.mp3
+judas priest/2008 [studio] nostradamus/09. alone.mp3
+judas priest/2008 [studio] nostradamus/10. shadows in the flame.mp3
+judas priest/2008 [studio] nostradamus/11. future of mankind.mp3
+judas priest/2008 [studio] nostradamus/cover.jpg
+
+judas priest/2014 [studio] redeemer of souls/01. march of the damned.mp3
+judas priest/2014 [studio] redeemer of souls/02. down in flames.mp3
+judas priest/2014 [studio] redeemer of souls/03. secrets of the dead.mp3
+judas priest/2014 [studio] redeemer of souls/04. beginning of the end.mp3
+judas priest/2014 [studio] redeemer of souls/05. tears of blood.mp3
+judas priest/2014 [studio] redeemer of souls/06. bring it on.mp3
+judas priest/2014 [studio] redeemer of souls/cover.jpg
+
+judas priest/2018 [studio] firepower/01. evil never dies.mp3
+judas priest/2018 [studio] firepower/02. never the heroes.mp3
+judas priest/2018 [studio] firepower/03. necromancer.mp3
+judas priest/2018 [studio] firepower/04. lone wolf.mp3
+judas priest/2018 [studio] firepower/cover.jpg
+judas priest/x.txt
 
 
 jukin' bone/1972 [studio] way down east/01. cara lynn.mp3
@@ -8234,6 +8688,18 @@ led zeppelin/2007 [live] celebration day/cover.jpg
 led zeppelin/x.txt
 
 
+legenda aurea/2008 [studio] sedna/01. it's over.mp3
+legenda aurea/2008 [studio] sedna/02. instrumental.mp3
+legenda aurea/2008 [studio] sedna/cover.jpg
+
+legenda aurea/2009 [studio] ellipsis/01. the root.mp3
+legenda aurea/2009 [studio] ellipsis/02. purgatory.mp3
+legenda aurea/2009 [studio] ellipsis/03. resurrection.mp3
+legenda aurea/2009 [studio] ellipsis/cover.jpg
+legenda aurea/cover.jpg
+legenda aurea/x.txt
+
+
 lenny kravitz/1989 [studio] let love rule/01. let love rule.mp3
 lenny kravitz/1989 [studio] let love rule/02. be.mp3
 lenny kravitz/1989 [studio] let love rule/03. blues for sister someone.mp3
@@ -8524,6 +8990,44 @@ loonypark/2019 [studio] deep space 8/02. time lines.mp3
 loonypark/2019 [studio] deep space 8/03. are we alone.mp3
 loonypark/2019 [studio] deep space 8/cover.jpg
 loonypark/x.txt
+
+
+lost years/2012 [studio] black waves/01. breeze.mp3
+lost years/2012 [studio] black waves/02. west side lane.mp3
+lost years/2012 [studio] black waves/03. cold.mp3
+lost years/2012 [studio] black waves/04. electro clash.mp3
+lost years/2012 [studio] black waves/05. snap.mp3
+lost years/2012 [studio] black waves/06. phoenix rising.mp3
+lost years/2012 [studio] black waves/07. beneath the surface.mp3
+lost years/2012 [studio] black waves/08. exit music.mp3
+lost years/2012 [studio] black waves/cover.jpg
+
+lost years/2013 [studio] amplifier/01. amplifier.mp3
+lost years/2013 [studio] amplifier/02. converter.mp3
+lost years/2013 [studio] amplifier/03. park avenue 1989.mp3
+lost years/2013 [studio] amplifier/04. controlled faith.mp3
+lost years/2013 [studio] amplifier/05. the other side of you.mp3
+lost years/2013 [studio] amplifier/06. breacher.mp3
+lost years/2013 [studio] amplifier/07. red horizon.mp3
+lost years/2013 [studio] amplifier/08. i simply am not there.mp3
+lost years/2013 [studio] amplifier/cover.jpg
+
+lost years/2016 [studio] venom/01. cross the line.mp3
+lost years/2016 [studio] venom/02. skies of blood.mp3
+lost years/2016 [studio] venom/03. snakebite.mp3
+lost years/2016 [studio] venom/04. the connection.mp3
+lost years/2016 [studio] venom/05. venom.mp3
+lost years/2016 [studio] venom/06. in vain.mp3
+lost years/2016 [studio] venom/cover.jpg
+
+lost years/2019 [studio] venom [p=2]/01. apart.mp3
+lost years/2019 [studio] venom [p=2]/02. suicide at 75th street.mp3
+lost years/2019 [studio] venom [p=2]/03. the burning.mp3
+lost years/2019 [studio] venom [p=2]/04. memories from the past.mp3
+lost years/2019 [studio] venom [p=2]/05. split.mp3
+lost years/2019 [studio] venom [p=2]/06. at the edge of eternal darkness.mp3
+lost years/2019 [studio] venom [p=2]/07. shotgun.mp3
+lost years/2019 [studio] venom [p=2]/cover.jpg
 
 
 lumen/2002 [ep] пассатижи/01. sid & nancy.mp3
@@ -8903,6 +9407,12 @@ masterboy/1995 [studio] generation of love/02. generation of love.mp3
 masterboy/1995 [studio] generation of love/03. feel the fire.mp3
 masterboy/1995 [studio] generation of love/cover.jpg
 masterboy/x.txt
+
+
+mayan/2018 [studio] dhyana/01. the rhythm of freedom [instrumental].mp3
+mayan/2018 [studio] dhyana/cover.jpg
+mayan/cover.jpg
+mayan/x.txt
 
 
 mercyful fate/1982 [ep] mercyful fate/01. doomed by the living dead.mp3
@@ -10418,6 +10928,23 @@ oasis/2008 [studio] dig out your soul/cover.jpg
 oasis/x.txt
 
 
+odessa/1999 [studio] stazione getsemani/01. esilio.mp3
+odessa/1999 [studio] stazione getsemani/02. stazione getsemani.mp3
+odessa/1999 [studio] stazione getsemani/03. lotta per il domninio.mp3
+odessa/1999 [studio] stazione getsemani/04. l'incontro.mp3
+odessa/1999 [studio] stazione getsemani/05. la sfera.mp3
+odessa/1999 [studio] stazione getsemani/cover.jpg
+
+odessa/2009 [studio] the final day/01. final day.mp3
+odessa/2009 [studio] the final day/02. taxi.mp3
+odessa/2009 [studio] the final day/03. compra.mp3
+odessa/2009 [studio] the final day/04. cometa rossa.mp3
+odessa/2009 [studio] the final day/05. senza fiato.mp3
+odessa/2009 [studio] the final day/06. depeche toi.mp3
+odessa/2009 [studio] the final day/cover.jpg
+odessa/x.txt
+
+
 odyssey/1980 [studio] hang together/01. rooster loose in the barnyard.mp3
 odyssey/1980 [studio] hang together/cover.jpg
 
@@ -10513,6 +11040,47 @@ orestea/2017 [studio] elements/01. the wreckage.mp3
 orestea/2017 [studio] elements/cover.jpg
 orestea/cover.jpg
 orestea/x.txt
+
+
+out of focus/1970 [studio] wake up!/01. see how a white negro flies.mp3
+out of focus/1970 [studio] wake up!/02. god save the queen, cried jesus.mp3
+out of focus/1970 [studio] wake up!/03. hey john.mp3
+out of focus/1970 [studio] wake up!/04. words end.mp3
+out of focus/1970 [studio] wake up!/05. dark, darker.mp3
+out of focus/1970 [studio] wake up!/cover.jpg
+
+out of focus/1971 [studio] out of focus/01. what can a poor boy do.mp3
+out of focus/1971 [studio] out of focus/02. it's your life.mp3
+out of focus/1971 [studio] out of focus/03. whispering.mp3
+out of focus/1971 [studio] out of focus/04. blue sunday morning.mp3
+out of focus/1971 [studio] out of focus/05. fly bird fly.mp3
+out of focus/1971 [studio] out of focus/06. television programm.mp3
+out of focus/1971 [studio] out of focus/cover.jpg
+
+out of focus/1972 [studio] 4 letter monday afternoon/01. lsb.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/02. when i'm sleeping.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/03. black cards.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/04. tsajama.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/05. huchen 55, a.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/06. huchen 55, b.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/07. huchen 55, c.mp3
+out of focus/1972 [studio] 4 letter monday afternoon/cover.jpg
+
+out of focus/1972 [studio] rat roads/01. i'd like to be free.mp3
+out of focus/1972 [studio] rat roads/02. table talk.mp3
+out of focus/1972 [studio] rat roads/03. rat roads.mp3
+out of focus/1972 [studio] rat roads/04. fallen apples.mp3
+out of focus/1972 [studio] rat roads/05. straight ahead.mp3
+out of focus/1972 [studio] rat roads/06. tell me what i'm thinking of.mp3
+out of focus/1972 [studio] rat roads/07. climax.mp3
+out of focus/1972 [studio] rat roads/08. good-bye honey.mp3
+out of focus/1972 [studio] rat roads/cover.jpg
+
+out of focus/1974 [studio] not too late/01. that's very easy.mp3
+out of focus/1974 [studio] not too late/02. y.mp3
+out of focus/1974 [studio] not too late/03. spanish lines.mp3
+out of focus/1974 [studio] not too late/cover.jpg
+out of focus/x.txt
 
 
 pagoda/2007 [studio] pagoda/01. lesson learned.mp3
@@ -10716,6 +11284,22 @@ pearl jam/2006 [studio] pearl jam/cover.jpg
 pearl jam/2013 [studio] lightning bolt/01. pendulum.mp3
 pearl jam/2013 [studio] lightning bolt/cover.jpg
 pearl jam/x.txt
+
+
+penjaga insaf/2005 [studio] to whom it may concern/01. melting pot.mp3
+penjaga insaf/2005 [studio] to whom it may concern/02. path of broken dreams.mp3
+penjaga insaf/2005 [studio] to whom it may concern/03. to whom it may concern.mp3
+penjaga insaf/2005 [studio] to whom it may concern/04. perang damai.mp3
+penjaga insaf/2005 [studio] to whom it may concern/cover.jpg
+
+penjaga insaf/2010 [studio] sama sadja/01. seimbang.mp3
+penjaga insaf/2010 [studio] sama sadja/02. alam semsta.mp3
+penjaga insaf/2010 [studio] sama sadja/03. pelamun.mp3
+penjaga insaf/2010 [studio] sama sadja/04. keinsafan.mp3
+penjaga insaf/2010 [studio] sama sadja/05. pulang.mp3
+penjaga insaf/2010 [studio] sama sadja/06. sama sadja.mp3
+penjaga insaf/2010 [studio] sama sadja/cover.jpg
+penjaga insaf/x.txt
 
 
 peter criss/1994 [studio] cat #1/01. bad attitude.mp3
@@ -11698,6 +12282,42 @@ salt-n-pepa/1997 [studio] brand new/02. imagine.mp3
 salt-n-pepa/1997 [studio] brand new/03. the clock is tickin'.mp3
 salt-n-pepa/1997 [studio] brand new/cover.jpg
 salt-n-pepa/x.txt
+
+
+sam roberts/2003 [studio] we were born in a flame/01. no sleep.mp3
+sam roberts/2003 [studio] we were born in a flame/02. paranoia.mp3
+sam roberts/2003 [studio] we were born in a flame/cover.jpg
+
+sam roberts/2006 [studio] chemical city/01. with a bullet.mp3
+sam roberts/2006 [studio] chemical city/02. mind flood.mp3
+sam roberts/2006 [studio] chemical city/03. mystified, heavy.mp3
+sam roberts/2006 [studio] chemical city/cover.jpg
+
+sam roberts/2008 [studio] love at the end of the world/01. love at the end of the world.mp3
+sam roberts/2008 [studio] love at the end of the world/02. up sister.mp3
+sam roberts/2008 [studio] love at the end of the world/cover.jpg
+
+sam roberts/2011 [studio] collider/01. i feel you.mp3
+sam roberts/2011 [studio] collider/cover.jpg
+
+sam roberts/2014 [studio] lo-fantasy/01. shapeshifters.mp3
+sam roberts/2014 [studio] lo-fantasy/02. we're all in this together.mp3
+sam roberts/2014 [studio] lo-fantasy/03. human heat.mp3
+sam roberts/2014 [studio] lo-fantasy/04. angola.mp3
+sam roberts/2014 [studio] lo-fantasy/05. the hands of love.mp3
+sam roberts/2014 [studio] lo-fantasy/06. counting the days [youth banda rmx].mp3
+sam roberts/2014 [studio] lo-fantasy/cover.jpg
+
+sam roberts/2016 [studio] terraform/01. black spark.mp3
+sam roberts/2016 [studio] terraform/02. roll with the spirits.mp3
+sam roberts/2016 [studio] terraform/03. ritual dance.mp3
+sam roberts/2016 [studio] terraform/cover.jpg
+
+sam roberts/2020 [studio] all of us/01. spellbound.mp3
+sam roberts/2020 [studio] all of us/02. i like the way you talk about the future.mp3
+sam roberts/2020 [studio] all of us/03. youth.mp3
+sam roberts/2020 [studio] all of us/cover.jpg
+sam roberts/x.txt
 
 
 samira/1995 [single] love train/01. fairvoice.mp3
@@ -12759,7 +13379,7 @@ starlight brigade/2016 [studio] destination eternity/04. who will you turn to.mp
 starlight brigade/2016 [studio] destination eternity/05. fading star v2.0.mp3
 starlight brigade/2016 [studio] destination eternity/06. the final sign.mp3
 starlight brigade/2016 [studio] destination eternity/cover.jpg
-starlight brigade/x.txt
+starlight brigade/x1.txt
 
 
 static-x/1999 [studio] wisconsin death trip/01. stem.mp3
@@ -12792,7 +13412,7 @@ static-x/2007 [studio] cannibal/cover.jpg
 static-x/2009 [studio] cult of static/01. terminal.mp3
 static-x/2009 [studio] cult of static/02. tera-fied.mp3
 static-x/2009 [studio] cult of static/cover.jpg
-static-x/x.ini
+static-x/x.txt
 
 
 steppenwolf/1968 [studio] steppenwolf/01. sookie sookie.mp3
@@ -12936,6 +13556,74 @@ stevie ray vaughan/2007 [compil] solos, sessions & encores/cover.jpg
 stevie ray vaughan/x.txt
 
 
+sting/1985 [studio] the dream of the blue turtles/01. shadows in the rain.mp3
+sting/1985 [studio] the dream of the blue turtles/02. consider me gone.mp3
+sting/1985 [studio] the dream of the blue turtles/03. moon over bourbon street.mp3
+sting/1985 [studio] the dream of the blue turtles/cover.jpg
+
+sting/1989 [studio] nothing like the sun/01. be still my beating heart.mp3
+sting/1989 [studio] nothing like the sun/02. englishman in new york.mp3
+sting/1989 [studio] nothing like the sun/03. we'll be together.mp3
+sting/1989 [studio] nothing like the sun/04. rock steady.mp3
+sting/1989 [studio] nothing like the sun/05. sister moon.mp3
+sting/1989 [studio] nothing like the sun/06. little wing.mp3
+sting/1989 [studio] nothing like the sun/cover.jpg
+
+sting/1991 [studio] the soul cages/01. mad about you.mp3
+sting/1991 [studio] the soul cages/02. jeremiah blues [p=1].mp3
+sting/1991 [studio] the soul cages/03. when the angels fall.mp3
+sting/1991 [studio] the soul cages/cover.jpg
+
+sting/1993 [studio] 10 summoner's tales/01. prologue.mp3
+sting/1993 [studio] 10 summoner's tales/02. love is stronger than justice.mp3
+sting/1993 [studio] 10 summoner's tales/03. fields of gold.mp3
+sting/1993 [studio] 10 summoner's tales/04. heavy cloud no rain.mp3
+sting/1993 [studio] 10 summoner's tales/05. saint augustine in hell.mp3
+sting/1993 [studio] 10 summoner's tales/06. it's probably me.mp3
+sting/1993 [studio] 10 summoner's tales/07. everybody laughed but you.mp3
+sting/1993 [studio] 10 summoner's tales/08. shape of my heart.mp3
+sting/1993 [studio] 10 summoner's tales/09. something the boy said.mp3
+sting/1993 [studio] 10 summoner's tales/cover.jpg
+
+sting/1996 [studio] mercury falling/01. the hounds of winter.mp3
+sting/1996 [studio] mercury falling/02. valparaiso.mp3
+sting/1996 [studio] mercury falling/cover.jpg
+
+sting/2000 [studio] brand new day/01. desert rose.mp3
+sting/2000 [studio] brand new day/02. brand new day.mp3
+sting/2000 [studio] brand new day/03. end of the game.mp3
+sting/2000 [studio] brand new day/04. shape of my heart.mp3
+sting/2000 [studio] brand new day/05. fragile.mp3
+sting/2000 [studio] brand new day/cover.jpg
+
+sting/2003 [studio] sacred love/01. inside.mp3
+sting/2003 [studio] sacred love/02. send your love [ft=vicente amigo].mp3
+sting/2003 [studio] sacred love/03. never coming home.mp3
+sting/2003 [studio] sacred love/04. stolen car.mp3
+sting/2003 [studio] sacred love/05. forget about the future.mp3
+sting/2003 [studio] sacred love/06. shape of my heart [live].mp3
+sting/2003 [studio] sacred love/cover.jpg
+
+sting/2006 [studio] songs from the labyrinth/01. flow my tears.mp3
+sting/2006 [studio] songs from the labyrinth/cover.jpg
+
+sting/2009 [studio] if on a winter's night/01. cold song.mp3
+sting/2009 [studio] if on a winter's night/02. the hounds of winter.mp3
+sting/2009 [studio] if on a winter's night/cover.jpg
+
+sting/2010 [studio] symphonicities/01. englishman in new york.mp3
+sting/2010 [studio] symphonicities/02. the end of the game.mp3
+sting/2010 [studio] symphonicities/03. the pirate's bride.mp3
+sting/2010 [studio] symphonicities/cover.jpg
+
+sting/2016 [studio] 57th & 9th/01. inshallah [berlin sessions].mp3
+sting/2016 [studio] 57th & 9th/cover.jpg
+
+sting/2018 [studio] 44 - 876 [ft=shaggy]/01. waiting for the break of day.mp3
+sting/2018 [studio] 44 - 876 [ft=shaggy]/cover.jpg
+sting/x.txt
+
+
 strangers on a train/1990 [studio] the key/01. occam's tears.mp3
 strangers on a train/1990 [studio] the key/cover.jpg
 
@@ -12995,6 +13683,18 @@ stratovarius/2011 [studio] elysium/cover.jpg
 stratovarius/2013 [studio] nemesis/01. unbreakable.mp3
 stratovarius/2013 [studio] nemesis/cover.jpg
 stratovarius/x.txt
+
+
+stream of passion/2005 [studio] embrace the storm/01. spellbound.mp3
+stream of passion/2005 [studio] embrace the storm/02. passion.mp3
+stream of passion/2005 [studio] embrace the storm/03. deceiver.mp3
+stream of passion/2005 [studio] embrace the storm/04. open your eyes.mp3
+stream of passion/2005 [studio] embrace the storm/cover.jpg
+
+stream of passion/2009 [studio] the flame within/01. street spirit [c=radiohead].mp3
+stream of passion/2009 [studio] the flame within/cover.jpg
+stream of passion/cover.jpg
+stream of passion/x.txt
 
 
 stud/1971 [studio] stud/01. 1112235.mp3
@@ -14697,6 +15397,12 @@ tsol/2017 [studio] the trigger complex/cover.jpg
 tsol/x.txt
 
 
+twenty 4 seven/1997 [studio] 24 hours a day, 7 days a week/01. we are the world.mp3
+twenty 4 seven/1997 [studio] 24 hours a day, 7 days a week/02. we are the world [the world according to ruyters & romero rmx].mp3
+twenty 4 seven/1997 [studio] 24 hours a day, 7 days a week/cover.jpg
+twenty 4 seven/x.txt
+
+
 type o negative/1991 [studio] slow, deep & hard/01. unsuccessfully coping with the natural beauty of infidelity.mp3
 type o negative/1991 [studio] slow, deep & hard/02. der untermensch.mp3
 type o negative/1991 [studio] slow, deep & hard/03. prelude to agony.mp3
@@ -14774,6 +15480,90 @@ type o negative/2007 [studio] dead again/08. an ode to locksmiths.mp3
 type o negative/2007 [studio] dead again/09. hail & farewell to britain.mp3
 type o negative/2007 [studio] dead again/cover.jpg
 type o negative/x.txt
+
+
+u2/1980 [studio] boy/01. twilight.mp3
+u2/1980 [studio] boy/02. the ocean.mp3
+u2/1980 [studio] boy/03. another time, another place.mp3
+u2/1980 [studio] boy/cover.jpg
+
+u2/1983 [live] under a blood red sky/01. party girl.mp3
+u2/1983 [live] under a blood red sky/cover.jpg
+
+u2/1983 [studio] war/01. sunday bloody sunday.mp3
+u2/1983 [studio] war/02. new year's day.mp3
+u2/1983 [studio] war/03. treasure.mp3
+u2/1983 [studio] war/cover.jpg
+
+u2/1987 [studio] the joshua tree/01. with or without you.mp3
+u2/1987 [studio] the joshua tree/02. bullet the blue sky.mp3
+u2/1987 [studio] the joshua tree/03. 1 tree hill.mp3
+u2/1987 [studio] the joshua tree/04. silver & gold.mp3
+u2/1987 [studio] the joshua tree/cover.jpg
+
+u2/1988 [studio] rattle & hum/01. god [p=2].mp3
+u2/1988 [studio] rattle & hum/cover.jpg
+
+u2/1991 [studio] achtung baby/01. mysterious ways.mp3
+u2/1991 [studio] achtung baby/02. acrobat.mp3
+u2/1991 [studio] achtung baby/03. love is blindness.mp3
+u2/1991 [studio] achtung baby/04. mysterious ways [ultimatum rmx].mp3
+u2/1991 [studio] achtung baby/05. lemon [momo's rmx].mp3
+u2/1991 [studio] achtung baby/06. salome.mp3
+u2/1991 [studio] achtung baby/07. satellite of love.mp3
+u2/1991 [studio] achtung baby/08. down all the days.mp3
+u2/1991 [studio] achtung baby/09. fortunate son.mp3
+u2/1991 [studio] achtung baby/cover.jpg
+
+u2/1993 [studio] zooropa/01. lemon [the perfecto rmx].mp3
+u2/1993 [studio] zooropa/02. numb [gimme some more dignity rmx].mp3
+u2/1993 [studio] zooropa/cover.jpg
+
+u2/1997 [studio] pop/01. mofo.mp3
+u2/1997 [studio] pop/02. staring at the sun.mp3
+u2/1997 [studio] pop/03. gone.mp3
+u2/1997 [studio] pop/04. miami.mp3
+u2/1997 [studio] pop/05. if you wear that velvet dress.mp3
+u2/1997 [studio] pop/06. please.mp3
+u2/1997 [studio] pop/07. wake up dead man.mp3
+u2/1997 [studio] pop/08. holy joe [guilty rmx].mp3
+u2/1997 [studio] pop/cover.jpg
+
+u2/1998 [compil] the best of 1980-1990/01. love comes tumbling.mp3
+u2/1998 [compil] the best of 1980-1990/02. everlasting love.mp3
+u2/1998 [compil] the best of 1980-1990/03. trash, trampoline & the party girl.mp3
+u2/1998 [compil] the best of 1980-1990/cover.jpg
+
+u2/2000 [studio] all that you can't leave behind/01. elevation.mp3
+u2/2000 [studio] all that you can't leave behind/cover.jpg
+
+u2/2002 [compil] the best of 1990-2000/01. hold me, thrill me, kiss me, kill me.mp3
+u2/2002 [compil] the best of 1990-2000/cover.jpg
+
+u2/2004 [studio] how to dismantle an atomic bomb/01. miracle drug.mp3
+u2/2004 [studio] how to dismantle an atomic bomb/02. crumbs from your table.mp3
+u2/2004 [studio] how to dismantle an atomic bomb/cover.jpg
+
+u2/2009 [studio] no line on the horizon/01. get on your boots.mp3
+u2/2009 [studio] no line on the horizon/02. stand up comedy.mp3
+u2/2009 [studio] no line on the horizon/cover.jpg
+
+u2/2014 [studio] songs of innocence/01. song for someone.mp3
+u2/2014 [studio] songs of innocence/02. volcano.mp3
+u2/2014 [studio] songs of innocence/03. sleep like a baby tonight.mp3
+u2/2014 [studio] songs of innocence/04. this is where you can reach me now.mp3
+u2/2014 [studio] songs of innocence/05. the troubles.mp3
+u2/2014 [studio] songs of innocence/cover.jpg
+
+u2/2017 [studio] songs of experience/01. american soul.mp3
+u2/2017 [studio] songs of experience/02. summer of love.mp3
+u2/2017 [studio] songs of experience/03. red flag day.mp3
+u2/2017 [studio] songs of experience/04. landlady.mp3
+u2/2017 [studio] songs of experience/05. ordinary love [extraordinary rmx].mp3
+u2/2017 [studio] songs of experience/06. book of your heart.mp3
+u2/2017 [studio] songs of experience/07. the blackout [jacknife lee rmx].mp3
+u2/2017 [studio] songs of experience/cover.jpg
+u2/x.txt
 
 
 u96/1992 [studio] das boot/01. come 2 gether.mp3
@@ -14908,6 +15698,60 @@ up, bustle & out/2010 [studio] soliloquy/02. sokak cats [ft=sally's city cats].m
 up, bustle & out/2010 [studio] soliloquy/03. satie's atelier.mp3
 up, bustle & out/2010 [studio] soliloquy/cover.jpg
 up, bustle & out/x.txt
+
+
+us3/1993 [studio] hand on the torch/01. cantaloop.mp3
+us3/1993 [studio] hand on the torch/02. cruisin'.mp3
+us3/1993 [studio] hand on the torch/03. 11 long years.mp3
+us3/1993 [studio] hand on the torch/04. the darkside.mp3
+us3/1993 [studio] hand on the torch/cover.jpg
+
+us3/1997 [studio] broadway & 52nd/01. come on everybody.mp3
+us3/1997 [studio] broadway & 52nd/02. caught up in a struggle.mp3
+us3/1997 [studio] broadway & 52nd/03. true to the game.mp3
+us3/1997 [studio] broadway & 52nd/04. snakes.mp3
+us3/1997 [studio] broadway & 52nd/05. i'm thinking about your body.mp3
+us3/1997 [studio] broadway & 52nd/06. grand groove.mp3
+us3/1997 [studio] broadway & 52nd/07. sheep.mp3
+us3/1997 [studio] broadway & 52nd/08. doin' a crime.mp3
+us3/1997 [studio] broadway & 52nd/09. hymn for her.mp3
+us3/1997 [studio] broadway & 52nd/cover.jpg
+
+us3/2001 [studio] an ordinary day in an unusual place/01. india.mp3
+us3/2001 [studio] an ordinary day in an unusual place/02. dead end street.mp3
+us3/2001 [studio] an ordinary day in an unusual place/03. enough.mp3
+us3/2001 [studio] an ordinary day in an unusual place/04. enough [bonus beats].mp3
+us3/2001 [studio] an ordinary day in an unusual place/05. pay attention.mp3
+us3/2001 [studio] an ordinary day in an unusual place/cover.jpg
+
+us3/2004 [studio] questions/01. cantaloop [2004 bossa rmx].mp3
+us3/2004 [studio] questions/cover.jpg
+
+us3/2006 [studio] schizophonic/01. what's going on in the world today.mp3
+us3/2006 [studio] schizophonic/02. if only.mp3
+us3/2006 [studio] schizophonic/03. don't even ask.mp3
+us3/2006 [studio] schizophonic/04. jobsworth.mp3
+us3/2006 [studio] schizophonic/05. round the globe.mp3
+us3/2006 [studio] schizophonic/cover.jpg
+
+us3/2007 [studio] say what/01. i don't care.mp3
+us3/2007 [studio] say what/cover.jpg
+
+us3/2009 [studio] stop. think. run/01. gotta get outta here [ft=brook yung].mp3
+us3/2009 [studio] stop. think. run/02. life love music [ft=brook yung].mp3
+us3/2009 [studio] stop. think. run/03. from the streets [ft=sene].mp3
+us3/2009 [studio] stop. think. run/04. b-boys [ft=sene].mp3
+us3/2009 [studio] stop. think. run/05. the love of my life [ft=brook yung].mp3
+us3/2009 [studio] stop. think. run/06. keep movin' [ft=brook yung].mp3
+us3/2009 [studio] stop. think. run/cover.jpg
+
+us3/2011 [studio] lie, cheat & steal/01. puppets [ft=akala].mp3
+us3/2011 [studio] lie, cheat & steal/cover.jpg
+
+us3/2013 [studio] the 3rd way/01. i want 1 of those [ft=akil dasan].mp3
+us3/2013 [studio] the 3rd way/02. what would you do [ft=kcb+tukka+akil dasan].mp3
+us3/2013 [studio] the 3rd way/cover.jpg
+us3/x.txt
 
 
 vamp le stat/1993 [studio] bloodline/01. madame blue.mp3
@@ -15258,6 +16102,55 @@ westbam/2013 [studio] gotterstrasse/09. gotterdub.mp3
 westbam/2013 [studio] gotterstrasse/10. solid dub.mp3
 westbam/2013 [studio] gotterstrasse/cover.jpg
 westbam/x.txt
+
+
+white denim/2008 [studio] exposion/01. heart from all of us.mp3
+white denim/2008 [studio] exposion/02. shake shake shake.mp3
+white denim/2008 [studio] exposion/03. all you really have to do.mp3
+white denim/2008 [studio] exposion/cover.jpg
+
+white denim/2008 [studio] workout holiday/01. shake shake shake.mp3
+white denim/2008 [studio] workout holiday/02. i can tell.mp3
+white denim/2008 [studio] workout holiday/03. mess your hair up.mp3
+white denim/2008 [studio] workout holiday/04. all you really have to do.mp3
+white denim/2008 [studio] workout holiday/05. don't look that way at it.mp3
+white denim/2008 [studio] workout holiday/cover.jpg
+
+white denim/2009 [studio] fits/01. say what you want.mp3
+white denim/2009 [studio] fits/02. i start to run.mp3
+white denim/2009 [studio] fits/03. sex prayer.mp3
+white denim/2009 [studio] fits/04. mirrored & reverse.mp3
+white denim/2009 [studio] fits/05. regina holding hands.mp3
+white denim/2009 [studio] fits/06. syncn.mp3
+white denim/2009 [studio] fits/cover.jpg
+
+white denim/2010 [studio] last day of summer/01. incaviglia.mp3
+white denim/2010 [studio] last day of summer/cover.jpg
+
+white denim/2011 [studio] d/01. drug.mp3
+white denim/2011 [studio] d/cover.jpg
+
+white denim/2013 [studio] corsicana lemonade/01. at night in dreams.mp3
+white denim/2013 [studio] corsicana lemonade/02. corsicana lemonade.mp3
+white denim/2013 [studio] corsicana lemonade/cover.jpg
+
+white denim/2016 [studio] stiff/01. ha ha ha ha.mp3
+white denim/2016 [studio] stiff/02. there's a brain in my head.mp3
+white denim/2016 [studio] stiff/03. take it easy.mp3
+white denim/2016 [studio] stiff/04. big big fun.mp3
+white denim/2016 [studio] stiff/05. real deal momma.mp3
+white denim/2016 [studio] stiff/cover.jpg
+
+white denim/2018 [studio] performance/01. magazin.mp3
+white denim/2018 [studio] performance/02. fine slime.mp3
+white denim/2018 [studio] performance/cover.jpg
+
+white denim/2019 [studio] side effects/01. hallelujah strike gold.mp3
+white denim/2019 [studio] side effects/cover.jpg
+
+white denim/2020 [studio] world as a waiting room/01. queen of the quarantine.mp3
+white denim/2020 [studio] world as a waiting room/cover.jpg
+white denim/x.txt
 
 
 will to power/1988 [studio] will to power/01. anti-social.mp3
