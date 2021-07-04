@@ -13316,6 +13316,24 @@ soundgarden/2014 [compil] echo of miles - scattered tracks across the path/cover
 soundgarden/x.txt
 
 
+spacemen 3/1986 [studio] sound of confusion/01. little doll.mp3
+spacemen 3/1986 [studio] sound of confusion/02. 235.mp3
+spacemen 3/1986 [studio] sound of confusion/cover.jpg
+
+spacemen 3/1987 [studio] the perfect prescription/01. feel so good.mp3
+spacemen 3/1987 [studio] the perfect prescription/02. things'll never be the same.mp3
+spacemen 3/1987 [studio] the perfect prescription/03. call the doctor.mp3
+spacemen 3/1987 [studio] the perfect prescription/04. that's just fine.mp3
+spacemen 3/1987 [studio] the perfect prescription/cover.jpg
+
+spacemen 3/1989 [studio] playing with fire/01. i believe it.mp3
+spacemen 3/1989 [studio] playing with fire/cover.jpg
+
+spacemen 3/1991 [studio] recurring/01. when tomorrow hits.mp3
+spacemen 3/1991 [studio] recurring/cover.jpg
+spacemen 3/x.txt
+
+
 spineshank/1998 [studio] strictly diesel/01. stovebolt.mp3
 spineshank/1998 [studio] strictly diesel/02. where we fall.mp3
 spineshank/1998 [studio] strictly diesel/03. strictly diesel.mp3
