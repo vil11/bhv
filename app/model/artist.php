@@ -8,7 +8,7 @@ abstract class artist extends unit implements artistInterface
     // lazy
     protected array $albumsListing = [];
     protected array $albums;
-    protected ?array $freeSongs;
+    protected ?array $freeSongs = null;
 
 
     /** @throws Exception */
@@ -44,7 +44,7 @@ abstract class artist extends unit implements artistInterface
      */
     public function getAlbums(): array
     {
-        if (!$this->albums) $this->setAlbums();
+        if (!isset($this->albums)) $this->setAlbums();
         return $this->albums;
     }
 
@@ -68,7 +68,7 @@ abstract class artist extends unit implements artistInterface
      */
     public function getFreeSongs(): ?array
     {
-        if (!$this->freeSongs) $this->setFreeSongs();
+        if (!isset($this->freeSongs)) $this->setFreeSongs();
         return $this->freeSongs;
     }
 }

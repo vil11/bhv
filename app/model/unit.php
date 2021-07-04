@@ -110,12 +110,12 @@ class unit implements unitInterface
         }
     }
 
-    protected function isMarkedToBeUpdated(string $string): bool
+    public function isMarkedToBeUpdated(string $string): bool
     {
         return isMarkedWithPrefix($string, settings::getInstance()->get('tags/update_metadata'));
     }
 
-    protected function adjustName(string $string): string
+    public function adjustName(string $string): string
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         if ($this->isMarkedToBeUpdated($string)) {
@@ -129,27 +129,31 @@ class unit implements unitInterface
      * @return bool
      * @throws Exception
      */
-    protected function renameUpdated(): bool
+    public function renameUpdated(): bool
     {
-        $result = false;
+        $oldPath = $this->getPath();
+        $newPath = str_replace($this->getTitle(), $this->adjustName($this->getTitle()), $this->getPath());
 
-        try {
-            $result = chmod($this->getPath(), 0777);
-        } catch (Exception $e) {
-            $err = prepareIssueCard('Permissions providing is failed.', $this->getPath());
-            echo $err, "\n\n", $e->getMessage();
-        }
-
-        try {
-            $result = rename(
-                $this->getPath(),
-                str_replace($this->getTitle(), $this->adjustName($this->getTitle()), $this->getPath())
-            );
-        } catch (Exception $e) {
+        $this->provideAccess($oldPath);
+        $result = rename($oldPath, $newPath);
+        if (!$result) {
             $err = prepareIssueCard('Renaming is failed.', $this->getPath());
-            echo $err, "\n\n", $e->getMessage();
+            throw new Exception($err);
         }
 
         return $result;
+    }
+
+    /**
+     * @param string $path
+     * @throws Exception
+     */
+    public function provideAccess(string $path): void
+    {
+        $result = chmod($path, 0777);
+        if (!$result) {
+            $err = prepareIssueCard('Permissions providing: failed.', $path);
+            throw new Exception($err);
+        }
     }
 }

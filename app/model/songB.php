@@ -172,19 +172,41 @@ class songB extends song
         return $this->expectedThumbnail;
     }
 
-    /** @throws Exception */
-    public function updateMetadata()
+    /**
+     * @param string[]|null $formats
+     * @param string|null $encoding
+     * @throws Exception
+     */
+    public function updateMetadata(?string $encoding = null, ?array $formats = null)
     {
-        // object declaration
-        $tagObj = new getid3_writetags;
-        $tagObj->filename = $this->getPath();
-        $tagObj->tagformats = ['id3v1', 'id3v2.3'];
-        $tagObj->overwrite_tags = true;
-        $encodingType = 'UTF-8';
-        $tagObj->tag_encoding = $encodingType;
-        $tagObj->remove_other_tags = true;
+        $encoding = (!is_null($encoding)) ? $encoding : 'UTF-8';
+        $formatsDefault = ['id3v1', 'id3v2.3'];
+//        $formatsDefault = ['id3v2.4'];
+        $formats = isset($formats) ? $formats : $formatsDefault;
 
-        // tags preparing
+        $tagWriter = $this->declareWriter($encoding, $formats);
+//        $tagWriter = $this->forceReset($tagWriter);
+        $tagData = $this->prepareData();
+
+//        $this->analyze($this->getPath(), $encoding);
+        $this->writeTags($this->path, $tagData, $tagWriter);
+//        $this->analyze($this->getPath(), $encoding);
+    }
+
+    private function declareWriter(string $encoding, array $formats): getid3_writetags
+    {
+        $tagWriter = new getid3_writetags;
+        $tagWriter->filename = $this->getPath();
+        $tagWriter->tagformats = $formats;
+        $tagWriter->overwrite_tags = true;
+        $tagWriter->tag_encoding = $encoding;
+        $tagWriter->remove_other_tags = true;
+
+        return $tagWriter;
+    }
+
+    private function prepareData(): array
+    {
         $tagData = $this->getExpectedMetadata();
         if ($this->albumData) {
             $tagData['attached_picture'][] = [
@@ -195,18 +217,45 @@ class songB extends song
             ];
         }
 
-        // writing
-        $tagObj->tag_data = $tagData;
-        $tagObj->WriteTags();
-        if ($errors = $tagObj->errors) {
+        return $tagData;
+    }
+
+    private function forceReset(getid3_writetags $tagWriter): getid3_writetags
+    {
+//        $tagWriter->DeleteTags(['id3v1', 'id3v2']);
+        $tagWriter->DeleteTags(['id3v1']);
+        $tagWriter->DeleteTags(['id3v2']);
+
+        return $tagWriter;
+    }
+
+    /**
+     * @param string $path
+     * @param array $tags
+     * @param getid3_writetags $writer
+     * @return getid3_writetags
+     * @throws Exception
+     */
+    private function writeTags(string $path, array $tags, getid3_writetags $writer): getid3_writetags
+    {
+        $writer->tag_data = $tags;
+        $writer->WriteTags();
+
+        if ($errors = $writer->errors) {
             $err = 'Writing metadata failed.' . " Details: " . implode("; ", $errors);
-            $err = prepareIssueCard($err, $this->getPath());
+            $err = prepareIssueCard($err, $path);
             throw new Exception($err);
         }
 
-        // finalizing
+        return $writer;
+    }
+
+    private function analyze(string $path, string $encoding): array
+    {
         $id3 = new getID3();
-        $id3->analyze($this->getPath());
-        $id3->encoding = $encodingType;
+        $id3->encoding = $encoding;
+        $info = $id3->analyze($path);
+
+        return $info;
     }
 }

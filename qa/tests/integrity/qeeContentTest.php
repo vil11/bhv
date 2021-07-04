@@ -179,11 +179,14 @@ class qeeContentTest extends dataIntegrityTest
 
             $this->verifyAlbumsNotAbsent($artist);
 
-            $files = array_merge(
+            $mandatoryFiles = array_merge(
                 $this->prepareSongsPaths($artist->getFreeSongs()),
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_index'))]
             );
-            $this->verifyExpectedFilesPresent($files);
+            $possibleFiles = [
+                bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/artist_thumbnail')),
+            ];
+            $this->verifyExpectedFilesPresent($mandatoryFiles, $possibleFiles);
         }
     }
 

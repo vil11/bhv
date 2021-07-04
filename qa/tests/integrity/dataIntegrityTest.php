@@ -188,17 +188,25 @@ abstract class dataIntegrityTest extends PHPUnit\Framework\TestCase
         $this->assertEmpty($duplicate, $err);
     }
 
-    /** @param array $names */
-    protected function verifyPrefixDuplicatingsAbsent(array $names)
+    /**
+     * @param array $names
+     * @param array|null $whitelist
+     */
+    protected function verifyPrefixDuplicatingsAbsent(array $names, ?array $whitelist = null)
     {
         foreach ($names as $name) {
+            if (in_array($name, $whitelist)) continue;
+
             $prefix = substr($name, 0, 4);
+            $unprefixedName = substr($name, 4);
+            if (in_array($unprefixedName, $whitelist)) continue;
+
             if ($prefix === 'the ') {
                 $err = err('"%s" %s is duplicated with prefix', str_replace($prefix, '', $name), $this->unit);
                 $err = err($err . ' "%s". ', $prefix);
                 $err = err($err . 'Please compare it to "%s" %s.', $name, $this->unit);
                 $err = prepareIssueCard($err);
-                $this->assertFalse(in_array(substr($name, 4), $names), $err);
+                $this->assertFalse(in_array($unprefixedName, $names), $err);
             }
         }
     }

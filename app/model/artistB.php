@@ -26,14 +26,14 @@ class artistB extends artist
     /** @throws Exception */
     protected function setSongs()
     {
-        if (!$this->albums) $this->setAlbums();
+        if (!isset($this->albums)) $this->setAlbums();
         $songs = [];
 
         foreach ($this->getAlbums() as $album) {
             /** @var albumInterface $album */
             $songs = array_merge($songs, $album->getSongs());
         }
-        if ($this->getFreeSongs() !== null) $songs = array_merge($songs, $this->getFreeSongs());
+        if (!is_null($this->getFreeSongs())) $songs = array_merge($songs, $this->getFreeSongs());
 
         $this->songs = $songs;
     }
@@ -44,7 +44,7 @@ class artistB extends artist
      */
     public function getSongs(): array
     {
-        if (!$this->songs) $this->setSongs();
+        if (!isset($this->songs)) $this->setSongs();
         return $this->songs;
     }
 
@@ -55,7 +55,7 @@ class artistB extends artist
      */
     public function updateMetadata(bool $autoRenamingIfSuccess)
     {
-        $this->provideAccess();
+        $this->provideAccess($this->getPath());
 
         if ($this->ifAnyAlbumsTagged()) {
             $this->updateMetadataForTaggedAlbums($autoRenamingIfSuccess);
@@ -117,18 +117,9 @@ class artistB extends artist
 
         /** @var songB $song */
         foreach ($songs as $song) {
+//            $this->provideAccess($song->getPath());
             $song->updateMetadata();
             say('.', 'grey');
-        }
-    }
-
-    /** @throws Exception */
-    private function provideAccess()
-    {
-        $result = chmod($this->getPath(), 777);
-        if (!$result) {
-            $err = sprintf('Failed to provide access to %s', $this->getPath());
-            throw new Exception($err);
         }
     }
 }

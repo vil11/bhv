@@ -2,7 +2,7 @@
 
 use Laminas\Dom\Query as Query;
 
-class albumR
+class resource_album
 {
     protected $pageUrl;
     protected $pageDomain;

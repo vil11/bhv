@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0afdd01ecbf53a2cffea5e17f87ff571",
+    "content-hash": "0504203cff5152e46b37f110031a74a1",
     "packages": [
         {
             "name": "james-heinrich/getid3",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JamesHeinrich/getID3.git",
-                "reference": "1a4591b163195905a80f1eb0228a60284bfeb7d1"
+                "reference": "6dcbca845d190ea9653dd48ecf2ca04ed480a574"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/1a4591b163195905a80f1eb0228a60284bfeb7d1",
-                "reference": "1a4591b163195905a80f1eb0228a60284bfeb7d1",
+                "url": "https://api.github.com/repos/JamesHeinrich/getID3/zipball/6dcbca845d190ea9653dd48ecf2ca04ed480a574",
+                "reference": "6dcbca845d190ea9653dd48ecf2ca04ed480a574",
                 "shasum": ""
             },
             "require": {
@@ -67,7 +67,7 @@
                 "php",
                 "tags"
             ],
-            "time": "2021-02-27T19:10:46+00:00"
+            "time": "2021-07-01T20:16:37+00:00"
         },
         {
             "name": "laminas/laminas-dom",
@@ -188,12 +188,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vil11/hlpr.git",
-                "reference": "f2eb61397864eff0d4db85f62e5769d7b1f9e19d"
+                "reference": "4b21c22d57bdba182d7c04add386122f67b9ff06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vil11/hlpr/zipball/f2eb61397864eff0d4db85f62e5769d7b1f9e19d",
-                "reference": "f2eb61397864eff0d4db85f62e5769d7b1f9e19d",
+                "url": "https://api.github.com/repos/vil11/hlpr/zipball/4b21c22d57bdba182d7c04add386122f67b9ff06",
+                "reference": "4b21c22d57bdba182d7c04add386122f67b9ff06",
                 "shasum": ""
             },
             "require": {
@@ -231,7 +231,7 @@
                 }
             ],
             "description": "PHP micro-functional helper.",
-            "time": "2021-02-27T08:53:01+00:00"
+            "time": "2021-07-02T21:33:13+00:00"
         }
     ],
     "packages-dev": [

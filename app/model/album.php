@@ -63,7 +63,7 @@ abstract class album extends unit implements albumInterface
      */
     public function getSongs(): array
     {
-        if (!$this->songs) $this->setSongs();
+        if (!isset($this->songs)) $this->setSongs();
         return $this->songs;
     }
 

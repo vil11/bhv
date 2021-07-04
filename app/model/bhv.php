@@ -73,7 +73,7 @@ class bhv extends unit
      */
     public function getCatalog(): array
     {
-        if (!$this->catalog) $this->setCatalog();
+        if (!isset($this->catalog)) $this->setCatalog();
         return $this->catalog;
     }
 

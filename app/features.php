@@ -86,7 +86,7 @@ class features
                 continue;
             }
 
-            $album = new albumR($url);
+            $album = new resource_album($url);
             $result = $album->downloadSongs();
             if (!$result) {
                 $this->finish($result);

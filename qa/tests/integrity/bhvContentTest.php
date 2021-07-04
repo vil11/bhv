@@ -38,16 +38,24 @@ class bhvContentTest extends dataIntegrityTest
         $qees = new qee();
         $this->unit = 'artistB';
 
+        $a = 0;
         $qeeArtists = [];
         foreach ($qees->getArtistsListing() as $qeeName => $qee) {
             $this->verifyDuplicatingsAbsent($qeeArtists, $qee, '"%s" is duplicated somewhere among Qees.');
+
             $qeeArtists = array_merge($qeeArtists, $qee);
+            $a = $a + count($qee);
         }
 
-        $this->verifyDuplicatingsAbsent($this->bhv->getArtistsListing(), $qeeArtists, '"%s" is already in BHV. Remove it from Qee.');
-        $artists = array_merge($this->bhv->getArtistsListing(), $qeeArtists);
+        $bhvArtists = $this->bhv->getArtistsListing();
+        $this->verifyDuplicatingsAbsent($bhvArtists, $qeeArtists, '"%s" is already in BHV. Remove it from Qee.');
+        $artists = array_merge($bhvArtists, $qeeArtists);
+        $a = $a + count($bhvArtists);
 
-        $this->verifyPrefixDuplicatingsAbsent($artists);
+        $this->assertSame($a, count($artists));
+
+        $prefixWhitelist = ['prodigy'];
+        $this->verifyPrefixDuplicatingsAbsent($artists, $prefixWhitelist);
     }
 
     /**
@@ -62,11 +70,11 @@ class bhvContentTest extends dataIntegrityTest
         $this->unit = strtoupper(get_class($this->bhv));
         $this->path = $this->bhv->getPath();
 
-        $files = [
+        $mandatoryFiles = [
             bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/bhv_catalog')),
             bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/bhv_icon')),
         ];
-        $this->verifyExpectedFilesPresent($files);
+        $this->verifyExpectedFilesPresent($mandatoryFiles);
     }
 
     /**
@@ -166,11 +174,11 @@ class bhvContentTest extends dataIntegrityTest
             $this->verifySongsNotAbsent($album);
             $this->verifySongsOrdered($album);
 
-            $files = array_merge(
+            $mandatoryFiles = array_merge(
                 $this->prepareSongsPaths($album->getSongs()),
                 [bendSeparatorsRight($this->path . DS . settings::getInstance()->get('paths/album_thumbnail'))]
             );
-            $this->verifyExpectedFilesPresent($files);
+            $this->verifyExpectedFilesPresent($mandatoryFiles);
             $this->verifyAlbumHasNoFolders($album);
 
             $this->verifyAlbumThumbnail();
