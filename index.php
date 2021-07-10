@@ -19,6 +19,7 @@ $features = new features();
 
 // Product Import test scenarios schema
 
+//$strategies = ['ignore', 'update'];
 //$items = [null, 'sP', 'cP'];
 //
 //$resources = ['P'];
@@ -148,6 +149,6 @@ $features = new features();
 //
 //    return $result;
 //}
-//
-//
-//
+
+
+
