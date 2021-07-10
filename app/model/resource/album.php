@@ -62,29 +62,49 @@ class resource_album
     /** @throws Exception */
     private function setType()
     {
+        $type = getTextByXpath($this->pageDom, self::TYPE_XP);
+        $type = $this->translateType($type);
+        $this->type = strtoupper($type);
+    }
+
+    /**
+     * @param string $type
+     * @return string
+     * @throws Exception
+     */
+    protected function translateType(string $type): string
+    {
         $rec = settings::getInstance()->get('record_types');
 
-        $type = getTextByXpath($this->pageDom, self::TYPE_XP);
-        if ($type === 'Сборник исполнителя') {
-            $type = $rec['compilation'];
-        } elseif ($type === 'Демо') {
-            $type = $rec['demo'];
-        } elseif ($type === 'Студийный альбом') {
-            $type = $rec['studio'];
-        } elseif ($type === 'EP') {
-            $type = $rec['ep'];
-        } elseif ($type === 'Live') {
-            $type = $rec['live'];
-        } elseif ($type === 'Саундтрек') {
-            $type = $rec['ost'];
-        } elseif ($type === 'Тип не назначен' || $type === 'Сборник разных исполнителей' || $type === 'Микстейп') {
-            $this->qc = false;
-            $type = '';
-        } else {
-            throw new Exception(prepareIssueCard(err('"%s": unknown Album type.', $type)));
-        }
+        switch ($type) {
+            case 'Сборник исполнителя':
+                return $rec['compilation'];
+            case 'Демо':
+                return $rec['demo'];
+            case 'Студийный альбом':
+                return $rec['studio'];
+            case 'EP':
+                return $rec['ep'];
+            case 'Live':
+                return $rec['live'];
+            case 'Саундтрек':
+                return $rec['ost'];
+            case 'Тип не назначен':
+                return $this->skipTypeValidation();
+            case 'Сборник разных исполнителей':
+                return $this->skipTypeValidation();
+            case 'Split':
+                return $this->skipTypeValidation();
 
-        $this->type = strtoupper($type);
+            default:
+                throw new Exception(prepareIssueCard(err('"%s": unknown Album type.', $type)));
+        }
+    }
+
+    private function skipTypeValidation(): string
+    {
+        $this->qc = false;
+        return '';
     }
 
     /** @throws Exception */
