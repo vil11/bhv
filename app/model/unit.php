@@ -115,7 +115,7 @@ class unit implements unitInterface
         return isMarkedWithPrefix($string, settings::getInstance()->get('tags/update_metadata'));
     }
 
-    public function adjustName(string $string): string
+    public function unmark(string $string): string
     {
         $updatePrefixMark = settings::getInstance()->get('tags/update_metadata');
         if ($this->isMarkedToBeUpdated($string)) {
@@ -129,10 +129,10 @@ class unit implements unitInterface
      * @return bool
      * @throws Exception
      */
-    public function renameUpdated(): bool
+    public function rename(): bool
     {
         $oldPath = $this->getPath();
-        $newPath = str_replace($this->getTitle(), $this->adjustName($this->getTitle()), $this->getPath());
+        $newPath = str_replace($this->getTitle(), $this->unmark($this->getTitle()), $this->getPath());
 
         $this->provideAccess($oldPath);
         $result = rename($oldPath, $newPath);
@@ -146,11 +146,23 @@ class unit implements unitInterface
 
     /**
      * @param string $path
+     * @param int|null $permissions
      * @throws Exception
      */
-    public function provideAccess(string $path): void
+    public function provideAccess(string $path, ?int $permissions = null): void
     {
-        $result = chmod($path, 0777);
+        // everything for owner, read and execute for owner's group
+        $p0750 = 0750;
+        // everything for owner, read and execute for others
+        $p0755 = 0755;
+        // all
+        $p0777 = 0777;
+
+        $default = $p0777;
+
+
+        $permissions = (isset($permissions)) ? $permissions : $default;
+        $result = chmod($path, $permissions);
         if (!$result) {
             $err = prepareIssueCard('Permissions providing: failed.', $path);
             throw new Exception($err);

@@ -65,7 +65,7 @@ class artistB extends artist
         echo 'updated!';
 
         if ($autoRenamingIfSuccess) {
-            $this->renameUpdated();
+            $this->rename();
             echo ' renamed!';
         }
     }
@@ -100,7 +100,7 @@ class artistB extends artist
             $this->updateMetadataForSongs($album->getSongs());
 
             if ($autoRenamingIfSuccess) {
-                $album->renameUpdated();
+                $album->rename();
             }
         }
     }
@@ -117,7 +117,7 @@ class artistB extends artist
 
         /** @var songB $song */
         foreach ($songs as $song) {
-//            $this->provideAccess($song->getPath());
+            $this->provideAccess($song->getPath());
             $song->updateMetadata();
             say('.', 'grey');
         }

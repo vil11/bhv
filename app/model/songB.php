@@ -136,7 +136,7 @@ class songB extends song
         $this->expectedMetadata['publisher'][] = settings::getInstance()->get('tags/publisher');
 
         $this->expectedMetadata['title'][] = $this->data['title'] . $this->prepareTagsString($this->data);
-        $this->expectedMetadata['artist'][] = $this->adjustName($this->artistTitle);
+        $this->expectedMetadata['artist'][] = $this->unmark($this->artistTitle);
 
         if ($this->albumData) {
             $this->expectedMetadata['year'][] = $this->data['released'];

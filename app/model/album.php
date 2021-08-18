@@ -75,7 +75,7 @@ abstract class album extends unit implements albumInterface
         $this->verifyFileName($this->title, "|^(" . $updatePrefixMark . ")?\d{4}(\ \[\S+)*\](\ \S+)*|");
 
         $delimiters = settings::getInstance()->get('delimiters');
-        $this->data['released'] = substr($this->adjustName($this->title), 0, 4);
+        $this->data['released'] = substr($this->unmark($this->title), 0, 4);
         $this->data['type'] = explode($delimiters['tag_open'], explode($delimiters['tag_close'], $this->title)[0])[1];
 
         $titleAndTags = explode($delimiters['tag_close'] . $delimiters['section'], $this->title)[1];
