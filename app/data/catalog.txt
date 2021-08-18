@@ -3217,6 +3217,43 @@ bonfire/2011 [studio] branded/cover.jpg
 bonfire/x.txt
 
 
+bonobo/2001 [studio] animal magic/01. dinosaurs.mp3
+bonobo/2001 [studio] animal magic/02. kota.mp3
+bonobo/2001 [studio] animal magic/03. gypsy.mp3
+bonobo/2001 [studio] animal magic/04. sugar rhyme.mp3
+bonobo/2001 [studio] animal magic/05. silver.mp3
+bonobo/2001 [studio] animal magic/cover.jpg
+
+bonobo/2003 [studio] dial m for monkey/01. the plug.mp3
+bonobo/2003 [studio] dial m for monkey/02. noctuary.mp3
+bonobo/2003 [studio] dial m for monkey/03. wayward bob.mp3
+bonobo/2003 [studio] dial m for monkey/04. change down.mp3
+bonobo/2003 [studio] dial m for monkey/cover.jpg
+
+bonobo/2006 [studio] days to come [ft=fink]/01. between the lines [ft=bajka].mp3
+bonobo/2006 [studio] days to come [ft=fink]/02. transmission 94 [p=1+2].mp3
+bonobo/2006 [studio] days to come [ft=fink]/03. if you stayed over [ft=fink].mp3
+bonobo/2006 [studio] days to come [ft=fink]/04. walk in the sky [ft=balka].mp3
+bonobo/2006 [studio] days to come [ft=fink]/05. between the lines [instrumental].mp3
+bonobo/2006 [studio] days to come [ft=fink]/cover.jpg
+
+bonobo/2010 [studio] black sands/01. kong.mp3
+bonobo/2010 [studio] black sands/02. all in forms.mp3
+bonobo/2010 [studio] black sands/03. the keeper [ft=andreya triana].mp3
+bonobo/2010 [studio] black sands/cover.jpg
+
+bonobo/2013 [studio] the north borders/01. know you.mp3
+bonobo/2013 [studio] the north borders/cover.jpg
+
+bonobo/2017 [studio] migration/01. break apart [ft=rhye].mp3
+bonobo/2017 [studio] migration/02. grains.mp3
+bonobo/2017 [studio] migration/03. 2nd sun.mp3
+bonobo/2017 [studio] migration/04. surface [ft=nicole miglis].mp3
+bonobo/2017 [studio] migration/05. ontario.mp3
+bonobo/2017 [studio] migration/cover.jpg
+bonobo/x.txt
+
+
 brad/1993 [studio] shame/01. nadine.mp3
 brad/1993 [studio] shame/02. 20th century.mp3
 brad/1993 [studio] shame/03. raise love.mp3
@@ -4144,6 +4181,24 @@ d.o.b. community/2007 [studio] полихромный продукт/01. бер�
 d.o.b. community/2007 [studio] полихромный продукт/02. tv-shit [p=2].mp3
 d.o.b. community/2007 [studio] полихромный продукт/cover.jpg
 d.o.b. community/x.txt
+
+
+dabrye/2002 [studio] instrmntl/01. no child of god.mp3
+dabrye/2002 [studio] instrmntl/02. d-town tabernacle choir.mp3
+dabrye/2002 [studio] instrmntl/03. take me home.mp3
+dabrye/2002 [studio] instrmntl/cover.jpg
+
+dabrye/2006 [studio] 2 3/01. the stand [ft=wildchild].mp3
+dabrye/2006 [studio] 2 3/02. machines [p=1].mp3
+dabrye/2006 [studio] 2 3/03. jorgy [ft=waajeed].mp3
+dabrye/2006 [studio] 2 3/04. get it together [ft=invincible+finale].mp3
+dabrye/2006 [studio] 2 3/05. my life [ft=ag].mp3
+dabrye/2006 [studio] 2 3/06. machines [p=2].mp3
+dabrye/2006 [studio] 2 3/cover.jpg
+
+dabrye/2018 [studio] 3 3/01. sunset [ft=shigeto].mp3
+dabrye/2018 [studio] 3 3/cover.jpg
+dabrye/x.txt
 
 
 dad jeans/1995 [single] naked dreams/01. naked dreams [club rmx].mp3
@@ -11282,6 +11337,50 @@ paul stanley/2006 [studio] live to win/cover.jpg
 paul stanley/x.txt
 
 
+paul van dyk/1994 [studio] 45 rpm/01. spannung.mp3
+paul van dyk/1994 [studio] 45 rpm/02. punishing the atoms [ft=effective force].mp3
+paul van dyk/1994 [studio] 45 rpm/03. spooky [ft=new order].mp3
+paul van dyk/1994 [studio] 45 rpm/04. take a free fall [beyond the stars rm][ft=dance 2 trance].mp3
+paul van dyk/1994 [studio] 45 rpm/05. sugar daddy [ft=secret knowledge].mp3
+paul van dyk/1994 [studio] 45 rpm/cover.jpg
+
+paul van dyk/1997 [studio] 7 ways/01. beautiful place.mp3
+paul van dyk/1997 [studio] 7 ways/02. i can't feel it.mp3
+paul van dyk/1997 [studio] 7 ways/03. words.mp3
+paul van dyk/1997 [studio] 7 ways/04. 7 ways [beyond the veil demo rmx].mp3
+paul van dyk/1997 [studio] 7 ways/05. 7 ways [star ways].mp3
+paul van dyk/1997 [studio] 7 ways/cover.jpg
+
+paul van dyk/2000 [studio] out there & back/01. another way [pvd session rmx 1].mp3
+paul van dyk/2000 [studio] out there & back/cover.jpg
+
+paul van dyk/2003 [studio] reflections/01. that's life.mp3
+paul van dyk/2003 [studio] reflections/02. kaleidoscope.mp3
+paul van dyk/2003 [studio] reflections/cover.jpg
+
+paul van dyk/2007 [studio] in between/01. complicated [ft=ashley tomberlin].mp3
+paul van dyk/2007 [studio] in between/02. in circles.mp3
+paul van dyk/2007 [studio] in between/03. in between.mp3
+paul van dyk/2007 [studio] in between/04. new york city [ft=ashely tomberlin].mp3
+paul van dyk/2007 [studio] in between/05. let go [ft=rea].mp3
+paul van dyk/2007 [studio] in between/cover.jpg
+
+paul van dyk/2012 [studio] evolution/01. we come together [ft=sue mclaren].mp3
+paul van dyk/2012 [studio] evolution/cover.jpg
+
+paul van dyk/2015 [studio] the politics of dancing 3 [ft=fisher]/01. in your arms [ft=fisher+giuseppe ottaviani].mp3
+paul van dyk/2015 [studio] the politics of dancing 3 [ft=fisher]/02. for you [ft=genix].mp3
+paul van dyk/2015 [studio] the politics of dancing 3 [ft=fisher]/cover.jpg
+
+paul van dyk/2017 [studio] from then on/01. touched by heaven.mp3
+paul van dyk/2017 [studio] from then on/02. everyone needs love [ft=ronald van gelderen & gaelan & eric lumiere].mp3
+paul van dyk/2017 [studio] from then on/cover.jpg
+
+paul van dyk/2020 [studio] guiding light/01. velvet sky [ft=chris bekker].mp3
+paul van dyk/2020 [studio] guiding light/cover.jpg
+paul van dyk/x.txt
+
+
 pearl jam/1991 [single] alive/01. wash.mp3
 pearl jam/1991 [single] alive/cover.jpg
 
@@ -11371,6 +11470,45 @@ peter criss/1994 [studio] cat #1/cover.jpg
 peter criss/2007 [studio] one for all/01. space ace.mp3
 peter criss/2007 [studio] one for all/cover.jpg
 peter criss/x.txt
+
+
+picture/1980 [studio] picture/01. dirty street fighter.mp3
+picture/1980 [studio] picture/02. bombers.mp3
+picture/1980 [studio] picture/03. get back or you fall.mp3
+picture/1980 [studio] picture/04. he's a player.mp3
+picture/1980 [studio] picture/05. fear.mp3
+picture/1980 [studio] picture/cover.jpg
+
+picture/1981 [studio] heavy metal ears/01. unemployed.mp3
+picture/1981 [studio] heavy metal ears/02. funky town.mp3
+picture/1981 [studio] heavy metal ears/cover.jpg
+
+picture/1982 [studio] diamond dreamer/01. lousy lady.mp3
+picture/1982 [studio] diamond dreamer/02. the hangmen.mp3
+picture/1982 [studio] diamond dreamer/03. you're touching me.mp3
+picture/1982 [studio] diamond dreamer/cover.jpg
+
+picture/1987 [studio] marathon/01. vampire of the new age.mp3
+picture/1987 [studio] marathon/02. get out of my sight.mp3
+picture/1987 [studio] marathon/cover.jpg
+
+picture/2009 [studio] old dogs new tricks/01. live by the sword.mp3
+picture/2009 [studio] old dogs new tricks/cover.jpg
+
+picture/2012 [studio] warhorse/01. rejected.mp3
+picture/2012 [studio] warhorse/02. the king is losing his crown.mp3
+picture/2012 [studio] warhorse/03. killer in my sights.mp3
+picture/2012 [studio] warhorse/04. stand my ground.mp3
+picture/2012 [studio] warhorse/cover.jpg
+
+picture/2019 [studio] wings/01. line of life.mp3
+picture/2019 [studio] wings/02. little annie.mp3
+picture/2019 [studio] wings/03. blown away.mp3
+picture/2019 [studio] wings/04. no place to hide.mp3
+picture/2019 [studio] wings/05. never enough.mp3
+picture/2019 [studio] wings/06. still standing.mp3
+picture/2019 [studio] wings/cover.jpg
+picture/x.txt
 
 
 placebo/1996 [single] 36 degrees/01. hare krishna.mp3
@@ -12376,6 +12514,56 @@ sam roberts/2020 [studio] all of us/02. i like the way you talk about the future
 sam roberts/2020 [studio] all of us/03. youth.mp3
 sam roberts/2020 [studio] all of us/cover.jpg
 sam roberts/x.txt
+
+
+samael/1991 [studio] worship him/01. rite of cthulhu.mp3
+samael/1991 [studio] worship him/02. last benediction.mp3
+samael/1991 [studio] worship him/cover.jpg
+
+samael/1992 [studio] blood ritual/01. poison infiltration.mp3
+samael/1992 [studio] blood ritual/02. after the sepulture.mp3
+samael/1992 [studio] blood ritual/03. bestial devotion.mp3
+samael/1992 [studio] blood ritual/04. until the chaos.mp3
+samael/1992 [studio] blood ritual/cover.jpg
+
+samael/1994 [studio] ceremony of opposites/01. mask of the red death.mp3
+samael/1994 [studio] ceremony of opposites/02. flagellation.mp3
+samael/1994 [studio] ceremony of opposites/03. ceremony of opposites.mp3
+samael/1994 [studio] ceremony of opposites/cover.jpg
+
+samael/1996 [studio] passage/01. my saviour.mp3
+samael/1996 [studio] passage/02. a man in your head.mp3
+samael/1996 [studio] passage/cover.jpg
+
+samael/1999 [studio] eternal/01. together.mp3
+samael/1999 [studio] eternal/02. the cross.mp3
+samael/1999 [studio] eternal/03. us.mp3
+samael/1999 [studio] eternal/04. nautilus & zeppelin.mp3
+samael/1999 [studio] eternal/05. infra galaxia.mp3
+samael/1999 [studio] eternal/06. being.mp3
+samael/1999 [studio] eternal/07. radiant star.mp3
+samael/1999 [studio] eternal/cover.jpg
+
+samael/2004 [studio] reign of light/01. further.mp3
+samael/2004 [studio] reign of light/02. heliopolis.mp3
+samael/2004 [studio] reign of light/03. door of celestial peace.mp3
+samael/2004 [studio] reign of light/cover.jpg
+
+samael/2007 [studio] solar soul/01. western ground.mp3
+samael/2007 [studio] solar soul/02. suspended time.mp3
+samael/2007 [studio] solar soul/03. quasar waves.mp3
+samael/2007 [studio] solar soul/04. architect.mp3
+samael/2007 [studio] solar soul/cover.jpg
+
+samael/2011 [studio] lux mundi/01. luxferre.mp3
+samael/2011 [studio] lux mundi/02. in the deep.mp3
+samael/2011 [studio] lux mundi/03. mother night.mp3
+samael/2011 [studio] lux mundi/04. in gold we trust.mp3
+samael/2011 [studio] lux mundi/cover.jpg
+
+samael/2017 [studio] hegemony/01. helter skelter.mp3
+samael/2017 [studio] hegemony/cover.jpg
+samael/x.txt
 
 
 samira/1995 [single] love train/01. fairvoice.mp3
@@ -14991,6 +15179,68 @@ the white stripes/2007 [studio] icky thump/08. catch hell blues.mp3
 the white stripes/2007 [studio] icky thump/09. efect & cause.mp3
 the white stripes/2007 [studio] icky thump/cover.jpg
 the white stripes/x.txt
+
+
+the who/1965 [studio] my generation/01. my generation.mp3
+the who/1965 [studio] my generation/02. please, please, please.mp3
+the who/1965 [studio] my generation/03. i'm a man.mp3
+the who/1965 [studio] my generation/04. the ox.mp3
+the who/1965 [studio] my generation/05. daddy rolling stone.mp3
+the who/1965 [studio] my generation/06. lubie.mp3
+the who/1965 [studio] my generation/07. heat wave.mp3
+the who/1965 [studio] my generation/cover.jpg
+
+the who/1966 [studio] a quick 1/01. run run run.mp3
+the who/1966 [studio] a quick 1/02. heat wave.mp3
+the who/1966 [studio] a quick 1/03. don't look away.mp3
+the who/1966 [studio] a quick 1/04. batman.mp3
+the who/1966 [studio] a quick 1/05. barbara ann.mp3
+the who/1966 [studio] a quick 1/cover.jpg
+
+the who/1969 [studio] tommy/01. eyesight to the blind.mp3
+the who/1969 [studio] tommy/02. christmas.mp3
+the who/1969 [studio] tommy/03. do you think it's alright.mp3
+the who/1969 [studio] tommy/04. smash the mirror.mp3
+the who/1969 [studio] tommy/05. miracle cure.mp3
+the who/1969 [studio] tommy/06. i'm free.mp3
+the who/1969 [studio] tommy/07. see me feel me, listening to you.mp3
+the who/1969 [studio] tommy/08. christmas [out-take 3].mp3
+the who/1969 [studio] tommy/09. young man blues [version 1].mp3
+the who/1969 [studio] tommy/10. trying to get through.mp3
+the who/1969 [studio] tommy/11. dogs [p=2].mp3
+the who/1969 [studio] tommy/cover.jpg
+
+the who/1971 [studio] who's next/01. baba o'riley.mp3
+the who/1971 [studio] who's next/02. love ain't for keeping.mp3
+the who/1971 [studio] who's next/03. my wife.mp3
+the who/1971 [studio] who's next/04. going mobile.mp3
+the who/1971 [studio] who's next/05. behind blue eyes.mp3
+the who/1971 [studio] who's next/cover.jpg
+
+the who/1973 [studio] quadrophenia/01. the real me.mp3
+the who/1973 [studio] quadrophenia/02. quadrophenia.mp3
+the who/1973 [studio] quadrophenia/03. the punk & the godfather.mp3
+the who/1973 [studio] quadrophenia/04. the rock.mp3
+the who/1973 [studio] quadrophenia/05. love, reign o'er me.mp3
+the who/1973 [studio] quadrophenia/cover.jpg
+
+the who/1978 [studio] who are you/01. trick of the light.mp3
+the who/1978 [studio] who are you/02. who are you.mp3
+the who/1978 [studio] who are you/cover.jpg
+
+the who/1981 [studio] face dances/01. you.mp3
+the who/1981 [studio] face dances/cover.jpg
+
+the who/1982 [studio] it's hard/01. eminence front.mp3
+the who/1982 [studio] it's hard/cover.jpg
+
+the who/2006 [studio] endless wire/01. it's not enough.mp3
+the who/2006 [studio] endless wire/cover.jpg
+
+the who/2019 [studio] who/01. ball & chain.mp3
+the who/2019 [studio] who/02. detour.mp3
+the who/2019 [studio] who/cover.jpg
+the who/x.txt
 
 
 the windmill/2010 [studio] to be continued/01. cinnamon.mp3
